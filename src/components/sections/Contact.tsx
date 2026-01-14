@@ -46,10 +46,10 @@ const Contact = () => {
                         >
                             <button
                                 onClick={handleCopy}
-                                className="group flex items-center gap-3 px-6 py-4 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl transition-all w-full md:w-auto justify-center"
+                                className="group flex items-center gap-3 px-6 py-4 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl transition-all w-full md:w-auto justify-center overflow-hidden"
                             >
-                                <Mail className="text-neon-violet" />
-                                <span className="text-gray-200">{resumeData.personal.email}</span>
+                                <Mail className="text-neon-violet flex-shrink-0" />
+                                <span className="text-gray-200 truncate max-w-[200px] md:max-w-none">{resumeData.personal.email}</span>
                                 {copied ? <Check size={16} className="text-green-400" /> : <Copy size={16} className="text-gray-500 group-hover:text-white" />}
                             </button>
                             <div className="flex items-center gap-3 px-6 py-4 bg-transparent border border-white/5 rounded-xl text-gray-400">

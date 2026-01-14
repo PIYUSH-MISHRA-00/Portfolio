@@ -101,6 +101,15 @@ const Navbar = () => {
                             <Linkedin size={20} className="text-gray-400" />
                             <Mail size={20} className="text-gray-400" />
                         </div>
+                        <a
+                            href={(resumeData.personal as any).resumeLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center gap-2 px-4 py-3 bg-white/5 hover:bg-white/10 rounded-xl text-lg font-medium transition-all w-full mt-2"
+                        >
+                            <FileText size={20} />
+                            <span>Resume</span>
+                        </a>
                     </div>
                 </motion.div>
             )}

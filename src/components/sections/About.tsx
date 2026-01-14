@@ -21,13 +21,10 @@ const About = () => {
                         <div className="relative w-full aspect-square max-w-md mx-auto rounded-2xl overflow-hidden bg-dark-200 border border-white/5 group shadow-2xl shadow-neon-blue/20">
                             {/* Placeholder for image - user can replace later or map to local image */}
                             <div className="absolute inset-0 bg-gradient-to-br from-neon-cyan/20 to-neon-violet/20 group-hover:opacity-0 transition-opacity z-10" />
-                            <Image
-                                src="/pic/Me.jpeg"
+                            <img
+                                src="/Portfolio/pic/Me.jpeg"
                                 alt="Piyush Mishra"
-                                fill
-                                className="object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-500"
-                                sizes="(max-width: 768px) 100vw, 320px"
-                                priority
+                                className="object-cover object-top w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500"
                             />
                         </div>
                         <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-dark-200 rounded-xl border border-white/10 p-6 flex flex-col justify-center items-center backdrop-blur-md glass-panel">
