@@ -1,0 +1,94 @@
+name: Sync & Deploy
+
+on:
+  push:
+    branches: [main]
+  # Refreshes twice a day so newly created or newly public repos appear
+  # without any manual step.
+  schedule:
+    - cron: "17 5,17 * * *"
+  # Lets any other repository announce a push and trigger a rebuild here.
+  # gh api repos/PIYUSH-MISHRA-00/Portfolio/dispatches -f event_type=repo-updated
+  repository_dispatch:
+    types: [repo-updated]
+  workflow_dispatch:
+    inputs:
+      force_regenerate:
+        description: "Ignore the narrative cache and re-ask Groq for every project"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# A queued run should wait, not cancel — each run commits the data file.
+concurrency:
+  group: sync-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Self-check the sync logic
+        run: npm test
+
+      - name: Drop the narrative cache
+        if: inputs.force_regenerate
+        run: rm -f data/portfolio.json
+
+      - name: Sync public repositories from GitHub
+        env:
+          # GH_PAT (a classic PAT with read:org) yields full contribution
+          # counts. Without it the built-in token still produces a correct
+          # build, just with public-only totals.
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: ${{ vars.GROQ_MODEL }}
+        run: npm run sync
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/portfolio.json
+          # syncedAt always changes, so only commit when project data really moved.
+          if git diff --cached --quiet; then
+            echo "No project changes."
+          elif [ "$(git diff --cached --numstat -- data/portfolio.json | awk '{print $1+$2}')" = "2" ]; then
+            echo "Only the sync timestamp changed; not committing."
+            git reset
+          else
+            git commit -m "chore: sync portfolio data [skip ci]"
+            git push
+          fi
+
+      - run: npm run build
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

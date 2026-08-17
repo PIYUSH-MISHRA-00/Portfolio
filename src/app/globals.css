@@ -2,42 +2,306 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ------------------------------------------------------------ tokens */
+
 :root {
-  --background: #0a0a0a;
-  --foreground: #ededed;
+  --bg: #fbfbf9;
+  --surface: #ffffff;
+  --raised: #f4f4f1;
+  --line: #e2e2db;
+  --ink: #13161a;
+  --muted: #5c626c;
+  --faint: #8f959e;
+  --accent: #a35a00;
+  --accent-2: #00706a;
+  --glow: 0 0 0 1px rgb(0 0 0 / 4%), 0 12px 32px -16px rgb(0 0 0 / 18%);
+  --grid-line: rgb(0 0 0 / 4%);
+  color-scheme: light;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  background-image: radial-gradient(circle at 50% 0%, #1a1a1a 0%, #0a0a0a 100%);
-  font-family: Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
+[data-theme="dark"] {
+  --bg: #07080a;
+  --surface: #0d1013;
+  --raised: #14181d;
+  --line: #222831;
+  --ink: #e9ebee;
+  --muted: #8d959f;
+  --faint: #626a75;
+  --accent: #ffb020;
+  --accent-2: #14d9c4;
+  --glow: 0 0 0 1px rgb(255 255 255 / 5%), 0 16px 48px -20px rgb(0 0 0 / 80%);
+  --grid-line: rgb(255 255 255 / 4%);
+  color-scheme: dark;
 }
 
-::-webkit-scrollbar {
-  width: 8px;
+@layer base {
+  * {
+    @apply border-line;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    /* Clears the fixed nav when jumping to a role section. */
+    scroll-padding-top: 5.5rem;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-bg text-ink font-sans antialiased;
+    /* Prevents the aurora layer from ever forcing a sideways scroll. */
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: var(--accent);
+    color: var(--bg);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  /* Give the numeric stat displays tabular figures so they stop jittering. */
+  .tnum {
+    font-variant-numeric: tabular-nums;
+  }
 }
 
-::-webkit-scrollbar-track {
-  background: #0a0a0a;
+/* ------------------------------------------------------------ utilities */
+
+@layer components {
+  .shell {
+    @apply mx-auto w-full max-w-shell px-5 sm:px-8 lg:px-12;
+  }
+
+  .eyebrow {
+    @apply font-mono text-eyebrow uppercase text-faint;
+  }
+
+  /* Hairline card that lifts on pointer devices and reveals an accent edge. */
+  .card {
+    @apply relative rounded-xl border border-line bg-surface transition-[transform,border-color,box-shadow] duration-300;
+  }
+
+  .card::before {
+    content: "";
+    @apply pointer-events-none absolute inset-x-0 top-0 h-px opacity-0 transition-opacity duration-300;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  }
+
+  @media (hover: hover) {
+    .card:hover {
+      @apply -translate-y-0.5;
+      border-color: color-mix(in oklab, var(--accent) 40%, var(--line));
+      box-shadow: var(--glow);
+    }
+    .card:hover::before {
+      @apply opacity-100;
+    }
+  }
+
+  .chip {
+    @apply inline-flex shrink-0 items-center gap-1.5 rounded-full border border-line bg-raised px-2.5 py-1 font-mono text-[0.6875rem] text-muted;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-line bg-surface px-4 py-2.5 text-sm font-medium
+           transition-colors duration-200 hover:border-accent hover:text-accent active:scale-[0.98];
+  }
+
+  .btn-solid {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2.5 text-sm font-semibold transition-opacity duration-200 hover:opacity-90 active:scale-[0.98];
+    background: var(--ink);
+    color: var(--bg);
+  }
+
+  /* Horizontal scroller that keeps every item reachable on narrow screens. */
+  .rail {
+    @apply flex gap-2 overflow-x-auto pb-1;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+  }
+
+  .rail > * {
+    scroll-snap-align: start;
+  }
+
+  .rail::-webkit-scrollbar {
+    height: 3px;
+  }
+
+  .rail::-webkit-scrollbar-thumb {
+    background: var(--line);
+    border-radius: 999px;
+  }
 }
 
-::-webkit-scrollbar-thumb {
-  background: #333;
-  border-radius: 4px;
+/* ------------------------------------------------------------ ambience */
+
+/* Two slow radial washes + a faint grid. Pure CSS: no canvas, no WebGL. */
+.aurora {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
+.aurora::before,
+.aurora::after {
+  content: "";
+  position: absolute;
+  width: 60vmax;
+  height: 60vmax;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.16;
+  will-change: transform;
 }
 
-.text-glow {
-  text-shadow: 0 0 10px rgba(6, 182, 212, 0.5);
+.aurora::before {
+  background: var(--accent);
+  top: -22vmax;
+  left: -12vmax;
+  animation: drift-a 26s ease-in-out infinite alternate;
 }
 
-.glass-panel {
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+.aurora::after {
+  background: var(--accent-2);
+  top: 28vmax;
+  right: -20vmax;
+  animation: drift-b 32s ease-in-out infinite alternate;
+}
+
+.grid-veil {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse 100% 70% at 50% 0%, #000 30%, transparent 78%);
+}
+
+@keyframes drift-a {
+  to {
+    transform: translate3d(14vmax, 10vmax, 0) scale(1.15);
+  }
+}
+
+@keyframes drift-b {
+  to {
+    transform: translate3d(-14vmax, -8vmax, 0) scale(0.9);
+  }
+}
+
+/* ------------------------------------------------------------ reveal */
+
+/* Paired with the useReveal IntersectionObserver hook. */
+.reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.shown {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .aurora::before,
+  .aurora::after {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ------------------------------------------------------------ brief mode */
+
+/*
+ * "Recruiter brief" collapses the site to a dense, scannable document.
+ * The same DOM serves both modes, so nothing is duplicated or hidden from search.
+ */
+[data-brief="on"] .brief-hide {
+  display: none !important;
+}
+
+[data-brief="on"] .brief-tight {
+  @apply py-6;
+}
+
+[data-brief="on"] .brief-grid {
+  @apply grid-cols-1;
+}
+
+/* ------------------------------------------------------------ print */
+
+@media print {
+  @page {
+    margin: 14mm;
+  }
+
+  .aurora,
+  .grid-veil,
+  .no-print {
+    display: none !important;
+  }
+
+  :root {
+    --bg: #fff;
+    --surface: #fff;
+    --raised: #fff;
+    --ink: #000;
+    --muted: #333;
+    --faint: #555;
+    --line: #bbb;
+    --accent: #000;
+    --accent-2: #000;
+  }
+
+  body {
+    background: #fff !important;
+  }
+
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .card {
+    break-inside: avoid;
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+  }
+
+  section {
+    break-inside: avoid-page;
+  }
+
+  /* Print the destination so a paper copy stays useful. */
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 8pt;
+    color: #555;
+    word-break: break-all;
+  }
 }

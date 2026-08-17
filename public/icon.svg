@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Piyush Mishra">
+  <rect width="512" height="512" rx="112" fill="#07080a"/>
+  <rect x="24" y="24" width="464" height="464" rx="90" fill="none" stroke="#ffb020" stroke-width="10" stroke-opacity="0.35"/>
+  <text x="256" y="256" fill="#ffb020" font-family="'Space Grotesk',Inter,system-ui,sans-serif" font-size="196"
+        font-weight="700" letter-spacing="-8" text-anchor="middle" dominant-baseline="central">PM</text>
+</svg>

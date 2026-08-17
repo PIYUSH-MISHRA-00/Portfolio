@@ -1,0 +1,6428 @@
+{
+ "syncedAt": "2026-08-17T15:45:15.034Z",
+ "profile": {
+  "login": "PIYUSH-MISHRA-00",
+  "name": "PIYUSH MISHRA",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/65788721?u=efadb8c3391d216e3cc1ef8df6e5ca0beaebe2d3&v=4",
+  "location": "India",
+  "company": "ni-sh-a.char",
+  "followers": 19,
+  "publicRepos": 119,
+  "joinedAt": "2020-05-22T20:31:19Z"
+ },
+ "stats": {
+  "projects": 93,
+  "flagships": 0,
+  "commitsByMe": 3483,
+  "stars": 61,
+  "roles": 9,
+  "orgs": 2,
+  "yearsActive": 6,
+  "contributionsLastYear": 14819,
+  "totalCommitContributions": 3481,
+  "totalIssueContributions": 8843,
+  "totalPullRequestContributions": 0,
+  "privateContributions": 2485,
+  "languages": [
+   {
+    "name": "Python",
+    "projects": 40,
+    "bytes": 1486993,
+    "pct": 43
+   },
+   {
+    "name": "Shell",
+    "projects": 30,
+    "bytes": 123350,
+    "pct": 32.3
+   },
+   {
+    "name": "HTML",
+    "projects": 25,
+    "bytes": 396327,
+    "pct": 26.9
+   },
+   {
+    "name": "CSS",
+    "projects": 19,
+    "bytes": 64817,
+    "pct": 20.4
+   },
+   {
+    "name": "JavaScript",
+    "projects": 17,
+    "bytes": 475483,
+    "pct": 18.3
+   },
+   {
+    "name": "Java",
+    "projects": 16,
+    "bytes": 743932,
+    "pct": 17.2
+   },
+   {
+    "name": "Dockerfile",
+    "projects": 16,
+    "bytes": 10295,
+    "pct": 17.2
+   },
+   {
+    "name": "Jupyter Notebook",
+    "projects": 8,
+    "bytes": 14820399,
+    "pct": 8.6
+   },
+   {
+    "name": "TypeScript",
+    "projects": 6,
+    "bytes": 864490,
+    "pct": 6.5
+   },
+   {
+    "name": "Dart",
+    "projects": 5,
+    "bytes": 856025,
+    "pct": 5.4
+   },
+   {
+    "name": "Kotlin",
+    "projects": 5,
+    "bytes": 443798,
+    "pct": 5.4
+   },
+   {
+    "name": "C++",
+    "projects": 5,
+    "bytes": 96051,
+    "pct": 5.4
+   }
+  ]
+ },
+ "calendar": [
+  [
+   {
+    "date": "2025-08-17",
+    "contributionCount": 38
+   },
+   {
+    "date": "2025-08-18",
+    "contributionCount": 3
+   },
+   {
+    "date": "2025-08-19",
+    "contributionCount": 190
+   },
+   {
+    "date": "2025-08-20",
+    "contributionCount": 342
+   },
+   {
+    "date": "2025-08-21",
+    "contributionCount": 169
+   },
+   {
+    "date": "2025-08-22",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-08-23",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2025-08-24",
+    "contributionCount": 1
+   },
+   {
+    "date": "2025-08-25",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-08-26",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-08-27",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-08-28",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-08-29",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-08-30",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2025-08-31",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-09-01",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-09-02",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-09-03",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-09-04",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-09-05",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-09-06",
+    "contributionCount": 10
+   }
+  ],
+  [
+   {
+    "date": "2025-09-07",
+    "contributionCount": 3
+   },
+   {
+    "date": "2025-09-08",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-09-09",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-09-10",
+    "contributionCount": 5
+   },
+   {
+    "date": "2025-09-11",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-09-12",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-09-13",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2025-09-14",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-09-15",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-09-16",
+    "contributionCount": 2
+   },
+   {
+    "date": "2025-09-17",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-09-18",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-09-19",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-09-20",
+    "contributionCount": 1
+   }
+  ],
+  [
+   {
+    "date": "2025-09-21",
+    "contributionCount": 1
+   },
+   {
+    "date": "2025-09-22",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-09-23",
+    "contributionCount": 1
+   },
+   {
+    "date": "2025-09-24",
+    "contributionCount": 786
+   },
+   {
+    "date": "2025-09-25",
+    "contributionCount": 794
+   },
+   {
+    "date": "2025-09-26",
+    "contributionCount": 1039
+   },
+   {
+    "date": "2025-09-27",
+    "contributionCount": 882
+   }
+  ],
+  [
+   {
+    "date": "2025-09-28",
+    "contributionCount": 357
+   },
+   {
+    "date": "2025-09-29",
+    "contributionCount": 380
+   },
+   {
+    "date": "2025-09-30",
+    "contributionCount": 373
+   },
+   {
+    "date": "2025-10-01",
+    "contributionCount": 381
+   },
+   {
+    "date": "2025-10-02",
+    "contributionCount": 398
+   },
+   {
+    "date": "2025-10-03",
+    "contributionCount": 360
+   },
+   {
+    "date": "2025-10-04",
+    "contributionCount": 346
+   }
+  ],
+  [
+   {
+    "date": "2025-10-05",
+    "contributionCount": 252
+   },
+   {
+    "date": "2025-10-06",
+    "contributionCount": 261
+   },
+   {
+    "date": "2025-10-07",
+    "contributionCount": 380
+   },
+   {
+    "date": "2025-10-08",
+    "contributionCount": 363
+   },
+   {
+    "date": "2025-10-09",
+    "contributionCount": 324
+   },
+   {
+    "date": "2025-10-10",
+    "contributionCount": 360
+   },
+   {
+    "date": "2025-10-11",
+    "contributionCount": 351
+   }
+  ],
+  [
+   {
+    "date": "2025-10-12",
+    "contributionCount": 296
+   },
+   {
+    "date": "2025-10-13",
+    "contributionCount": 422
+   },
+   {
+    "date": "2025-10-14",
+    "contributionCount": 345
+   },
+   {
+    "date": "2025-10-15",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-10-16",
+    "contributionCount": 4
+   },
+   {
+    "date": "2025-10-17",
+    "contributionCount": 126
+   },
+   {
+    "date": "2025-10-18",
+    "contributionCount": 44
+   }
+  ],
+  [
+   {
+    "date": "2025-10-19",
+    "contributionCount": 61
+   },
+   {
+    "date": "2025-10-20",
+    "contributionCount": 37
+   },
+   {
+    "date": "2025-10-21",
+    "contributionCount": 37
+   },
+   {
+    "date": "2025-10-22",
+    "contributionCount": 39
+   },
+   {
+    "date": "2025-10-23",
+    "contributionCount": 85
+   },
+   {
+    "date": "2025-10-24",
+    "contributionCount": 44
+   },
+   {
+    "date": "2025-10-25",
+    "contributionCount": 80
+   }
+  ],
+  [
+   {
+    "date": "2025-10-26",
+    "contributionCount": 45
+   },
+   {
+    "date": "2025-10-27",
+    "contributionCount": 34
+   },
+   {
+    "date": "2025-10-28",
+    "contributionCount": 91
+   },
+   {
+    "date": "2025-10-29",
+    "contributionCount": 48
+   },
+   {
+    "date": "2025-10-30",
+    "contributionCount": 38
+   },
+   {
+    "date": "2025-10-31",
+    "contributionCount": 44
+   },
+   {
+    "date": "2025-11-01",
+    "contributionCount": 39
+   }
+  ],
+  [
+   {
+    "date": "2025-11-02",
+    "contributionCount": 45
+   },
+   {
+    "date": "2025-11-03",
+    "contributionCount": 59
+   },
+   {
+    "date": "2025-11-04",
+    "contributionCount": 42
+   },
+   {
+    "date": "2025-11-05",
+    "contributionCount": 86
+   },
+   {
+    "date": "2025-11-06",
+    "contributionCount": 46
+   },
+   {
+    "date": "2025-11-07",
+    "contributionCount": 72
+   },
+   {
+    "date": "2025-11-08",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2025-11-09",
+    "contributionCount": 7
+   },
+   {
+    "date": "2025-11-10",
+    "contributionCount": 43
+   },
+   {
+    "date": "2025-11-11",
+    "contributionCount": 38
+   },
+   {
+    "date": "2025-11-12",
+    "contributionCount": 64
+   },
+   {
+    "date": "2025-11-13",
+    "contributionCount": 42
+   },
+   {
+    "date": "2025-11-14",
+    "contributionCount": 88
+   },
+   {
+    "date": "2025-11-15",
+    "contributionCount": 104
+   }
+  ],
+  [
+   {
+    "date": "2025-11-16",
+    "contributionCount": 40
+   },
+   {
+    "date": "2025-11-17",
+    "contributionCount": 46
+   },
+   {
+    "date": "2025-11-18",
+    "contributionCount": 44
+   },
+   {
+    "date": "2025-11-19",
+    "contributionCount": 59
+   },
+   {
+    "date": "2025-11-20",
+    "contributionCount": 83
+   },
+   {
+    "date": "2025-11-21",
+    "contributionCount": 92
+   },
+   {
+    "date": "2025-11-22",
+    "contributionCount": 102
+   }
+  ],
+  [
+   {
+    "date": "2025-11-23",
+    "contributionCount": 41
+   },
+   {
+    "date": "2025-11-24",
+    "contributionCount": 46
+   },
+   {
+    "date": "2025-11-25",
+    "contributionCount": 82
+   },
+   {
+    "date": "2025-11-26",
+    "contributionCount": 55
+   },
+   {
+    "date": "2025-11-27",
+    "contributionCount": 46
+   },
+   {
+    "date": "2025-11-28",
+    "contributionCount": 118
+   },
+   {
+    "date": "2025-11-29",
+    "contributionCount": 46
+   }
+  ],
+  [
+   {
+    "date": "2025-11-30",
+    "contributionCount": 39
+   },
+   {
+    "date": "2025-12-01",
+    "contributionCount": 21
+   },
+   {
+    "date": "2025-12-02",
+    "contributionCount": 51
+   },
+   {
+    "date": "2025-12-03",
+    "contributionCount": 79
+   },
+   {
+    "date": "2025-12-04",
+    "contributionCount": 88
+   },
+   {
+    "date": "2025-12-05",
+    "contributionCount": 106
+   },
+   {
+    "date": "2025-12-06",
+    "contributionCount": 61
+   }
+  ],
+  [
+   {
+    "date": "2025-12-07",
+    "contributionCount": 264
+   },
+   {
+    "date": "2025-12-08",
+    "contributionCount": 75
+   },
+   {
+    "date": "2025-12-09",
+    "contributionCount": 67
+   },
+   {
+    "date": "2025-12-10",
+    "contributionCount": 49
+   },
+   {
+    "date": "2025-12-11",
+    "contributionCount": 43
+   },
+   {
+    "date": "2025-12-12",
+    "contributionCount": 40
+   },
+   {
+    "date": "2025-12-13",
+    "contributionCount": 79
+   }
+  ],
+  [
+   {
+    "date": "2025-12-14",
+    "contributionCount": 50
+   },
+   {
+    "date": "2025-12-15",
+    "contributionCount": 44
+   },
+   {
+    "date": "2025-12-16",
+    "contributionCount": 36
+   },
+   {
+    "date": "2025-12-17",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-12-18",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-12-19",
+    "contributionCount": 2
+   },
+   {
+    "date": "2025-12-20",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2025-12-21",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-12-22",
+    "contributionCount": 53
+   },
+   {
+    "date": "2025-12-23",
+    "contributionCount": 41
+   },
+   {
+    "date": "2025-12-24",
+    "contributionCount": 39
+   },
+   {
+    "date": "2025-12-25",
+    "contributionCount": 46
+   },
+   {
+    "date": "2025-12-26",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-12-27",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2025-12-28",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-12-29",
+    "contributionCount": 0
+   },
+   {
+    "date": "2025-12-30",
+    "contributionCount": 2
+   },
+   {
+    "date": "2025-12-31",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-01",
+    "contributionCount": 7
+   },
+   {
+    "date": "2026-01-02",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-03",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-01-04",
+    "contributionCount": 5
+   },
+   {
+    "date": "2026-01-05",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-06",
+    "contributionCount": 1
+   },
+   {
+    "date": "2026-01-07",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-08",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-09",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-10",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-01-11",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-12",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-13",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-14",
+    "contributionCount": 2
+   },
+   {
+    "date": "2026-01-15",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-16",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-17",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-01-18",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-19",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-20",
+    "contributionCount": 1
+   },
+   {
+    "date": "2026-01-21",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-22",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-23",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-24",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-01-25",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-26",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-27",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-28",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-29",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-30",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-01-31",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-02-01",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-02",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-03",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-04",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-05",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-06",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-07",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-02-08",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-09",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-10",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-11",
+    "contributionCount": 3
+   },
+   {
+    "date": "2026-02-12",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-13",
+    "contributionCount": 1
+   },
+   {
+    "date": "2026-02-14",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-02-15",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-16",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-17",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-18",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-19",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-20",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-21",
+    "contributionCount": 1
+   }
+  ],
+  [
+   {
+    "date": "2026-02-22",
+    "contributionCount": 1
+   },
+   {
+    "date": "2026-02-23",
+    "contributionCount": 20
+   },
+   {
+    "date": "2026-02-24",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-25",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-26",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-27",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-02-28",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-03-01",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-03-02",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-03-03",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-03-04",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-03-05",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-03-06",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-03-07",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-03-08",
+    "contributionCount": 8
+   },
+   {
+    "date": "2026-03-09",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-03-10",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-03-11",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-03-12",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-03-13",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-03-14",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-03-15",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-03-16",
+    "contributionCount": 23
+   },
+   {
+    "date": "2026-03-17",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-03-18",
+    "contributionCount": 8
+   },
+   {
+    "date": "2026-03-19",
+    "contributionCount": 48
+   },
+   {
+    "date": "2026-03-20",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-03-21",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-03-22",
+    "contributionCount": 1
+   },
+   {
+    "date": "2026-03-23",
+    "contributionCount": 2
+   },
+   {
+    "date": "2026-03-24",
+    "contributionCount": 1
+   },
+   {
+    "date": "2026-03-25",
+    "contributionCount": 1
+   },
+   {
+    "date": "2026-03-26",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-03-27",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-03-28",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-03-29",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-03-30",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-03-31",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-01",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-02",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-03",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-04",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-04-05",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-06",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-07",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-08",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-09",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-10",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-11",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-04-12",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-13",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-14",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-15",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-16",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-17",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-18",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-04-19",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-20",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-21",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-22",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-23",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-24",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-25",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-04-26",
+    "contributionCount": 1
+   },
+   {
+    "date": "2026-04-27",
+    "contributionCount": 2
+   },
+   {
+    "date": "2026-04-28",
+    "contributionCount": 3
+   },
+   {
+    "date": "2026-04-29",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-04-30",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-01",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-02",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-05-03",
+    "contributionCount": 1
+   },
+   {
+    "date": "2026-05-04",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-05",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-06",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-07",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-08",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-09",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-05-10",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-11",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-12",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-13",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-14",
+    "contributionCount": 6
+   },
+   {
+    "date": "2026-05-15",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-16",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-05-17",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-18",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-19",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-20",
+    "contributionCount": 3
+   },
+   {
+    "date": "2026-05-21",
+    "contributionCount": 1
+   },
+   {
+    "date": "2026-05-22",
+    "contributionCount": 6
+   },
+   {
+    "date": "2026-05-23",
+    "contributionCount": 4
+   }
+  ],
+  [
+   {
+    "date": "2026-05-24",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-25",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-26",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-27",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-28",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-29",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-05-30",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-05-31",
+    "contributionCount": 1
+   },
+   {
+    "date": "2026-06-01",
+    "contributionCount": 3
+   },
+   {
+    "date": "2026-06-02",
+    "contributionCount": 2
+   },
+   {
+    "date": "2026-06-03",
+    "contributionCount": 1
+   },
+   {
+    "date": "2026-06-04",
+    "contributionCount": 12
+   },
+   {
+    "date": "2026-06-05",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-06-06",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-06-07",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-06-08",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-06-09",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-06-10",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-06-11",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-06-12",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-06-13",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-06-14",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-06-15",
+    "contributionCount": 5
+   },
+   {
+    "date": "2026-06-16",
+    "contributionCount": 15
+   },
+   {
+    "date": "2026-06-17",
+    "contributionCount": 14
+   },
+   {
+    "date": "2026-06-18",
+    "contributionCount": 8
+   },
+   {
+    "date": "2026-06-19",
+    "contributionCount": 14
+   },
+   {
+    "date": "2026-06-20",
+    "contributionCount": 18
+   }
+  ],
+  [
+   {
+    "date": "2026-06-21",
+    "contributionCount": 5
+   },
+   {
+    "date": "2026-06-22",
+    "contributionCount": 10
+   },
+   {
+    "date": "2026-06-23",
+    "contributionCount": 11
+   },
+   {
+    "date": "2026-06-24",
+    "contributionCount": 6
+   },
+   {
+    "date": "2026-06-25",
+    "contributionCount": 10
+   },
+   {
+    "date": "2026-06-26",
+    "contributionCount": 2
+   },
+   {
+    "date": "2026-06-27",
+    "contributionCount": 6
+   }
+  ],
+  [
+   {
+    "date": "2026-06-28",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-06-29",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-06-30",
+    "contributionCount": 12
+   },
+   {
+    "date": "2026-07-01",
+    "contributionCount": 35
+   },
+   {
+    "date": "2026-07-02",
+    "contributionCount": 22
+   },
+   {
+    "date": "2026-07-03",
+    "contributionCount": 5
+   },
+   {
+    "date": "2026-07-04",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-07-05",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-07-06",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-07-07",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-07-08",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-07-09",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-07-10",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-07-11",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-07-12",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-07-13",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-07-14",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-07-15",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-07-16",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-07-17",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-07-18",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-07-19",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-07-20",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-07-21",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-07-22",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-07-23",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-07-24",
+    "contributionCount": 22
+   },
+   {
+    "date": "2026-07-25",
+    "contributionCount": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-07-26",
+    "contributionCount": 3
+   },
+   {
+    "date": "2026-07-27",
+    "contributionCount": 3
+   },
+   {
+    "date": "2026-07-28",
+    "contributionCount": 3
+   },
+   {
+    "date": "2026-07-29",
+    "contributionCount": 4
+   },
+   {
+    "date": "2026-07-30",
+    "contributionCount": 2
+   },
+   {
+    "date": "2026-07-31",
+    "contributionCount": 1
+   },
+   {
+    "date": "2026-08-01",
+    "contributionCount": 7
+   }
+  ],
+  [
+   {
+    "date": "2026-08-02",
+    "contributionCount": 39
+   },
+   {
+    "date": "2026-08-03",
+    "contributionCount": 61
+   },
+   {
+    "date": "2026-08-04",
+    "contributionCount": 15
+   },
+   {
+    "date": "2026-08-05",
+    "contributionCount": 36
+   },
+   {
+    "date": "2026-08-06",
+    "contributionCount": 30
+   },
+   {
+    "date": "2026-08-07",
+    "contributionCount": 28
+   },
+   {
+    "date": "2026-08-08",
+    "contributionCount": 33
+   }
+  ],
+  [
+   {
+    "date": "2026-08-09",
+    "contributionCount": 7
+   },
+   {
+    "date": "2026-08-10",
+    "contributionCount": 9
+   },
+   {
+    "date": "2026-08-11",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-08-12",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-08-13",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-08-14",
+    "contributionCount": 2
+   },
+   {
+    "date": "2026-08-15",
+    "contributionCount": 2
+   }
+  ],
+  [
+   {
+    "date": "2026-08-16",
+    "contributionCount": 0
+   },
+   {
+    "date": "2026-08-17",
+    "contributionCount": 11
+   }
+  ]
+ ],
+ "roles": [
+  {
+   "id": "ai-engineer",
+   "name": "AI & LLM Engineer",
+   "tagline": "Generative AI, agents, RAG and applied language models.",
+   "count": 13
+  },
+  {
+   "id": "data-scientist",
+   "name": "Data Scientist",
+   "tagline": "Modelling, prediction and analysis on real datasets.",
+   "count": 10
+  },
+  {
+   "id": "security-engineer",
+   "name": "Security & Cryptography Engineer",
+   "tagline": "Original ciphers, encrypted transport and hardened systems.",
+   "count": 20
+  },
+  {
+   "id": "backend-engineer",
+   "name": "Backend & API Engineer",
+   "tagline": "Services, data layers and APIs built to be consumed.",
+   "count": 1
+  },
+  {
+   "id": "fullstack-developer",
+   "name": "Full-Stack Developer",
+   "tagline": "End-to-end products, from schema to interface.",
+   "count": 5
+  },
+  {
+   "id": "mobile-developer",
+   "name": "Mobile & Cross-Platform Developer",
+   "tagline": "Flutter, Kotlin and native Android shipped to devices.",
+   "count": 12
+  },
+  {
+   "id": "devops-engineer",
+   "name": "DevOps & Platform Engineer",
+   "tagline": "Containers, images and reproducible environments.",
+   "count": 10
+  },
+  {
+   "id": "systems-engineer",
+   "name": "Systems & Low-Level Engineer",
+   "tagline": "Kernel work, C, assembly and the layers underneath.",
+   "count": 4
+  },
+  {
+   "id": "automation-engineer",
+   "name": "Automation Engineer",
+   "tagline": "Scripts and pipelines that delete repetitive work.",
+   "count": 18
+  }
+ ],
+ "orgs": [
+  {
+   "login": "ni-sh-a-char",
+   "projects": 39,
+   "commits": 3012,
+   "name": "ni_sh_a.char",
+   "description": "Transforming Computing...!",
+   "url": "https://github.com/ni-sh-a-char",
+   "avatarUrl": "https://avatars.githubusercontent.com/u/103268370?v=4"
+  },
+  {
+   "login": "The-Lord-Buddha-Club",
+   "projects": 1,
+   "commits": 10,
+   "name": "THE LORD BUDDHA CLUB",
+   "description": "Non-profit Organisation. Initiated by the Lord Buddha Boys Hostel, University Of Bundelkhand, Jhansi. Promoting Open Source development and Collaboration.",
+   "url": "https://github.com/The-Lord-Buddha-Club",
+   "avatarUrl": "https://avatars.githubusercontent.com/u/110761997?v=4"
+  }
+ ],
+ "roleCatalog": [
+  {
+   "id": "ai-engineer",
+   "name": "AI & LLM Engineer",
+   "tagline": "Generative AI, agents, RAG and applied language models."
+  },
+  {
+   "id": "data-scientist",
+   "name": "Data Scientist",
+   "tagline": "Modelling, prediction and analysis on real datasets."
+  },
+  {
+   "id": "security-engineer",
+   "name": "Security & Cryptography Engineer",
+   "tagline": "Original ciphers, encrypted transport and hardened systems."
+  },
+  {
+   "id": "backend-engineer",
+   "name": "Backend & API Engineer",
+   "tagline": "Services, data layers and APIs built to be consumed."
+  },
+  {
+   "id": "fullstack-developer",
+   "name": "Full-Stack Developer",
+   "tagline": "End-to-end products, from schema to interface."
+  },
+  {
+   "id": "mobile-developer",
+   "name": "Mobile & Cross-Platform Developer",
+   "tagline": "Flutter, Kotlin and native Android shipped to devices."
+  },
+  {
+   "id": "devops-engineer",
+   "name": "DevOps & Platform Engineer",
+   "tagline": "Containers, images and reproducible environments."
+  },
+  {
+   "id": "systems-engineer",
+   "name": "Systems & Low-Level Engineer",
+   "tagline": "Kernel work, C, assembly and the layers underneath."
+  },
+  {
+   "id": "automation-engineer",
+   "name": "Automation Engineer",
+   "tagline": "Scripts and pipelines that delete repetitive work."
+  }
+ ],
+ "projects": [
+  {
+   "id": "ni-sh-a-char-eternity-virtual-assistant",
+   "name": "ETERNITY---Virtual-Assistant",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/ETERNITY---Virtual-Assistant",
+   "url": "https://github.com/ni-sh-a-char/ETERNITY---Virtual-Assistant",
+   "homepage": null,
+   "description": "A Virtual Assistant to automate many tasks",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 11860,
+     "pct": 78.8
+    },
+    {
+     "name": "Shell",
+     "bytes": 3186,
+     "pct": 21.2
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": "NOASSERTION",
+   "stars": 18,
+   "forks": 2,
+   "commits": 135,
+   "createdAt": "2022-07-15T19:48:10Z",
+   "pushedAt": "2025-12-25T07:42:44Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "ai-engineer"
+   ],
+   "headline": "A Virtual Assistant to automate many tasks",
+   "what": "ETERNITY - A Virtual Assistant to automate many tasks ETERNITY is a virtual assistant designed to automate various tasks. It can perform actions based on voice inputs and provide assistance in different areas.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python",
+    "Shell"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "67cbfd9e20205eb2",
+   "primaryRole": "ai-engineer"
+  },
+  {
+   "id": "the-lord-buddha-club-rak-sh-ak",
+   "name": "Rak_sh_ak",
+   "owner": "The-Lord-Buddha-Club",
+   "nameWithOwner": "The-Lord-Buddha-Club/Rak_sh_ak",
+   "url": "https://github.com/The-Lord-Buddha-Club/Rak_sh_ak",
+   "homepage": null,
+   "description": "An image detection app designed for the farmers to detect plant diseases and get information about it, just by clicking the image of the plant.",
+   "topics": [],
+   "languages": [],
+   "primaryLanguage": null,
+   "license": "GPL-3.0",
+   "stars": 11,
+   "forks": 8,
+   "commits": 10,
+   "createdAt": "2022-07-16T18:29:44Z",
+   "pushedAt": "2022-08-07T08:13:18Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "The-Lord-Buddha-Club",
+   "roles": [
+    "data-scientist"
+   ],
+   "headline": "An image detection app designed for the farmers to detect plant diseases and get informati",
+   "what": "Rak sh ak - The Farmer's Saviour An image detection app designed for the farmers to detect plant diseases and get information about it, just by clicking the image of the plant. About the App The mobile application that we are designing is named Rak sh ak.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "ab0d2a8c789e9a33",
+   "primaryRole": "data-scientist"
+  },
+  {
+   "id": "piyush-mishra-00-kaalka-encryption-algorithm",
+   "name": "Kaalka-Encryption-Algorithm",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Kaalka-Encryption-Algorithm",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Kaalka-Encryption-Algorithm",
+   "homepage": "https://piyush-mishra-00.github.io/Kaalka-Encryption-Algorithm/",
+   "description": "Kaalka Encryption is designed to work seamlessly across multiple platforms and provides a versatile encryption mechanism that incorporates the progressive value of time. By using dynamic time-based encryption, you can achieve secure communication that is inherently bound to a specific moment in time.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 13407,
+     "pct": 53.9
+    },
+    {
+     "name": "HTML",
+     "bytes": 5802,
+     "pct": 23.3
+    },
+    {
+     "name": "CSS",
+     "bytes": 5671,
+     "pct": 22.8
+    }
+   ],
+   "primaryLanguage": "JavaScript",
+   "license": "NOASSERTION",
+   "stars": 4,
+   "forks": 0,
+   "commits": 61,
+   "createdAt": "2023-06-25T02:08:49Z",
+   "pushedAt": "2026-03-19T17:41:14Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "Kaalka Encryption is designed to work seamlessly across multiple platforms and provides a ",
+   "what": "Kaalka Encryption Algorithm 🌐 Live Website Time is the Key 🔑 -- --- 🌟 Overview Kaalka is a robust, time-driven encryption protocol for cross-platform security. It leverages clock angles, trigonometric functions, and time-based transformations—making every encryption unique to its timestamp.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "353b6fcb47aded56",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-helply",
+   "name": "Helply",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Helply",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Helply",
+   "homepage": null,
+   "description": "Helply is a desktop application that helps you in meetings by providing real-time transcription and AI-generated answers.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 83253,
+     "pct": 50.3
+    },
+    {
+     "name": "HTML",
+     "bytes": 79863,
+     "pct": 48.3
+    },
+    {
+     "name": "Shell",
+     "bytes": 2383,
+     "pct": 1.4
+    }
+   ],
+   "primaryLanguage": "JavaScript",
+   "license": "MIT",
+   "stars": 4,
+   "forks": 2,
+   "commits": 12,
+   "createdAt": "2025-10-28T13:12:40Z",
+   "pushedAt": "2026-05-14T15:19:56Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "ai-engineer"
+   ],
+   "headline": "Helply is a desktop application that helps you in meetings by providing real-time transcri",
+   "what": "Helply AI Meeting Assistant Helply is a desktop meeting assistant for live transcription and AI answers during calls. What is new - Provider setup now supports local and cloud LLM backends in one flow.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "JavaScript",
+    "HTML",
+    "Shell"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "2f7e6d3c04680fad",
+   "primaryRole": "ai-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-she",
+   "name": "SHE",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/SHE",
+   "url": "https://github.com/ni-sh-a-char/SHE",
+   "homepage": null,
+   "description": "A Programming Language",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 67138,
+     "pct": 95.5
+    },
+    {
+     "name": "Shell",
+     "bytes": 3185,
+     "pct": 4.5
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": "NOASSERTION",
+   "stars": 3,
+   "forks": 2,
+   "commits": 160,
+   "createdAt": "2022-06-02T10:37:21Z",
+   "pushedAt": "2025-12-25T07:31:22Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "A Programming Language",
+   "what": "SHE - A Programming Language SHE is a beginner-friendly programming language with a simple syntax for arithmetic, variables, conditionals, loops, functions, strings, lists, and more. This manual provides clear examples for every feature.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python",
+    "Shell"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "a3012eacd4f6fc57",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-github-sh",
+   "name": "github.sh",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/github.sh",
+   "url": "https://github.com/ni-sh-a-char/github.sh",
+   "homepage": null,
+   "description": "Script to automate git from working directory.",
+   "topics": [
+    "collaborate",
+    "bash-script",
+    "git"
+   ],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 21560,
+     "pct": 75.2
+    },
+    {
+     "name": "Shell",
+     "bytes": 7113,
+     "pct": 24.8
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": "NOASSERTION",
+   "stars": 3,
+   "forks": 2,
+   "commits": 158,
+   "createdAt": "2022-08-07T17:22:41Z",
+   "pushedAt": "2025-12-25T07:44:51Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "automation-engineer"
+   ],
+   "headline": "Script to automate git from working directory.",
+   "what": "Git-Automation Script to automate Git from project working directory with a menu to choose from, you just have configure once and the script can be used for the following operations. About Use the script \"github.sh\" file inside your project working directory to automate git procedures by just configuring the script once and use it any number of times.",
+   "why": "",
+   "impact": "",
+   "highlights": [
+    "collaborate",
+    "bash-script",
+    "git"
+   ],
+   "tech": [
+    "Python",
+    "Shell"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "6b18d3fa97c484db",
+   "primaryRole": "automation-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-bio-informatica",
+   "name": "Bio.Informatica",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Bio.Informatica",
+   "url": "https://github.com/ni-sh-a-char/Bio.Informatica",
+   "homepage": "https://youtu.be/p9wLBCesOG8",
+   "description": "A Common Platform for the study related to Bioinformatics, Computational Biology and Computational Chemistry.",
+   "topics": [
+    "docker",
+    "java",
+    "python"
+   ],
+   "languages": [
+    {
+     "name": "Jupyter Notebook",
+     "bytes": 157328,
+     "pct": 82.4
+    },
+    {
+     "name": "Python",
+     "bytes": 29793,
+     "pct": 15.6
+    },
+    {
+     "name": "Shell",
+     "bytes": 3185,
+     "pct": 1.7
+    }
+   ],
+   "primaryLanguage": "Jupyter Notebook",
+   "license": "NOASSERTION",
+   "stars": 3,
+   "forks": 3,
+   "commits": 144,
+   "createdAt": "2022-06-23T04:53:17Z",
+   "pushedAt": "2025-12-25T07:33:24Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "data-scientist"
+   ],
+   "headline": "A Common Platform for the study related to Bioinformatics, Computational Biology and Compu",
+   "what": "Bio.Informatica Bio.Informatica is a common platform for studying Bioinformatics, Computational Biology, and Computational Chemistry. It provides various activities and tools for analysis and predictions in these fields.",
+   "why": "",
+   "impact": "",
+   "highlights": [
+    "docker",
+    "java",
+    "python"
+   ],
+   "tech": [
+    "Jupyter Notebook",
+    "Python",
+    "Shell"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "974e941127533627",
+   "primaryRole": "data-scientist"
+  },
+  {
+   "id": "piyush-mishra-00-sunaai",
+   "name": "SunaAI",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/SunaAI",
+   "url": "https://github.com/PIYUSH-MISHRA-00/SunaAI",
+   "homepage": null,
+   "description": "SunaAI is a privacy-first AI call intelligence platform that turns phone calls into searchable memory with real-time transcription, summaries, action items, and emotion insights. Built with Flutter and native Android, it uses local encryption and user-owned API keys. Open-core, enterprise-ready, and community driven.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Dart",
+     "bytes": 814947,
+     "pct": 66.1
+    },
+    {
+     "name": "Kotlin",
+     "bytes": 384536,
+     "pct": 31.2
+    },
+    {
+     "name": "C++",
+     "bytes": 19718,
+     "pct": 1.6
+    }
+   ],
+   "primaryLanguage": "Dart",
+   "license": "NOASSERTION",
+   "stars": 3,
+   "forks": 0,
+   "commits": 3,
+   "createdAt": "2026-02-22T17:10:11Z",
+   "pushedAt": "2026-02-22T19:42:36Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "SunaAI is a privacy-first AI call intelligence platform that turns phone calls into search",
+   "what": "🎙️ SunaAI — Privacy-First AI Call Intelligence Platform Transform conversations into structured, searchable memory --- 🌍 Vision SunaAI aims to become the open AI standard for call intelligence — enabling professionals, researchers, and businesses to transform phone conversations into actionable insights while maintaining complete control over their data. Unlike cloud-dependent call intelligence tools, SunaAI follows a privacy-first architecture that keeps users in control of their own data and AI costs.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Dart",
+    "Kotlin",
+    "C++"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "b7a5d279b012ae7f",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-monsterrr",
+   "name": "Monsterrr",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Monsterrr",
+   "url": "https://github.com/ni-sh-a-char/Monsterrr",
+   "homepage": null,
+   "description": "Creator, Organizer and Maintainer for ni_sh_a.char...",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 472108,
+     "pct": 99.8
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": "NOASSERTION",
+   "stars": 2,
+   "forks": 0,
+   "commits": 70,
+   "createdAt": "2023-07-12T05:23:18Z",
+   "pushedAt": "2025-09-29T13:56:54Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "ai-engineer"
+   ],
+   "headline": "Creator, Organizer and Maintainer for ni_sh_a.char...",
+   "what": "Monsterrr 🚀 Autonomous AI for GitHub Organization Management --- 🚀 Render Deployment Instructions Monsterrr is production-ready for Render. Connect your GitHub repo to Render.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "308834ba94a08661",
+   "primaryRole": "ai-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-webweavex",
+   "name": "WebWeaveX",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/WebWeaveX",
+   "url": "https://github.com/ni-sh-a-char/WebWeaveX",
+   "homepage": "https://ni-sh-a-char.github.io/WebWeaveX/",
+   "description": "Deterministic runtime cognition infrastructure for humans and AI agents — the same input yields the same SHA-256 across Python, JavaScript, Dart, Java and Kotlin.",
+   "topics": [
+    "ai-agents",
+    "cross-language",
+    "dart",
+    "deterministic",
+    "kotlin",
+    "python",
+    "replay",
+    "runtime",
+    "typescript",
+    "web-extraction"
+   ],
+   "languages": [],
+   "primaryLanguage": null,
+   "license": "NOASSERTION",
+   "stars": 2,
+   "forks": 0,
+   "commits": 28,
+   "createdAt": "2026-03-15T13:07:19Z",
+   "pushedAt": "2026-08-17T09:39:41Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "Deterministic runtime cognition infrastructure for humans and AI agents — the same input y",
+   "what": "WebWeaveX UNIVERSAL RUNTIME COGNITION INFRASTRUCTURE FOR HUMANS AND AI AGENTS · DETERMINISTIC REPLAY &amp; STATE CONTINUATION Deterministic runtime cognition infrastructure for humans and AI agents Understand, continue, reconstruct, replay, and reason about authenticated operational software systems. 🌐 Visit Official Documentation Website · 🚀 Quick Start · 📦 SDK Matrix · 📐 Architecture Diagrams · 🤖 For AI Agents · 👤 For Humans --- 📌 Table of Contents - 1.",
+   "why": "",
+   "impact": "",
+   "highlights": [
+    "ai-agents",
+    "cross-language",
+    "dart"
+   ],
+   "tech": [],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "31452846d08f1b48",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-netchat",
+   "name": "NetChat",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/NetChat",
+   "url": "https://github.com/ni-sh-a-char/NetChat",
+   "homepage": null,
+   "description": "A Java based chatting application that can be used to communicate with other systems on a network. ",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Java",
+     "bytes": 241350,
+     "pct": 98.7
+    },
+    {
+     "name": "Shell",
+     "bytes": 3185,
+     "pct": 1.3
+    }
+   ],
+   "primaryLanguage": "Java",
+   "license": "NOASSERTION",
+   "stars": 1,
+   "forks": 1,
+   "commits": 129,
+   "createdAt": "2022-07-05T02:14:26Z",
+   "pushedAt": "2025-12-25T07:35:26Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "A Java based chatting application that can be used to communicate with other systems on a ",
+   "what": "NetChat NetChat is a Java-based chatting application that enables users to communicate with each other over a network. It provides a simple and intuitive interface for real-time messaging.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Java",
+    "Shell"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "4b0c2bc7ae789315",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-dekkho",
+   "name": "DekkhO",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/DekkhO",
+   "url": "https://github.com/ni-sh-a-char/DekkhO",
+   "homepage": null,
+   "description": "This app uses newsapi.org to fetch the news from the internet and provides you with different categories to choose news from.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Java",
+     "bytes": 18629,
+     "pct": 85.4
+    },
+    {
+     "name": "Shell",
+     "bytes": 3185,
+     "pct": 14.6
+    }
+   ],
+   "primaryLanguage": "Java",
+   "license": "BSD-3-Clause",
+   "stars": 1,
+   "forks": 0,
+   "commits": 18,
+   "createdAt": "2021-09-05T10:48:30Z",
+   "pushedAt": "2024-03-05T07:19:35Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "mobile-developer"
+   ],
+   "headline": "This app uses newsapi.org to fetch the news from the internet and provides you with differ",
+   "what": "DekkhO - The News App DekkhO is a news app that fetches news from the internet using the News API. It provides users with different categories to choose news from and delivers the latest updates right at their fingertips.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Java",
+    "Shell"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "b0f2e2fc5470eb16",
+   "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "ni-sh-a-char-curious-shots-",
+   "name": "curious_shots_",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/curious_shots_",
+   "url": "https://github.com/ni-sh-a-char/curious_shots_",
+   "homepage": null,
+   "description": "An Image Editing App.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Java",
+     "bytes": 268398,
+     "pct": 93
+    },
+    {
+     "name": "RenderScript",
+     "bytes": 20124,
+     "pct": 7
+    }
+   ],
+   "primaryLanguage": "Java",
+   "license": "NOASSERTION",
+   "stars": 1,
+   "forks": 0,
+   "commits": 8,
+   "createdAt": "2022-07-07T10:24:14Z",
+   "pushedAt": "2022-07-14T20:23:09Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "devops-engineer"
+   ],
+   "headline": "An Image Editing App.",
+   "what": "curious shots A Simple Image Editing App based on the educational purpose of get you started and handy with the image editing skills.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Java",
+    "RenderScript"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "db46242d099170e9",
+   "primaryRole": "devops-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-kaalka-api",
+   "name": "Kaalka-API",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Kaalka-API",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Kaalka-API",
+   "homepage": "https://rapidapi.com/PIYUSHMISHRA00/api/kaalka-api1",
+   "description": "Kaalka API is a modern, time-based encryption and decryption RESTful service built using FastAPI, powered by the Kaalka encryption library. This API enables developers and businesses to secure messages using timestamps with simple HTTP requests.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 11661,
+     "pct": 96.7
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 393,
+     "pct": 3.3
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 1,
+   "forks": 0,
+   "commits": 7,
+   "createdAt": "2025-07-19T14:19:51Z",
+   "pushedAt": "2025-07-24T16:17:12Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "Kaalka API is a modern, time-based encryption and decryption RESTful service built using F",
+   "what": "Kaalka API 🌐 Overview Kaalka API is a modern, time-based encryption and decryption RESTful service built using FastAPI , powered by the Kaalka encryption library. This API enables developers and businesses to secure messages using timestamps with simple HTTP requests.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python",
+    "Dockerfile"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "151a8217dfa01c6e",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-rag-application",
+   "name": "RAG-Application",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/RAG-Application",
+   "url": "https://github.com/PIYUSH-MISHRA-00/RAG-Application",
+   "homepage": "https://rag-application-olive.vercel.app/",
+   "description": "A comprehensive, production-ready RAG (Retrieval-Augmented Generation) application that enables users to upload documents, ask questions, and receive AI-powered answers with proper citations. Built with modern technologies and best practices for scalability and reliability.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 260721,
+     "pct": 99.1
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 1,
+   "forks": 0,
+   "commits": 4,
+   "createdAt": "2025-09-10T01:53:11Z",
+   "pushedAt": "2026-02-14T12:04:33Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "ai-engineer"
+   ],
+   "headline": "A comprehensive, production-ready RAG (Retrieval-Augmented Generation) application that en",
+   "what": "RAG Application - Production-Ready Retrieval-Augmented Generation A comprehensive, production-ready RAG (Retrieval-Augmented Generation) application that enables users to upload documents, ask questions, and receive AI-powered answers with proper citations. Built with modern technologies and best practices for scalability and reliability.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "TypeScript"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "ff585db972e3d52f",
+   "primaryRole": "ai-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-job-scraper",
+   "name": "Job-Scraper",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Job-Scraper",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Job-Scraper",
+   "homepage": null,
+   "description": "This is a web scraper solution that extracts job postings from iCIMS career portals. The project demonstrates proficiency in web scraping, Python development, and containerization.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 32511,
+     "pct": 97.4
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 880,
+     "pct": 2.6
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 1,
+   "forks": 0,
+   "commits": 2,
+   "createdAt": "2025-10-01T15:57:17Z",
+   "pushedAt": "2025-10-01T15:59:51Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "devops-engineer"
+   ],
+   "headline": "This is a web scraper solution that extracts job postings from iCIMS career portals. The p",
+   "what": "Job Scraper This is a web scraper solution that extracts job postings from iCIMS career portals. The project demonstrates proficiency in web scraping, Python development, and containerization.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python",
+    "Dockerfile"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "3b37ea7a8f739602",
+   "primaryRole": "devops-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-assist",
+   "name": "Assist",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Assist",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Assist",
+   "homepage": null,
+   "description": "AI Assistant Overlay is a professional, real-time desktop assistant for your daily productivity. It listens to your spoken questions (via microphone or system audio), sends them to Google Gemini, and displays suggested answers in a discreet, always-on-top overlay window.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 7870,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 1,
+   "forks": 1,
+   "commits": 2,
+   "createdAt": "2025-06-25T17:13:35Z",
+   "pushedAt": "2025-06-25T17:17:13Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "AI Assistant Overlay is a professional, real-time desktop assistant for your daily product",
+   "what": "AI Assistant Overlay AI Assistant Overlay is a professional, real-time desktop assistant for your daily productivity. It listens to your spoken questions (via microphone or system audio), sends them to Google Gemini, and displays suggested answers in a discreet, always-on-top overlay window.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "c95b50b977fa0583",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-medical-portal",
+   "name": "Medical-Portal",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Medical-Portal",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Medical-Portal",
+   "homepage": null,
+   "description": "A full-stack Golang web application with a PostgreSQL database for managing patient records in a medical setting. The application features two main portals: a Receptionist Portal and a Doctor Portal.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "HTML",
+     "bytes": 15706,
+     "pct": 63.9
+    },
+    {
+     "name": "Go",
+     "bytes": 8889,
+     "pct": 36.1
+    }
+   ],
+   "primaryLanguage": "HTML",
+   "license": null,
+   "stars": 1,
+   "forks": 0,
+   "commits": 2,
+   "createdAt": "2024-11-09T14:38:11Z",
+   "pushedAt": "2024-12-11T22:44:13Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "A full-stack Golang web application with a PostgreSQL database for managing patient record",
+   "what": "Medical Portal A full-stack Golang web application with a PostgreSQL database for managing patient records in a medical setting. The application features two main portals: a Receptionist Portal and a Doctor Portal.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "HTML",
+    "Go"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "aa58391fd802a464",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-dockeroid",
+   "name": "Dockeroid",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Dockeroid",
+   "url": "https://github.com/ni-sh-a-char/Dockeroid",
+   "homepage": "https://hub.docker.com/r/piyushmishradocker/dockeroid",
+   "description": "Web based solution for Android application emulation and testing. Dockeroid where web and android meets together.",
+   "topics": [
+    "android",
+    "bash",
+    "docker",
+    "java",
+    "linux",
+    "python3"
+   ],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 5235,
+     "pct": 51.5
+    },
+    {
+     "name": "Shell",
+     "bytes": 3928,
+     "pct": 38.6
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 1009,
+     "pct": 9.9
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": "NOASSERTION",
+   "stars": 0,
+   "forks": 0,
+   "commits": 155,
+   "createdAt": "2023-04-03T14:08:52Z",
+   "pushedAt": "2025-12-25T07:57:24Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "Web based solution for Android application emulation and testing. Dockeroid where web and ",
+   "what": "Why to turn off the security to install the apps from unknown sources when the browser can have it... Dockeroid Website for Android application emulation and testing.",
+   "why": "",
+   "impact": "",
+   "highlights": [
+    "android",
+    "bash",
+    "docker"
+   ],
+   "tech": [
+    "Python",
+    "Shell",
+    "Dockerfile"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "bdc3f9f107717586",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-touropedia",
+   "name": "Touropedia",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Touropedia",
+   "url": "https://github.com/ni-sh-a-char/Touropedia",
+   "homepage": null,
+   "description": "A responsive travel website using HTML, SCSS, CSS and Javascript.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "SCSS",
+     "bytes": 12170,
+     "pct": 46.7
+    },
+    {
+     "name": "HTML",
+     "bytes": 10232,
+     "pct": 39.2
+    },
+    {
+     "name": "Shell",
+     "bytes": 3185,
+     "pct": 12.2
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 483,
+     "pct": 1.9
+    }
+   ],
+   "primaryLanguage": "SCSS",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 149,
+   "createdAt": "2022-01-16T12:07:36Z",
+   "pushedAt": "2025-12-25T07:23:57Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "automation-engineer"
+   ],
+   "headline": "A responsive travel website using HTML, SCSS, CSS and Javascript.",
+   "what": "Touropedia A responsive travel website using HTML, SCSS, CSS and Javascript.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "SCSS",
+    "HTML",
+    "Shell",
+    "JavaScript"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "c49d6994afae13de",
+   "primaryRole": "automation-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-emessages",
+   "name": "Emessages",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Emessages",
+   "url": "https://github.com/ni-sh-a-char/Emessages",
+   "homepage": null,
+   "description": "Image Stegnography Tool for Encoding and Decoding a picture with encrypted message.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Java",
+     "bytes": 34613,
+     "pct": 91.6
+    },
+    {
+     "name": "Shell",
+     "bytes": 3185,
+     "pct": 8.4
+    }
+   ],
+   "primaryLanguage": "Java",
+   "license": "MIT",
+   "stars": 0,
+   "forks": 0,
+   "commits": 145,
+   "createdAt": "2022-01-21T19:36:26Z",
+   "pushedAt": "2025-12-25T07:25:00Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "Image Stegnography Tool for Encoding and Decoding a picture with encrypted message.",
+   "what": "Emessages Image Stegnography Tool for Encoding and Decoding a picture with encrypted message.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Java",
+    "Shell"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "2e74107cf2a3bdc1",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-mailbook",
+   "name": "Mailbook",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Mailbook",
+   "url": "https://github.com/ni-sh-a-char/Mailbook",
+   "homepage": null,
+   "description": "A JSP-JDBC-MySQL-Servlet based Java project to demonstrate CURD Operations where Users can create, update, edit and delete their name, email and country respectively. ",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Java",
+     "bytes": 18316,
+     "pct": 85.2
+    },
+    {
+     "name": "Shell",
+     "bytes": 3185,
+     "pct": 14.8
+    }
+   ],
+   "primaryLanguage": "Java",
+   "license": "MIT",
+   "stars": 0,
+   "forks": 0,
+   "commits": 143,
+   "createdAt": "2022-05-17T10:24:08Z",
+   "pushedAt": "2025-12-25T07:30:30Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "devops-engineer"
+   ],
+   "headline": "A JSP-JDBC-MySQL-Servlet based Java project to demonstrate CURD Operations where Users can",
+   "what": "JSP-JDBC-MySQL-Servlet CRUD Operations Demo Setup and Deployment To set up and deploy the project, follow these steps: 1. Update the database connection details in the db.properties file located in the src/main/resources directory.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Java",
+    "Shell"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "ba4264c3ff16a677",
+   "primaryRole": "devops-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-safe-editor",
+   "name": "Safe-Editor",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Safe-Editor",
+   "url": "https://github.com/ni-sh-a-char/Safe-Editor",
+   "homepage": null,
+   "description": "A user authenticated text editor that stores the username and password in SHA-256 bit encryption form.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Java",
+     "bytes": 9258,
+     "pct": 68.7
+    },
+    {
+     "name": "Shell",
+     "bytes": 3185,
+     "pct": 23.6
+    },
+    {
+     "name": "Python",
+     "bytes": 1030,
+     "pct": 7.6
+    }
+   ],
+   "primaryLanguage": "Java",
+   "license": "MIT",
+   "stars": 0,
+   "forks": 0,
+   "commits": 140,
+   "createdAt": "2022-05-10T13:12:25Z",
+   "pushedAt": "2025-12-25T07:29:32Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "A user authenticated text editor that stores the username and password in SHA-256 bit encr",
+   "what": "Safe Editor A user authenticated text editor that stores the username and password in a 256 bit encryption form.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Java",
+    "Shell",
+    "Python"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "18146fcb1c33fb7d",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-texter",
+   "name": "Texter",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Texter",
+   "url": "https://github.com/ni-sh-a-char/Texter",
+   "homepage": null,
+   "description": "A Common Platform for Text analysis in your documents.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Jupyter Notebook",
+     "bytes": 41949,
+     "pct": 70.9
+    },
+    {
+     "name": "Python",
+     "bytes": 13258,
+     "pct": 22.4
+    },
+    {
+     "name": "Shell",
+     "bytes": 2855,
+     "pct": 4.8
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 1080,
+     "pct": 1.8
+    }
+   ],
+   "primaryLanguage": "Jupyter Notebook",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 137,
+   "createdAt": "2022-08-13T11:18:11Z",
+   "pushedAt": "2025-12-25T07:45:24Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "data-scientist"
+   ],
+   "headline": "A Common Platform for Text analysis in your documents.",
+   "what": "Texter Texter is a common platform for text analysis in your documents. It provides various activities such as text cleaning, emotion classification, summarization, and entity checking.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Jupyter Notebook",
+    "Python",
+    "Shell",
+    "Dockerfile"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "2f6a45cb9b4d84bc",
+   "primaryRole": "data-scientist"
+  },
+  {
+   "id": "ni-sh-a-char-natraj",
+   "name": "NATRAJ",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/NATRAJ",
+   "url": "https://github.com/ni-sh-a-char/NATRAJ",
+   "homepage": "https://youtu.be/P2gtaBiDvxI",
+   "description": "NATRAJ - A localized End to End encrypted server with Neural Networks to act as a packet filtering firewall and accessing the internet using proxy for actual device ID masking.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Jupyter Notebook",
+     "bytes": 3788912,
+     "pct": 63.5
+    },
+    {
+     "name": "Go",
+     "bytes": 2040175,
+     "pct": 34.2
+    },
+    {
+     "name": "Python",
+     "bytes": 114449,
+     "pct": 1.9
+    }
+   ],
+   "primaryLanguage": "Jupyter Notebook",
+   "license": "AGPL-3.0",
+   "stars": 0,
+   "forks": 0,
+   "commits": 131,
+   "createdAt": "2023-02-08T18:07:50Z",
+   "pushedAt": "2025-12-25T07:52:37Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "NATRAJ - A localized End to End encrypted server with Neural Networks to act as a packet f",
+   "what": "NATRAJ - A localized End to End encrypted server with Neural Networks to act as a packet filtering firewall and accessing the internet using proxy for actual device ID masking. Piyush Mishra Department of Computer Science and Engineering, Institute of Engineering and Technology, Bundelkhand University, Jhansi https://orcid.org/0000-0001-9775-1596 pnoop786@gmail.com piyushmishra.professional@gmail.com https://www.linkedin.com/posts/piyush-mishra-00 activity-7019258293558685697-rgoO?utm source=share&utm medium=member desktop https://medium.com/@piyushmishra.professional/natraj-an-end-to-end-encr",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Jupyter Notebook",
+    "Go",
+    "Python"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "06a7ca409c56dec1",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-ni-sh-a-char-ide",
+   "name": "ni_sh_a.char-IDE",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/ni_sh_a.char-IDE",
+   "url": "https://github.com/ni-sh-a-char/ni_sh_a.char-IDE",
+   "homepage": null,
+   "description": "A simple IDE to execute Python codes",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Shell",
+     "bytes": 3185,
+     "pct": 64.2
+    },
+    {
+     "name": "Python",
+     "bytes": 1775,
+     "pct": 35.8
+    }
+   ],
+   "primaryLanguage": "Shell",
+   "license": "MIT",
+   "stars": 0,
+   "forks": 1,
+   "commits": 128,
+   "createdAt": "2022-07-04T04:33:43Z",
+   "pushedAt": "2025-12-25T07:33:47Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "automation-engineer"
+   ],
+   "headline": "A simple IDE to execute Python codes",
+   "what": "ni sh a.char-IDE ni sh a.char-IDE is a simple IDE designed for executing Python codes. Features - Provides a user-friendly interface for writing and executing Python code.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Shell",
+    "Python"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "859942ad881da03a",
+   "primaryRole": "automation-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-resentment-kernel",
+   "name": "RESENTMENT---kernel",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/RESENTMENT---kernel",
+   "url": "https://github.com/ni-sh-a-char/RESENTMENT---kernel",
+   "homepage": null,
+   "description": null,
+   "topics": [],
+   "languages": [
+    {
+     "name": "Shell",
+     "bytes": 6961,
+     "pct": 50.4
+    },
+    {
+     "name": "Assembly",
+     "bytes": 2552,
+     "pct": 18.5
+    },
+    {
+     "name": "C",
+     "bytes": 2427,
+     "pct": 17.6
+    },
+    {
+     "name": "Makefile",
+     "bytes": 1525,
+     "pct": 11
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 246,
+     "pct": 1.8
+    }
+   ],
+   "primaryLanguage": "Shell",
+   "license": "NOASSERTION",
+   "stars": 0,
+   "forks": 0,
+   "commits": 123,
+   "createdAt": "2023-02-16T19:34:49Z",
+   "pushedAt": "2025-12-25T07:54:23Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "systems-engineer"
+   ],
+   "headline": "RESENTMENT-KERNEL A kernel with a print message at the boot time.",
+   "what": "RESENTMENT-KERNEL A kernel with a print message at the boot time. Docker Hub Install Docker in the System Install Docker Hub in the System Docker Image Link In the terminal type : \"docker pull piyushmishradocker/resentmentkernel-buildenv\"",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Shell",
+    "Assembly",
+    "C",
+    "Makefile",
+    "Dockerfile"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "f4790ea3c5b1b4ae",
+   "primaryRole": "systems-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-rest-api",
+   "name": "REST-API",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/REST-API",
+   "url": "https://github.com/ni-sh-a-char/REST-API",
+   "homepage": null,
+   "description": "REST API  for performing CURD operations using Spring boot and Mongo-DB",
+   "topics": [],
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 225239,
+     "pct": 87.6
+    },
+    {
+     "name": "Java",
+     "bytes": 12401,
+     "pct": 4.8
+    },
+    {
+     "name": "CSS",
+     "bytes": 9419,
+     "pct": 3.7
+    },
+    {
+     "name": "Shell",
+     "bytes": 6370,
+     "pct": 2.5
+    },
+    {
+     "name": "HTML",
+     "bytes": 3637,
+     "pct": 1.4
+    }
+   ],
+   "primaryLanguage": "JavaScript",
+   "license": "MIT",
+   "stars": 0,
+   "forks": 0,
+   "commits": 123,
+   "createdAt": "2022-11-16T06:47:02Z",
+   "pushedAt": "2025-12-25T07:50:16Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "automation-engineer"
+   ],
+   "headline": "REST API  for performing CURD operations using Spring boot and Mongo-DB",
+   "what": "REST-API REST API for performing CURD operations using Spring boot and Mongo-DB which can be used as a service to integrate projects with the backend.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "JavaScript",
+    "Java",
+    "CSS",
+    "Shell",
+    "HTML"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "6b7ed1eb506459e3",
+   "primaryRole": "automation-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-image-to-sketch",
+   "name": "Image_To_Sketch",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Image_To_Sketch",
+   "url": "https://github.com/ni-sh-a-char/Image_To_Sketch",
+   "homepage": null,
+   "description": "A simple python program to convert image into sketch.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 2384,
+     "pct": 83
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 488,
+     "pct": 17
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": "MIT",
+   "stars": 0,
+   "forks": 0,
+   "commits": 123,
+   "createdAt": "2022-07-07T17:54:43Z",
+   "pushedAt": "2025-12-25T07:39:19Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "ai-engineer"
+   ],
+   "headline": "A simple python program to convert image into sketch.",
+   "what": "Image to Sketch A simple Python program that converts an image into a sketch and stores it in the containing folder of the program. Prerequisites Before running this program, ensure that you have the following: - Python installed on your system Usage 1.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python",
+    "Dockerfile"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "c0c48a63729e22cc",
+   "primaryRole": "ai-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-dev-automation-script",
+   "name": "Dev-Automation-Script",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Dev-Automation-Script",
+   "url": "https://github.com/ni-sh-a-char/Dev-Automation-Script",
+   "homepage": "https://hub.docker.com/r/piyushmishradocker/dev-automation-script",
+   "description": "A script for every developer build to automate work with Git and Docker. A successor to Git-Automation-Script.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 21560,
+     "pct": 63.1
+    },
+    {
+     "name": "Shell",
+     "bytes": 12055,
+     "pct": 35.3
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 539,
+     "pct": 1.6
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 121,
+   "createdAt": "2023-02-26T15:10:53Z",
+   "pushedAt": "2025-12-25T07:56:21Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "devops-engineer"
+   ],
+   "headline": "A script for every developer build to automate work with Git and Docker. A successor to Gi",
+   "what": "Dev-Automation-Script A successor to Git-Automation-Script. A script for every developer build to automate work with Git and Docker.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python",
+    "Shell",
+    "Dockerfile"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "062b45c07ef8a441",
+   "primaryRole": "devops-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-financer",
+   "name": "Financer",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Financer",
+   "url": "https://github.com/ni-sh-a-char/Financer",
+   "homepage": null,
+   "description": "A Common Platform for Finance analysis.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 10685,
+     "pct": 46.5
+    },
+    {
+     "name": "Jupyter Notebook",
+     "bytes": 8574,
+     "pct": 37.3
+    },
+    {
+     "name": "Shell",
+     "bytes": 3197,
+     "pct": 13.9
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 543,
+     "pct": 2.4
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 120,
+   "createdAt": "2022-08-18T18:23:03Z",
+   "pushedAt": "2025-12-25T07:45:49Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "data-scientist"
+   ],
+   "headline": "A Common Platform for Finance analysis.",
+   "what": "Financer A Common Platform for Finance analysis. Activities Intro Stocks Dashboard Real-Time Dashboard MPG Dashboard Data Visualizer Methods to run the project Terminal Docker Hub Terminal Install Python on your System.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python",
+    "Jupyter Notebook",
+    "Shell",
+    "Dockerfile"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "019f1401f8102524",
+   "primaryRole": "data-scientist"
+  },
+  {
+   "id": "ni-sh-a-char-blogs",
+   "name": "Blogs",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Blogs",
+   "url": "https://github.com/ni-sh-a-char/Blogs",
+   "homepage": null,
+   "description": "A Blog app build using the MERN stack. The app consists of a login page and user can create and maintain their blogs.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 17422,
+     "pct": 67.2
+    },
+    {
+     "name": "Shell",
+     "bytes": 3912,
+     "pct": 15.1
+    },
+    {
+     "name": "CSS",
+     "bytes": 2889,
+     "pct": 11.1
+    },
+    {
+     "name": "HTML",
+     "bytes": 1721,
+     "pct": 6.6
+    }
+   ],
+   "primaryLanguage": "JavaScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 112,
+   "createdAt": "2023-04-04T14:21:46Z",
+   "pushedAt": "2025-12-25T07:58:05Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "automation-engineer"
+   ],
+   "headline": "A Blog app build using the MERN stack. The app consists of a login page and user can creat",
+   "what": "",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "JavaScript",
+    "Shell",
+    "CSS",
+    "HTML"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "3968b15eb2700ece",
+   "primaryRole": "automation-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-scanner",
+   "name": "Scanner",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Scanner",
+   "url": "https://github.com/ni-sh-a-char/Scanner",
+   "homepage": null,
+   "description": "A simple bar code and QR code scanner using google ML Kit.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Java",
+     "bytes": 15394,
+     "pct": 79.7
+    },
+    {
+     "name": "Shell",
+     "bytes": 3927,
+     "pct": 20.3
+    }
+   ],
+   "primaryLanguage": "Java",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 110,
+   "createdAt": "2023-02-19T23:39:03Z",
+   "pushedAt": "2025-12-25T07:55:28Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "mobile-developer"
+   ],
+   "headline": "A simple bar code and QR code scanner using google ML Kit.",
+   "what": "Scanner Scanner is a simple barcode and QR code scanner app built using Java and Android. It utilizes Google ML Kit for barcode scanning.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Java",
+    "Shell"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "b50e512431171a71",
+   "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "piyush-mishra-00-portfolio",
+   "name": "Portfolio",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
+   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
+   "description": "https://piyush-mishra-00.github.io/Portfolio/",
+   "topics": [],
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 79663,
+     "pct": 46.7
+    },
+    {
+     "name": "TypeScript",
+     "bytes": 55046,
+     "pct": 32.2
+    },
+    {
+     "name": "HTML",
+     "bytes": 18986,
+     "pct": 11.1
+    },
+    {
+     "name": "CSS",
+     "bytes": 13080,
+     "pct": 7.7
+    },
+    {
+     "name": "Shell",
+     "bytes": 3927,
+     "pct": 2.3
+    }
+   ],
+   "primaryLanguage": "JavaScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 62,
+   "createdAt": "2023-03-30T11:31:18Z",
+   "pushedAt": "2026-03-26T08:20:48Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "automation-engineer"
+   ],
+   "headline": "https://piyush-mishra-00.github.io/Portfolio/",
+   "what": "",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "JavaScript",
+    "TypeScript",
+    "HTML",
+    "CSS",
+    "Shell"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "c34ad13c44b1e2cd",
+   "primaryRole": "automation-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-git-automation-script",
+   "name": "Git-Automation-Script",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Git-Automation-Script",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Git-Automation-Script",
+   "homepage": null,
+   "description": null,
+   "topics": [],
+   "languages": [
+    {
+     "name": "Shell",
+     "bytes": 11890,
+     "pct": 52.4
+    },
+    {
+     "name": "Python",
+     "bytes": 10780,
+     "pct": 47.6
+    }
+   ],
+   "primaryLanguage": "Shell",
+   "license": "MIT",
+   "stars": 0,
+   "forks": 0,
+   "commits": 48,
+   "createdAt": "2023-02-07T08:42:39Z",
+   "pushedAt": "2023-09-01T15:37:34Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "automation-engineer"
+   ],
+   "headline": "Git-Automation-Script Script to automate Git from project working directory with a menu to",
+   "what": "Git-Automation-Script Script to automate Git from project working directory with a menu to choose from, you just have configure once and the script can be used for the following operations. About Use the script \"github.sh\" file inside your project working directory to automate git procedures by just configuring the script once and use it any number of times.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Shell",
+    "Python"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "1bb593bc7bf92c2c",
+   "primaryRole": "automation-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-codeclauseinternship-projects",
+   "name": "CodeClauseInternship_Projects",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/CodeClauseInternship_Projects",
+   "url": "https://github.com/PIYUSH-MISHRA-00/CodeClauseInternship_Projects",
+   "homepage": null,
+   "description": "Repository for keeping the projects allocated to me in my internship as Data Science Intern",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Jupyter Notebook",
+     "bytes": 169850,
+     "pct": 92.9
+    },
+    {
+     "name": "Python",
+     "bytes": 12953,
+     "pct": 7.1
+    }
+   ],
+   "primaryLanguage": "Jupyter Notebook",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 46,
+   "createdAt": "2023-09-01T09:15:43Z",
+   "pushedAt": "2023-09-09T16:59:38Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "data-scientist"
+   ],
+   "headline": "Repository for keeping the projects allocated to me in my internship as Data Science Inter",
+   "what": "CodeClauseInternship Projects Repository for keeping the projects allocated to me in my internship as Data Science Intern. During the internship the task provided to me were as follows :- - Stock Market Prediction - Wine Quality Prediction - Personalized Medicine Recommending System - Recommendation System for Retail Stores",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Jupyter Notebook",
+    "Python"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "fd25ef0233d1f915",
+   "primaryRole": "data-scientist"
+  },
+  {
+   "id": "ni-sh-a-char-youtube-shorts-automation",
+   "name": "YouTube-Shorts-Automation",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/YouTube-Shorts-Automation",
+   "url": "https://github.com/ni-sh-a-char/YouTube-Shorts-Automation",
+   "homepage": null,
+   "description": "A youtube shorts automation. From idea generation to upload end to end.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 260810,
+     "pct": 99.5
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 42,
+   "createdAt": "2025-12-05T04:46:12Z",
+   "pushedAt": "2025-12-07T09:41:17Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "ai-engineer"
+   ],
+   "headline": "A youtube shorts automation. From idea generation to upload end to end.",
+   "what": "🎬 YouTube Shorts Automation - Consolidated Documentation Status: ✅ Production-Ready Last Updated: December 5, 2025 --- This file consolidates the project's documentation into a single entrypoint. It contains the original README.md content plus the full contents of the other documentation files: - QUICK START.md - QUICK REFERENCE.md - DEPLOYMENT CHECKLIST.md - RENDER DEPLOYMENT GUIDE.md - CLEANUP FLOW.md - CLEANUP AND STARTUP SUMMARY.md - MANIFEST.md - IMPLEMENTATION COMPLETE.md - DOCUMENTATION INDEX.md - ARCHITECTURE DIAGRAMS.md --- Table of Contents - Quick Start - Quick Reference - Deployme",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "cf0eb7281cd58029",
+   "primaryRole": "ai-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-auroradb",
+   "name": "AuroraDB",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/AuroraDB",
+   "url": "https://github.com/ni-sh-a-char/AuroraDB",
+   "homepage": null,
+   "description": "A high-performance, distributed database management system",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 91,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": "NOASSERTION",
+   "stars": 0,
+   "forks": 0,
+   "commits": 31,
+   "createdAt": "2025-08-16T18:30:50Z",
+   "pushedAt": "2025-08-16T18:31:34Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "fullstack-developer"
+   ],
+   "headline": "A high-performance, distributed database management system",
+   "what": "AuroraDB A high-performance, distributed database management system Tech Stack Roadmap - Design database schema - Implement data replication - Develop query optimizer",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "963b6d936376960c",
+   "primaryRole": "fullstack-developer"
+  },
+  {
+   "id": "ni-sh-a-char-intellisensehub",
+   "name": "IntelliSenseHub",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/IntelliSenseHub",
+   "url": "https://github.com/ni-sh-a-char/IntelliSenseHub",
+   "homepage": null,
+   "description": "An AI-powered code completion and suggestion tool for various programming languages",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 98,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": "NOASSERTION",
+   "stars": 0,
+   "forks": 0,
+   "commits": 31,
+   "createdAt": "2025-08-15T00:00:04Z",
+   "pushedAt": "2025-08-15T00:00:30Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "ai-engineer"
+   ],
+   "headline": "An AI-powered code completion and suggestion tool for various programming languages",
+   "what": "IntelliSenseHub An AI-powered code completion and suggestion tool for various programming languages Tech Stack Roadmap - Develop core AI model - Create web interface - Integrate with popular IDEs",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "c81cf0129acb04f3",
+   "primaryRole": "ai-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-pw-data-science-genai",
+   "name": "PW-Data_Science_GenAI",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/PW-Data_Science_GenAI",
+   "url": "https://github.com/PIYUSH-MISHRA-00/PW-Data_Science_GenAI",
+   "homepage": null,
+   "description": "Github Repo for the Course PW Data Science and Generative AI",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Jupyter Notebook",
+     "bytes": 9253373,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "Jupyter Notebook",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 25,
+   "createdAt": "2025-02-11T07:12:34Z",
+   "pushedAt": "2025-09-16T06:14:33Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "ai-engineer"
+   ],
+   "headline": "Github Repo for the Course PW Data Science and Generative AI",
+   "what": "PW-Data Science GenAI Github Repo for the Course PW Data Science and Generative AI",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Jupyter Notebook"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "dc7a971b685e990c",
+   "primaryRole": "ai-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-humsafar",
+   "name": "Humsafar",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Humsafar",
+   "url": "https://github.com/ni-sh-a-char/Humsafar",
+   "homepage": null,
+   "description": "Your very own web browser.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 3847,
+     "pct": 84.7
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 693,
+     "pct": 15.3
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": "NOASSERTION",
+   "stars": 0,
+   "forks": 0,
+   "commits": 22,
+   "createdAt": "2023-09-10T15:29:37Z",
+   "pushedAt": "2023-09-14T04:22:27Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "devops-engineer"
+   ],
+   "headline": "Your very own web browser.",
+   "what": "Humsafar Your very own web browser.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python",
+    "Dockerfile"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "ea3fec7b3bba3f73",
+   "primaryRole": "devops-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-ai-agents-positive-connections",
+   "name": "ai-agents-positive-connections",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/ai-agents-positive-connections",
+   "url": "https://github.com/PIYUSH-MISHRA-00/ai-agents-positive-connections",
+   "homepage": "https://ai-agents-positive-connections.onrender.com",
+   "description": "This project implements an AI-driven platform designed to connect users with agents based on shared interests and expertise. The application aims to foster positive connections and facilitate collaboration among users in a community-focused environment.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 9069,
+     "pct": 93.1
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 674,
+     "pct": 6.9
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 19,
+   "createdAt": "2024-10-20T07:15:53Z",
+   "pushedAt": "2024-10-20T11:45:12Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "ai-engineer"
+   ],
+   "headline": "This project implements an AI-driven platform designed to connect users with agents based ",
+   "what": "Project Overview This project implements an AI-driven platform designed to connect users with agents based on shared interests and expertise. The application aims to foster positive connections and facilitate collaboration among users in a community-focused environment.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python",
+    "Dockerfile"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "96c2310ee2cd2bc0",
+   "primaryRole": "ai-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-oasisinfobyteinternship-projects",
+   "name": "OasisInfobyteInternship_Projects",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/OasisInfobyteInternship_Projects",
+   "url": "https://github.com/PIYUSH-MISHRA-00/OasisInfobyteInternship_Projects",
+   "homepage": null,
+   "description": "Repository for keeping the projects allocated to me in my internship as Android Developer Intern ",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Java",
+     "bytes": 63261,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "Java",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 19,
+   "createdAt": "2023-09-04T14:33:28Z",
+   "pushedAt": "2023-09-10T09:21:25Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "mobile-developer"
+   ],
+   "headline": "Repository for keeping the projects allocated to me in my internship as Android Developer ",
+   "what": "OasisInfobyteInternship Projects Repository for keeping the projects allocated to me in my internship as Android Developer Intern. My task during this internship was to design and develop android applications.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Java"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "7ed00a5f71937385",
+   "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "ni-sh-a-char-ats",
+   "name": "ATS",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/ATS",
+   "url": "https://github.com/ni-sh-a-char/ATS",
+   "homepage": null,
+   "description": "A resume parser and Applicant Tracker System for checking and scoring the resume against a requirement.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 2565,
+     "pct": 81.2
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 595,
+     "pct": 18.8
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 15,
+   "createdAt": "2024-03-17T14:21:50Z",
+   "pushedAt": "2024-03-21T11:54:45Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "devops-engineer"
+   ],
+   "headline": "A resume parser and Applicant Tracker System for checking and scoring the resume against a",
+   "what": "ATS (Applicant Tracking System) ATS is a resume parser and Applicant Tracker System designed for checking and scoring resumes against job requirements. It streamlines the recruitment process by automating the initial screening of resumes and evaluating candidates based on specified criteria.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python",
+    "Dockerfile"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "3f7c64871a0ed23f",
+   "primaryRole": "devops-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-striver-sde-sheet-challenge-2",
+   "name": "Striver-SDE-Sheet-Challenge-2",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Striver-SDE-Sheet-Challenge-2",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Striver-SDE-Sheet-Challenge-2",
+   "homepage": "https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/",
+   "description": "This repository consists of solutions of all the questions solved from the Striver's SDE Sheet.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Java",
+     "bytes": 25424,
+     "pct": 88.9
+    },
+    {
+     "name": "Shell",
+     "bytes": 3185,
+     "pct": 11.1
+    }
+   ],
+   "primaryLanguage": "Java",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 15,
+   "createdAt": "2022-10-07T09:54:57Z",
+   "pushedAt": "2022-10-09T07:00:38Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "automation-engineer"
+   ],
+   "headline": "This repository consists of solutions of all the questions solved from the Striver's SDE S",
+   "what": "Striver-SDE-Sheet-Challenge-2 This repository consists of solutions of all the questions solved from the Striver's SDE Sheet. Link for the Sheet https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Java",
+    "Shell"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "1d8808b83123b67c",
+   "primaryRole": "automation-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-bookish",
+   "name": "Bookish",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Bookish",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Bookish",
+   "homepage": "https://bookish-y0x0.onrender.com",
+   "description": "Bookish - Your Personal Book Recommendation Platform",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 6596,
+     "pct": 86.4
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 1042,
+     "pct": 13.6
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 12,
+   "createdAt": "2024-09-11T15:46:41Z",
+   "pushedAt": "2024-09-12T08:02:49Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "Bookish - Your Personal Book Recommendation Platform",
+   "what": "📚 Bookish - Your Personal Book Recommendation Platform Bookish is a web application that provides personalized book recommendations using collaborative filtering. It integrates data from Google Books and Open Library APIs to deliver a seamless book search and recommendation experience.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python",
+    "Dockerfile"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "de6c3af591eb81b4",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-striver-sde-sheet",
+   "name": "striver-sde-sheet",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/striver-sde-sheet",
+   "url": "https://github.com/PIYUSH-MISHRA-00/striver-sde-sheet",
+   "homepage": "https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/",
+   "description": "This repository consists of solutions of all the questions solved from the Striver's SDE Sheet solved in different languages in different branches.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "C++",
+     "bytes": 4715,
+     "pct": 59.7
+    },
+    {
+     "name": "Shell",
+     "bytes": 3185,
+     "pct": 40.3
+    }
+   ],
+   "primaryLanguage": "C++",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 11,
+   "createdAt": "2022-10-07T09:29:58Z",
+   "pushedAt": "2022-10-07T09:42:37Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "systems-engineer"
+   ],
+   "headline": "This repository consists of solutions of all the questions solved from the Striver's SDE S",
+   "what": "Striver-SDE-Sheet-Solutions This repository consists of solutions of all the questions solved from the Striver's SDE Sheet solved in different languages in different branches. Link for the Sheet https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "C++",
+    "Shell"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "6de5fd5b34c03c5e",
+   "primaryRole": "systems-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-monsterrr-project-20250924-0413",
+   "name": "monsterrr-project-20250924-0413",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/monsterrr-project-20250924-0413",
+   "url": "https://github.com/ni-sh-a-char/monsterrr-project-20250924-0413",
+   "homepage": null,
+   "description": "Auto-generated project by Monsterrr",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 2778,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 10,
+   "createdAt": "2025-09-24T04:13:11Z",
+   "pushedAt": "2025-09-24T04:13:22Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "devops-engineer"
+   ],
+   "headline": "Auto-generated project by Monsterrr",
+   "what": "monsterrr-project-20250924-0413 Auto-generated project by Monsterrr Tech Stack - Python - FastAPI Features - RESTful API endpoints - Data persistence (in-memory for demo) - Comprehensive test suite - CI/CD pipeline - Documentation Roadmap - Initialize project - Add basic features - Implement tests Installation Usage For FastAPI: For Flask: For basic Python script: API Endpoints - GET / - Welcome message - GET /items/ - Get all items - GET /items/{id} - Get specific item - POST /items/ - Create new item - PUT /items/{id} - Update existing item - DELETE /items/{id} - Delete item Testing Contribu",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "a593c0758b436cc8",
+   "primaryRole": "devops-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-monsterrr-project-20250923-2213",
+   "name": "monsterrr-project-20250923-2213",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/monsterrr-project-20250923-2213",
+   "url": "https://github.com/ni-sh-a-char/monsterrr-project-20250923-2213",
+   "homepage": null,
+   "description": "Auto-generated project by Monsterrr",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 2778,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 10,
+   "createdAt": "2025-09-23T22:13:11Z",
+   "pushedAt": "2025-09-23T22:13:22Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "devops-engineer"
+   ],
+   "headline": "Auto-generated project by Monsterrr",
+   "what": "monsterrr-project-20250923-2213 Auto-generated project by Monsterrr Tech Stack - Python - FastAPI Features - RESTful API endpoints - Data persistence (in-memory for demo) - Comprehensive test suite - CI/CD pipeline - Documentation Roadmap - Initialize project - Add basic features - Implement tests Installation Usage For FastAPI: For Flask: For basic Python script: API Endpoints - GET / - Welcome message - GET /items/ - Get all items - GET /items/{id} - Get specific item - POST /items/ - Create new item - PUT /items/{id} - Update existing item - DELETE /items/{id} - Delete item Testing Contribu",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "ecb918c183d5a06c",
+   "primaryRole": "devops-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-resources",
+   "name": "Resources",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Resources",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Resources",
+   "homepage": null,
+   "description": "A curated list consisting of resources for Computer Science",
+   "topics": [],
+   "languages": [],
+   "primaryLanguage": null,
+   "license": "NOASSERTION",
+   "stars": 0,
+   "forks": 1,
+   "commits": 9,
+   "createdAt": "2023-06-14T12:44:05Z",
+   "pushedAt": "2023-06-19T19:01:21Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "fullstack-developer"
+   ],
+   "headline": "A curated list consisting of resources for Computer Science",
+   "what": "Resources A curated list consisting of resources for Computer Science Resources 🚀 About this Project This project is super simple and begginer friendly to allow everyone to start to contribute to an open source project. For this tutorial you can either do it directly on GitHub or you can use the Command Line.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "99c4664afd796e23",
+   "primaryRole": "fullstack-developer"
+  },
+  {
+   "id": "ni-sh-a-char-youtube-video-automation-system",
+   "name": "YouTube-Video-Automation-System",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/YouTube-Video-Automation-System",
+   "url": "https://github.com/ni-sh-a-char/YouTube-Video-Automation-System",
+   "homepage": null,
+   "description": "A fully automated YouTube video generation and upload system that creates viral coding/tech videos using real-time web sources, AI optimization, and professional video composition.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 113420,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 7,
+   "createdAt": "2025-12-10T17:04:10Z",
+   "pushedAt": "2025-12-11T12:22:37Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "ai-engineer"
+   ],
+   "headline": "A fully automated YouTube video generation and upload system that creates viral coding/tec",
+   "what": "🎬 YouTube Video Automation System Fully Automated YouTube Video Generation & Upload System Generate and upload trending tech videos to YouTube automatically every day at the optimal time for maximum monetization. --- ⚡ Quick Start (30 Minutes) System automatically: - ✅ Generates viral video ideas daily (6 web sources) - ✅ Creates AI-powered scripts (11 scenes, 10 minutes) - ✅ Composes professional videos (images + voice + subtitles) - ✅ Uploads to YouTube at 6 PM UTC (optimal timing) - ✅ Cleans up all temporary files (zero server load) All you do: 1.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "afa885c045561346",
+   "primaryRole": "ai-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-tictactoe",
+   "name": "TicTacToe",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/TicTacToe",
+   "url": "https://github.com/PIYUSH-MISHRA-00/TicTacToe",
+   "homepage": null,
+   "description": "A Tic Tac Toe game ",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Java",
+     "bytes": 6231,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "Java",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 7,
+   "createdAt": "2024-07-04T16:34:49Z",
+   "pushedAt": "2024-07-06T11:55:42Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "mobile-developer"
+   ],
+   "headline": "A Tic Tac Toe game ",
+   "what": "Tic Tac Toe Android App This is a simple Tic Tac Toe game built for Android. The game allows two players to take turns marking the spaces in a 3×3 grid.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Java"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "0ef6470f1bea3235",
+   "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "piyush-mishra-00-bharat-intern",
+   "name": "Bharat-Intern",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Bharat-Intern",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Bharat-Intern",
+   "homepage": null,
+   "description": "Repository to contain all my internship projects with Bharat Intern. The task provided during the internship were as follows :-",
+   "topics": [],
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 16484,
+     "pct": 58.5
+    },
+    {
+     "name": "HTML",
+     "bytes": 6682,
+     "pct": 23.7
+    },
+    {
+     "name": "CSS",
+     "bytes": 5019,
+     "pct": 17.8
+    }
+   ],
+   "primaryLanguage": "JavaScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 7,
+   "createdAt": "2023-10-30T15:48:35Z",
+   "pushedAt": "2024-01-11T01:08:46Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "automation-engineer"
+   ],
+   "headline": "Repository to contain all my internship projects with Bharat Intern. The task provided dur",
+   "what": "Bharat-Intern Repository to contain all my internship projects with Bharat Intern. The task provided during the internship were as follows :- Links to the project :- Blogs Video Conferencing",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "da9e85cb9d4455b1",
+   "primaryRole": "automation-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-codsoft",
+   "name": "CODSOFT",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/CODSOFT",
+   "url": "https://github.com/PIYUSH-MISHRA-00/CODSOFT",
+   "homepage": "https://piyush-mishra-00.github.io/CODSOFT/",
+   "description": "Repository to contain all my internship projects with CodSoft",
+   "topics": [],
+   "languages": [
+    {
+     "name": "HTML",
+     "bytes": 14043,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "HTML",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 7,
+   "createdAt": "2023-10-03T15:14:47Z",
+   "pushedAt": "2023-10-30T15:45:49Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "fullstack-developer"
+   ],
+   "headline": "Repository to contain all my internship projects with CodSoft",
+   "what": "CODSOFT Repository to contain all my internship projects with CodSoft. The task provided during the internship were as follows :- Link to the projects:- Portfolio Calculator Landing Page",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "HTML"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "5abf5154f8b45bd0",
+   "primaryRole": "fullstack-developer"
+  },
+  {
+   "id": "ni-sh-a-char-javacurd",
+   "name": "JavaCURD",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/JavaCURD",
+   "url": "https://github.com/ni-sh-a-char/JavaCURD",
+   "homepage": null,
+   "description": "I have made a program in java to demonstrate CURD operation. The program uses MySQL database to store data which can be set using Xampp. The program resembles a book shop management system where you can enter book name, price and edition to store it and you can find the book in the database as well as you can edit the entries.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Java",
+     "bytes": 9287,
+     "pct": 74.5
+    },
+    {
+     "name": "Shell",
+     "bytes": 3185,
+     "pct": 25.5
+    }
+   ],
+   "primaryLanguage": "Java",
+   "license": "MIT",
+   "stars": 0,
+   "forks": 0,
+   "commits": 7,
+   "createdAt": "2022-01-16T05:39:35Z",
+   "pushedAt": "2023-07-14T20:51:19Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "automation-engineer"
+   ],
+   "headline": "I have made a program in java to demonstrate CURD operation. The program uses MySQL databa",
+   "what": "JavaCRUD JavaCRUD is a Java program that demonstrates CRUD (Create, Read, Update, Delete) operations using MySQL database. It simulates a book shop management system where you can enter book details like name, price, and edition, store them in the database, and perform various operations on the data.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Java",
+    "Shell"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "ec2b9473b9458127",
+   "primaryRole": "automation-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-penn-it",
+   "name": "Penn_It",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Penn_It",
+   "url": "https://github.com/ni-sh-a-char/Penn_It",
+   "homepage": null,
+   "description": "The Notes App. Just Pen It and it will Remember for You",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Kotlin",
+     "bytes": 6894,
+     "pct": 68.4
+    },
+    {
+     "name": "Shell",
+     "bytes": 3185,
+     "pct": 31.6
+    }
+   ],
+   "primaryLanguage": "Kotlin",
+   "license": "MIT",
+   "stars": 0,
+   "forks": 0,
+   "commits": 7,
+   "createdAt": "2021-09-06T12:54:22Z",
+   "pushedAt": "2023-07-14T20:48:42Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "mobile-developer"
+   ],
+   "headline": "The Notes App. Just Pen It and it will Remember for You",
+   "what": "Penn It Penn It is a notes app designed for Android, built using Kotlin. It provides a simple and convenient way to jot down and manage your notes.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Kotlin",
+    "Shell"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "877bf896cbce59e2",
+   "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "ni-sh-a-char-me-is-me",
+   "name": "Me_is_Me",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Me_is_Me",
+   "url": "https://github.com/ni-sh-a-char/Me_is_Me",
+   "homepage": null,
+   "description": "A meme sharing app which uses reddit to fetch the memes.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Kotlin",
+     "bytes": 6661,
+     "pct": 67.7
+    },
+    {
+     "name": "Shell",
+     "bytes": 3185,
+     "pct": 32.3
+    }
+   ],
+   "primaryLanguage": "Kotlin",
+   "license": "MIT",
+   "stars": 0,
+   "forks": 0,
+   "commits": 7,
+   "createdAt": "2022-07-07T08:02:53Z",
+   "pushedAt": "2023-07-14T20:41:57Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "mobile-developer"
+   ],
+   "headline": "A meme sharing app which uses reddit to fetch the memes.",
+   "what": "Me is Me Me is Me is a meme sharing app that uses Reddit to fetch the latest memes. Features - Fetches the latest memes from Reddit.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Kotlin",
+    "Shell"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "d8f6a27753917e81",
+   "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "piyush-mishra-00-conversations-tracker",
+   "name": "Conversations-Tracker",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Conversations-Tracker",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Conversations-Tracker",
+   "homepage": "https://conversations-tracker.onrender.com",
+   "description": "The Super Professional Call Management Platform is a web application designed to help manage and track phone call data efficiently. Built using Streamlit, Pandas, and Plotly, this application allows users to upload an Excel file with phone call data, manage call statuses, add notes, and visualize call statistics through interactive charts.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 5206,
+     "pct": 92.2
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 438,
+     "pct": 7.8
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 6,
+   "createdAt": "2024-09-18T13:42:31Z",
+   "pushedAt": "2024-09-18T17:14:13Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "data-scientist"
+   ],
+   "headline": "The Super Professional Call Management Platform is a web application designed to help mana",
+   "what": "",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python",
+    "Dockerfile"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "d6baf9a603ae298e",
+   "primaryRole": "data-scientist"
+  },
+  {
+   "id": "piyush-mishra-00-placement-prediction",
+   "name": "Placement-Prediction",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Placement-Prediction",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Placement-Prediction",
+   "homepage": "https://placement-prediction-2s70.onrender.com",
+   "description": "This project predicts whether a student will get placed based on their CGPA and IQ using a machine learning model. The project includes a trained model, a Streamlit application for prediction, and is fully containerized using Docker. ",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 1973,
+     "pct": 82.7
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 412,
+     "pct": 17.3
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 6,
+   "createdAt": "2024-09-11T07:15:11Z",
+   "pushedAt": "2024-09-12T14:12:59Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "data-scientist"
+   ],
+   "headline": "This project predicts whether a student will get placed based on their CGPA and IQ using a",
+   "what": "Link to the project : Link Student Placement Predictor This project predicts whether a student will get placed based on their CGPA and IQ using a machine learning model. The project includes a trained model, a Streamlit application for prediction, and is fully containerized using Docker.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python",
+    "Dockerfile"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "a82f75c308251488",
+   "primaryRole": "data-scientist"
+  },
+  {
+   "id": "piyush-mishra-00-breast-cancer-detection",
+   "name": "Breast-Cancer-Detection",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Breast-Cancer-Detection",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Breast-Cancer-Detection",
+   "homepage": "https://breast-cancer-detection-x3ud.onrender.com",
+   "description": null,
+   "topics": [],
+   "languages": [
+    {
+     "name": "Jupyter Notebook",
+     "bytes": 1294007,
+     "pct": 99.6
+    }
+   ],
+   "primaryLanguage": "Jupyter Notebook",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 6,
+   "createdAt": "2024-09-06T18:16:18Z",
+   "pushedAt": "2024-09-11T16:00:04Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "data-scientist"
+   ],
+   "headline": "Breast Cancer Detection App This is a simple web application built using Streamlit that pr",
+   "what": "Breast Cancer Detection App This is a simple web application built using Streamlit that predicts the likelihood of breast cancer based on several medical features. The prediction model is based on a Logistic Regression model trained with the Breast Cancer Wisconsin dataset.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Jupyter Notebook"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "5f029258e68ba929",
+   "primaryRole": "data-scientist"
+  },
+  {
+   "id": "piyush-mishra-00-bmi",
+   "name": "BMI",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/BMI",
+   "url": "https://github.com/PIYUSH-MISHRA-00/BMI",
+   "homepage": null,
+   "description": "An app to calculate the BMI for the inputs given by the user",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Java",
+     "bytes": 4254,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "Java",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 6,
+   "createdAt": "2024-07-04T16:45:54Z",
+   "pushedAt": "2024-07-06T12:05:04Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "mobile-developer"
+   ],
+   "headline": "An app to calculate the BMI for the inputs given by the user",
+   "what": "BMI Calculator App An app to calculate the Body Mass Index (BMI) based on user inputs. Features - Takes user inputs for weight (in kilograms) and height (in meters or centimeters).",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Java"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "3cb007c41bcf6c10",
+   "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "piyush-mishra-00-dart-learning",
+   "name": "Dart-Learning",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Dart-Learning",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Dart-Learning",
+   "homepage": null,
+   "description": "These are the source codes I used while learning Dart.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Dart",
+     "bytes": 8962,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "Dart",
+   "license": "MIT",
+   "stars": 0,
+   "forks": 0,
+   "commits": 5,
+   "createdAt": "2022-05-24T07:02:05Z",
+   "pushedAt": "2022-05-24T08:30:28Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "mobile-developer"
+   ],
+   "headline": "These are the source codes I used while learning Dart.",
+   "what": "Dart-Learning These are the source codes I used while learning Dart.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Dart"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "ca6cc6ab702351e9",
+   "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "piyush-mishra-00-movie-recommendations-system",
+   "name": "Movie-Recommendations-System",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Movie-Recommendations-System",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Movie-Recommendations-System",
+   "homepage": "https://movie-recommendations-system-g4at.onrender.com",
+   "description": "This is a Movie Recommender System built using Streamlit, pandas, and scikit-learn. It recommends similar movies based on cosine similarity of movie features like genre, cast, and overview.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Jupyter Notebook",
+     "bytes": 106406,
+     "pct": 96.8
+    },
+    {
+     "name": "Python",
+     "bytes": 2723,
+     "pct": 2.5
+    }
+   ],
+   "primaryLanguage": "Jupyter Notebook",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 4,
+   "createdAt": "2024-09-15T13:15:43Z",
+   "pushedAt": "2024-09-15T13:49:31Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "data-scientist"
+   ],
+   "headline": "This is a Movie Recommender System built using Streamlit, pandas, and scikit-learn. It rec",
+   "what": "Link to the project : Link Movie Recommender System This is a Movie Recommender System built using Streamlit, pandas, and scikit-learn. The system recommends movies based on cosine similarity of movie features such as genres, cast, overview, and more.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Jupyter Notebook",
+    "Python"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "119d3233c31641d5",
+   "primaryRole": "data-scientist"
+  },
+  {
+   "id": "ni-sh-a-char-birthdaygreet",
+   "name": "BirthdayGreet",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/BirthdayGreet",
+   "url": "https://github.com/ni-sh-a-char/BirthdayGreet",
+   "homepage": null,
+   "description": "A Simple Birthday Greeting App to generate Birthday Greeting.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Kotlin",
+     "bytes": 3393,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "Kotlin",
+   "license": "MIT",
+   "stars": 0,
+   "forks": 0,
+   "commits": 4,
+   "createdAt": "2022-07-07T11:02:28Z",
+   "pushedAt": "2022-07-07T11:10:08Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "mobile-developer"
+   ],
+   "headline": "A Simple Birthday Greeting App to generate Birthday Greeting.",
+   "what": "BirthdayGreet A Simple Birthday Greeting App to generate Birthday Greeting.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Kotlin"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "8288dbb1998ac2be",
+   "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "piyush-mishra-00-tlt-portal-professional-profile-management",
+   "name": "TLT-Portal-Professional-Profile-Management",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/TLT-Portal-Professional-Profile-Management",
+   "url": "https://github.com/PIYUSH-MISHRA-00/TLT-Portal-Professional-Profile-Management",
+   "homepage": "https://piyush-mishra-00.github.io/TLT-Portal-Professional-Profile-Management/",
+   "description": "This is the static HTML/CSS implementation of the \"Create Your Profile\" page as required by the TLT assessment.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "HTML",
+     "bytes": 9987,
+     "pct": 56.9
+    },
+    {
+     "name": "CSS",
+     "bytes": 7553,
+     "pct": 43.1
+    }
+   ],
+   "primaryLanguage": "HTML",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 3,
+   "createdAt": "2025-10-16T07:15:10Z",
+   "pushedAt": "2025-10-16T08:39:25Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "mobile-developer"
+   ],
+   "headline": "This is the static HTML/CSS implementation of the \"Create Your Profile\" page as required b",
+   "what": "TLT Profile Page - Static HTML/CSS Version This is the static HTML/CSS implementation of the \"Create Your Profile\" page as required by the TLT assessment. Fully Responsive Design - Desktop view - Mobile view - No horizontal scrolling on mobile 2.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "HTML",
+    "CSS"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "9836dde4f13c7d1b",
+   "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "piyush-mishra-00-subscription-billing-backend",
+   "name": "Subscription-Billing-Backend",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Subscription-Billing-Backend",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Subscription-Billing-Backend",
+   "homepage": null,
+   "description": "A basic subscription billing backend supporting user sign-up, plan subscription, automatic invoice generation using Celery, and simple billing lifecycle tracking.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 19910,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 3,
+   "createdAt": "2025-05-19T14:10:42Z",
+   "pushedAt": "2025-05-19T14:25:03Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "automation-engineer"
+   ],
+   "headline": "A basic subscription billing backend supporting user sign-up, plan subscription, automatic",
+   "what": "Subscription Billing Backend 📌 Objective A basic subscription billing backend supporting user sign-up, plan subscription, automatic invoice generation using Celery, and simple billing lifecycle tracking. 🛠️ Features - Models: User, Plan, Subscription, Invoice - Celery Tasks: - Generate monthly invoices for active subscriptions - Mark unpaid invoices as overdue - Send reminders for unpaid invoices (console print/mock) - APIs: - User subscribe/unsubscribe to plans - View invoices and payment status - Pay invoices using Stripe - Predefined Plans: Basic, Pro, Enterprise - Admin Panel: Manage use",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "3107f3ef291990ad",
+   "primaryRole": "automation-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-personal-finance-tracker",
+   "name": "Personal-Finance-Tracker",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Personal-Finance-Tracker",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Personal-Finance-Tracker",
+   "homepage": "https://personal-finance-tracker-ten-blue.vercel.app/",
+   "description": "A comprehensive web application for managing personal finances, tracking expenses, and monitoring budgets.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 184655,
+     "pct": 97.7
+    },
+    {
+     "name": "CSS",
+     "bytes": 2840,
+     "pct": 1.5
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 3,
+   "createdAt": "2025-02-16T16:24:28Z",
+   "pushedAt": "2025-02-16T16:42:34Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "automation-engineer"
+   ],
+   "headline": "A comprehensive web application for managing personal finances, tracking expenses, and mon",
+   "what": "Personal Finance Tracker A comprehensive web application for managing personal finances, tracking expenses, and monitoring budgets. Features Transaction Management - Add and delete transactions with amount, date, and description - View transactions in a sortable list - Form validation for all inputs - Real-time transaction updates Category Organization - Predefined spending categories: - Food - Transport - Housing - Entertainment - Shopping - Healthcare - Education - Utilities - Others - Category-wise expense tracking - Visual breakdown of spending by category Budgeting Tools - Set and manage ",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "TypeScript",
+    "CSS"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "b458730605cb4978",
+   "primaryRole": "automation-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-ruby",
+   "name": "Ruby",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Ruby",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Ruby",
+   "homepage": null,
+   "description": "Assessment for the Ruby",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Ruby",
+     "bytes": 45980,
+     "pct": 68.5
+    },
+    {
+     "name": "HTML",
+     "bytes": 17098,
+     "pct": 25.5
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 1823,
+     "pct": 2.7
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 832,
+     "pct": 1.2
+    },
+    {
+     "name": "CSS",
+     "bytes": 721,
+     "pct": 1.1
+    },
+    {
+     "name": "Shell",
+     "bytes": 686,
+     "pct": 1
+    }
+   ],
+   "primaryLanguage": "Ruby",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 3,
+   "createdAt": "2024-10-03T09:12:16Z",
+   "pushedAt": "2025-01-01T04:20:53Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "devops-engineer"
+   ],
+   "headline": "Assessment for the Ruby",
+   "what": "README This README would normally document whatever steps are necessary to get the application up and running. Things you may want to cover: Ruby version System dependencies Configuration Database creation Database initialization How to run the test suite Services (job queues, cache servers, search engines, etc.) Deployment instructions ...",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Ruby",
+    "HTML",
+    "JavaScript",
+    "Dockerfile",
+    "CSS",
+    "Shell"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "c8d8f85f6a4588e4",
+   "primaryRole": "devops-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-hello-world-app",
+   "name": "hello-world-app",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/hello-world-app",
+   "url": "https://github.com/PIYUSH-MISHRA-00/hello-world-app",
+   "homepage": "https://hello-world-app-bawa.onrender.com",
+   "description": "Dockerized application where the code change reflect in realtime",
+   "topics": [],
+   "languages": [
+    {
+     "name": "HTML",
+     "bytes": 1721,
+     "pct": 36.7
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 1608,
+     "pct": 34.3
+    },
+    {
+     "name": "CSS",
+     "bytes": 930,
+     "pct": 19.8
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 431,
+     "pct": 9.2
+    }
+   ],
+   "primaryLanguage": "HTML",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 3,
+   "createdAt": "2024-07-28T13:26:22Z",
+   "pushedAt": "2024-10-28T10:02:47Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "devops-engineer"
+   ],
+   "headline": "Dockerized application where the code change reflect in realtime",
+   "what": "Hello World React App with Docker and Render This project is a simple \"Hello World\" React application that is containerized using Docker and deployed using Render. It demonstrates how to integrate Docker, GitHub Actions, and Render for continuous deployment.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "HTML",
+    "JavaScript",
+    "CSS",
+    "Dockerfile"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "db9ff275749d6327",
+   "primaryRole": "devops-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-lets-upgrade-react-assignment",
+   "name": "Lets-Upgrade-React-Assignment",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Lets-Upgrade-React-Assignment",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Lets-Upgrade-React-Assignment",
+   "homepage": null,
+   "description": "A repository for learning React from Lets Upgrade",
+   "topics": [],
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 1919,
+     "pct": 38.3
+    },
+    {
+     "name": "HTML",
+     "bytes": 1721,
+     "pct": 34.3
+    },
+    {
+     "name": "CSS",
+     "bytes": 1376,
+     "pct": 27.4
+    }
+   ],
+   "primaryLanguage": "JavaScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 3,
+   "createdAt": "2024-03-04T05:01:42Z",
+   "pushedAt": "2024-05-02T17:41:46Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "automation-engineer"
+   ],
+   "headline": "A repository for learning React from Lets Upgrade",
+   "what": "Lets-Upgrade-React-Assignment A repository for learning React from Lets Upgrade",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "fa0a543a88def994",
+   "primaryRole": "automation-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-ecommerce",
+   "name": "Ecommerce",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Ecommerce",
+   "url": "https://github.com/ni-sh-a-char/Ecommerce",
+   "homepage": null,
+   "description": "A dummy ecommerce website.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "HTML",
+     "bytes": 161463,
+     "pct": 96.4
+    },
+    {
+     "name": "Shell",
+     "bytes": 3185,
+     "pct": 1.9
+    },
+    {
+     "name": "CSS",
+     "bytes": 2795,
+     "pct": 1.7
+    }
+   ],
+   "primaryLanguage": "HTML",
+   "license": "MIT",
+   "stars": 0,
+   "forks": 0,
+   "commits": 3,
+   "createdAt": "2022-07-08T07:09:48Z",
+   "pushedAt": "2022-08-19T19:03:17Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "automation-engineer"
+   ],
+   "headline": "A dummy ecommerce website.",
+   "what": "Ecommerce A dummy ecommerce website.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "HTML",
+    "Shell",
+    "CSS"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "41b48c34ff55f656",
+   "primaryRole": "automation-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-gitapp",
+   "name": "Gitapp",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Gitapp",
+   "url": "https://github.com/ni-sh-a-char/Gitapp",
+   "homepage": null,
+   "description": "A github app to view user and add them as favorite.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Kotlin",
+     "bytes": 42314,
+     "pct": 93
+    },
+    {
+     "name": "Shell",
+     "bytes": 3185,
+     "pct": 7
+    }
+   ],
+   "primaryLanguage": "Kotlin",
+   "license": "MIT",
+   "stars": 0,
+   "forks": 0,
+   "commits": 3,
+   "createdAt": "2022-02-03T16:38:19Z",
+   "pushedAt": "2022-08-19T19:00:27Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "mobile-developer"
+   ],
+   "headline": "A github app to view user and add them as favorite.",
+   "what": "",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Kotlin",
+    "Shell"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "75d4f061ce0d7f9e",
+   "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "ni-sh-a-char-ui-dashboard",
+   "name": "UI_Dashboard",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/UI_Dashboard",
+   "url": "https://github.com/ni-sh-a-char/UI_Dashboard",
+   "homepage": null,
+   "description": "A simple UI dashboard using android studio.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Java",
+     "bytes": 1480,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "Java",
+   "license": "MIT",
+   "stars": 0,
+   "forks": 0,
+   "commits": 3,
+   "createdAt": "2022-03-19T16:55:02Z",
+   "pushedAt": "2022-03-19T17:00:08Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "mobile-developer"
+   ],
+   "headline": "A simple UI dashboard using android studio.",
+   "what": "UI Dashboard A simple UI dashboard using android studio.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Java"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "26e2d04d0b7e6180",
+   "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "piyush-mishra-00-ai-based-proposal-evaluation-assistant",
+   "name": "AI-Based-Proposal-Evaluation-Assistant",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/AI-Based-Proposal-Evaluation-Assistant",
+   "url": "https://github.com/PIYUSH-MISHRA-00/AI-Based-Proposal-Evaluation-Assistant",
+   "homepage": null,
+   "description": "This project is an interactive Streamlit app designed to evaluate and rank PDF proposal documents. It extracts key sections from proposals, scores them using heuristic methods or optionally with Google Gemini API for advanced scoring, and displays ranked results with downloadable reports.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 20731,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 2,
+   "createdAt": "2025-07-09T18:24:44Z",
+   "pushedAt": "2025-07-09T18:33:45Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "This project is an interactive Streamlit app designed to evaluate and rank PDF proposal do",
+   "what": "AI-Based Proposal Evaluation Assistant Project Overview This project is an interactive Streamlit app designed to evaluate and rank PDF proposal documents. It extracts key sections from proposals, scores them using heuristic methods or optionally with Google Gemini API for advanced scoring, and displays ranked results with downloadable reports.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "17caa43e46d03c18",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-binance-trade-data-analysis",
+   "name": "Binance-Trade-Data-Analysis",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Binance-Trade-Data-Analysis",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Binance-Trade-Data-Analysis",
+   "homepage": null,
+   "description": "This project analyzes Binance trade data to evaluate account performance based on key financial metrics. The dataset (TRADES_CopyTr_90D_ROI.csv) contains account identifiers (Port_IDs) and trade history stored as JSON-like strings. The analysis extracts, cleans, and processes this data to generate performance insights and rankings.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 7621,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 2,
+   "createdAt": "2025-03-02T11:38:49Z",
+   "pushedAt": "2025-03-02T11:46:42Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "data-scientist"
+   ],
+   "headline": "This project analyzes Binance trade data to evaluate account performance based on key fina",
+   "what": "📊 Binance Trade Data Analysis ============================== 📌 Overview ----------- This project analyzes Binance trade data to evaluate account performance based on key financial metrics. The dataset ( TRADES CopyTr 90D ROI.csv ) contains account identifiers ( Port IDs ) and trade history stored as JSON-like strings.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "de623a1232098b5b",
+   "primaryRole": "data-scientist"
+  },
+  {
+   "id": "piyush-mishra-00-itzfizz-task",
+   "name": "ItzFizz-Task",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/ItzFizz-Task",
+   "url": "https://github.com/PIYUSH-MISHRA-00/ItzFizz-Task",
+   "homepage": "https://piyush-mishra-00.github.io/ItzFizz-Task/",
+   "description": "Task for ItzFizz",
+   "topics": [],
+   "languages": [
+    {
+     "name": "HTML",
+     "bytes": 4351,
+     "pct": 46.7
+    },
+    {
+     "name": "CSS",
+     "bytes": 2756,
+     "pct": 29.6
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 2201,
+     "pct": 23.6
+    }
+   ],
+   "primaryLanguage": "HTML",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 2,
+   "createdAt": "2025-02-16T17:47:09Z",
+   "pushedAt": "2025-02-16T17:59:57Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "automation-engineer"
+   ],
+   "headline": "Task for ItzFizz",
+   "what": "",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "c6480b1cac6e69cd",
+   "primaryRole": "automation-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-financial-dashboard",
+   "name": "financial-dashboard",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/financial-dashboard",
+   "url": "https://github.com/PIYUSH-MISHRA-00/financial-dashboard",
+   "homepage": null,
+   "description": "This project is a real-time financial transaction dashboard built with React.js for the frontend and Node.js for the backend. It displays transaction data, provides summary metrics, and includes real-time updates.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 25689,
+     "pct": 78.5
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 5930,
+     "pct": 18.1
+    },
+    {
+     "name": "HTML",
+     "bytes": 655,
+     "pct": 2
+    },
+    {
+     "name": "CSS",
+     "bytes": 461,
+     "pct": 1.4
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 2,
+   "createdAt": "2024-10-27T07:30:20Z",
+   "pushedAt": "2025-01-16T17:40:26Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "This project is a real-time financial transaction dashboard built with React.js for the fr",
+   "what": "Real-Time Financial Transaction Dashboard This project is a real-time financial transaction dashboard built with React.js for the frontend and Node.js for the backend. It displays transaction data, provides summary metrics, and includes real-time updates.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "TypeScript",
+    "JavaScript",
+    "HTML",
+    "CSS"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "a93606b174ed3c3e",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-web-crawl-hopper",
+   "name": "web-crawl-hopper",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/web-crawl-hopper",
+   "url": "https://github.com/PIYUSH-MISHRA-00/web-crawl-hopper",
+   "homepage": null,
+   "description": "A sophisticated web crawler with a real-time interactive dashboard, built using Node.js, Express, and Socket.IO. This project features a modern web interface for controlling and monitoring the crawling process, with support for depth-limited crawling, rate limiting, and intelligent URL parsing.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "HTML",
+     "bytes": 13127,
+     "pct": 57.8
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 9431,
+     "pct": 41.5
+    }
+   ],
+   "primaryLanguage": "HTML",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 2,
+   "createdAt": "2025-01-14T12:47:51Z",
+   "pushedAt": "2025-01-14T12:50:13Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "ai-engineer"
+   ],
+   "headline": "A sophisticated web crawler with a real-time interactive dashboard, built using Node.js, E",
+   "what": "Web Crawl Hopper 🕷️ A sophisticated web crawler with a real-time interactive dashboard, built using Node.js, Express, and Socket.IO. This project features a modern web interface for controlling and monitoring the crawling process, with support for depth-limited crawling, rate limiting, and intelligent URL parsing.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "HTML",
+    "JavaScript"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "55776afe5077cea0",
+   "primaryRole": "ai-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-inventory-management-system",
+   "name": "Inventory-Management-System",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Inventory-Management-System",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Inventory-Management-System",
+   "homepage": null,
+   "description": "A comprehensive inventory management system built with Django and MongoDB. This application allows users to manage products, suppliers, stock movements, and sales orders efficiently.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "HTML",
+     "bytes": 13178,
+     "pct": 54.2
+    },
+    {
+     "name": "Python",
+     "bytes": 11127,
+     "pct": 45.8
+    }
+   ],
+   "primaryLanguage": "HTML",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 2,
+   "createdAt": "2025-01-06T13:28:25Z",
+   "pushedAt": "2025-01-06T14:19:41Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "backend-engineer"
+   ],
+   "headline": "A comprehensive inventory management system built with Django and MongoDB. This applicatio",
+   "what": "Inventory Management System A comprehensive inventory management system built with Django and MongoDB. This application allows users to manage products, suppliers, stock movements, and sales orders efficiently.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "HTML",
+    "Python"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "b76be662c23f35be",
+   "primaryRole": "backend-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-healtether",
+   "name": "HealTether",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/HealTether",
+   "url": "https://github.com/PIYUSH-MISHRA-00/HealTether",
+   "homepage": null,
+   "description": "The assignment task for HealTether",
+   "topics": [],
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 8665,
+     "pct": 86.8
+    },
+    {
+     "name": "CSS",
+     "bytes": 1094,
+     "pct": 11
+    },
+    {
+     "name": "HTML",
+     "bytes": 220,
+     "pct": 2.2
+    }
+   ],
+   "primaryLanguage": "JavaScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 2,
+   "createdAt": "2024-09-18T12:15:46Z",
+   "pushedAt": "2024-12-16T17:26:27Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "The assignment task for HealTether",
+   "what": "HealTether Project Overview This project consists of a web application built with React and Redux for handling user authentication and state management. The application includes a login and registration system, which is demonstrated in Task 1, and utilizes Redux for state management as demonstrated in Task 2.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "JavaScript",
+    "CSS",
+    "HTML"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "3b83c495a0a9019a",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-kdm-single-page-website",
+   "name": "kdm-single-page-website",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/kdm-single-page-website",
+   "url": "https://github.com/PIYUSH-MISHRA-00/kdm-single-page-website",
+   "homepage": "https://piyush-mishra-00.github.io/kdm-single-page-website/",
+   "description": "This project is a responsive single-page website built for KDM Property Consultancy, showcasing a real estate property.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "HTML",
+     "bytes": 2952,
+     "pct": 60.4
+    },
+    {
+     "name": "CSS",
+     "bytes": 1336,
+     "pct": 27.3
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 599,
+     "pct": 12.3
+    }
+   ],
+   "primaryLanguage": "HTML",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 2,
+   "createdAt": "2024-10-26T15:04:54Z",
+   "pushedAt": "2024-10-26T16:07:15Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "automation-engineer"
+   ],
+   "headline": "This project is a responsive single-page website built for KDM Property Consultancy, showc",
+   "what": "",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "08b58d7eb5da1c68",
+   "primaryRole": "automation-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-weather-app",
+   "name": "weather_app",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/weather_app",
+   "url": "https://github.com/PIYUSH-MISHRA-00/weather_app",
+   "homepage": null,
+   "description": "A simple Flutter weather application that fetches and displays weather data for a given city using the OpenWeatherMap API.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "C++",
+     "bytes": 24670,
+     "pct": 43.1
+    },
+    {
+     "name": "CMake",
+     "bytes": 19939,
+     "pct": 34.8
+    },
+    {
+     "name": "Dart",
+     "bytes": 7039,
+     "pct": 12.3
+    },
+    {
+     "name": "Swift",
+     "bytes": 2034,
+     "pct": 3.6
+    },
+    {
+     "name": "HTML",
+     "bytes": 1908,
+     "pct": 3.3
+    },
+    {
+     "name": "C",
+     "bytes": 1459,
+     "pct": 2.5
+    }
+   ],
+   "primaryLanguage": "C++",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 2,
+   "createdAt": "2024-09-17T08:28:35Z",
+   "pushedAt": "2024-09-17T08:29:46Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "systems-engineer"
+   ],
+   "headline": "A simple Flutter weather application that fetches and displays weather data for a given ci",
+   "what": "Weather App A simple Flutter weather application that fetches and displays weather data for a given city using the OpenWeatherMap API. Features - Displays current temperature, weather condition, humidity, and wind speed.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "C++",
+    "CMake",
+    "Dart",
+    "Swift",
+    "HTML",
+    "C"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "8add927eabcbe046",
+   "primaryRole": "systems-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-joker",
+   "name": "Joker",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Joker",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Joker",
+   "homepage": null,
+   "description": "DevProjects - Joke telling bot mobile app - Joker",
+   "topics": [],
+   "languages": [
+    {
+     "name": "C++",
+     "bytes": 23182,
+     "pct": 43.8
+    },
+    {
+     "name": "CMake",
+     "bytes": 19418,
+     "pct": 36.7
+    },
+    {
+     "name": "Dart",
+     "bytes": 5127,
+     "pct": 9.7
+    },
+    {
+     "name": "HTML",
+     "bytes": 1837,
+     "pct": 3.5
+    },
+    {
+     "name": "Swift",
+     "bytes": 1832,
+     "pct": 3.5
+    },
+    {
+     "name": "C",
+     "bytes": 1425,
+     "pct": 2.7
+    }
+   ],
+   "primaryLanguage": "C++",
+   "license": "MIT",
+   "stars": 0,
+   "forks": 0,
+   "commits": 2,
+   "createdAt": "2024-01-20T15:18:18Z",
+   "pushedAt": "2024-02-02T15:46:46Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "systems-engineer"
+   ],
+   "headline": "DevProjects - Joke telling bot mobile app - Joker",
+   "what": "DevProjects - Joke telling bot mobile app - Joker This is an open source project from DevProjects. Feedback and questions are welcome!",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "C++",
+    "CMake",
+    "Dart",
+    "HTML",
+    "Swift",
+    "C"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "394c4f9861c31990",
+   "primaryRole": "systems-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-kaalchat",
+   "name": "KaalChat",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/KaalChat",
+   "url": "https://github.com/PIYUSH-MISHRA-00/KaalChat",
+   "homepage": null,
+   "description": "Secure WhatsApp-style messenger with dual-layer Kaalka-only encryption",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 103745,
+     "pct": 60.9
+    },
+    {
+     "name": "C++",
+     "bytes": 23766,
+     "pct": 13.9
+    },
+    {
+     "name": "Dart",
+     "bytes": 19950,
+     "pct": 11.7
+    },
+    {
+     "name": "CMake",
+     "bytes": 18235,
+     "pct": 10.7
+    },
+    {
+     "name": "Swift",
+     "bytes": 1665,
+     "pct": 1
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": "NOASSERTION",
+   "stars": 0,
+   "forks": 0,
+   "commits": 1,
+   "createdAt": "2025-09-07T06:11:27Z",
+   "pushedAt": "2026-04-21T18:19:32Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "Secure WhatsApp-style messenger with dual-layer Kaalka-only encryption",
+   "what": "KaalChat v1.0.0 🔐 India's First Messaging App with Indigenous Kaalka Encryption Secure WhatsApp-style messenger with dual-layer Kaalka-only encryption --- 🌟 Revolutionary Security Innovation 🇮🇳 🔐 WORLD'S FIRST DUAL-LAYER KAALKA SECURITY ARCHITECTURE 🔐 🇮🇳 The Most Advanced Indigenous Encryption Implementation Ever Deployed 🏆 CRYPTOGRAPHIC SOVEREIGNTY ACHIEVED 🏆 --- 🎆 THE BREAKTHROUGH: DUAL-LAYER INDIGENOUS SECURITY KaalChat introduces the world's most advanced cryptographic innovation - the first ever dual-layer Kaalka security architecture that revolutionizes messaging security: 🇮\ud83c",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python",
+    "C++",
+    "Dart",
+    "CMake",
+    "Swift"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "3a3552a0a8ac8d8f",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-kml-visualizer-pro",
+   "name": "kml-visualizer-pro",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/kml-visualizer-pro",
+   "url": "https://github.com/PIYUSH-MISHRA-00/kml-visualizer-pro",
+   "homepage": null,
+   "description": "This project visualizes KML data on an interactive Leaflet map built with React.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 192192,
+     "pct": 97.4
+    },
+    {
+     "name": "CSS",
+     "bytes": 3723,
+     "pct": 1.9
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 1,
+   "createdAt": "2025-03-10T04:29:11Z",
+   "pushedAt": "2026-01-23T15:49:57Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "automation-engineer"
+   ],
+   "headline": "This project visualizes KML data on an interactive Leaflet map built with React.",
+   "what": "KML Visualizer This project visualizes KML data on an interactive Leaflet map built with React. Features - Interactive map display using Leaflet - Visualization of KML points, line strings, and polygons - Detailed sidebar with map elements information Setup 1.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "TypeScript",
+    "CSS"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "b2959260a2681be3",
+   "primaryRole": "automation-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-multi-project-repository-financial-advice-health-alerts-and-learning-advice",
+   "name": "Multi-Project-Repository-Financial-Advice-Health-Alerts-and-Learning-Advice",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Multi-Project-Repository-Financial-Advice-Health-Alerts-and-Learning-Advice",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Multi-Project-Repository-Financial-Advice-Health-Alerts-and-Learning-Advice",
+   "homepage": null,
+   "description": "This repository contains three separate Python-based AI recommendation and alert systems, each with its own focus and functionality. Each project includes command-line interfaces, Streamlit web apps, and sample input/output data.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 42534,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 1,
+   "createdAt": "2025-07-07T13:36:27Z",
+   "pushedAt": "2025-07-07T14:31:25Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "ai-engineer"
+   ],
+   "headline": "This repository contains three separate Python-based AI recommendation and alert systems, ",
+   "what": "Multi-Project Repository: Financial Advice, Health Alerts, and Learning Advice This repository contains three separate Python-based AI recommendation and alert systems, each with its own focus and functionality. Each project includes command-line interfaces, Streamlit web apps, and sample input/output data.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "c4e5bcf0c5569860",
+   "primaryRole": "ai-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-airline-market-demand-web-app",
+   "name": "Airline-Market-Demand-Web-App",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Airline-Market-Demand-Web-App",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Airline-Market-Demand-Web-App",
+   "homepage": null,
+   "description": "This is a Flask-based web application that provides insights into airline market demand trends, pricing changes, and popular routes. It fetches live flight data from the OpenSky Network API and processes this data using the Gemini API to generate professional, user-focused insights.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 11043,
+     "pct": 73.3
+    },
+    {
+     "name": "HTML",
+     "bytes": 3583,
+     "pct": 23.8
+    },
+    {
+     "name": "CSS",
+     "bytes": 430,
+     "pct": 2.9
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 1,
+   "createdAt": "2025-07-03T11:14:17Z",
+   "pushedAt": "2025-07-03T11:15:38Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "ai-engineer"
+   ],
+   "headline": "This is a Flask-based web application that provides insights into airline market demand tr",
+   "what": "Airline Market Demand Web App Overview This is a Flask-based web application that provides insights into airline market demand trends, pricing changes, and popular routes. It fetches live flight data from the OpenSky Network API and processes this data using the Gemini API to generate professional, user-focused insights.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python",
+    "HTML",
+    "CSS"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "be62e94dd54237f5",
+   "primaryRole": "ai-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-aem-developer-assignment",
+   "name": "AEM-Developer-Assignment",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/AEM-Developer-Assignment",
+   "url": "https://github.com/PIYUSH-MISHRA-00/AEM-Developer-Assignment",
+   "homepage": null,
+   "description": "AdvancedBlogList is a dynamic, feature-rich AEM component for displaying, filtering, and interacting with blog posts. It supports pagination, sorting, search, and related posts, and is built with best practices for accessibility and responsiveness.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Java",
+     "bytes": 8507,
+     "pct": 69.8
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 1987,
+     "pct": 16.3
+    },
+    {
+     "name": "HTML",
+     "bytes": 910,
+     "pct": 7.5
+    },
+    {
+     "name": "CSS",
+     "bytes": 784,
+     "pct": 6.4
+    }
+   ],
+   "primaryLanguage": "Java",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 1,
+   "createdAt": "2025-04-28T16:00:17Z",
+   "pushedAt": "2025-04-28T16:03:16Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "AdvancedBlogList is a dynamic, feature-rich AEM component for displaying, filtering, and i",
+   "what": "AdvancedBlogList AEM Component Overview AdvancedBlogList is a dynamic, feature-rich AEM component for displaying, filtering, and interacting with blog posts. It supports pagination, sorting, search, and related posts, and is built with best practices for accessibility and responsiveness.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Java",
+    "JavaScript",
+    "HTML",
+    "CSS"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "391c94cdb4d9cb74",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-hotel-management-system",
+   "name": "Hotel-Management-System",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Hotel-Management-System",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Hotel-Management-System",
+   "homepage": null,
+   "description": "The Hotel Management System is a web-based application built using Flask to streamline hotel operations. It allows administrators to manage room details and users to book rooms, view bookings, and cancel them. The system ensures a smooth workflow for both administrators and customers.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 6412,
+     "pct": 56.5
+    },
+    {
+     "name": "HTML",
+     "bytes": 4944,
+     "pct": 43.5
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 1,
+   "createdAt": "2025-04-10T07:37:01Z",
+   "pushedAt": "2025-04-10T07:47:47Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "The Hotel Management System is a web-based application built using Flask to streamline hot",
+   "what": "Hotel Management System Overview The Hotel Management System is a web-based application built using Flask to streamline hotel operations. It allows administrators to manage room details and users to book rooms, view bookings, and cancel them.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python",
+    "HTML"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "7bd770328506e422",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-media-transcriber",
+   "name": "media-transcriber",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/media-transcriber",
+   "url": "https://github.com/PIYUSH-MISHRA-00/media-transcriber",
+   "homepage": "https://youtu.be/EuvIOtLu2CU",
+   "description": "A Python-based tool that extracts and transcribes audio from media files using MoviePy and OpenAI's Whisper.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 3306,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 1,
+   "createdAt": "2025-02-21T03:41:50Z",
+   "pushedAt": "2025-02-21T04:39:18Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "automation-engineer"
+   ],
+   "headline": "A Python-based tool that extracts and transcribes audio from media files using MoviePy and",
+   "what": "🎤 Media Transcriber ==================== A Python-based tool that extracts and transcribes audio from media files using MoviePy and OpenAI's Whisper . 📌 Features ----------- ✅ Supports MP3 , WAV , MP4 , MKV , FLAC , OGG ✅ Extracts audio from video files before transcription ✅ Uses Whisper for accurate speech-to-text conversion ✅ Saves transcriptions in .txt and transcriptions.json ✅ Fully automated processing 🚀 Installation & Setup ----------------------- 1️⃣ Clone the Repository 2️⃣ Set Up a Virtual Environment or 3️⃣ Install Dependencies pip install -r requirements.txt Note: Ensure ffmpeg",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Python"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "64e90d81edcfd289",
+   "primaryRole": "automation-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-movie-review-system",
+   "name": "movie-review-system",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/movie-review-system",
+   "url": "https://github.com/PIYUSH-MISHRA-00/movie-review-system",
+   "homepage": null,
+   "description": "A movie review system made using Java and Spring Boot",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Java",
+     "bytes": 7129,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "Java",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 1,
+   "createdAt": "2025-02-16T11:40:02Z",
+   "pushedAt": "2025-02-16T11:43:09Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "fullstack-developer"
+   ],
+   "headline": "A movie review system made using Java and Spring Boot",
+   "what": "",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "Java"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "856bdd7d796adf73",
+   "primaryRole": "fullstack-developer"
+  },
+  {
+   "id": "piyush-mishra-00-oauth2-client-library-and-demo-application",
+   "name": "OAuth2-Client-Library-and-Demo-Application",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/OAuth2-Client-Library-and-Demo-Application",
+   "url": "https://github.com/PIYUSH-MISHRA-00/OAuth2-Client-Library-and-Demo-Application",
+   "homepage": null,
+   "description": "A professional, type-safe OAuth2 client library implementation with a Next.js demo application. This project provides a flexible OAuth2 client that works with multiple providers and includes a beautiful demo application showcasing the authentication flow.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 146187,
+     "pct": 95.2
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 5369,
+     "pct": 3.5
+    },
+    {
+     "name": "CSS",
+     "bytes": 1940,
+     "pct": 1.3
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 1,
+   "createdAt": "2024-12-14T07:50:03Z",
+   "pushedAt": "2024-12-18T09:36:53Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "A professional, type-safe OAuth2 client library implementation with a Next.js demo applica",
+   "what": "OAuth2 Client Library and Demo Application A professional, type-safe OAuth2 client library implementation with a Next.js demo application. This project provides a flexible OAuth2 client that works with multiple providers and includes a beautiful demo application showcasing the authentication flow.",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [
+    "TypeScript",
+    "JavaScript",
+    "CSS"
+   ],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "a5cb61aa257f1fee",
+   "primaryRole": "security-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-ecommerce-inventory",
+   "name": "ecommerce_inventory",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/ecommerce_inventory",
+   "url": "https://github.com/PIYUSH-MISHRA-00/ecommerce_inventory",
+   "homepage": null,
+   "description": "E-commerce Inventory Management System",
+   "topics": [],
+   "languages": [],
+   "primaryLanguage": null,
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 1,
+   "createdAt": "2024-06-29T17:36:10Z",
+   "pushedAt": "2024-06-29T17:42:26Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "fullstack-developer"
+   ],
+   "headline": "E-commerce Inventory Management System",
+   "what": "ecommerce inventory E-commerce Inventory Management System",
+   "why": "",
+   "impact": "",
+   "highlights": [],
+   "tech": [],
+   "signal": "minor",
+   "enrichedBy": "readme",
+   "contentHash": "05330e102cc1ddda",
+   "primaryRole": "fullstack-developer"
+  }
+ ]
+}
