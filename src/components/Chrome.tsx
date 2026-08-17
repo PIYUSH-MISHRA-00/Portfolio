@@ -162,6 +162,10 @@ function Palette({ open, onClose }: { open: boolean; onClose: () => void }) {
             placeholder={`Search ${featured.length + archive.length} projects, roles, links…`}
             className="w-full bg-transparent py-4 text-base outline-none placeholder:text-faint"
             aria-label="Search"
+            role="combobox"
+            aria-expanded="true"
+            aria-controls="palette-results"
+            aria-activedescendant={results[cursor] ? `palette-opt-${cursor}` : undefined}
             autoComplete="off"
             spellCheck={false}
           />
@@ -170,13 +174,14 @@ function Palette({ open, onClose }: { open: boolean; onClose: () => void }) {
           </button>
         </div>
 
-        <div ref={listRef} className="max-h-[55vh] overflow-y-auto p-2" role="listbox">
+        <div ref={listRef} id="palette-results" className="max-h-[55vh] overflow-y-auto p-2" role="listbox" aria-label="Results">
           {results.length === 0 && <p className="px-3 py-8 text-center text-sm text-muted">No matches for “{query}”.</p>}
           {results.map((entry, i) => {
             const Icon = KIND_ICON[entry.kind];
             return (
               <button
                 key={entry.key}
+                id={`palette-opt-${i}`}
                 data-active={i === cursor}
                 role="option"
                 aria-selected={i === cursor}

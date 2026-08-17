@@ -245,10 +245,6 @@
   display: none !important;
 }
 
-[data-brief="on"] .brief-tight {
-  @apply py-6;
-}
-
 [data-brief="on"] .brief-grid {
   @apply grid-cols-1;
 }

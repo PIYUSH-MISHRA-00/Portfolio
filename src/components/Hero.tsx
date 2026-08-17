@@ -37,8 +37,12 @@ function RoleRotator() {
     >
       <p className="eyebrow mb-3">Proven across {activeRoles.length} roles</p>
 
-      {/* Fixed-height stage stops the page reflowing on every rotation. */}
-      <div className="relative h-[4.5rem] sm:h-[5.5rem] lg:h-[6rem]">
+      {/*
+       * Fixed-height stage so the page does not reflow on every rotation. Sized
+       * for the longest role name wrapping to three lines on a 320px screen —
+       * "Security & Cryptography Engineer" overflowed a tighter box.
+       */}
+      <div className="relative h-[8.5rem] xs:h-[7.5rem] sm:h-[7rem] lg:h-[7.5rem]">
         {activeRoles.map((r, n) => (
           <a
             key={r.id}
@@ -52,21 +56,26 @@ function RoleRotator() {
               pointerEvents: n === i ? "auto" : "none",
             }}
           >
-            <span className="font-display text-display font-bold text-accent">{r.name}</span>
-            <span className="mt-1 font-mono text-xs text-muted tnum">
-              {r.count} {r.count === 1 ? "project" : "projects"} · {r.tagline}
+            <span className="font-display text-[clamp(1.375rem,5.5vw,3rem)] font-bold leading-[1.05] tracking-tight text-accent">
+              {r.name}
+            </span>
+            <span className="mt-1.5 font-mono text-[0.6875rem] leading-snug text-muted sm:text-xs">
+              <span className="tnum">
+                {r.count} {r.count === 1 ? "project" : "projects"}
+              </span>
+              {" · "}
+              {r.tagline}
             </span>
           </a>
         ))}
       </div>
 
       {/* Every role stays reachable, not just the one currently on stage. */}
-      <div className="rail mt-5" role="tablist" aria-label="Roles">
+      <div className="rail mt-5" aria-label="Show a role">
         {activeRoles.map((r, n) => (
           <button
             key={r.id}
-            role="tab"
-            aria-selected={n === i}
+            aria-pressed={n === i}
             onClick={() => setI(n)}
             className={`chip transition-colors ${n === i ? "!border-accent !text-accent" : "hover:!text-ink"}`}
           >
