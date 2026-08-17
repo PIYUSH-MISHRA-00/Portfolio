@@ -416,12 +416,51 @@ function userPrompt(c) {
     .join("\n");
 }
 
-async function groq(c) {
+/** Speech, embedding and safety models cannot write prose. */
+const NOT_A_WRITER = /whisper|tts|embed|guard|moderation|rerank|ocr/i;
+
+/** Bigger and instruction-tuned wins; previews and small/fast variants lose. */
+function modelRank(id) {
+  let score = 0;
+  const billions = id.match(/(\d+)x?(\d+)?b/i);
+  if (billions) score += Math.min(Number(billions[1]), 400);
+  if (/versatile|instruct|specdec/i.test(id)) score += 20;
+  if (/instant|mini|tiny|small|8b|4b/i.test(id)) score -= 15;
+  if (/preview|alpha|beta/i.test(id)) score -= 25;
+  return score;
+}
+
+/**
+ * Groq retires model ids over time, and a hard-coded name turns into a silent
+ * 404 that degrades every project to README text. Resolve against the live
+ * catalogue instead, preferring the configured model when it is still offered.
+ */
+async function resolveGroqModel() {
+  const res = await fetch("https://api.groq.com/openai/v1/models", {
+    headers: { Authorization: `Bearer ${GROQ_KEY}` },
+  });
+  if (!res.ok) throw new Error(`groq models ${res.status}: ${(await res.text()).slice(0, 160)}`);
+
+  const ids = (await res.json()).data.map((m) => m.id).filter((id) => !NOT_A_WRITER.test(id));
+  if (!ids.length) throw new Error("no usable Groq chat models available");
+
+  if (ids.includes(GROQ_MODEL)) {
+    console.log(`  groq model: ${GROQ_MODEL}`);
+    return GROQ_MODEL;
+  }
+
+  const best = ids.sort((a, b) => modelRank(b) - modelRank(a))[0];
+  console.log(`  groq model: "${GROQ_MODEL}" not offered, using "${best}"`);
+  console.log(`  available: ${ids.join(", ")}`);
+  return best;
+}
+
+async function groq(c, model) {
   const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
     method: "POST",
     headers: { Authorization: `Bearer ${GROQ_KEY}`, "Content-Type": "application/json" },
     body: JSON.stringify({
-      model: GROQ_MODEL,
+      model,
       temperature: 0.25,
       max_tokens: 900,
       response_format: { type: "json_object" },
@@ -516,6 +555,15 @@ async function enrich(candidates, cache) {
     calls = 0,
     failures = 0;
 
+  let model = null;
+  if (GROQ_KEY) {
+    try {
+      model = await resolveGroqModel();
+    } catch (err) {
+      console.warn(`  ! Groq unavailable (${err.message.slice(0, 120)}) — falling back to README extraction`);
+    }
+  }
+
   const enriched = await pool(candidates, 4, async (c) => {
     const hash = hashOf(c);
     const cached = cache.get(c.id);
@@ -523,10 +571,10 @@ async function enrich(candidates, cache) {
       hits++;
       return { ...c, ...pickNarrative(cached), contentHash: hash };
     }
-    if (GROQ_KEY) {
+    if (model) {
       for (let attempt = 0; attempt < 3; attempt++) {
         try {
-          const out = sanitise(await groq(c), c);
+          const out = sanitise(await groq(c, model), c);
           calls++;
           return { ...c, ...out, contentHash: hash };
         } catch (err) {
@@ -727,4 +775,4 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   });
 }
 
-export { readmeProse, inferRole, dedupe, sanitise, isNoise, isExplainable, languageShares, ROLE_IDS };
+export { readmeProse, inferRole, dedupe, sanitise, isNoise, isExplainable, languageShares, modelRank, NOT_A_WRITER, ROLE_IDS };

@@ -1,6 +1,17 @@
 // Self-check for sync-github.mjs. Run: node scripts/sync-github.test.mjs
 import assert from "node:assert/strict";
-import { readmeProse, inferRole, dedupe, sanitise, isNoise, isExplainable, languageShares, ROLE_IDS } from "./sync-github.mjs";
+import {
+  readmeProse,
+  inferRole,
+  dedupe,
+  sanitise,
+  isNoise,
+  isExplainable,
+  languageShares,
+  modelRank,
+  NOT_A_WRITER,
+  ROLE_IDS,
+} from "./sync-github.mjs";
 
 // --- noise filter: the Monsterrr agent generates dozens of junk repos
 assert.equal(isNoise("monsterrr-fallback-20250927-1049"), true);
@@ -67,5 +78,23 @@ const shares = languageShares([
 ]);
 assert.deepEqual(shares.map((l) => l.name), ["Python", "Shell"], "sub-1% languages dropped");
 assert.equal(shares[0].pct, 89.8, "pct is of all bytes, including the dropped trace ones");
+
+// --- Groq model selection: a retired model id must not silently degrade the site
+const catalogue = [
+  "whisper-large-v3",
+  "llama-guard-4-12b",
+  "playai-tts",
+  "llama-3.1-8b-instant",
+  "llama-3.3-70b-versatile",
+  "text-embedding-3",
+];
+const writers = catalogue.filter((id) => !NOT_A_WRITER.test(id));
+assert.deepEqual(writers, ["llama-3.1-8b-instant", "llama-3.3-70b-versatile"], "non-chat models excluded");
+assert.equal(
+  [...writers].sort((a, b) => modelRank(b) - modelRank(a))[0],
+  "llama-3.3-70b-versatile",
+  "the larger instruction-tuned model must win"
+);
+assert.ok(modelRank("llama-3.3-70b-versatile") > modelRank("llama-3.1-8b-instant"));
 
 console.log("sync-github: all checks passed");
