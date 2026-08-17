@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-17T16:58:29.072Z",
+ "syncedAt": "2026-08-17T17:05:00.190Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -12,14 +12,14 @@
  },
  "stats": {
   "projects": 93,
-  "flagships": 9,
-  "commitsByMe": 3494,
+  "flagships": 10,
+  "commitsByMe": 3495,
   "stars": 61,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 14824,
-  "totalCommitContributions": 3486,
+  "contributionsLastYear": 14825,
+  "totalCommitContributions": 3487,
   "totalIssueContributions": 8843,
   "totalPullRequestContributions": 0,
   "privateContributions": 2485,
@@ -912,11 +912,11 @@
   [
    {
     "date": "2026-02-22",
-    "contributionCount": 1
+    "contributionCount": 2
    },
    {
     "date": "2026-02-23",
-    "contributionCount": 20
+    "contributionCount": 19
    },
    {
     "date": "2026-02-24",
@@ -1666,7 +1666,7 @@
    },
    {
     "date": "2026-08-17",
-    "contributionCount": 16
+    "contributionCount": 17
    }
   ]
  ],
@@ -1699,7 +1699,7 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 30
+   "count": 29
   },
   {
    "id": "mobile-developer",
@@ -1711,7 +1711,7 @@
    "id": "devops-engineer",
    "name": "DevOps & Platform Engineer",
    "tagline": "Containers, images and reproducible environments.",
-   "count": 1
+   "count": 2
   },
   {
    "id": "systems-engineer",
@@ -1740,10 +1740,7 @@
    "login": "The-Lord-Buddha-Club",
    "projects": 1,
    "commits": 10,
-   "name": "THE LORD BUDDHA CLUB",
-   "description": "Non-profit Organisation. Initiated by the Lord Buddha Boys Hostel, University Of Bundelkhand, Jhansi. Promoting Open Source development and Collaboration.",
-   "url": "https://github.com/The-Lord-Buddha-Club",
-   "avatarUrl": "https://avatars.githubusercontent.com/u/110761997?v=4"
+   "url": "https://github.com/The-Lord-Buddha-Club"
   }
  ],
  "roleCatalog": [
@@ -2291,6 +2288,70 @@
    "enrichedBy": "groq",
    "contentHash": "06a7ca409c56dec1",
    "primaryRole": "security-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-portfolio",
+   "name": "Portfolio",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
+   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
+   "description": "https://piyush-mishra-00.github.io/Portfolio/",
+   "topics": [],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 69963,
+     "pct": 60.5
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 38981,
+     "pct": 33.7
+    },
+    {
+     "name": "CSS",
+     "bytes": 6753,
+     "pct": 5.8
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 74,
+   "createdAt": "2023-03-30T11:31:18Z",
+   "pushedAt": "2026-08-17T17:03:29Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "devops-engineer",
+    "fullstack-developer"
+   ],
+   "headline": "Self-maintaining static portfolio site",
+   "what": "A static site that lists the engineer’s public projects, organized by role. A GitHub Action scans public, non-fork repositories, calls free LLM providers to write recruiter-facing narratives, and writes the results to data/portfolio.json, which the site statically exports. Built with TypeScript, JavaScript, CSS and driven by GitHub Actions and the GitHub CLI.",
+   "why": "Keeps the portfolio current without manual edits, ensuring new work appears automatically for recruiters.",
+   "impact": "Shows end-to-end automation of CI/CD pipelines and integration of LLM services to generate production content.",
+   "highlights": [
+    "GitHub Action syncs repos and updates JSON",
+    "LLM-generated recruiter narratives",
+    "Role-first project view with live counts",
+    "Command palette for fuzzy project search"
+   ],
+   "tech": [
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "GitHub Actions",
+    "GitHub CLI",
+    "LLM API",
+    "npm"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "46605892ed0dee41",
+   "primaryRole": "devops-engineer"
   },
   {
    "id": "ni-sh-a-char-youtube-shorts-automation",
@@ -3819,70 +3880,6 @@
    "enrichedBy": "groq",
    "contentHash": "b50e512431171a71",
    "primaryRole": "mobile-developer"
-  },
-  {
-   "id": "piyush-mishra-00-portfolio",
-   "name": "Portfolio",
-   "owner": "PIYUSH-MISHRA-00",
-   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
-   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
-   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
-   "description": "https://piyush-mishra-00.github.io/Portfolio/",
-   "topics": [],
-   "languages": [
-    {
-     "name": "TypeScript",
-     "bytes": 69963,
-     "pct": 60.5
-    },
-    {
-     "name": "JavaScript",
-     "bytes": 38981,
-     "pct": 33.7
-    },
-    {
-     "name": "CSS",
-     "bytes": 6753,
-     "pct": 5.8
-    }
-   ],
-   "primaryLanguage": "TypeScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 73,
-   "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-17T16:36:01Z",
-   "isArchived": false,
-   "isOrg": false,
-   "org": null,
-   "roles": [
-    "fullstack-developer",
-    "devops-engineer"
-   ],
-   "headline": "Self-maintaining developer portfolio site",
-   "what": "A static portfolio that lists projects automatically by querying the user’s public GitHub repositories. A GitHub Action runs on each push or on a schedule, fetches repository metadata, calls Groq to generate recruiter-facing narratives, and writes them to a JSON file. The Next.js 14 app consumes that file, rendering role-first sections with Tailwind CSS, a command palette, PDF export, and PWA installability.",
-   "why": "Manual updates to a portfolio are error-prone and time-consuming; this site keeps the showcase current without developer intervention.",
-   "impact": "Shows end-to-end automation of content generation, CI/CD, and full-stack rendering using TypeScript and Next.js.",
-   "highlights": [
-    "GitHub Action syncs repos on push or schedule",
-    "Groq generates recruiter narratives per repo",
-    "Role-first project organization with live counts",
-    "Command palette for fuzzy search across projects"
-   ],
-   "tech": [
-    "Next.js 14",
-    "TypeScript",
-    "Tailwind CSS",
-    "GitHub Actions",
-    "Groq",
-    "npm",
-    "CSS"
-   ],
-   "signal": "solid",
-   "enrichedBy": "groq",
-   "contentHash": "211e2c2ac07200a3",
-   "primaryRole": "fullstack-developer"
   },
   {
    "id": "piyush-mishra-00-git-automation-script",
