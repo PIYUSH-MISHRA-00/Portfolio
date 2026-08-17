@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-17T15:45:15.034Z",
+ "syncedAt": "2026-08-17T15:51:40.841Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,13 +13,13 @@
  "stats": {
   "projects": 93,
   "flagships": 0,
-  "commitsByMe": 3483,
+  "commitsByMe": 3484,
   "stars": 61,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 14819,
-  "totalCommitContributions": 3481,
+  "contributionsLastYear": 14820,
+  "totalCommitContributions": 3482,
   "totalIssueContributions": 8843,
   "totalPullRequestContributions": 0,
   "privateContributions": 2485,
@@ -32,26 +32,26 @@
    },
    {
     "name": "Shell",
-    "projects": 30,
-    "bytes": 123350,
-    "pct": 32.3
+    "projects": 29,
+    "bytes": 119423,
+    "pct": 31.2
    },
    {
     "name": "HTML",
-    "projects": 25,
-    "bytes": 396327,
-    "pct": 26.9
+    "projects": 24,
+    "bytes": 377341,
+    "pct": 25.8
    },
    {
     "name": "CSS",
     "projects": 19,
-    "bytes": 64817,
+    "bytes": 58541,
     "pct": 20.4
    },
    {
     "name": "JavaScript",
     "projects": 17,
-    "bytes": 475483,
+    "bytes": 428168,
     "pct": 18.3
    },
    {
@@ -75,7 +75,7 @@
    {
     "name": "TypeScript",
     "projects": 6,
-    "bytes": 864490,
+    "bytes": 878225,
     "pct": 6.5
    },
    {
@@ -912,11 +912,11 @@
   [
    {
     "date": "2026-02-22",
-    "contributionCount": 1
+    "contributionCount": 2
    },
    {
     "date": "2026-02-23",
-    "contributionCount": 20
+    "contributionCount": 19
    },
    {
     "date": "2026-02-24",
@@ -1666,7 +1666,7 @@
    },
    {
     "date": "2026-08-17",
-    "contributionCount": 11
+    "contributionCount": 12
    }
   ]
  ],
@@ -1687,7 +1687,7 @@
    "id": "security-engineer",
    "name": "Security & Cryptography Engineer",
    "tagline": "Original ciphers, encrypted transport and hardened systems.",
-   "count": 20
+   "count": 21
   },
   {
    "id": "backend-engineer",
@@ -1723,7 +1723,7 @@
    "id": "automation-engineer",
    "name": "Automation Engineer",
    "tagline": "Scripts and pipelines that delete repetitive work.",
-   "count": 18
+   "count": 17
   }
  ],
  "orgs": [
@@ -1740,10 +1740,7 @@
    "login": "The-Lord-Buddha-Club",
    "projects": 1,
    "commits": 10,
-   "name": "THE LORD BUDDHA CLUB",
-   "description": "Non-profit Organisation. Initiated by the Lord Buddha Boys Hostel, University Of Bundelkhand, Jhansi. Promoting Open Source development and Collaboration.",
-   "url": "https://github.com/The-Lord-Buddha-Club",
-   "avatarUrl": "https://avatars.githubusercontent.com/u/110761997?v=4"
+   "url": "https://github.com/The-Lord-Buddha-Club"
   }
  ],
  "roleCatalog": [
@@ -3517,60 +3514,48 @@
    "topics": [],
    "languages": [
     {
-     "name": "JavaScript",
-     "bytes": 79663,
-     "pct": 46.7
-    },
-    {
      "name": "TypeScript",
-     "bytes": 55046,
-     "pct": 32.2
+     "bytes": 68781,
+     "pct": 63.7
     },
     {
-     "name": "HTML",
-     "bytes": 18986,
-     "pct": 11.1
+     "name": "JavaScript",
+     "bytes": 32348,
+     "pct": 30
     },
     {
      "name": "CSS",
-     "bytes": 13080,
-     "pct": 7.7
-    },
-    {
-     "name": "Shell",
-     "bytes": 3927,
-     "pct": 2.3
+     "bytes": 6804,
+     "pct": 6.3
     }
    ],
-   "primaryLanguage": "JavaScript",
+   "primaryLanguage": "TypeScript",
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 62,
+   "commits": 63,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-03-26T08:20:48Z",
+   "pushedAt": "2026-08-17T15:46:41Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "automation-engineer"
+    "security-engineer"
    ],
    "headline": "https://piyush-mishra-00.github.io/Portfolio/",
-   "what": "",
+   "what": "Piyush Mishra — Portfolio Live: https://piyush-mishra-00.github.io/Portfolio/ A self-maintaining portfolio. Projects are not written by hand: a GitHub Action reads every public, non-fork repository across the personal account and the organisations where commits were actually authored, asks Groq to write the recruiter-facing narrative for each, and commits the result to data/portfolio.json .",
    "why": "",
    "impact": "",
    "highlights": [],
    "tech": [
-    "JavaScript",
     "TypeScript",
-    "HTML",
-    "CSS",
-    "Shell"
+    "JavaScript",
+    "CSS"
    ],
    "signal": "solid",
    "enrichedBy": "readme",
-   "contentHash": "c34ad13c44b1e2cd",
-   "primaryRole": "automation-engineer"
+   "contentHash": "a047a85931e04db3",
+   "primaryRole": "security-engineer"
   },
   {
    "id": "piyush-mishra-00-git-automation-script",
