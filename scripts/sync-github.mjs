@@ -5,16 +5,25 @@
  * Only PUBLIC, non-fork repositories are ever written out — privacy is enforced
  * at the query (`privacy: PUBLIC`) and again by an assertion before writing.
  *
- * Groq writes the recruiter-facing narrative for each project. Results are cached
- * in the committed JSON and keyed by a content hash, so a re-run only pays for
- * repos that are new or have been pushed to since the last sync.
+ * A free LLM writes the recruiter-facing narrative for each project. Results are
+ * cached in the committed JSON and keyed by a content hash, so a re-run only
+ * pays for repos that are new or have been pushed to since the last sync.
  *
  * Env:
  *   GITHUB_TOKEN / GH_PAT   required. A classic PAT with `read:org` gives full
  *                           contribution stats; the Actions GITHUB_TOKEN yields
  *                           public-only counts and still works.
- *   GROQ_API_KEY            optional. Absent → falls back to README extraction.
- *   GROQ_MODEL              optional model override.
+ *
+ *   Set one or more of these — see PROVIDERS. Any single one is enough; several
+ *   give failover when one hits its free rate limit. With none, the sync falls
+ *   back to README extraction and still produces a valid site.
+ *     CEREBRAS_API_KEY  GROQ_API_KEY  NVIDIA_API_KEY
+ *     OPENCODE_ZEN_API_KEY  OPENROUTER_API_KEY
+ *     AI_BASE_URL + AI_API_KEY   any other OpenAI-compatible endpoint
+ *
+ *   Each provider takes an optional <NAME>_MODEL override; models are otherwise
+ *   resolved from the provider's own /models catalogue.
+ *   ALLOW_SHRINK=1          permit a large drop in project count (see below).
  */
 
 import { spawn } from "node:child_process";
@@ -51,7 +60,7 @@ const NOISE = [
 
 /**
  * Canonical role taxonomy. The site groups every project under these, so the set
- * must stay stable — Groq picks from it rather than inventing labels.
+ * must stay stable — the model picks from it rather than inventing labels.
  */
 const ROLES = [
   { id: "ai-engineer", name: "AI & LLM Engineer", tagline: "Generative AI, agents, RAG and applied language models." },
@@ -67,9 +76,6 @@ const ROLES = [
 const ROLE_IDS = ROLES.map((r) => r.id);
 
 const TOKEN = process.env.GH_PAT || process.env.GITHUB_TOKEN;
-const GROQ_KEY = process.env.GROQ_API_KEY;
-// Verified present in Groq's catalogue; resolveGroqModel() re-picks if it is retired.
-const GROQ_MODEL = process.env.GROQ_MODEL || "openai/gpt-oss-120b";
 
 
 // ---------------------------------------------------------------- GitHub
@@ -364,7 +370,7 @@ function dedupe(candidates) {
   return [...best.values()];
 }
 
-// ---------------------------------------------------------------- Groq
+// ------------------------------------------------- AI providers (free tiers)
 
 const hashOf = (c) =>
   createHash("sha1")
@@ -419,68 +425,120 @@ function userPrompt(c) {
 }
 
 /** Speech, embedding and safety models cannot write prose. */
-const NOT_A_WRITER = /whisper|tts|embed|guard|moderation|rerank|ocr|orpheus|playai/i;
+const NOT_A_WRITER = /whisper|tts|embed|guard|moderation|rerank|ocr|orpheus|playai|image|video|sora|dall-?e/i;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 /**
- * Shared rate-limit gate. Groq's limits are per-organisation, so one worker
- * hitting 429 means every worker must wait — otherwise they each burn their
- * retries hammering a closed door.
+ * Free, OpenAI-compatible providers, best free allowance first. Every one of
+ * these exposes POST {base}/chat/completions and GET {base}/models, so a single
+ * client covers all of them — a provider entry is just a URL and a key name.
+ *
+ * Only providers whose key is present in the environment are used, so setting
+ * one key is enough and setting several buys resilience: a 429 on one provider
+ * routes the next project straight to another instead of waiting out the limit.
+ *
+ * Any other OpenAI-compatible endpoint (Mistral, Together, DeepInfra, a local
+ * Ollama…) can be used without touching this file via AI_BASE_URL + AI_API_KEY.
  */
-let gateUntil = 0;
-async function passGate() {
-  const wait = gateUntil - Date.now();
-  if (wait > 0) await sleep(wait);
-}
-function closeGate(ms) {
-  gateUntil = Math.max(gateUntil, Date.now() + ms);
-}
+const PROVIDERS = [
+  // Custom slot wins when configured: it is an explicit choice by the operator.
+  { id: "custom", base: process.env.AI_BASE_URL, keyEnv: "AI_API_KEY", modelEnv: "AI_MODEL" },
+  // ~1M tokens/day free, and the fastest of the group.
+  { id: "cerebras", base: "https://api.cerebras.ai/v1", keyEnv: "CEREBRAS_API_KEY", modelEnv: "CEREBRAS_MODEL" },
+  // ~30 requests/minute free.
+  { id: "groq", base: "https://api.groq.com/openai/v1", keyEnv: "GROQ_API_KEY", modelEnv: "GROQ_MODEL" },
+  // 100+ open models, free tier, no card.
+  { id: "nvidia", base: "https://integrate.api.nvidia.com/v1", keyEnv: "NVIDIA_API_KEY", modelEnv: "NVIDIA_MODEL" },
+  // Catalogue mixes free models with paid ones (claude-opus-5, gpt-5.5-pro…),
+  // so restrict to the "-free" suffixed ids or this quietly becomes expensive.
+  {
+    id: "opencode-zen",
+    base: "https://opencode.ai/zen/v1",
+    keyEnv: "OPENCODE_ZEN_API_KEY",
+    modelEnv: "OPENCODE_ZEN_MODEL",
+    freeOnly: true,
+  },
+  // Lowest free allowance (~20/min, ~50/day), so it sits last as a backstop.
+  {
+    id: "openrouter",
+    base: "https://openrouter.ai/api/v1",
+    keyEnv: "OPENROUTER_API_KEY",
+    modelEnv: "OPENROUTER_MODEL",
+    // OpenRouter marks zero-cost models with a ":free" suffix.
+    freeOnly: true,
+    headers: {
+      "HTTP-Referer": "https://piyush-mishra-00.github.io/Portfolio/",
+      "X-Title": "Piyush Mishra Portfolio",
+    },
+  },
+];
 
 /** Bigger and instruction-tuned wins; previews and small/fast variants lose. */
 function modelRank(id) {
   let score = 0;
   const billions = id.match(/(\d+)x?(\d+)?b/i);
   if (billions) score += Math.min(Number(billions[1]), 400);
-  if (/versatile|instruct|specdec/i.test(id)) score += 20;
-  if (/instant|mini|tiny|small|8b|4b/i.test(id)) score -= 15;
-  if (/preview|alpha|beta/i.test(id)) score -= 25;
+  if (/versatile|instruct|specdec|chat/i.test(id)) score += 20;
+  // Free catalogues rarely publish sizes, so lean on the tier word in the name.
+  if (/ultra|pro\b|large|max|plus/i.test(id)) score += 12;
+  if (/instant|mini|tiny|small|nano|lite|flash|8b|4b/i.test(id)) score -= 15;
+  if (/preview|alpha|beta|deprecated/i.test(id)) score -= 25;
   return score;
 }
 
+/** True when a /models entry costs nothing to call. */
+function isFreeModel(m) {
+  if (/:free$/i.test(m.id) || /\bfree\b/i.test(m.id)) return true;
+  const p = m.pricing;
+  if (!p) return false;
+  return Number(p.prompt ?? 0) === 0 && Number(p.completion ?? 0) === 0;
+}
+
 /**
- * Groq retires model ids over time, and a hard-coded name turns into a silent
- * 404 that degrades every project to README text. Resolve against the live
- * catalogue instead, preferring the configured model when it is still offered.
+ * Picks a model from the provider's live catalogue. Hard-coding an id turns into
+ * a silent 404 the moment a provider retires it, which is exactly how every
+ * project quietly degraded to README text once already.
  */
-async function resolveGroqModel() {
-  const res = await fetch("https://api.groq.com/openai/v1/models", {
-    headers: { Authorization: `Bearer ${GROQ_KEY}` },
-  });
-  if (!res.ok) throw new Error(`groq models ${res.status}: ${(await res.text()).slice(0, 160)}`);
+async function resolveModel(p) {
+  const pinned = p.modelEnv ? process.env[p.modelEnv] : null;
 
-  const ids = (await res.json()).data.map((m) => m.id).filter((id) => !NOT_A_WRITER.test(id));
-  if (!ids.length) throw new Error("no usable Groq chat models available");
-
-  if (ids.includes(GROQ_MODEL)) {
-    console.log(`  groq model: ${GROQ_MODEL}`);
-    return GROQ_MODEL;
+  const res = await fetch(`${p.base}/models`, { headers: authHeaders(p) });
+  if (!res.ok) {
+    // Some gateways do not expose /models; trust an explicit pin and carry on.
+    if (pinned) return pinned;
+    throw new Error(`models ${res.status}: ${(await res.text()).slice(0, 120)}`);
   }
 
+  const all = (await res.json()).data ?? [];
+  let usable = all.filter((m) => m?.id && !NOT_A_WRITER.test(m.id));
+
+  // Where a catalogue mixes free and paid models, never fall back to a paid one:
+  // skipping the provider is always cheaper than an unexpected bill.
+  if (p.freeOnly) usable = usable.filter(isFreeModel);
+
+  if (!usable.length) throw new Error(p.freeOnly ? "no free models offered" : "no usable chat models offered");
+
+  const ids = usable.map((m) => m.id);
+  if (pinned && ids.includes(pinned)) return pinned;
+
   const best = ids.sort((a, b) => modelRank(b) - modelRank(a))[0];
-  console.log(`  groq model: "${GROQ_MODEL}" not offered, using "${best}"`);
-  console.log(`  available: ${ids.join(", ")}`);
+  if (pinned) console.log(`  ${p.id}: "${pinned}" not offered, using "${best}"`);
   return best;
 }
 
-async function groq(c, model) {
-  await passGate();
+const authHeaders = (p) => ({ Authorization: `Bearer ${p.key}`, ...(p.headers ?? {}) });
 
-  const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+/**
+ * One chat completion. Rate limits are per-provider, so a 429 parks only that
+ * provider's gate; callers move on to the next provider immediately.
+ */
+async function complete(p, c) {
+  const res = await fetch(`${p.base}/chat/completions`, {
     method: "POST",
-    headers: { Authorization: `Bearer ${GROQ_KEY}`, "Content-Type": "application/json" },
+    headers: { ...authHeaders(p), "Content-Type": "application/json" },
     body: JSON.stringify({
-      model,
+      model: p.model,
       temperature: 0.25,
       max_tokens: 800,
       response_format: { type: "json_object" },
@@ -491,22 +549,75 @@ async function groq(c, model) {
     }),
   });
 
-  if (res.status === 429) {
-    // Groq reports the exact wait; trust it over guessing at a backoff curve.
+  if (res.status === 429 || res.status === 503) {
+    // Providers report the exact wait; trust it over guessing a backoff curve.
     const after = Number(res.headers.get("retry-after"));
-    const waitMs = Math.min((Number.isFinite(after) && after > 0 ? after : 30) * 1000 + 500, 120_000);
-    closeGate(waitMs);
-    const err = new Error(`rate limited, waiting ${Math.round(waitMs / 1000)}s`);
-    err.retryAfterMs = waitMs;
+    const waitMs = Math.min((Number.isFinite(after) && after > 0 ? after : 30) * 1000 + 500, 180_000);
+    p.gateUntil = Math.max(p.gateUntil, Date.now() + waitMs);
+    const err = new Error(`${p.id} rate limited ${Math.round(waitMs / 1000)}s`);
+    err.rateLimited = true;
     throw err;
   }
 
-  if (!res.ok) throw new Error(`groq ${res.status}: ${(await res.text()).slice(0, 200)}`);
+  if (!res.ok) {
+    // Some providers serve /models without auth, so a bad key only surfaces
+    // here. Retire the provider rather than spending a 401 on every project.
+    if (res.status === 401 || res.status === 403) p.dead = true;
+    throw new Error(`${p.id} ${res.status}: ${(await res.text()).slice(0, 160)}`);
+  }
 
   const body = await res.json();
   const text = body.choices?.[0]?.message?.content;
-  if (!text) throw new Error("groq returned an empty message");
+  if (!text) throw new Error(`${p.id} returned an empty message`);
   return JSON.parse(text);
+}
+
+/** Providers that have a key, a reachable catalogue and a chosen model. */
+async function readyProviders() {
+  const configured = PROVIDERS.filter((p) => p.base && process.env[p.keyEnv]);
+  if (!configured.length) return [];
+
+  const ready = [];
+  for (const p of configured) {
+    const provider = { ...p, key: process.env[p.keyEnv], gateUntil: 0 };
+    try {
+      provider.model = await resolveModel(provider);
+      ready.push(provider);
+      console.log(`  ${provider.id}: ${provider.model}`);
+    } catch (err) {
+      console.warn(`  ${p.id}: unavailable (${err.message.slice(0, 100)})`);
+    }
+  }
+  return ready;
+}
+
+/**
+ * Writes one narrative, trying each provider in turn. The first pass skips
+ * providers that are currently rate-limited so work keeps flowing; later passes
+ * wait for them, which is what a single-provider setup falls back to.
+ */
+async function writeNarrative(c, providers) {
+  let lastError = "no provider succeeded";
+
+  for (let pass = 0; pass < 3; pass++) {
+    for (const p of providers) {
+      if (p.dead) continue; // bad credentials, established earlier in this run
+
+      const parked = p.gateUntil > Date.now();
+      if (parked && pass === 0) continue; // another provider can take this one
+      if (parked) await sleep(p.gateUntil - Date.now());
+
+      try {
+        return { ...sanitise(await complete(p, c), c), provider: p.id };
+      } catch (err) {
+        lastError = err.message;
+        if (!err.rateLimited) await sleep(600);
+      }
+    }
+    if (providers.every((p) => p.dead)) break;
+  }
+
+  throw new Error(lastError);
 }
 
 /**
@@ -566,11 +677,11 @@ function sanitise(raw, c) {
       .map((t) => clamp(normaliseText(t), 28))
       .slice(0, 8),
     signal,
-    enrichedBy: "groq",
+    enrichedBy: "ai",
   };
 }
 
-/** Keyword fallback so the site still builds with no Groq key or on API failure. */
+/** Keyword fallback so the site still builds with no AI key or on API failure. */
 function inferRole(c) {
   const hay = `${c.name} ${c.description || ""} ${c.topics.join(" ")} ${c.readme.slice(0, 1200)} ${c.languages
     .map((l) => l.name)
@@ -621,53 +732,48 @@ async function pool(items, limit, worker) {
   return results;
 }
 
+/** Narratives written by an earlier sync are reusable; keyword fallbacks are not. */
+const isAiWritten = (p) => p?.enrichedBy === "ai" || p?.enrichedBy === "groq";
+
 async function enrich(candidates, cache) {
   let hits = 0,
-    calls = 0,
     failures = 0;
+  const wrote = new Map();
 
-  let model = null;
-  if (GROQ_KEY) {
-    try {
-      model = await resolveGroqModel();
-    } catch (err) {
-      console.warn(`  ! Groq unavailable (${err.message.slice(0, 120)}) — falling back to README extraction`);
-    }
+  const providers = await readyProviders();
+  if (!providers.length) {
+    console.log("  no AI provider key set — using README extraction for new projects");
   }
 
-  // Two at a time: Groq's per-organisation token budget, not latency, is the limit.
-  const enriched = await pool(candidates, 2, async (c) => {
+  // One concurrent request per provider: their limits, not latency, are the cap.
+  const enriched = await pool(candidates, Math.max(2, providers.length), async (c) => {
     const hash = hashOf(c);
     const cached = cache.get(c.id);
-    if (cached && cached.contentHash === hash && cached.enrichedBy === "groq") {
+    if (cached && cached.contentHash === hash && isAiWritten(cached)) {
       hits++;
       return { ...c, ...pickNarrative(cached), contentHash: hash };
     }
-    if (model) {
-      const ATTEMPTS = 6;
-      for (let attempt = 0; attempt < ATTEMPTS; attempt++) {
-        try {
-          const out = sanitise(await groq(c, model), c);
-          calls++;
-          if (calls % 10 === 0) console.log(`    …${calls} written`);
-          return { ...c, ...out, contentHash: hash };
-        } catch (err) {
-          if (attempt === ATTEMPTS - 1) {
-            failures++;
-            console.warn(`  ! ${c.nameWithOwner}: ${err.message.slice(0, 120)}`);
-          } else {
-            // A 429 already parked the shared gate; anything else backs off locally.
-            await sleep(err.retryAfterMs ? 0 : 2500 * (attempt + 1));
-          }
-        }
+
+    if (providers.length) {
+      try {
+        const { provider, ...out } = await writeNarrative(c, providers);
+        wrote.set(provider, (wrote.get(provider) ?? 0) + 1);
+        const done = [...wrote.values()].reduce((a, b) => a + b, 0);
+        if (done % 10 === 0) console.log(`    …${done} written`);
+        return { ...c, ...out, contentHash: hash };
+      } catch (err) {
+        failures++;
+        console.warn(`  ! ${c.nameWithOwner}: ${err.message.slice(0, 120)}`);
       }
     }
-    // Stale cache beats a keyword guess.
-    if (cached?.enrichedBy === "groq") return { ...c, ...pickNarrative(cached), contentHash: hash };
+
+    // Stale AI text beats a fresh keyword guess.
+    if (isAiWritten(cached)) return { ...c, ...pickNarrative(cached), contentHash: hash };
     return { ...c, ...fallback(c), contentHash: hash };
   });
 
-  console.log(`  narrative: ${calls} generated, ${hits} cached, ${failures} failed`);
+  const byProvider = [...wrote.entries()].map(([id, n]) => `${id} ${n}`).join(", ") || "none";
+  console.log(`  narrative: ${byProvider} | ${hits} cached | ${failures} failed`);
   return enriched;
 }
 
@@ -764,7 +870,6 @@ function aggregate(projects, profileData) {
 async function main() {
   if (!TOKEN) throw new Error("Need GH_PAT or GITHUB_TOKEN in the environment.");
   console.log("Syncing GitHub…");
-  if (!GROQ_KEY) console.log("  GROQ_API_KEY not set — using README fallback for new projects");
 
   const cache = new Map();
   try {
@@ -851,4 +956,18 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   });
 }
 
-export { readmeProse, inferRole, dedupe, sanitise, isNoise, isExplainable, languageShares, modelRank, NOT_A_WRITER, ROLE_IDS };
+export {
+  readmeProse,
+  inferRole,
+  dedupe,
+  sanitise,
+  isNoise,
+  isExplainable,
+  languageShares,
+  modelRank,
+  isFreeModel,
+  isAiWritten,
+  NOT_A_WRITER,
+  PROVIDERS,
+  ROLE_IDS,
+};

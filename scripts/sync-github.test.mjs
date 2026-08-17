@@ -9,7 +9,10 @@ import {
   isExplainable,
   languageShares,
   modelRank,
+  isFreeModel,
+  isAiWritten,
   NOT_A_WRITER,
+  PROVIDERS,
   ROLE_IDS,
 } from "./sync-github.mjs";
 
@@ -117,5 +120,65 @@ assert.ok(dashed.tech[0].length <= 28);
 assert.ok(!dashed.tech[0].endsWith(" "), "no trailing space from the clamp");
 assert.equal(dashed.tech[0], "1D Convolutional Neural", "clamped on a word boundary");
 assert.equal(dashed.tech[1], "Node.js", "short labels pass through untouched");
+
+// --- free-model detection: a paid model must never be picked on a freeOnly provider
+assert.equal(isFreeModel({ id: "meta-llama/llama-3.3-70b-instruct:free" }), true, ":free suffix");
+assert.equal(isFreeModel({ id: "deepseek-v4-flash-free" }), true, "free as a word in the id");
+assert.equal(isFreeModel({ id: "big-pickle", pricing: { prompt: "0", completion: "0" } }), true, "zero-priced");
+assert.equal(isFreeModel({ id: "anthropic/claude-opus", pricing: { prompt: "0.000015", completion: "0.000075" } }), false);
+assert.equal(isFreeModel({ id: "openai/gpt-5" }), false, "unknown pricing is not assumed free");
+// "freedom-model" would be a false positive without a word boundary.
+assert.equal(isFreeModel({ id: "acme/freedom-13b" }), false, "'free' must match as a whole word");
+
+// --- provider registry sanity
+const ids = PROVIDERS.map((p) => p.id);
+assert.equal(new Set(ids).size, ids.length, "provider ids are unique");
+assert.equal(ids[0], "custom", "an explicitly configured endpoint is tried first");
+assert.equal(ids[ids.length - 1], "openrouter", "the smallest free allowance is the last resort");
+for (const p of PROVIDERS) {
+  assert.ok(p.keyEnv, `${p.id} declares a key env var`);
+  if (p.id !== "custom") assert.match(p.base, /^https:\/\//, `${p.id} has an https base URL`);
+  assert.ok(!/\/(chat|models)/.test(p.base ?? ""), `${p.id} base URL excludes the path segment`);
+}
+// Both of these mix free and paid models in one catalogue; picking a paid one
+// by accident would bill the account, so freeOnly is not optional for them.
+for (const id of ["openrouter", "opencode-zen"]) {
+  assert.ok(PROVIDERS.find((p) => p.id === id).freeOnly, `${id} serves paid models too and must be freeOnly`);
+}
+
+// --- selection against real catalogue snapshots (captured from the live /models)
+const pick = (ids) => [...ids].filter((i) => !NOT_A_WRITER.test(i)).sort((a, b) => modelRank(b) - modelRank(a))[0];
+
+// OpenCode Zen: the paid Claude/GPT ids must be filtered out before ranking.
+const zen = [
+  "claude-opus-5",
+  "gpt-5.5-pro",
+  "gemini-3.7-flash",
+  "big-pickle",
+  "deepseek-v4-flash-free",
+  "nemotron-3-ultra-free",
+  "laguna-s-2.1-free",
+];
+const zenFree = zen.filter((id) => isFreeModel({ id }));
+assert.ok(!zenFree.includes("claude-opus-5"), "paid Claude must not survive the free filter");
+assert.ok(!zenFree.includes("gpt-5.5-pro"), "paid GPT must not survive the free filter");
+assert.deepEqual(zenFree.sort(), ["deepseek-v4-flash-free", "laguna-s-2.1-free", "nemotron-3-ultra-free"]);
+assert.equal(pick(zenFree), "nemotron-3-ultra-free", "'ultra' outranks 'flash' among free models");
+
+// OpenRouter free slice: a "-mini"/"preview" model should lose to a plain one.
+const or = [
+  "nvidia/nemotron-3.5-lightning:free",
+  "cohere/north-mini-code:free",
+  "dots-studio/dots-3-note-preview:free",
+  "poolside/laguna-s-2.1:free",
+];
+assert.ok(or.every((id) => isFreeModel({ id })), "every :free id is detected as free");
+assert.ok(["nvidia/nemotron-3.5-lightning:free", "poolside/laguna-s-2.1:free"].includes(pick(or)), "mini/preview lose");
+
+// --- cache reuse: AI text is reusable across syncs, keyword fallbacks are not
+assert.equal(isAiWritten({ enrichedBy: "ai" }), true);
+assert.equal(isAiWritten({ enrichedBy: "groq" }), true, "narratives from the pre-multi-provider era still count");
+assert.equal(isAiWritten({ enrichedBy: "readme" }), false, "a keyword guess must be retried, not cached");
+assert.equal(isAiWritten(undefined), false);
 
 console.log("sync-github: all checks passed");

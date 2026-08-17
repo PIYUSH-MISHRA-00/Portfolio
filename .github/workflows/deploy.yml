@@ -56,8 +56,26 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+          # Free LLM providers. Any one is enough; set several and a provider
+          # that hits its rate limit hands off to the next instead of stalling.
+          # Missing secrets are empty strings, which the sync simply skips.
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          OPENCODE_ZEN_API_KEY: ${{ secrets.OPENCODE_ZEN_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          # Any other OpenAI-compatible endpoint, no code change needed.
+          AI_BASE_URL: ${{ vars.AI_BASE_URL }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+
+          # Optional per-provider model pins; resolved from /models when unset.
+          AI_MODEL: ${{ vars.AI_MODEL }}
+          CEREBRAS_MODEL: ${{ vars.CEREBRAS_MODEL }}
           GROQ_MODEL: ${{ vars.GROQ_MODEL }}
+          NVIDIA_MODEL: ${{ vars.NVIDIA_MODEL }}
+          OPENCODE_ZEN_MODEL: ${{ vars.OPENCODE_ZEN_MODEL }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
         run: npm run sync
 
       - name: Commit refreshed data

@@ -31,7 +31,8 @@ export type Project = {
   highlights: string[];
   tech: string[];
   signal: Signal;
-  enrichedBy: "groq" | "readme";
+  /** "groq" appears in narratives written before multi-provider support. */
+  enrichedBy: "ai" | "groq" | "readme";
 };
 
 export type RoleGroup = { id: string; name: string; tagline: string; count: number };

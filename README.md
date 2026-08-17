@@ -4,8 +4,8 @@ Live: **https://piyush-mishra-00.github.io/Portfolio/**
 
 A self-maintaining portfolio. Projects are not written by hand: a GitHub Action reads every
 **public, non-fork** repository across the personal account and the organisations where commits were
-actually authored, asks Groq to write the recruiter-facing narrative for each, and commits the result
-to `data/portfolio.json`. The site is a static export of that file.
+actually authored, has a free LLM write the recruiter-facing narrative for each, and commits the
+result to `data/portfolio.json`. The site is a static export of that file.
 
 The page is organised by **role** rather than by a single job title — each role section lists the
 projects that evidence it, with a live count.
@@ -54,21 +54,54 @@ Without it, the twice-daily schedule still catches everything — just up to 12 
 
 ## Configuration
 
-| Secret / variable | Required | Purpose |
+### AI providers (all free tiers)
+
+Narratives are written by whichever free, OpenAI-compatible provider is configured. **Any single key
+is enough.** Set several and they act as a failover chain: a provider that hits its free rate limit
+hands the next project to another instead of stalling — which is what lets ~90 projects finish in one
+pass. With no key at all the sync still succeeds, falling back to README extraction.
+
+Providers are tried in this order, best free allowance first:
+
+| Secret | Provider | Free allowance | Get a key |
+| --- | --- | --- | --- |
+| `AI_API_KEY` + `AI_BASE_URL` (var) | anything OpenAI-compatible | — | Mistral, Together, DeepInfra, a local Ollama… |
+| `CEREBRAS_API_KEY` | Cerebras | ~1M tokens/day, fastest | [cloud.cerebras.ai](https://cloud.cerebras.ai) |
+| `GROQ_API_KEY` | Groq | ~30 requests/min | [console.groq.com](https://console.groq.com) |
+| `NVIDIA_API_KEY` | NVIDIA NIM | free tier, 100+ models | [build.nvidia.com](https://build.nvidia.com) |
+| `OPENCODE_ZEN_API_KEY` | OpenCode Zen | free coding models | [opencode.ai/auth](https://opencode.ai/auth) |
+| `OPENROUTER_API_KEY` | OpenRouter | ~20/min, ~50/day | [openrouter.ai/keys](https://openrouter.ai/keys) |
+
+```bash
+gh secret set CEREBRAS_API_KEY        # recommended: highest free volume
+gh secret set OPENROUTER_API_KEY      # add a second for failover
+```
+
+Models are **not hard-coded**. Each provider's `/models` catalogue is queried and the strongest
+chat-capable model is chosen, skipping speech, embedding, moderation and image models. OpenRouter is
+restricted to zero-cost models (`:free` suffix or zero pricing) so it can never bill you. Pin one
+explicitly with a repo variable if you prefer — `GROQ_MODEL`, `CEREBRAS_MODEL`, `OPENROUTER_MODEL`,
+`NVIDIA_MODEL`, `OPENCODE_ZEN_MODEL`, `AI_MODEL`.
+
+Adding a provider that is already OpenAI-compatible needs no code change: set `AI_BASE_URL` (e.g.
+`https://api.mistral.ai/v1`) and `AI_API_KEY`.
+
+### GitHub access
+
+| Secret | Required | Purpose |
 | --- | --- | --- |
-| `GROQ_API_KEY` | recommended | Writes the what / why / demonstrates copy. Missing → falls back to README extraction. |
 | `GH_PAT` | optional | Classic PAT with `read:org`. Unlocks full contribution totals; the default `GITHUB_TOKEN` gives public-only counts. |
-| `GROQ_MODEL` (variable) | optional | Model override. Defaults to `openai/gpt-oss-120b`; if that id is ever retired the sync resolves the best available chat model from Groq's `/models` catalogue instead of failing. |
 
 Narratives are cached in `data/portfolio.json` and keyed by a content hash of each repo, so a sync
-only spends Groq tokens on repositories that are new or have been pushed to since last time.
+only spends tokens on repositories that are new or have been pushed to since last time. A steady-state
+run costs a handful of requests, which fits inside even the smallest free tier.
 
 ## Local development
 
 ```bash
 npm install
 npm test                 # self-check for the sync logic
-GH_PAT=$(gh auth token) GROQ_API_KEY=... npm run sync
+GH_PAT=$(gh auth token) CEREBRAS_API_KEY=... npm run sync
 npm run dev              # http://localhost:3000/Portfolio
 npm run build            # static export to out/
 ```
