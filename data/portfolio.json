@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-17T17:05:00.190Z",
+ "syncedAt": "2026-08-17T17:09:19.563Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,13 +13,13 @@
  "stats": {
   "projects": 93,
   "flagships": 10,
-  "commitsByMe": 3495,
+  "commitsByMe": 3497,
   "stars": 61,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 14825,
-  "totalCommitContributions": 3487,
+  "contributionsLastYear": 14826,
+  "totalCommitContributions": 3488,
   "totalIssueContributions": 8843,
   "totalPullRequestContributions": 0,
   "privateContributions": 2485,
@@ -51,7 +51,7 @@
    {
     "name": "JavaScript",
     "projects": 17,
-    "bytes": 434801,
+    "bytes": 443122,
     "pct": 18.3
    },
    {
@@ -75,7 +75,7 @@
    {
     "name": "TypeScript",
     "projects": 6,
-    "bytes": 879407,
+    "bytes": 879491,
     "pct": 6.5
    },
    {
@@ -1666,7 +1666,7 @@
    },
    {
     "date": "2026-08-17",
-    "contributionCount": 17
+    "contributionCount": 18
    }
   ]
  ],
@@ -1711,7 +1711,7 @@
    "id": "devops-engineer",
    "name": "DevOps & Platform Engineer",
    "tagline": "Containers, images and reproducible environments.",
-   "count": 2
+   "count": 1
   },
   {
    "id": "systems-engineer",
@@ -1723,7 +1723,7 @@
    "id": "automation-engineer",
    "name": "Automation Engineer",
    "tagline": "Scripts and pipelines that delete repetitive work.",
-   "count": 6
+   "count": 7
   }
  ],
  "orgs": [
@@ -2301,57 +2301,58 @@
    "languages": [
     {
      "name": "TypeScript",
-     "bytes": 69963,
-     "pct": 60.5
+     "bytes": 70047,
+     "pct": 56.4
     },
     {
      "name": "JavaScript",
-     "bytes": 38981,
-     "pct": 33.7
+     "bytes": 47302,
+     "pct": 38.1
     },
     {
      "name": "CSS",
      "bytes": 6753,
-     "pct": 5.8
+     "pct": 5.4
     }
    ],
    "primaryLanguage": "TypeScript",
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 74,
+   "commits": 76,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-17T17:03:29Z",
+   "pushedAt": "2026-08-17T17:08:06Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "devops-engineer",
-    "fullstack-developer"
+    "automation-engineer",
+    "devops-engineer"
    ],
-   "headline": "Self-maintaining static portfolio site",
-   "what": "A static site that lists the engineer’s public projects, organized by role. A GitHub Action scans public, non-fork repositories, calls free LLM providers to write recruiter-facing narratives, and writes the results to data/portfolio.json, which the site statically exports. Built with TypeScript, JavaScript, CSS and driven by GitHub Actions and the GitHub CLI.",
-   "why": "Keeps the portfolio current without manual edits, ensuring new work appears automatically for recruiters.",
-   "impact": "Shows end-to-end automation of CI/CD pipelines and integration of LLM services to generate production content.",
+   "headline": "Self-maintaining portfolio generator",
+   "what": "A static site that lists public repositories and displays recruiter-facing narratives. A GitHub Action scans the account, calls free OpenAI-compatible models to write project summaries, and writes the output to data/portfolio.json, which the site renders. Built with TypeScript, Node.js and CSS, and orchestrated via GitHub Actions and the gh CLI.",
+   "why": "Manual updates to a developer portfolio are time-consuming; this service keeps the portfolio current automatically and generates concise narratives for each project.",
+   "impact": "Shows end-to-end CI pipeline creation, external API integration, and production-grade static site delivery.",
    "highlights": [
-    "GitHub Action syncs repos and updates JSON",
-    "LLM-generated recruiter narratives",
-    "Role-first project view with live counts",
-    "Command palette for fuzzy project search"
+    "GitHub Action syncs repos nightly",
+    "LLM-driven narrative generation",
+    "Role-first project organization",
+    "Command palette with fuzzy search"
    ],
    "tech": [
     "TypeScript",
     "JavaScript",
     "CSS",
+    "Node.js",
     "GitHub Actions",
-    "GitHub CLI",
-    "LLM API",
+    "GitHub CLI (gh)",
+    "OpenAI-compatible LLM APIs",
     "npm"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "46605892ed0dee41",
-   "primaryRole": "devops-engineer"
+   "contentHash": "147026396dda4912",
+   "primaryRole": "automation-engineer"
   },
   {
    "id": "ni-sh-a-char-youtube-shorts-automation",
