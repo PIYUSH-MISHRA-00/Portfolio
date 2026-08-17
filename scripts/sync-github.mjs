@@ -408,7 +408,8 @@ function userPrompt(c) {
     c.isArchived ? "Status: archived" : null,
     "",
     "README:",
-    c.readme.slice(0, 6000) || "(no README)",
+    // 3.5k chars is plenty of signal and keeps each call inside the token budget.
+    c.readme.slice(0, 3500) || "(no README)",
     "",
     `Allowed role ids: ${ROLE_IDS.join(", ")}`,
   ]
@@ -417,7 +418,23 @@ function userPrompt(c) {
 }
 
 /** Speech, embedding and safety models cannot write prose. */
-const NOT_A_WRITER = /whisper|tts|embed|guard|moderation|rerank|ocr/i;
+const NOT_A_WRITER = /whisper|tts|embed|guard|moderation|rerank|ocr|orpheus|playai/i;
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/**
+ * Shared rate-limit gate. Groq's limits are per-organisation, so one worker
+ * hitting 429 means every worker must wait — otherwise they each burn their
+ * retries hammering a closed door.
+ */
+let gateUntil = 0;
+async function passGate() {
+  const wait = gateUntil - Date.now();
+  if (wait > 0) await sleep(wait);
+}
+function closeGate(ms) {
+  gateUntil = Math.max(gateUntil, Date.now() + ms);
+}
 
 /** Bigger and instruction-tuned wins; previews and small/fast variants lose. */
 function modelRank(id) {
@@ -456,13 +473,15 @@ async function resolveGroqModel() {
 }
 
 async function groq(c, model) {
+  await passGate();
+
   const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
     method: "POST",
     headers: { Authorization: `Bearer ${GROQ_KEY}`, "Content-Type": "application/json" },
     body: JSON.stringify({
       model,
       temperature: 0.25,
-      max_tokens: 900,
+      max_tokens: 800,
       response_format: { type: "json_object" },
       messages: [
         { role: "system", content: SYSTEM },
@@ -470,9 +489,23 @@ async function groq(c, model) {
       ],
     }),
   });
+
+  if (res.status === 429) {
+    // Groq reports the exact wait; trust it over guessing at a backoff curve.
+    const after = Number(res.headers.get("retry-after"));
+    const waitMs = Math.min((Number.isFinite(after) && after > 0 ? after : 30) * 1000 + 500, 120_000);
+    closeGate(waitMs);
+    const err = new Error(`rate limited, waiting ${Math.round(waitMs / 1000)}s`);
+    err.retryAfterMs = waitMs;
+    throw err;
+  }
+
   if (!res.ok) throw new Error(`groq ${res.status}: ${(await res.text()).slice(0, 200)}`);
+
   const body = await res.json();
-  return JSON.parse(body.choices[0].message.content);
+  const text = body.choices?.[0]?.message?.content;
+  if (!text) throw new Error("groq returned an empty message");
+  return JSON.parse(text);
 }
 
 /** Keeps a bad model response from corrupting the site. */
@@ -564,7 +597,8 @@ async function enrich(candidates, cache) {
     }
   }
 
-  const enriched = await pool(candidates, 4, async (c) => {
+  // Two at a time: Groq's per-organisation token budget, not latency, is the limit.
+  const enriched = await pool(candidates, 2, async (c) => {
     const hash = hashOf(c);
     const cached = cache.get(c.id);
     if (cached && cached.contentHash === hash && cached.enrichedBy === "groq") {
@@ -572,17 +606,20 @@ async function enrich(candidates, cache) {
       return { ...c, ...pickNarrative(cached), contentHash: hash };
     }
     if (model) {
-      for (let attempt = 0; attempt < 3; attempt++) {
+      const ATTEMPTS = 6;
+      for (let attempt = 0; attempt < ATTEMPTS; attempt++) {
         try {
           const out = sanitise(await groq(c, model), c);
           calls++;
+          if (calls % 10 === 0) console.log(`    …${calls} written`);
           return { ...c, ...out, contentHash: hash };
         } catch (err) {
-          if (attempt === 2) {
+          if (attempt === ATTEMPTS - 1) {
             failures++;
             console.warn(`  ! ${c.nameWithOwner}: ${err.message.slice(0, 120)}`);
           } else {
-            await new Promise((r) => setTimeout(r, 2000 * (attempt + 1)));
+            // A 429 already parked the shared gate; anything else backs off locally.
+            await sleep(err.retryAfterMs ? 0 : 2500 * (attempt + 1));
           }
         }
       }
