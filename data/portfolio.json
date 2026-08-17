@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-17T16:26:31.588Z",
+ "syncedAt": "2026-08-17T16:32:37.015Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,13 +13,13 @@
  "stats": {
   "projects": 93,
   "flagships": 9,
-  "commitsByMe": 3490,
+  "commitsByMe": 3492,
   "stars": 61,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 14823,
-  "totalCommitContributions": 3485,
+  "contributionsLastYear": 14824,
+  "totalCommitContributions": 3486,
   "totalIssueContributions": 8843,
   "totalPullRequestContributions": 0,
   "privateContributions": 2485,
@@ -45,13 +45,13 @@
    {
     "name": "CSS",
     "projects": 19,
-    "bytes": 58541,
+    "bytes": 58490,
     "pct": 20.4
    },
    {
     "name": "JavaScript",
     "projects": 17,
-    "bytes": 432070,
+    "bytes": 434801,
     "pct": 18.3
    },
    {
@@ -75,7 +75,7 @@
    {
     "name": "TypeScript",
     "projects": 6,
-    "bytes": 878225,
+    "bytes": 879407,
     "pct": 6.5
    },
    {
@@ -1666,7 +1666,7 @@
    },
    {
     "date": "2026-08-17",
-    "contributionCount": 15
+    "contributionCount": 16
    }
   ]
  ],
@@ -3829,57 +3829,57 @@
    "languages": [
     {
      "name": "TypeScript",
-     "bytes": 68781,
-     "pct": 61.5
+     "bytes": 69963,
+     "pct": 60.5
     },
     {
      "name": "JavaScript",
-     "bytes": 36250,
-     "pct": 32.4
+     "bytes": 38981,
+     "pct": 33.7
     },
     {
      "name": "CSS",
-     "bytes": 6804,
-     "pct": 6.1
+     "bytes": 6753,
+     "pct": 5.8
     }
    ],
    "primaryLanguage": "TypeScript",
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 69,
+   "commits": 71,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-17T16:25:07Z",
+   "pushedAt": "2026-08-17T16:31:09Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
     "fullstack-developer",
-    "automation-engineer"
+    "devops-engineer"
    ],
    "headline": "Self-maintaining developer portfolio site",
-   "what": "A static site that displays a curated list of public repositories, generated from a JSON file. The site is built with Next.js 14 using the App Router, styled with Tailwind CSS, and typed with TypeScript. A GitHub Action runs Groq queries to collect repository metadata, writes narratives to data/portfolio.json, and triggers a rebuild.",
-   "why": "It automates keeping a portfolio up-to-date without manual edits, ensuring the displayed projects reflect the engineer’s latest public contributions.",
-   "impact": "Demonstrates end-to-end automation of data collection, content generation, and static site deployment.",
+   "what": "A static site that lists the engineer’s public repositories and generates recruiter-facing narratives automatically. It uses a Next.js 14 app with Tailwind CSS for the UI and a GitHub Action that queries GitHub, calls Groq for text generation, and writes the results to a JSON data file. The site is exported as static HTML and can be installed as a web app.",
+   "why": "Keeps a portfolio up-to-date without manual edits, ensuring recruiters see the latest work and contribution metrics.",
+   "impact": "Demonstrates end-to-end automation of content generation and deployment using modern web and CI/CD tools.",
    "highlights": [
-    "GitHub Action syncs repo data on push",
-    "Command palette for fuzzy search",
-    "Responsive layout with light/dark themes",
-    "Installable web app manifest"
+    "GitHub Action drives live sync of repos",
+    "Command palette for fuzzy project search",
+    "Static export with installable PWA manifest",
+    "Responsive layout with dark/light themes"
    ],
    "tech": [
     "Next.js 14",
-    "Tailwind CSS",
     "TypeScript",
+    "Tailwind CSS",
     "GitHub Actions",
     "Groq",
+    "App Router",
     "IntersectionObserver",
-    "npm",
-    "CSS"
+    "Static export"
    ],
    "signal": "solid",
    "enrichedBy": "groq",
-   "contentHash": "4838fbd21d02561a",
+   "contentHash": "11bc238b7ed4855e",
    "primaryRole": "fullstack-developer"
   },
   {
