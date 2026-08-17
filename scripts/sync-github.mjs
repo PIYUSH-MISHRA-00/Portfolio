@@ -82,8 +82,9 @@ const TOKEN = process.env.GH_PAT || process.env.GITHUB_TOKEN;
 
 /**
  * Talks to the GraphQL API through the `gh` CLI rather than fetch(). `gh` is
- * preinstalled on Actions runners and handles auth from GH_TOKEN, and some
- * networks answer 503 to non-CLI clients hitting api.github.com.
+ * preinstalled on Actions runners, reads GH_TOKEN, and retries transient
+ * failures itself — which matters because 502/503 from api.github.com is
+ * routine. (fetch() works fine too; the CLI just absorbs the flakiness.)
  */
 function ghGraphql(body) {
   return new Promise((resolve, reject) => {

@@ -106,8 +106,8 @@ npm run dev              # http://localhost:3000/Portfolio
 npm run build            # static export to out/
 ```
 
-`npm run sync` talks to GitHub through the `gh` CLI rather than `fetch`, because some networks answer
-503 to non-CLI clients hitting `api.github.com`.
+`npm run sync` talks to GitHub through the `gh` CLI rather than `fetch`, because `gh` retries the
+transient 502/503s that `api.github.com` returns routinely, and it is preinstalled on Actions runners.
 
 ## Features
 
