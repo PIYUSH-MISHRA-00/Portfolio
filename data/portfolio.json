@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-17T16:17:37.073Z",
+ "syncedAt": "2026-08-17T16:26:31.588Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,13 +13,13 @@
  "stats": {
   "projects": 93,
   "flagships": 9,
-  "commitsByMe": 3488,
+  "commitsByMe": 3490,
   "stars": 61,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 14822,
-  "totalCommitContributions": 3484,
+  "contributionsLastYear": 14823,
+  "totalCommitContributions": 3485,
   "totalIssueContributions": 8843,
   "totalPullRequestContributions": 0,
   "privateContributions": 2485,
@@ -1666,7 +1666,7 @@
    },
    {
     "date": "2026-08-17",
-    "contributionCount": 14
+    "contributionCount": 15
    }
   ]
  ],
@@ -1675,55 +1675,55 @@
    "id": "ai-engineer",
    "name": "AI & LLM Engineer",
    "tagline": "Generative AI, agents, RAG and applied language models.",
-   "count": 18
+   "count": 9
   },
   {
    "id": "data-scientist",
    "name": "Data Scientist",
    "tagline": "Modelling, prediction and analysis on real datasets.",
-   "count": 13
+   "count": 10
   },
   {
    "id": "security-engineer",
    "name": "Security & Cryptography Engineer",
    "tagline": "Original ciphers, encrypted transport and hardened systems.",
-   "count": 8
+   "count": 5
   },
   {
    "id": "backend-engineer",
    "name": "Backend & API Engineer",
    "tagline": "Services, data layers and APIs built to be consumed.",
-   "count": 32
+   "count": 16
   },
   {
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 42
+   "count": 30
   },
   {
    "id": "mobile-developer",
    "name": "Mobile & Cross-Platform Developer",
    "tagline": "Flutter, Kotlin and native Android shipped to devices.",
-   "count": 16
+   "count": 15
   },
   {
    "id": "devops-engineer",
    "name": "DevOps & Platform Engineer",
    "tagline": "Containers, images and reproducible environments.",
-   "count": 9
+   "count": 1
   },
   {
    "id": "systems-engineer",
    "name": "Systems & Low-Level Engineer",
    "tagline": "Kernel work, C, assembly and the layers underneath.",
-   "count": 2
+   "count": 1
   },
   {
    "id": "automation-engineer",
    "name": "Automation Engineer",
    "tagline": "Scripts and pipelines that delete repetitive work.",
-   "count": 9
+   "count": 6
   }
  ],
  "orgs": [
@@ -1826,14 +1826,14 @@
     "automation-engineer",
     "ai-engineer"
    ],
-   "headline": "Voice‑controlled virtual assistant for task automation",
-   "what": "The assistant listens for spoken commands, maps them to predefined actions, and executes tasks such as retrieving the time, searching the web, playing music, or sending email. It is written in Python, uses speech‑recognition libraries for audio input, and calls external services via HTTP or system calls. An optional OpenAI key enables ChatGPT‑style conversational responses through the E.T.E.R.GPT module.",
-   "why": "It provides a hands‑free way to perform frequent computer tasks, reducing manual interaction for the user.",
+   "headline": "Voice-controlled virtual assistant for task automation",
+   "what": "The assistant listens for spoken commands, maps them to predefined actions, and executes tasks such as retrieving the time, searching the web, playing music, or sending email. It is written in Python, uses speech-recognition libraries for audio input, and calls external services via HTTP or system calls. An optional OpenAI key enables ChatGPT-style conversational responses through the E.T.E.R.GPT module.",
+   "why": "It provides a hands-free way to perform frequent computer tasks, reducing manual interaction for the user.",
    "impact": "Shows the ability to combine speech processing, API integration, and OS automation in a single Python application.",
    "highlights": [
-    "Implements speech‑to‑text command parsing",
+    "Implements speech-to-text command parsing",
     "Integrates Google, YouTube, and Spotify queries",
-    "Adds ChatGPT‑style interaction via OpenAI API",
+    "Adds ChatGPT-style interaction via OpenAI API",
     "Automates OS actions like screenshots and email launch"
    ],
    "tech": [
@@ -1891,14 +1891,14 @@
     "security-engineer",
     "fullstack-developer"
    ],
-   "headline": "Time‑based cross‑platform encryption library with CLI and file support",
-   "what": "Provides a time‑driven encryption protocol that creates unique ciphertexts tied to a specific timestamp. Implements envelope, seal, replay protection, and chunked file encryption, exposed through a JavaScript web demo and a multi‑language CLI. The core logic is written in JavaScript and duplicated in Python, Java, Kotlin, and Dart with unit tests ensuring identical behavior.",
-   "why": "Enables secure communication that expires or becomes invalid outside its intended time window, mitigating replay attacks and simplifying cross‑platform key management.",
-   "impact": "Shows end‑to‑end design and implementation of a cryptographic protocol across front‑end and multiple back‑end runtimes.",
+   "headline": "Time-based cross-platform encryption library with CLI and file support",
+   "what": "Provides a time-driven encryption protocol that creates unique ciphertexts tied to a specific timestamp. Implements envelope, seal, replay protection, and chunked file encryption, exposed through a JavaScript web demo and a multi-language CLI. The core logic is written in JavaScript and duplicated in Python, Java, Kotlin, and Dart with unit tests ensuring identical behavior.",
+   "why": "Enables secure communication that expires or becomes invalid outside its intended time window, mitigating replay attacks and simplifying cross-platform key management.",
+   "impact": "Shows end-to-end design and implementation of a cryptographic protocol across front-end and multiple back-end runtimes.",
    "highlights": [
-    "Time‑driven encryption using clock angles",
-    "Replay protection via in‑memory ledger",
-    "Chunked file encryption with lossless round‑trip",
+    "Time-driven encryption using clock angles",
+    "Replay protection via in-memory ledger",
+    "Chunked file encryption with lossless round-trip",
     "CLI for encrypt/decrypt across languages"
    ],
    "tech": [
@@ -1951,10 +1951,10 @@
     "backend-engineer",
     "security-engineer"
    ],
-   "headline": "SHE – a beginner‑friendly interpreted programming language",
-   "what": "SHE is an interpreted language written in Python that provides a simple syntax for arithmetic, variables, conditionals, loops, functions, strings, and lists. The interpreter includes a REPL and a script runner that execute .she files. Built‑in functions expose the Kaalka encryption package for message encryption and decryption.",
+   "headline": "SHE - a beginner-friendly interpreted programming language",
+   "what": "SHE is an interpreted language written in Python that provides a simple syntax for arithmetic, variables, conditionals, loops, functions, strings, and lists. The interpreter includes a REPL and a script runner that execute .she files. Built-in functions expose the Kaalka encryption package for message encryption and decryption.",
    "why": "It offers a lightweight teaching tool for newcomers to programming while demonstrating how to embed cryptographic primitives in a language runtime.",
-   "impact": "Shows end‑to‑end design and implementation of a custom interpreter with integrated security features.",
+   "impact": "Shows end-to-end design and implementation of a custom interpreter with integrated security features.",
    "highlights": [
     "Implements lexer, parser, and runtime in Python",
     "Supports variables, loops, functions, and lists",
@@ -2007,15 +2007,15 @@
     "ai-engineer",
     "backend-engineer"
    ],
-   "headline": "Deterministic cross‑language runtime cognition platform for humans and AI agents",
-   "what": "Provides a canonical, graph‑structured runtime model of web apps, desktop software, and backend services that yields identical SHA‑256 hashes for the same input across Python, TypeScript, Dart, Java, and Kotlin SDKs. The system captures DOM events, state machines, and network traffic, then stores them in a deterministic intermediate representation that can be replayed or reconstructed. SDKs expose the model and cryptographic identity via Kaalka v5 encryption.",
-   "why": "Existing scrapers and automation tools cannot reliably handle dynamic, authenticated, and stateful software, making auditing and AI‑driven interaction brittle. The platform enables reliable replay and reasoning for both human engineers and autonomous agents.",
-   "impact": "Shows ability to design and deliver a multi‑SDK deterministic runtime system spanning five programming languages.",
+   "headline": "Deterministic cross-language runtime cognition platform for humans and AI agents",
+   "what": "Provides a canonical, graph-structured runtime model of web apps, desktop software, and backend services that yields identical SHA-256 hashes for the same input across Python, TypeScript, Dart, Java, and Kotlin SDKs. The system captures DOM events, state machines, and network traffic, then stores them in a deterministic intermediate representation that can be replayed or reconstructed. SDKs expose the model and cryptographic identity via Kaalka v5 encryption.",
+   "why": "Existing scrapers and automation tools cannot reliably handle dynamic, authenticated, and stateful software, making auditing and AI-driven interaction brittle. The platform enables reliable replay and reasoning for both human engineers and autonomous agents.",
+   "impact": "Shows ability to design and deliver a multi-SDK deterministic runtime system spanning five programming languages.",
    "highlights": [
-    "Deterministic SHA‑256 graph hashes across languages",
+    "Deterministic SHA-256 graph hashes across languages",
     "SDKs for Python, TypeScript, Dart, Java, Kotlin",
     "Authenticated session replay and continuation",
-    "Cross‑language parity with Kaalka v5 encryption"
+    "Cross-language parity with Kaalka v5 encryption"
    ],
    "tech": [
     "Python",
@@ -2063,12 +2063,12 @@
     "ai-engineer"
    ],
    "headline": "Production-ready Retrieval-Augmented Generation web app",
-   "what": "A web application that lets users upload .txt, .pdf, .docx, and .md files, then ask natural‑language questions and receive AI‑generated answers with inline citations. The pipeline chunks documents, creates embeddings with Google Gemini, stores vectors in Pinecone, applies MMR retrieval and Cohere reranking before generating responses via Groq’s Llama‑3.3 model. The front end shows real‑time timing, token usage, and cost metrics.",
-   "why": "Provides a low‑cost, end‑to‑end solution for extracting information from heterogeneous user documents while preserving source provenance.",
+   "what": "A web application that lets users upload .txt, .pdf, .docx, and .md files, then ask natural-language questions and receive AI-generated answers with inline citations. The pipeline chunks documents, creates embeddings with Google Gemini, stores vectors in Pinecone, applies MMR retrieval and Cohere reranking before generating responses via Groq’s Llama-3.3 model. The front end shows real-time timing, token usage, and cost metrics.",
+   "why": "Provides a low-cost, end-to-end solution for extracting information from heterogeneous user documents while preserving source provenance.",
    "impact": "Demonstrates ability to integrate multiple AI services, vector databases, and a responsive UI into a cohesive RAG system.",
    "highlights": [
-    "Multi‑format document upload (.txt, .pdf, .docx, .md)",
-    "Real‑time metrics: timing, token usage, cost",
+    "Multi-format document upload (.txt, .pdf, .docx, .md)",
+    "Real-time metrics: timing, token usage, cost",
     "Hybrid retrieval with MMR and Cohere reranking",
     "Inline citations linked to source snippets"
    ],
@@ -2079,7 +2079,7 @@
     "Pinecone",
     "Google Gemini embeddings",
     "Cohere rerank",
-    "Groq Llama‑3.3",
+    "Groq Llama-3.3",
     "Vercel"
    ],
    "signal": "flagship",
@@ -2134,9 +2134,9 @@
     "devops-engineer",
     "mobile-developer"
    ],
-   "headline": "Docker image for web‑based Android app emulation and testing",
-   "what": "Builds a Docker image based on Ubuntu that installs Python 3, OpenJDK 11, Android SDK, ADB, QEMU‑KVM and related libvirt tools. The image creates an Android Virtual Device (API 30) and configures KVM permissions, then runs a Bash shell that can be used by a web front‑end to upload APKs and display the app inside the emulator. The setup is scripted entirely in a Dockerfile and supporting shell scripts.",
-   "why": "Enables testing of Android applications without enabling unknown‑source installs on physical devices, allowing developers to run and view apps directly from a browser.",
+   "headline": "Docker image for web-based Android app emulation and testing",
+   "what": "Builds a Docker image based on Ubuntu that installs Python 3, OpenJDK 11, Android SDK, ADB, QEMU-KVM and related libvirt tools. The image creates an Android Virtual Device (API 30) and configures KVM permissions, then runs a Bash shell that can be used by a web front-end to upload APKs and display the app inside the emulator. The setup is scripted entirely in a Dockerfile and supporting shell scripts.",
+   "why": "Enables testing of Android applications without enabling unknown-source installs on physical devices, allowing developers to run and view apps directly from a browser.",
    "impact": "Shows expertise in containerizing a full Android development stack and automating emulator provisioning.",
    "highlights": [
     "Automates Android SDK install in Docker",
@@ -2151,7 +2151,7 @@
     "Bash",
     "Android SDK",
     "ADB",
-    "QEMU‑KVM",
+    "QEMU-KVM",
     "libvirt"
    ],
    "signal": "flagship",
@@ -2207,7 +2207,7 @@
    "headline": "Common platform for document text analysis",
    "what": "Provides a suite of activities—text cleaning, emotion classification, summarization, and entity checking—through a unified Python codebase. The pipeline is organized in Jupyter notebooks and packaged as a Docker container for reproducible execution. Users can run the service locally or via the provided Docker image.",
    "why": "Creates a single entry point for preprocessing and extracting insights from arbitrary documents, reducing the need to stitch together separate tools.",
-   "impact": "Demonstrates ability to design and containerize an end‑to‑end NLP workflow from raw text to analytical results.",
+   "impact": "Demonstrates ability to design and containerize an end-to-end NLP workflow from raw text to analytical results.",
    "highlights": [
     "Text cleaning with case, stopwords, URLs, emails",
     "Emotion classifier with improved accuracy",
@@ -2265,21 +2265,21 @@
     "security-engineer",
     "ai-engineer"
    ],
-   "headline": "Localized end‑to‑end encrypted server with NN‑based packet filtering firewall",
-   "what": "A local server receives all device requests, encrypts traffic end‑to‑end, and forwards it through a proxy that masks the external IP. It assigns a unique hash to each device and router, using the hash table for packet routing. Traffic is passed to a one‑dimensional convolutional neural network that classifies packets as benign or malicious before reaching the internet.",
-   "why": "Increasing packet‑level cyber attacks require a gateway that secures internal traffic and hides device identities when accessing external networks.",
-   "impact": "Demonstrates building a secure network gateway that combines encryption, hashing, and neural‑network traffic classification in production code.",
+   "headline": "Localized end-to-end encrypted server with NN-based packet filtering firewall",
+   "what": "A local server receives all device requests, encrypts traffic end-to-end, and forwards it through a proxy that masks the external IP. It assigns a unique hash to each device and router, using the hash table for packet routing. Traffic is passed to a one-dimensional convolutional neural network that classifies packets as benign or malicious before reaching the internet.",
+   "why": "Increasing packet-level cyber attacks require a gateway that secures internal traffic and hides device identities when accessing external networks.",
+   "impact": "Demonstrates building a secure network gateway that combines encryption, hashing, and neural-network traffic classification in production code.",
    "highlights": [
-    "End‑to‑end encrypted traffic handling",
-    "Device‑ID hashing for packet routing",
-    "1‑D CNN classifies malicious packets",
+    "End-to-end encrypted traffic handling",
+    "Device-ID hashing for packet routing",
+    "1-D CNN classifies malicious packets",
     "Proxy masks external IP address"
    ],
    "tech": [
     "Go",
     "Python",
     "Jupyter Notebook",
-    "1D Convolutional Neural ",
+    "1D Convolutional Neural",
     "IP hashing",
     "Proxy server",
     "TLS encryption"
@@ -2320,19 +2320,19 @@
     "backend-engineer"
    ],
    "headline": "End-to-end YouTube Shorts creation and upload pipeline",
-   "what": "The service generates a short concept with Gemini, writes a script, creates a TTS voiceover via edge‑tts, produces captions, builds a thumbnail, assembles the video using MoviePy, and uploads it to YouTube. All steps are orchestrated in Python and run as a Render‑hosted containerized job. Temporary files are deleted after upload to free disk space.",
+   "what": "The service generates a short concept with Gemini, writes a script, creates a TTS voiceover via edge-tts, produces captions, builds a thumbnail, assembles the video using MoviePy, and uploads it to YouTube. All steps are orchestrated in Python and run as a Render-hosted containerized job. Temporary files are deleted after upload to free disk space.",
    "why": "It automates the manual workflow of producing YouTube Shorts, shrinking the time from idea to published video to a few minutes.",
-   "impact": "Demonstrates full‑stack automation of media generation, cloud deployment, and API integration in Python.",
+   "impact": "Demonstrates full-stack automation of media generation, cloud deployment, and API integration in Python.",
    "highlights": [
     "Idea generation via Gemini API",
-    "TTS synthesis with edge‑tts",
+    "TTS synthesis with edge-tts",
     "Video assembly using MoviePy",
-    "Automated cleanup of ~100 MB temp files"
+    "Automated cleanup of ~100 MB temp files"
    ],
    "tech": [
     "Python",
     "Gemini",
-    "edge‑tts",
+    "edge-tts",
     "MoviePy",
     "YouTube Data API",
     "Render",
@@ -2369,14 +2369,14 @@
     "data-scientist"
    ],
    "headline": "Image detection app for plant disease identification",
-   "what": "The app lets farmers capture a crop photo, uploads it, and runs a trained machine‑learning model to classify the disease. If the model’s confidence exceeds 51 % the app shows the disease name and symptoms; otherwise it queries a general solution repository and logs the image for expert review. The workflow includes OTP‑verified registration, offline operation, and a chat channel to contact specialists.",
-   "why": "Farmers need rapid, low‑cost diagnosis of crop diseases without requiring specialist visits.",
-   "impact": "Shows integration of mobile UI, on‑device ML inference, and a fallback expert‑feedback loop.",
+   "what": "The app lets farmers capture a crop photo, uploads it, and runs a trained machine-learning model to classify the disease. If the model’s confidence exceeds 51 % the app shows the disease name and symptoms; otherwise it queries a general solution repository and logs the image for expert review. The workflow includes OTP-verified registration, offline operation, and a chat channel to contact specialists.",
+   "why": "Farmers need rapid, low-cost diagnosis of crop diseases without requiring specialist visits.",
+   "impact": "Shows integration of mobile UI, on-device ML inference, and a fallback expert-feedback loop.",
    "highlights": [
     "Image capture and upload flow",
-    "On‑device ML inference with 51 % confidence rule",
+    "On-device ML inference with 51 % confidence rule",
     "Fallback to expert solution repository",
-    "OTP‑based user registration"
+    "OTP-based user registration"
    ],
    "tech": [
     "Machine Learning",
@@ -2429,14 +2429,14 @@
     "fullstack-developer"
    ],
    "headline": "Desktop AI meeting assistant with live transcription and chat",
-   "what": "Provides real‑time speech transcription and AI‑generated answers during calls. Built with JavaScript, HTML and Node.js in a cross‑platform desktop runtime, it routes audio to transcription providers and queries LLM backends via OpenAI‑compatible APIs. Users configure providers and models through an in‑app settings UI.",
-   "why": "Created to give meeting participants instant notes and on‑demand answers without leaving the call.",
+   "what": "Provides real-time speech transcription and AI-generated answers during calls. Built with JavaScript, HTML and Node.js in a cross-platform desktop runtime, it routes audio to transcription providers and queries LLM backends via OpenAI-compatible APIs. Users configure providers and models through an in-app settings UI.",
+   "why": "Created to give meeting participants instant notes and on-demand answers without leaving the call.",
    "impact": "Shows ability to integrate multiple LLM and transcription services into a unified desktop application.",
    "highlights": [
     "Supports cloud and local LLM backends",
     "Configurable provider selection via UI",
-    "Real‑time audio transcription",
-    "Cross‑platform desktop build"
+    "Real-time audio transcription",
+    "Cross-platform desktop build"
    ],
    "tech": [
     "JavaScript",
@@ -2492,14 +2492,14 @@
     "automation-engineer",
     "devops-engineer"
    ],
-   "headline": "Menu‑driven Git automation script for project directories",
+   "headline": "Menu-driven Git automation script for project directories",
    "what": "Provides a configurable menu to run common Git commands from the project’s working directory. Implemented as a Bash wrapper that invokes Python for command handling and state persistence. The script is installed once per repository and reused without further setup.",
    "why": "Reduces repetitive typing of Git commands and eliminates manual configuration when switching projects.",
    "impact": "Shows ability to combine shell and Python to build a reusable developer tool.",
    "highlights": [
     "Menu UI for Git actions",
-    "One‑time configuration of repo path",
-    "Cross‑platform usage via WSL",
+    "One-time configuration of repo path",
+    "Cross-platform usage via WSL",
     "Persisted settings in a Python config file"
    ],
    "tech": [
@@ -2562,11 +2562,11 @@
     "devops-engineer"
    ],
    "headline": "Common platform for bioinformatics, computational biology and chemistry",
-   "what": "Provides a set of Jupyter notebooks and command‑line tools for DNA sequence analysis, bioactivity prediction, solubility estimation, and molecular descriptor calculation. The environment is containerized with Docker and combines Python scripts with Java components to run consistently across systems.",
+   "what": "Provides a set of Jupyter notebooks and command-line tools for DNA sequence analysis, bioactivity prediction, solubility estimation, and molecular descriptor calculation. The environment is containerized with Docker and combines Python scripts with Java components to run consistently across systems.",
    "why": "Creates a single reproducible workspace for students and researchers to explore multiple bioinformatics tasks without manual setup of dependencies.",
    "impact": "Shows ability to integrate Python, Java, and Docker into a cohesive scientific platform.",
    "highlights": [
-    "Dockerized multi‑tool environment",
+    "Dockerized multi-tool environment",
     "Jupyter notebooks for DNA and drug analysis",
     "Python & Java modules for predictions",
     "144 commits indicating sustained development"
@@ -2624,15 +2624,15 @@
     "mobile-developer",
     "ai-engineer"
    ],
-   "headline": "Privacy‑first AI call intelligence platform for searchable transcripts",
-   "what": "Transforms phone calls into searchable memory with real‑time transcription, summaries, action items, and emotion insights. Built with Flutter for the UI, native Android/Kotlin for call capture, and a C++ implementation of a time‑based encryption algorithm. Uses user‑provided Groq API keys so all AI processing stays under the user’s control.",
-   "why": "Provides call intelligence without sending raw audio or transcripts to cloud services, addressing privacy and data‑ownership concerns for professionals and businesses.",
-   "impact": "Shows ability to combine cross‑platform mobile development, on‑device encryption, and AI integration in a single product.",
+   "headline": "Privacy-first AI call intelligence platform for searchable transcripts",
+   "what": "Transforms phone calls into searchable memory with real-time transcription, summaries, action items, and emotion insights. Built with Flutter for the UI, native Android/Kotlin for call capture, and a C++ implementation of a time-based encryption algorithm. Uses user-provided Groq API keys so all AI processing stays under the user’s control.",
+   "why": "Provides call intelligence without sending raw audio or transcripts to cloud services, addressing privacy and data-ownership concerns for professionals and businesses.",
+   "impact": "Shows ability to combine cross-platform mobile development, on-device encryption, and AI integration in a single product.",
    "highlights": [
-    "Real‑time transcription via Groq API",
-    "On‑device time‑based encryption (Kaalka)",
+    "Real-time transcription via Groq API",
+    "On-device time-based encryption (Kaalka)",
     "Flutter UI with native Android call capture",
-    "User‑owned API keys for privacy"
+    "User-owned API keys for privacy"
    ],
    "tech": [
     "Flutter",
@@ -2676,18 +2676,31 @@
    "isOrg": true,
    "org": "ni-sh-a-char",
    "roles": [
-    "ai-engineer"
+    "ai-engineer",
+    "backend-engineer"
    ],
-   "headline": "Creator, Organizer and Maintainer for ni_sh_a.char...",
-   "what": "Monsterrr 🚀 Autonomous AI for GitHub Organization Management --- 🚀 Render Deployment Instructions Monsterrr is production-ready for Render. Connect your GitHub repo to Render.",
-   "why": "",
-   "impact": "",
-   "highlights": [],
+   "headline": "Autonomous AI service for GitHub organization management",
+   "what": "Provides a FastAPI web API and a Discord bot that automate GitHub organization tasks using Groq LLMs. The Python code runs as separate web and worker processes, selectable via Render or a single-container Docker deployment, and includes health checks, email reporting, and state persistence.",
+   "why": "Built to reduce manual admin effort by letting an AI select appropriate models for tasks, report activity, and expose controls through Discord and HTTP endpoints.",
+   "impact": "Shows end-to-end design of a multi-process Python service that integrates LLM routing, web APIs, and messaging bots.",
+   "highlights": [
+    "FastAPI API with health endpoint",
+    "Discord bot worker handling commands",
+    "Dynamic model routing with fallback",
+    "HTML email reports via SMTP"
+   ],
    "tech": [
-    "Python"
+    "Python",
+    "FastAPI",
+    "uvicorn",
+    "Discord",
+    "Groq",
+    "SMTP",
+    "Docker",
+    "Render"
    ],
    "signal": "solid",
-   "enrichedBy": "readme",
+   "enrichedBy": "groq",
    "contentHash": "308834ba94a08661",
    "primaryRole": "ai-engineer"
   },
@@ -2726,15 +2739,15 @@
     "fullstack-developer",
     "backend-engineer"
    ],
-   "headline": "Java desktop chat application with real‑time messaging",
-   "what": "A Java‑based desktop program that lets users exchange messages instantly over a network. It uses Java sockets for real‑time communication, stores chat history in MySQL via JDBC, and encrypts messages before transmission. The UI is built with Swing and the project can be compiled in any standard Java IDE.",
+   "headline": "Java desktop chat application with real-time messaging",
+   "what": "A Java-based desktop program that lets users exchange messages instantly over a network. It uses Java sockets for real-time communication, stores chat history in MySQL via JDBC, and encrypts messages before transmission. The UI is built with Swing and the project can be compiled in any standard Java IDE.",
    "why": "Provides a lightweight, secure way for systems on a LAN to chat without relying on external services.",
-   "impact": "Shows ability to design and deliver an end‑to‑end networked Java application with database integration and encryption.",
+   "impact": "Shows ability to design and deliver an end-to-end networked Java application with database integration and encryption.",
    "highlights": [
-    "Real‑time messaging via Java sockets",
+    "Real-time messaging via Java sockets",
     "Encrypted message transfer",
     "MySQL persistence for chat history",
-    "Cross‑IDE compatible build"
+    "Cross-IDE compatible build"
    ],
    "tech": [
     "Java",
@@ -2785,7 +2798,7 @@
    ],
    "headline": "Android news app fetching categories via NewsAPI",
    "what": "The app retrieves current articles from newsapi.org and lets users select from multiple news categories. It is written in Java for Android and uses Retrofit for network calls, Picasso for image loading, and RecyclerView for list presentation. The source includes a configurable API key placeholder for deployment.",
-   "why": "Provides a simple mobile interface to browse up‑to‑date news without needing a web browser.",
+   "why": "Provides a simple mobile interface to browse up-to-date news without needing a web browser.",
    "impact": "Shows competence in consuming REST services and constructing a functional Android UI.",
    "highlights": [
     "Integrates NewsAPI with Retrofit",
@@ -2843,9 +2856,9 @@
     "mobile-developer"
    ],
    "headline": "Simple Android image editing app",
-   "what": "Provides basic editing features such as filters and adjustments. Built with a Java UI layer and RenderScript kernels for pixel‑level processing.",
-   "why": "Created as an educational project to practice Android image‑manipulation techniques.",
-   "impact": "Shows competence integrating RenderScript with Java for performance‑critical image processing on Android.",
+   "what": "Provides basic editing features such as filters and adjustments. Built with a Java UI layer and RenderScript kernels for pixel-level processing.",
+   "why": "Created as an educational project to practice Android image-manipulation techniques.",
+   "impact": "Shows competence integrating RenderScript with Java for performance-critical image processing on Android.",
    "highlights": [
     "Implements filter pipeline with RenderScript",
     "Handles image loading and saving",
@@ -2898,13 +2911,13 @@
     "backend-engineer",
     "security-engineer"
    ],
-   "headline": "Time‑based encryption/decryption REST API with FastAPI",
-   "what": "Provides /encrypt and /decrypt endpoints that apply time‑based encryption using the Kaalka library. Built with async FastAPI, it streams files in memory and validates input with Pydantic. A background task removes temporary files every 60 seconds and the service is containerized via Docker and includes a Streamlit test UI.",
-   "why": "Offers developers a simple HTTP interface to secure messages and files with timestamp‑bound keys, avoiding custom cryptography implementations.",
-   "impact": "Shows competence in designing an async Python API, integrating background cleanup, and delivering a Docker‑ready service.",
+   "headline": "Time-based encryption/decryption REST API with FastAPI",
+   "what": "Provides /encrypt and /decrypt endpoints that apply time-based encryption using the Kaalka library. Built with async FastAPI, it streams files in memory and validates input with Pydantic. A background task removes temporary files every 60 seconds and the service is containerized via Docker and includes a Streamlit test UI.",
+   "why": "Offers developers a simple HTTP interface to secure messages and files with timestamp-bound keys, avoiding custom cryptography implementations.",
+   "impact": "Shows competence in designing an async Python API, integrating background cleanup, and delivering a Docker-ready service.",
    "highlights": [
     "Async FastAPI endpoints for encrypt/decrypt",
-    "In‑memory file streaming, no persistent storage",
+    "In-memory file streaming, no persistent storage",
     "Background task cleans temp files every minute",
     "Dockerfile for containerized deployment"
    ],
@@ -2959,14 +2972,14 @@
     "automation-engineer"
    ],
    "headline": "Job posting scraper for iCIMS portals with FastAPI and Docker",
-   "what": "A service that extracts job postings from iCIMS career portals. It uses Playwright to render JavaScript‑heavy pages and falls back to BeautifulSoup for static content. The scraper is exposed via a FastAPI REST endpoint and a command‑line interface, and the whole application is containerized with Docker.",
+   "what": "A service that extracts job postings from iCIMS career portals. It uses Playwright to render JavaScript-heavy pages and falls back to BeautifulSoup for static content. The scraper is exposed via a FastAPI REST endpoint and a command-line interface, and the whole application is containerized with Docker.",
    "why": "Organizations need a reliable way to programmatically collect job listings from iCIMS sites that often require browser automation. The project provides an automated, reusable solution.",
-   "impact": "Shows ability to build an end‑to‑end Python scraping pipeline with browser automation, API exposure, and container deployment.",
+   "impact": "Shows ability to build an end-to-end Python scraping pipeline with browser automation, API exposure, and container deployment.",
    "highlights": [
-    "Playwright scraper for JS‑heavy pages",
+    "Playwright scraper for JS-heavy pages",
     "BeautifulSoup fallback for static content",
     "FastAPI endpoint with OpenAPI docs",
-    "Dockerized for one‑click deployment"
+    "Dockerized for one-click deployment"
    ],
    "tech": [
     "Python",
@@ -3014,13 +3027,13 @@
     "automation-engineer"
    ],
    "headline": "Real-time desktop AI assistant overlay for Windows",
-   "what": "A Python service that captures spoken questions via microphone or system audio, sends the transcription to Google Gemini, and renders the response in a borderless, always‑on‑top overlay window. It uses Windows APIs to hide the overlay from screen capture and provides a global hotkey to show or hide the UI. The implementation relies on google‑genai, speech_recognition, pyaudio, keyboard and requests libraries.",
-   "why": "It provides hands‑free, instant answers without disrupting the user's workflow, addressing the need for quick information retrieval while working on other applications.",
-   "impact": "Demonstrates end‑to‑end integration of speech recognition, LLM APIs, and custom Windows UI in Python.",
+   "what": "A Python service that captures spoken questions via microphone or system audio, sends the transcription to Google Gemini, and renders the response in a borderless, always-on-top overlay window. It uses Windows APIs to hide the overlay from screen capture and provides a global hotkey to show or hide the UI. The implementation relies on google-genai, speech_recognition, pyaudio, keyboard and requests libraries.",
+   "why": "It provides hands-free, instant answers without disrupting the user's workflow, addressing the need for quick information retrieval while working on other applications.",
+   "impact": "Demonstrates end-to-end integration of speech recognition, LLM APIs, and custom Windows UI in Python.",
    "highlights": [
-    "Speech‑to‑text via microphone",
+    "Speech-to-text via microphone",
     "Google Gemini LLM integration",
-    "Transparent always‑on‑top overlay",
+    "Transparent always-on-top overlay",
     "Global hotkey toggles visibility"
    ],
    "tech": [
@@ -3073,12 +3086,12 @@
     "fullstack-developer",
     "backend-engineer"
    ],
-   "headline": "Full‑stack Go medical portal with receptionist and doctor interfaces",
-   "what": "Provides a web UI for receptionists to register patients and perform CRUD on records, and for doctors to view and update patient details. Built with Go’s net/http server, PostgreSQL for persistence, and a Tailwind‑styled HTML/JS front‑end. Authentication uses JWT and role‑based access control.",
-   "why": "Created to replace manual paper‑based patient tracking with a centralized digital system.",
-   "impact": "Demonstrates end‑to‑end development of a Go web service with secure authentication and role separation.",
+   "headline": "Full-stack Go medical portal with receptionist and doctor interfaces",
+   "what": "Provides a web UI for receptionists to register patients and perform CRUD on records, and for doctors to view and update patient details. Built with Go’s net/http server, PostgreSQL for persistence, and a Tailwind-styled HTML/JS front-end. Authentication uses JWT and role-based access control.",
+   "why": "Created to replace manual paper-based patient tracking with a centralized digital system.",
+   "impact": "Demonstrates end-to-end development of a Go web service with secure authentication and role separation.",
    "highlights": [
-    "JWT‑based authentication",
+    "JWT-based authentication",
     "RBAC for receptionist and doctor roles",
     "CRUD API for patient records",
     "Tailwind CSS UI"
@@ -3144,8 +3157,8 @@
    ],
    "headline": "Responsive travel website built with HTML, SCSS, and JavaScript",
    "what": "The site presents travel content with a layout that adjusts to phones, tablets, and desktops. It is built with semantic HTML, SCSS for modular styling, and vanilla JavaScript for interactive elements. All assets are compiled and deployed via simple shell scripts.",
-   "why": "Created to provide a mobile‑friendly travel information portal without relying on external frameworks.",
-   "impact": "Shows end‑to‑end front‑end development and responsive design skills.",
+   "why": "Created to provide a mobile-friendly travel information portal without relying on external frameworks.",
+   "impact": "Shows end-to-end front-end development and responsive design skills.",
    "highlights": [
     "Responsive layout across breakpoints",
     "SCSS modular architecture",
@@ -3200,11 +3213,11 @@
     "backend-engineer"
    ],
    "headline": "Image steganography tool for encoding and decoding messages in pictures",
-   "what": "The tool embeds an encrypted text payload into a bitmap using least‑significant‑bit steganography and extracts it back to plain text. It is written in Java with a thin Shell wrapper to invoke the Java classes from the command line. Encryption of the payload uses standard AES before embedding.",
+   "what": "The tool embeds an encrypted text payload into a bitmap using least-significant-bit steganography and extracts it back to plain text. It is written in Java with a thin Shell wrapper to invoke the Java classes from the command line. Encryption of the payload uses standard AES before embedding.",
    "why": "It provides a way to hide confidential information inside ordinary images without requiring external services.",
-   "impact": "Demonstrates end‑to‑end implementation of cryptographic steganography in Java.",
+   "impact": "Demonstrates end-to-end implementation of cryptographic steganography in Java.",
    "highlights": [
-    "LSB‑based message embedding",
+    "LSB-based message embedding",
     "AES encryption of payload",
     "Shell wrapper for CLI usage",
     "Pure Java implementation"
@@ -3258,7 +3271,7 @@
    ],
    "headline": "Java JSP/Servlet CRUD demo with MySQL",
    "what": "Provides a web interface for creating, reading, updating, and deleting user records stored in a MySQL database. Implemented with JSP for view rendering, Servlets for request handling, and JDBC for database access, packaged as a Maven web application.",
-   "why": "Built to illustrate end‑to‑end CRUD operations in a Java web stack.",
+   "why": "Built to illustrate end-to-end CRUD operations in a Java web stack.",
    "impact": "Shows ability to integrate Java EE components and manage relational data through JDBC.",
    "highlights": [
     "Full CRUD UI with JSP pages",
@@ -3322,11 +3335,11 @@
     "backend-engineer"
    ],
    "headline": "Authenticated text editor with SHA-256 credential storage",
-   "what": "A desktop text editor that requires users to log in before editing files. Credentials are hashed with SHA‑256 and stored, preventing plain‑text passwords. The application is written primarily in Java with supporting shell scripts and Python utilities for build and testing.",
+   "what": "A desktop text editor that requires users to log in before editing files. Credentials are hashed with SHA-256 and stored, preventing plain-text passwords. The application is written primarily in Java with supporting shell scripts and Python utilities for build and testing.",
    "why": "Provides a simple editing tool while ensuring password data is protected using cryptographic hashing.",
    "impact": "Shows competence in implementing authentication flows and secure password handling in Java.",
    "highlights": [
-    "SHA‑256 password hashing",
+    "SHA-256 password hashing",
     "Java Swing UI for editing",
     "Shell scripts automate build",
     "Python test harness"
@@ -3380,11 +3393,11 @@
    "headline": "Simple Python IDE for writing and executing scripts",
    "what": "Provides a graphical editor with syntax highlighting where users can type Python code and run it with a single click. The application is written in Python and uses a shell wrapper to invoke the local Python interpreter. Execution results are shown in an integrated output pane.",
    "why": "Creates a lightweight alternative to heavyweight IDEs for quick script development and testing on a local machine.",
-   "impact": "Shows competence in building end‑to‑end desktop tools that combine UI, process control, and output handling.",
+   "impact": "Shows competence in building end-to-end desktop tools that combine UI, process control, and output handling.",
    "highlights": [
     "Editor with syntax highlighting",
     "Run button launches scripts via shell",
-    "Displays script output in‑app",
+    "Displays script output in-app",
     "Basic edit actions (copy, paste, undo/redo)"
    ],
    "tech": [
@@ -3446,9 +3459,9 @@
     "systems-engineer",
     "devops-engineer"
    ],
-   "headline": "Boot‑time kernel that prints a message",
+   "headline": "Boot-time kernel that prints a message",
    "what": "A minimal kernel that outputs a static message at boot. It combines Assembly boot code with C initialization, compiled via a Makefile. The build runs inside a Docker container to provide a consistent environment.",
-   "why": "Created to explore low‑level system programming and kernel boot processes.",
+   "why": "Created to explore low-level system programming and kernel boot processes.",
    "impact": "Shows competence in assembly, kernel development, and Dockerized build pipelines.",
    "highlights": [
     "Boot message printed on kernel start",
@@ -3522,9 +3535,9 @@
     "fullstack-developer"
    ],
    "headline": "Spring Boot REST API for MongoDB CRUD operations",
-   "what": "Provides a RESTful service exposing create, read, update, and delete endpoints for data stored in MongoDB. Implemented with Spring Boot and Spring Data MongoDB for persistence, and Spring MVC for request handling. Includes basic front‑end assets and build scripts.",
+   "what": "Provides a RESTful service exposing create, read, update, and delete endpoints for data stored in MongoDB. Implemented with Spring Boot and Spring Data MongoDB for persistence, and Spring MVC for request handling. Includes basic front-end assets and build scripts.",
    "why": "Created to offer a reusable backend component that projects can integrate for database interaction without building their own service layer.",
-   "impact": "Shows end‑to‑end design and implementation of a Java‑based backend service, handling the bulk of code contributions.",
+   "impact": "Shows end-to-end design and implementation of a Java-based backend service, handling the bulk of code contributions.",
    "highlights": [
     "Implemented CRUD endpoints with Spring MVC",
     "Configured Spring Data MongoDB repositories",
@@ -3586,13 +3599,13 @@
     "automation-engineer",
     "devops-engineer"
    ],
-   "headline": "Menu‑driven script to automate Git and Docker tasks",
-   "what": "Provides a command‑line menu that runs common Git commands and Docker build/push workflows from a project directory. Implemented as a Bash wrapper (dash.sh) that invokes Python helpers for configuration and Dockerfile generation. Distributed as a Docker image for consistent execution across environments.",
-   "why": "Reduces manual repetition of version‑control and containerization steps, especially for developers switching between projects or using WSL on Windows.",
-   "impact": "Demonstrates ability to create end‑to‑end automation tooling that integrates version control and container pipelines.",
+   "headline": "Menu-driven script to automate Git and Docker tasks",
+   "what": "Provides a command-line menu that runs common Git commands and Docker build/push workflows from a project directory. Implemented as a Bash wrapper (dash.sh) that invokes Python helpers for configuration and Dockerfile generation. Distributed as a Docker image for consistent execution across environments.",
+   "why": "Reduces manual repetition of version-control and containerization steps, especially for developers switching between projects or using WSL on Windows.",
+   "impact": "Demonstrates ability to create end-to-end automation tooling that integrates version control and container pipelines.",
    "highlights": [
     "Menu interface for git operations",
-    "Configurable per‑project setup",
+    "Configurable per-project setup",
     "Docker image builds and pushes",
     "Runs on WSL for Windows users"
    ],
@@ -3656,14 +3669,14 @@
     "devops-engineer"
    ],
    "headline": "Common platform for finance analysis dashboards",
-   "what": "Provides stock, real‑time, MPG, and generic data visualizer dashboards built with Python and Streamlit. The codebase includes Jupyter notebooks for exploratory analysis and is packaged in a Docker image for consistent execution.",
+   "what": "Provides stock, real-time, MPG, and generic data visualizer dashboards built with Python and Streamlit. The codebase includes Jupyter notebooks for exploratory analysis and is packaged in a Docker image for consistent execution.",
    "why": "Created to give analysts a single, reproducible environment for exploring and visualizing financial data without manual setup.",
-   "impact": "Shows end‑to‑end delivery of a data‑driven web app with containerized deployment.",
+   "impact": "Shows end-to-end delivery of a data-driven web app with containerized deployment.",
    "highlights": [
     "Streamlit UI with multiple finance dashboards",
     "Dockerized for reproducible deployment",
     "Jupyter notebooks for exploratory analysis",
-    "Supports real‑time data feeds"
+    "Supports real-time data feeds"
    ],
    "tech": [
     "Python",
@@ -3724,8 +3737,8 @@
    ],
    "headline": "MERN blog app with login and blog management",
    "what": "The service lets users register, log in, and create, edit, or delete blog posts. It is built with React for the front end, Express and Node.js for the API, and MongoDB for persistence. Authentication uses JSON Web Tokens and the UI is styled with CSS and HTML.",
-   "why": "Provides a simple platform for users to publish personal content without relying on third‑party services.",
-   "impact": "Demonstrates end‑to‑end development of a full‑stack web application using the MERN stack.",
+   "why": "Provides a simple platform for users to publish personal content without relying on third-party services.",
+   "impact": "Demonstrates end-to-end development of a full-stack web application using the MERN stack.",
    "highlights": [
     "User authentication with JWT",
     "CRUD operations for posts",
@@ -3783,13 +3796,13 @@
     "ai-engineer"
    ],
    "headline": "Android barcode and QR code scanner using Google ML Kit",
-   "what": "Builds an Android app that captures camera frames and extracts barcode or QR data in real time. The app is written in Java and integrates Google ML Kit for fast, on‑device barcode recognition. Scanned results are shown on a simple UI.",
-   "why": "Provides a lightweight, offline solution for reading barcodes and QR codes without third‑party services.",
-   "impact": "Demonstrates end‑to‑end Android development with ML Kit integration and camera handling.",
+   "what": "Builds an Android app that captures camera frames and extracts barcode or QR data in real time. The app is written in Java and integrates Google ML Kit for fast, on-device barcode recognition. Scanned results are shown on a simple UI.",
+   "why": "Provides a lightweight, offline solution for reading barcodes and QR codes without third-party services.",
+   "impact": "Demonstrates end-to-end Android development with ML Kit integration and camera handling.",
    "highlights": [
     "Java Android app with camera integration",
     "Google ML Kit barcode detection",
-    "Real‑time scanning UI",
+    "Real-time scanning UI",
     "Supports barcode and QR formats"
    ],
    "tech": [
@@ -3834,38 +3847,39 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 67,
+   "commits": 69,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-17T16:02:19Z",
+   "pushedAt": "2026-08-17T16:25:07Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "fullstack-developer"
+    "fullstack-developer",
+    "automation-engineer"
    ],
-   "headline": "Self‑maintaining developer portfolio site",
-   "what": "A static site that lists all public, non‑fork repositories authored by the engineer and generates recruiter‑facing narratives automatically. A GitHub Action queries GitHub, calls Groq to write project summaries, and writes them to data/portfolio.json. The site is built with Next.js 14 (App Router) and Tailwind CSS and exported as static HTML.",
-   "why": "Keeps the portfolio current without manual edits, ensuring recruiters see up‑to‑date project information.",
-   "impact": "Shows end‑to‑end automation from CI/CD pipelines to static site generation using modern web stack.",
+   "headline": "Self-maintaining developer portfolio site",
+   "what": "A static site that displays a curated list of public repositories, generated from a JSON file. The site is built with Next.js 14 using the App Router, styled with Tailwind CSS, and typed with TypeScript. A GitHub Action runs Groq queries to collect repository metadata, writes narratives to data/portfolio.json, and triggers a rebuild.",
+   "why": "It automates keeping a portfolio up-to-date without manual edits, ensuring the displayed projects reflect the engineer’s latest public contributions.",
+   "impact": "Demonstrates end-to-end automation of data collection, content generation, and static site deployment.",
    "highlights": [
-    "GitHub Action syncs repos to JSON",
-    "Next.js 14 static export",
-    "Tailwind CSS responsive UI",
-    "Command palette with fuzzy search"
+    "GitHub Action syncs repo data on push",
+    "Command palette for fuzzy search",
+    "Responsive layout with light/dark themes",
+    "Installable web app manifest"
    ],
    "tech": [
-    "Next.js",
-    "TypeScript",
+    "Next.js 14",
     "Tailwind CSS",
+    "TypeScript",
     "GitHub Actions",
     "Groq",
     "IntersectionObserver",
-    "CSS",
-    "npm"
+    "npm",
+    "CSS"
    ],
    "signal": "solid",
    "enrichedBy": "groq",
-   "contentHash": "abbe0662925c3085",
+   "contentHash": "4838fbd21d02561a",
    "primaryRole": "fullstack-developer"
   },
   {
@@ -3906,12 +3920,12 @@
    "headline": "Menu-driven Git automation script for project directories",
    "what": "Provides a terminal menu to run common Git commands (add, commit, push, pull, branch) from a configured project folder. Implemented as a Bash script with supporting Python helpers, it reads a config file and executes the selected operation. The script is intended to run under WSL on Windows or any Linux shell.",
    "why": "Reduces manual typing of repetitive Git commands and ensures consistent workflow across projects.",
-   "impact": "Shows ability to script and automate version‑control tasks with Bash and Python.",
+   "impact": "Shows ability to script and automate version-control tasks with Bash and Python.",
    "highlights": [
     "Configurable working directory",
-    "Menu‑driven selection of Git actions",
-    "Cross‑platform via WSL",
-    "Self‑contained with no external dependencies"
+    "Menu-driven selection of Git actions",
+    "Cross-platform via WSL",
+    "Self-contained with no external dependencies"
    ],
    "tech": [
     "Bash",
@@ -3961,13 +3975,13 @@
     "ai-engineer"
    ],
    "headline": "Data science internship projects: stock, wine, medicine, retail recommendation",
-   "what": "A set of Jupyter notebooks that implement machine‑learning pipelines for four tasks: stock‑market price forecasting, wine‑quality classification, personalized‑medicine recommendation, and retail‑store product recommendation. The notebooks use Python libraries for data cleaning, feature engineering, model training, and evaluation.",
-   "why": "The internship required applying data‑science techniques to real‑world problems across finance, agriculture, healthcare, and retail domains.",
-   "impact": "Shows end‑to‑end development of predictive and recommendation models in Python notebooks.",
+   "what": "A set of Jupyter notebooks that implement machine-learning pipelines for four tasks: stock-market price forecasting, wine-quality classification, personalized-medicine recommendation, and retail-store product recommendation. The notebooks use Python libraries for data cleaning, feature engineering, model training, and evaluation.",
+   "why": "The internship required applying data-science techniques to real-world problems across finance, agriculture, healthcare, and retail domains.",
+   "impact": "Shows end-to-end development of predictive and recommendation models in Python notebooks.",
    "highlights": [
-    "Implemented time‑series forecasting models",
+    "Implemented time-series forecasting models",
     "Built classification model for wine quality",
-    "Created collaborative‑filtering recommendation engine",
+    "Created collaborative-filtering recommendation engine",
     "Visualized results with matplotlib and seaborn"
    ],
    "tech": [
@@ -4017,8 +4031,8 @@
    ],
    "headline": "Distributed Python database management system",
    "what": "A database management system built in Python that supports distributed operation. It includes a custom schema design, data replication across nodes, and a query optimizer. The codebase consists of 31 commits authored entirely by the engineer.",
-   "why": "Provides a lightweight, high‑performance alternative for applications needing distributed storage without external dependencies.",
-   "impact": "Demonstrates end‑to‑end design and implementation of a distributed database in Python.",
+   "why": "Provides a lightweight, high-performance alternative for applications needing distributed storage without external dependencies.",
+   "impact": "Demonstrates end-to-end design and implementation of a distributed database in Python.",
    "highlights": [
     "Implements data replication across nodes",
     "Custom query optimizer for Python",
@@ -4065,8 +4079,8 @@
    ],
    "headline": "AI-powered code completion tool for multiple languages",
    "what": "Provides code completion and suggestion functionality for several programming languages. Built entirely in Python, it trains a language model and serves predictions through a web API, with a lightweight web interface for interactive use.",
-   "why": "Created to give developers faster, context‑aware coding assistance without leaving their editor.",
-   "impact": "Demonstrates end‑to‑end design and implementation of an AI service in Python.",
+   "why": "Created to give developers faster, context-aware coding assistance without leaving their editor.",
+   "impact": "Demonstrates end-to-end design and implementation of an AI service in Python.",
    "highlights": [
     "Trained custom language model for code",
     "Implemented REST API for suggestions",
@@ -4117,14 +4131,14 @@
     "backend-engineer"
    ],
    "headline": "A custom web browser built in Python",
-   "what": "The project provides a self‑hosted web browser that loads and displays web pages. It is written primarily in Python and packaged with a Dockerfile for isolated execution. The code includes navigation logic and basic HTML rendering capabilities.",
+   "what": "The project provides a self-hosted web browser that loads and displays web pages. It is written primarily in Python and packaged with a Dockerfile for isolated execution. The code includes navigation logic and basic HTML rendering capabilities.",
    "why": "It was created to explore browser fundamentals and to have a lightweight, personal browsing tool.",
    "impact": "Demonstrates ability to design and containerize a functional GUI application in Python.",
    "highlights": [
     "Implements basic navigation controls",
     "Renders HTML using Python libraries",
     "Packaged as a Docker container",
-    "Handles user‑entered URL input"
+    "Handles user-entered URL input"
    ],
    "tech": [
     "Python",
@@ -4172,11 +4186,11 @@
    ],
    "headline": "AI-driven platform for matching users with agents",
    "what": "A web service that registers users and agents, then pairs them based on shared interests and expertise. Built with Flask for the backend, MongoDB for data storage, and Jinja2 templates styled with Bootstrap. Deployed in a Docker container for reproducible hosting.",
-   "why": "Provides a community‑focused way to discover relevant agents, reducing friction in collaboration and mentorship.",
-   "impact": "Shows end‑to‑end development of a Flask‑MongoDB application with authentication, matching logic, and admin controls.",
+   "why": "Provides a community-focused way to discover relevant agents, reducing friction in collaboration and mentorship.",
+   "impact": "Shows end-to-end development of a Flask-MongoDB application with authentication, matching logic, and admin controls.",
    "highlights": [
-    "User/agent registration with Flask‑WTF forms",
-    "Interest‑based matching algorithm",
+    "User/agent registration with Flask-WTF forms",
+    "Interest-based matching algorithm",
     "Admin dashboard for user management",
     "Dockerized deployment"
    ],
@@ -4225,12 +4239,12 @@
     "mobile-developer"
    ],
    "headline": "Android utility app suite for internship",
-   "what": "A set of five Android applications—unit converter, to‑do list, calculator, quiz, and stopwatch—built in Java using the Android SDK. Each app follows standard activity lifecycle patterns and uses XML layouts for UI.",
+   "what": "A set of five Android applications—unit converter, to-do list, calculator, quiz, and stopwatch—built in Java using the Android SDK. Each app follows standard activity lifecycle patterns and uses XML layouts for UI.",
    "why": "The apps were created to satisfy internship requirements for designing and developing Android applications and to practice core mobile development skills.",
    "impact": "Shows ability to deliver complete Android apps with functional UI and core Java logic.",
    "highlights": [
     "Unit conversion calculations",
-    "Persistent to‑do list UI",
+    "Persistent to-do list UI",
     "Basic arithmetic operations",
     "Quiz flow with score tracking"
    ],
@@ -4282,8 +4296,8 @@
    ],
    "headline": "Resume parser and applicant tracking system",
    "what": "A service that parses PDF resumes, extracts skills and experience, matches them against job requirements, and returns a suitability score. Built with Python and packaged in a Docker container, it includes a web interface for uploading resumes and entering requirements.",
-   "why": "Automates the first‑screen of candidates, reducing manual review time for recruiters.",
-   "impact": "Shows end‑to‑end development of a data‑driven recruitment tool with containerized deployment.",
+   "why": "Automates the first-screen of candidates, reducing manual review time for recruiters.",
+   "impact": "Shows end-to-end development of a data-driven recruitment tool with containerized deployment.",
    "highlights": [
     "PDF resume parsing",
     "Requirement matching logic",
@@ -4335,12 +4349,12 @@
     "fullstack-developer"
    ],
    "headline": "Personalized book recommendation web app",
-   "what": "It provides book search via Google Books and Open Library APIs and generates recommendations using a collaborative‑filtering model trained on user ratings. The front end is built with Streamlit, while data handling uses Pandas and the model uses the Surprise library, persisted with Pickle. The app runs in a Docker container.",
+   "what": "It provides book search via Google Books and Open Library APIs and generates recommendations using a collaborative-filtering model trained on user ratings. The front end is built with Streamlit, while data handling uses Pandas and the model uses the Surprise library, persisted with Pickle. The app runs in a Docker container.",
    "why": "It was built to let users discover books tailored to their preferences without manual curation.",
-   "impact": "Demonstrates end‑to‑end development of a recommendation pipeline from data ingestion to a deployable web interface.",
+   "impact": "Demonstrates end-to-end development of a recommendation pipeline from data ingestion to a deployable web interface.",
    "highlights": [
     "Searches books through two public APIs",
-    "Trains collaborative‑filtering model with Surprise",
+    "Trains collaborative-filtering model with Surprise",
     "Serves recommendations via Streamlit UI",
     "Containerized with Docker"
    ],
@@ -4390,12 +4404,12 @@
     "devops-engineer"
    ],
    "headline": "FastAPI demo service with CRUD endpoints and CI/CD",
-   "what": "Provides a RESTful API with GET, POST, PUT, and DELETE routes for item resources, using FastAPI and an in‑memory store for demonstration. Includes a comprehensive pytest suite and a GitHub Actions workflow for continuous integration and deployment. Documentation and a README outline usage and contribution steps.",
+   "what": "Provides a RESTful API with GET, POST, PUT, and DELETE routes for item resources, using FastAPI and an in-memory store for demonstration. Includes a comprehensive pytest suite and a GitHub Actions workflow for continuous integration and deployment. Documentation and a README outline usage and contribution steps.",
    "why": "Created as a scaffold to illustrate FastAPI project structure, endpoint design, and automated testing pipelines.",
-   "impact": "Shows ability to deliver a full‑stack backend service with testing and CI automation.",
+   "impact": "Shows ability to deliver a full-stack backend service with testing and CI automation.",
    "highlights": [
     "CRUD API with FastAPI",
-    "In‑memory data store",
+    "In-memory data store",
     "Automated tests with pytest",
     "GitHub Actions CI pipeline"
    ],
@@ -4441,12 +4455,12 @@
     "ai-engineer"
    ],
    "headline": "Automated YouTube video generation and upload pipeline",
-   "what": "A Python service fetches trending tech topics from six public APIs, then uses a Groq LLM to create an 11‑scene script. It generates images with Stable Diffusion XL, voice‑overs with Kokoro TTS, and subtitles via OpenAI Whisper, composes the video with MoviePy, and uploads it to YouTube using OAuth 2.0. The workflow can run daily on a schedule and cleans up temporary files automatically.",
-   "why": "Manually producing daily tech videos is time‑consuming; the system creates and publishes content automatically to maximize viewership and monetization.",
-   "impact": "Shows end‑to‑end integration of multiple AI services and YouTube automation in a single Python codebase.",
+   "what": "A Python service fetches trending tech topics from six public APIs, then uses a Groq LLM to create an 11-scene script. It generates images with Stable Diffusion XL, voice-overs with Kokoro TTS, and subtitles via OpenAI Whisper, composes the video with MoviePy, and uploads it to YouTube using OAuth 2.0. The workflow can run daily on a schedule and cleans up temporary files automatically.",
+   "why": "Manually producing daily tech videos is time-consuming; the system creates and publishes content automatically to maximize viewership and monetization.",
+   "impact": "Shows end-to-end integration of multiple AI services and YouTube automation in a single Python codebase.",
    "highlights": [
     "Fetches trends from 6 web APIs",
-    "Generates 11‑scene scripts with LLM",
+    "Generates 11-scene scripts with LLM",
     "Creates video with Stable Diffusion and TTS",
     "Schedules uploads via YouTube OAuth"
    ],
@@ -4505,12 +4519,12 @@
     "fullstack-developer"
    ],
    "headline": "Internship web projects: blog platform and video conferencing app",
-   "what": "The repository contains two web applications—a blog site for publishing and reading posts and a video‑conferencing interface for real‑time calls. Both are built with JavaScript, HTML, and CSS and were assembled during a short internship period.",
-   "why": "The projects were created to satisfy assigned tasks for the Bharat Intern program and to gain practical front‑end development experience.",
-   "impact": "Shows ability to deliver complete front‑end applications in JavaScript within an internship timeline.",
+   "what": "The repository contains two web applications—a blog site for publishing and reading posts and a video-conferencing interface for real-time calls. Both are built with JavaScript, HTML, and CSS and were assembled during a short internship period.",
+   "why": "The projects were created to satisfy assigned tasks for the Bharat Intern program and to gain practical front-end development experience.",
+   "impact": "Shows ability to deliver complete front-end applications in JavaScript within an internship timeline.",
    "highlights": [
     "Blog site with post listing",
-    "Video‑conferencing UI built in JavaScript",
+    "Video-conferencing UI built in JavaScript",
     "All UI styled with HTML/CSS",
     "7 commits covering core features"
    ],
@@ -4560,13 +4574,13 @@
    ],
    "headline": "Android notes app with tagging and CRUD",
    "what": "A notes application for Android that lets users create, edit, delete, and tag notes. Built in Kotlin using Android Studio and the Android SDK, it presents a clean UI for managing note entries. The codebase is fully Kotlin with supporting shell scripts for build automation.",
-   "why": "Provides a lightweight, on‑device solution for quick note taking and organization without relying on external services.",
-   "impact": "Shows end‑to‑end delivery of a functional Android app using Kotlin and Android SDK.",
+   "why": "Provides a lightweight, on-device solution for quick note taking and organization without relying on external services.",
+   "impact": "Shows end-to-end delivery of a functional Android app using Kotlin and Android SDK.",
    "highlights": [
     "Create, edit, delete notes",
     "Customizable tag system",
-    "Material‑style note list UI",
-    "All‑Kotlin codebase"
+    "Material-style note list UI",
+    "All-Kotlin codebase"
    ],
    "tech": [
     "Kotlin",
@@ -4617,7 +4631,7 @@
    "headline": "Android meme sharing app that fetches latest Reddit memes",
    "what": "The app retrieves the newest memes from Reddit and presents them in a scrollable list on Android devices. It is written in Kotlin and built with Android Studio, using standard Android SDK components to perform network calls and render images. Users can open a meme detail view and invoke Android’s share intent to distribute the content through other apps.",
    "why": "It offers a quick way for mobile users to browse and share Reddit memes without leaving their device.",
-   "impact": "Demonstrates ability to integrate third‑party REST APIs and Android sharing features in a Kotlin app.",
+   "impact": "Demonstrates ability to integrate third-party REST APIs and Android sharing features in a Kotlin app.",
    "highlights": [
     "Fetches Reddit memes via HTTP",
     "Displays scrollable meme list",
@@ -4672,9 +4686,9 @@
     "data-scientist"
    ],
    "headline": "Web app for uploading, managing, and visualizing call data",
-   "what": "The application lets users upload an Excel file containing phone call records, edit call status fields, add free‑form notes, and view summary statistics in interactive Plotly charts. It is built with Streamlit for the UI, Pandas for data handling, and Plotly for visualizations, and runs inside a Docker container.",
+   "what": "The application lets users upload an Excel file containing phone call records, edit call status fields, add free-form notes, and view summary statistics in interactive Plotly charts. It is built with Streamlit for the UI, Pandas for data handling, and Plotly for visualizations, and runs inside a Docker container.",
    "why": "It provides a lightweight tool for tracking call outcomes without needing a separate CRM system.",
-   "impact": "Demonstrates end‑to‑end development from data ingestion to containerized deployment.",
+   "impact": "Demonstrates end-to-end development from data ingestion to containerized deployment.",
    "highlights": [
     "Excel upload and validation",
     "Editable call status grid",
@@ -4693,6 +4707,66 @@
    "enrichedBy": "groq",
    "contentHash": "d6baf9a603ae298e",
    "primaryRole": "fullstack-developer"
+  },
+  {
+   "id": "piyush-mishra-00-placement-prediction",
+   "name": "Placement-Prediction",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Placement-Prediction",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Placement-Prediction",
+   "homepage": "https://placement-prediction-2s70.onrender.com",
+   "description": "This project predicts whether a student will get placed based on their CGPA and IQ using a machine learning model. The project includes a trained model, a Streamlit application for prediction, and is fully containerized using Docker. ",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 1973,
+     "pct": 82.7
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 412,
+     "pct": 17.3
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 6,
+   "createdAt": "2024-09-11T07:15:11Z",
+   "pushedAt": "2024-09-12T14:12:59Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "data-scientist",
+    "devops-engineer"
+   ],
+   "headline": "Student placement predictor web app",
+   "what": "Builds a model that predicts a student’s placement outcome from CGPA and IQ using a RandomForestClassifier with hyperparameter tuning. The model is served through a Streamlit web interface where users enter their scores and receive a prediction. The entire stack is containerized with Docker for consistent deployment.",
+   "why": "Provides a quick, data-driven estimate of placement likelihood for students without manual analysis.",
+   "impact": "Shows ability to take a machine-learning pipeline from training to a Docker-based production web service.",
+   "highlights": [
+    "RandomForest model with hyperparameter tuning",
+    "Streamlit UI for real-time prediction",
+    "Dockerized for reproducible deployment",
+    "Python 3.9 codebase"
+   ],
+   "tech": [
+    "Python",
+    "scikit-learn",
+    "pandas",
+    "Streamlit",
+    "Docker",
+    "RandomForest",
+    "seaborn",
+    "matplotlib"
+   ],
+   "signal": "solid",
+   "enrichedBy": "groq",
+   "contentHash": "a82f75c308251488",
+   "primaryRole": "data-scientist"
   },
   {
    "id": "piyush-mishra-00-breast-cancer-detection",
@@ -4725,9 +4799,9 @@
     "fullstack-developer"
    ],
    "headline": "Streamlit app for breast cancer prediction",
-   "what": "A web app lets users enter medical measurements via a Streamlit sidebar and returns a benign or malignant classification with probability. The prediction uses a pre‑trained logistic regression model built on the Breast Cancer Wisconsin dataset and is served by a Python backend. The service is containerized with Docker for consistent deployment.",
-   "why": "Provides a quick, accessible way for non‑experts to assess breast cancer risk from standard clinical features.",
-   "impact": "Shows end‑to‑end integration of a machine‑learning model into a deployable web interface.",
+   "what": "A web app lets users enter medical measurements via a Streamlit sidebar and returns a benign or malignant classification with probability. The prediction uses a pre-trained logistic regression model built on the Breast Cancer Wisconsin dataset and is served by a Python backend. The service is containerized with Docker for consistent deployment.",
+   "why": "Provides a quick, accessible way for non-experts to assess breast cancer risk from standard clinical features.",
+   "impact": "Shows end-to-end integration of a machine-learning model into a deployable web interface.",
    "highlights": [
     "Logistic regression model on Wisconsin data",
     "Streamlit UI with sidebar inputs",
@@ -4784,14 +4858,14 @@
     "fullstack-developer"
    ],
    "headline": "Movie Recommender System with Streamlit UI",
-   "what": "Builds a web app that returns five movies most similar to a selected title using cosine similarity on genre, cast and overview features. The recommendation engine runs on pandas and scikit‑learn, while Streamlit renders the interactive interface and fetches posters via the TMDb API. The service is containerized with Docker for easy deployment.",
+   "what": "Builds a web app that returns five movies most similar to a selected title using cosine similarity on genre, cast and overview features. The recommendation engine runs on pandas and scikit-learn, while Streamlit renders the interactive interface and fetches posters via the TMDb API. The service is containerized with Docker for easy deployment.",
    "why": "Provides a quick way for users to discover movies with comparable content and visual context, reducing manual search effort.",
-   "impact": "Shows end‑to‑end development of a machine‑learning pipeline, UI integration, and containerized deployment.",
+   "impact": "Shows end-to-end development of a machine-learning pipeline, UI integration, and containerized deployment.",
    "highlights": [
     "Computes cosine similarity on movie metadata",
     "Integrates TMDb API for poster retrieval",
     "Deploys Streamlit app via Docker",
-    "Shows top‑5 similar movie suggestions"
+    "Shows top-5 similar movie suggestions"
    ],
    "tech": [
     "Python",
@@ -4838,9 +4912,9 @@
     "fullstack-developer"
    ],
    "headline": "Subscription billing backend with automated invoicing",
-   "what": "Provides APIs for user sign‑up, plan subscription, invoice generation and payment. Implements Django models for User, Plan, Subscription, and Invoice, and uses Celery to run daily tasks that create invoices, mark overdue items and print reminders. Includes a mock Stripe PaymentIntent endpoint to record payments.",
+   "what": "Provides APIs for user sign-up, plan subscription, invoice generation and payment. Implements Django models for User, Plan, Subscription, and Invoice, and uses Celery to run daily tasks that create invoices, mark overdue items and print reminders. Includes a mock Stripe PaymentIntent endpoint to record payments.",
    "why": "Needed a lightweight system to manage recurring subscriptions and automate billing cycles without relying on external SaaS solutions.",
-   "impact": "Shows ability to design end‑to‑end backend services, schedule asynchronous jobs with Celery, and integrate third‑party payment APIs in Python.",
+   "impact": "Shows ability to design end-to-end backend services, schedule asynchronous jobs with Celery, and integrate third-party payment APIs in Python.",
    "highlights": [
     "Celery tasks for monthly invoice generation",
     "Mock Stripe PaymentIntent integration",
@@ -4898,10 +4972,10 @@
    "headline": "Personal Finance Tracker web application",
    "what": "A web app that lets users add, edit, and delete financial transactions, organize them into predefined categories, and set monthly budgets. Built with React and TypeScript, it uses Tailwind CSS for styling, shadcn/ui components, Recharts for charts, and Zod for form validation.",
    "why": "It addresses the need for individuals to monitor spending, compare actual expenses against budgets, and visualize financial health.",
-   "impact": "Demonstrates end‑to‑end front‑end development with type‑safe React, state management, and data visualization.",
+   "impact": "Demonstrates end-to-end front-end development with type-safe React, state management, and data visualization.",
    "highlights": [
     "Transaction CRUD with validation",
-    "Category‑wise expense tracking",
+    "Category-wise expense tracking",
     "Budget vs actual visual comparison",
     "Responsive dashboard with charts"
    ],
@@ -4967,8 +5041,8 @@
    ],
    "headline": "Dockerized React Hello World app with CI/CD",
    "what": "A basic React application that renders a \"Hello World\" page. The app is containerized with Docker, built and pushed via GitHub Actions, and deployed automatically to Render.",
-   "why": "It demonstrates a minimal end‑to‑end pipeline so code changes are built, containerized, and published without manual steps.",
-   "impact": "Shows ability to configure a full CI/CD workflow for a containerized web front‑end.",
+   "why": "It demonstrates a minimal end-to-end pipeline so code changes are built, containerized, and published without manual steps.",
+   "impact": "Shows ability to configure a full CI/CD workflow for a containerized web front-end.",
    "highlights": [
     "React UI served from Docker container",
     "GitHub Actions builds and pushes image",
@@ -5023,7 +5097,7 @@
    "headline": "Interactive Streamlit app for evaluating and ranking PDF proposals",
    "what": "The app accepts PDF proposals, extracts key sections such as Technical Approach and Past Performance, and assigns scores using either heuristic calculations or the Google Gemini API. Scores are combined to produce a ranked list displayed with visualizations and downloadable reports. It is built with Streamlit for the UI, Python for processing, and SQLite to store the Gemini API key locally.",
    "why": "Automates the initial assessment of proposal documents, reducing manual review time and providing consistent scoring.",
-   "impact": "Shows ability to integrate LLM APIs into a Python web app and deliver an end‑to‑end scoring and ranking pipeline.",
+   "impact": "Shows ability to integrate LLM APIs into a Python web app and deliver an end-to-end scoring and ranking pipeline.",
    "highlights": [
     "PDF section extraction",
     "Heuristic and LLM scoring",
@@ -5071,11 +5145,11 @@
     "data-scientist"
    ],
    "headline": "Python analysis of Binance trade data for account performance metrics",
-   "what": "The script reads a CSV containing Binance trade histories stored as JSON‑like strings, parses them into structured records, and computes financial indicators such as ROI, PnL, Sharpe Ratio, maximum drawdown, and win rate. It then normalizes these metrics, applies a weighted scoring model, and outputs two CSV files: a full metrics table and a ranked list of the top 20 accounts. The implementation uses Python with pandas for data manipulation and NumPy for numerical calculations.",
-   "why": "Traders and analysts need a repeatable way to evaluate large volumes of trade data and compare account performance across multiple risk‑adjusted dimensions.",
-   "impact": "Demonstrates end‑to‑end data cleaning, feature engineering, and financial metric computation in Python.",
+   "what": "The script reads a CSV containing Binance trade histories stored as JSON-like strings, parses them into structured records, and computes financial indicators such as ROI, PnL, Sharpe Ratio, maximum drawdown, and win rate. It then normalizes these metrics, applies a weighted scoring model, and outputs two CSV files: a full metrics table and a ranked list of the top 20 accounts. The implementation uses Python with pandas for data manipulation and NumPy for numerical calculations.",
+   "why": "Traders and analysts need a repeatable way to evaluate large volumes of trade data and compare account performance across multiple risk-adjusted dimensions.",
+   "impact": "Demonstrates end-to-end data cleaning, feature engineering, and financial metric computation in Python.",
    "highlights": [
-    "Parses JSON‑like trade strings into tabular form",
+    "Parses JSON-like trade strings into tabular form",
     "Calculates ROI, Sharpe Ratio, and drawdown",
     "Ranks accounts with weighted composite score",
     "Exports results to CSV files"
@@ -5138,11 +5212,11 @@
    "headline": "Real-time financial transaction dashboard",
    "what": "A dashboard that displays live financial transactions, historical data with filtering and pagination, and summary charts. The frontend is a React/TypeScript app styled with Tailwind CSS, using Chart.js for visualizations and Axios for API calls, receiving updates through WebSocket. The backend is a Node/Express service backed by MongoDB, authenticates users with JWT, and pushes transaction events via WebSocket.",
    "why": "Provides users immediate visibility into transaction flow and aggregate metrics without manual refresh.",
-   "impact": "Shows ability to build a full‑stack, real‑time web application with TypeScript, secure JWT authentication, and WebSocket communication.",
+   "impact": "Shows ability to build a full-stack, real-time web application with TypeScript, secure JWT authentication, and WebSocket communication.",
    "highlights": [
     "Live transaction feed via WebSocket",
     "Paginated transaction API",
-    "JWT‑protected endpoints",
+    "JWT-protected endpoints",
     "Responsive UI with Tailwind and Chart.js"
    ],
    "tech": [
@@ -5197,11 +5271,11 @@
    ],
    "headline": "Real-time web crawler with interactive dashboard",
    "what": "Provides a web interface to start, pause, and stop crawls while showing live statistics and activity logs. The backend runs a Node.js crawler that respects robots.txt, limits depth, and throttles requests, communicating updates via Socket.IO. The frontend uses Tailwind CSS and vanilla JavaScript to render a responsive dashboard.",
-   "why": "Built to give developers visibility into crawling progress and control over parameters without needing command‑line tools.",
-   "impact": "Demonstrates end‑to‑end development of a real‑time system using Node.js, websockets, and modern UI tooling.",
+   "why": "Built to give developers visibility into crawling progress and control over parameters without needing command-line tools.",
+   "impact": "Demonstrates end-to-end development of a real-time system using Node.js, websockets, and modern UI tooling.",
    "highlights": [
     "Live crawl stats via Socket.IO",
-    "Depth‑limited and domain‑scoped crawling",
+    "Depth-limited and domain-scoped crawling",
     "Rate limiting with random delays",
     "Responsive UI built with Tailwind CSS"
    ],
@@ -5260,9 +5334,9 @@
     "fullstack-developer"
    ],
    "headline": "Responsive single-page site for KDM Property Consultancy",
-   "what": "A static website that presents a real‑estate property for KDM Property Consultancy. It uses HTML for structure, CSS for styling and layout, and vanilla JavaScript for basic interactivity. The page adapts to different screen sizes via responsive design techniques.",
+   "what": "A static website that presents a real-estate property for KDM Property Consultancy. It uses HTML for structure, CSS for styling and layout, and vanilla JavaScript for basic interactivity. The page adapts to different screen sizes via responsive design techniques.",
    "why": "The consultancy needed an online presence to showcase a property without a full CMS or backend. The site provides a quick, accessible view for potential clients.",
-   "impact": "Demonstrates ability to build responsive front‑end interfaces with core web technologies.",
+   "impact": "Demonstrates ability to build responsive front-end interfaces with core web technologies.",
    "highlights": [
     "Responsive layout across devices",
     "Static site hosted on GitHub Pages",
@@ -5337,7 +5411,7 @@
    "headline": "Flutter weather app fetching data from OpenWeatherMap",
    "what": "The app lets a user enter a city name and displays current temperature, condition, humidity, and wind speed. It calls the OpenWeatherMap REST endpoint, parses the JSON response, and updates the UI. The UI is built with Flutter widgets and shows a loading indicator and error messages.",
    "why": "It provides a quick way to view live weather information on a mobile device without leaving the app.",
-   "impact": "Demonstrates ability to integrate third‑party REST APIs into a cross‑platform Flutter application.",
+   "impact": "Demonstrates ability to integrate third-party REST APIs into a cross-platform Flutter application.",
    "highlights": [
     "City search with live API request",
     "Loading spinner during network call",
@@ -5406,12 +5480,12 @@
     "security-engineer",
     "fullstack-developer"
    ],
-   "headline": "Cross‑platform secure messenger using indigenous Kaalka encryption",
-   "what": "A WhatsApp‑style messaging service that encrypts both transmission and local storage with a custom dual‑layer Kaalka v5.0.0 algorithm. The backend is a FastAPI server written in Python, while the UI is built with Flutter (Dart) and integrates Kaalka via WebAssembly. Native C++/Swift bindings provide the same encryption on mobile and desktop clients.",
-   "why": "It was created to achieve cryptographic sovereignty by eliminating all external crypto libraries and providing end‑to‑end protection across platforms.",
-   "impact": "Shows end‑to‑end design and implementation of proprietary encryption across a full stack.",
+   "headline": "Cross-platform secure messenger using indigenous Kaalka encryption",
+   "what": "A WhatsApp-style messaging service that encrypts both transmission and local storage with a custom dual-layer Kaalka v5.0.0 algorithm. The backend is a FastAPI server written in Python, while the UI is built with Flutter (Dart) and integrates Kaalka via WebAssembly. Native C++/Swift bindings provide the same encryption on mobile and desktop clients.",
+   "why": "It was created to achieve cryptographic sovereignty by eliminating all external crypto libraries and providing end-to-end protection across platforms.",
+   "impact": "Shows end-to-end design and implementation of proprietary encryption across a full stack.",
    "highlights": [
-    "Dual‑layer Kaalka encryption for messages and storage",
+    "Dual-layer Kaalka encryption for messages and storage",
     "FastAPI server handling encrypted envelopes",
     "Flutter web UI with WASM Kaalka integration",
     "Native C++/Swift bindings for mobile and desktop"
@@ -5462,11 +5536,11 @@
     "data-scientist"
    ],
    "headline": "Python AI recommendation suite with CLI and Streamlit interfaces",
-   "what": "Provides three independent recommendation systems—financial advice, health alerts, and learning guidance—implemented in Python 3.10+. Each uses rule‑based analysis (and optional ML for learning advice) and offers both command‑line execution and a Streamlit web UI, with PDF export for finance and batch CSV processing for health.",
-   "why": "Built to showcase domain‑agnostic AI advice generation and interactive delivery without external services beyond optional Gemini API integration.",
-   "impact": "Demonstrates end‑to‑end design of modular AI pipelines, API integration, and user‑facing interfaces in a single codebase.",
+   "what": "Provides three independent recommendation systems—financial advice, health alerts, and learning guidance—implemented in Python 3.10+. Each uses rule-based analysis (and optional ML for learning advice) and offers both command-line execution and a Streamlit web UI, with PDF export for finance and batch CSV processing for health.",
+   "why": "Built to showcase domain-agnostic AI advice generation and interactive delivery without external services beyond optional Gemini API integration.",
+   "impact": "Demonstrates end-to-end design of modular AI pipelines, API integration, and user-facing interfaces in a single codebase.",
    "highlights": [
-    "Rule‑based financial advice with PDF export",
+    "Rule-based financial advice with PDF export",
     "Health lab alerts with CSV batch mode",
     "Learning quiz advice using rule and ML logic",
     "Streamlit UIs for interactive input"
@@ -5527,8 +5601,8 @@
     "backend-engineer"
    ],
    "headline": "Flask web app for airline market demand insights",
-   "what": "The service fetches live flight data from the OpenSky Network API, filters it for Australian routes, and sends the data to the Gemini API to generate textual insights on demand and pricing. It renders interactive Plotly charts and the generated insights in a Flask‑served HTML interface. Asynchronous calls and exponential‑backoff retry logic keep the UI responsive despite external API latency.",
-   "why": "Airline analysts need up‑to‑date demand and price trends without manually aggregating flight data. The app automates data collection, analysis, and visualization in a single web portal.",
+   "what": "The service fetches live flight data from the OpenSky Network API, filters it for Australian routes, and sends the data to the Gemini API to generate textual insights on demand and pricing. It renders interactive Plotly charts and the generated insights in a Flask-served HTML interface. Asynchronous calls and exponential-backoff retry logic keep the UI responsive despite external API latency.",
+   "why": "Airline analysts need up-to-date demand and price trends without manually aggregating flight data. The app automates data collection, analysis, and visualization in a single web portal.",
    "impact": "Shows competence in external API integration, live data processing, and delivering interactive visualizations within a Flask application.",
    "highlights": [
     "Fetches live flight data from OpenSky API",
@@ -5597,14 +5671,14 @@
     "backend-engineer"
    ],
    "headline": "AEM component for dynamic blog listing with pagination and search",
-   "what": "Provides a dynamic list of blog posts fetched from an external REST API, with pagination, sorting, search, and a related‑posts section. Implemented with Java Sling Models, OSGi configuration, and a servlet for data access, while the front‑end uses HTL, vanilla JavaScript, HTML and CSS. Includes JUnit tests for backend logic and follows WCAG accessibility guidelines.",
+   "what": "Provides a dynamic list of blog posts fetched from an external REST API, with pagination, sorting, search, and a related-posts section. Implemented with Java Sling Models, OSGi configuration, and a servlet for data access, while the front-end uses HTL, vanilla JavaScript, HTML and CSS. Includes JUnit tests for backend logic and follows WCAG accessibility guidelines.",
    "why": "Needed a reusable, configurable blog list component in AEM that could display external content with rich interaction and meet accessibility standards.",
-   "impact": "Shows ability to integrate external services into AEM and deliver a full‑stack component with automated testing.",
+   "impact": "Shows ability to integrate external services into AEM and deliver a full-stack component with automated testing.",
    "highlights": [
     "External REST API integration via Sling service",
-    "Server‑side pagination and sorting",
-    "Client‑side caching for performance",
-    "WCAG‑compliant responsive UI"
+    "Server-side pagination and sorting",
+    "Client-side caching for performance",
+    "WCAG-compliant responsive UI"
    ],
    "tech": [
     "Java",
@@ -5659,7 +5733,7 @@
    "headline": "Web-based Hotel Management System with admin and user booking flows",
    "what": "A Flask application that lets administrators add, view, and delete room records while customers can register, log in, browse available rooms, make bookings, and cancel them. The backend uses SQLite for persistence and Werkzeug for password hashing; the frontend renders responsive pages with HTML and CSS via Flask templates.",
    "why": "It provides a single interface to coordinate room inventory and reservations, reducing manual handling for small hotels.",
-   "impact": "Demonstrates end‑to‑end development of a database‑backed web service with authentication and session management.",
+   "impact": "Demonstrates end-to-end development of a database-backed web service with authentication and session management.",
    "highlights": [
     "Admin dashboard for room CRUD",
     "User registration and login",
@@ -5719,13 +5793,13 @@
     "fullstack-developer",
     "security-engineer"
    ],
-   "headline": "Type‑safe OAuth2 client library with Next.js demo app",
-   "what": "Provides a reusable OAuth2 client that supports Auth0, Clerk, and Kinde, handling PKCE, token storage in HTTP‑only cookies, automatic refresh, and user profile retrieval. The library is written in TypeScript and is demonstrated in a Next.js 13 application styled with Tailwind CSS and shadcn/ui components.",
-   "why": "Simplifies secure OAuth integration for web apps while keeping the API type‑safe and provider‑agnostic.",
-   "impact": "Shows ability to design and implement a secure, type‑safe authentication layer and integrate it into a modern full‑stack framework.",
+   "headline": "Type-safe OAuth2 client library with Next.js demo app",
+   "what": "Provides a reusable OAuth2 client that supports Auth0, Clerk, and Kinde, handling PKCE, token storage in HTTP-only cookies, automatic refresh, and user profile retrieval. The library is written in TypeScript and is demonstrated in a Next.js 13 application styled with Tailwind CSS and shadcn/ui components.",
+   "why": "Simplifies secure OAuth integration for web apps while keeping the API type-safe and provider-agnostic.",
+   "impact": "Shows ability to design and implement a secure, type-safe authentication layer and integrate it into a modern full-stack framework.",
    "highlights": [
     "Supports Auth0, Clerk, Kinde",
-    "PKCE flow with HTTP‑only cookies",
+    "PKCE flow with HTTP-only cookies",
     "Automatic token refresh",
     "Responsive UI with Tailwind and shadcn/ui"
    ],
@@ -5736,7 +5810,7 @@
     "shadcn/ui",
     "OAuth2",
     "PKCE",
-    "HTTP‑only cookies",
+    "HTTP-only cookies",
     "Node.js"
    ],
    "signal": "solid",
@@ -5779,8 +5853,8 @@
     "ai-engineer"
    ],
    "headline": "Python image-to-sketch converter",
-   "what": "A command‑line Python program that prompts for an image path, applies edge detection to create a sketch, and saves the result with a \"sketch\" prefix in the same folder. The script can be run inside the provided Docker container.",
-   "why": "Provides a quick way to generate sketch‑style versions of photos for artistic or preprocessing purposes.",
+   "what": "A command-line Python program that prompts for an image path, applies edge detection to create a sketch, and saves the result with a \"sketch\" prefix in the same folder. The script can be run inside the provided Docker container.",
+   "why": "Provides a quick way to generate sketch-style versions of photos for artistic or preprocessing purposes.",
    "impact": "Shows practical implementation of image processing and containerization in Python.",
    "highlights": [
     "CLI prompts for image path",
@@ -5828,12 +5902,12 @@
     "ai-engineer"
    ],
    "headline": "Coursework notebooks on data science and generative AI",
-   "what": "A set of Jupyter notebooks that walk through data preprocessing, exploratory analysis, model training, and generative AI experiments. The notebooks are written in Python and combine pandas, scikit‑learn, and PyTorch‑based transformer models to illustrate end‑to‑end workflows.",
-   "why": "Created for the PW Data Science and Generative AI course to practice core data‑science techniques and explore modern generative models.",
+   "what": "A set of Jupyter notebooks that walk through data preprocessing, exploratory analysis, model training, and generative AI experiments. The notebooks are written in Python and combine pandas, scikit-learn, and PyTorch-based transformer models to illustrate end-to-end workflows.",
+   "why": "Created for the PW Data Science and Generative AI course to practice core data-science techniques and explore modern generative models.",
    "impact": "Shows practical competence in building data pipelines and prototyping generative AI models in Python.",
    "highlights": [
     "Data cleaning and feature engineering in pandas",
-    "Model training with scikit‑learn classifiers",
+    "Model training with scikit-learn classifiers",
     "Text generation using transformer models",
     "Performance visualizations with matplotlib"
    ],
@@ -5887,7 +5961,7 @@
     "backend-engineer"
    ],
    "headline": "Java solutions for Striver's SDE interview sheet",
-   "what": "A repository of Java (88.9%) and Shell (11.1%) implementations that solve each question from Striver's SDE Sheet. Each problem is stored as an individual source file and organized for easy navigation. The code is version‑controlled with Git and includes a README linking to the original sheet.",
+   "what": "A repository of Java (88.9%) and Shell (11.1%) implementations that solve each question from Striver's SDE Sheet. Each problem is stored as an individual source file and organized for easy navigation. The code is version-controlled with Git and includes a README linking to the original sheet.",
    "why": "Created to practice coding interview problems and keep a reusable reference of algorithmic solutions.",
    "impact": "Shows competence in implementing algorithmic challenges in Java and managing a structured codebase.",
    "highlights": [
@@ -5943,7 +6017,7 @@
    "headline": "Solutions to Striver's SDE Sheet in C++ and Shell",
    "what": "A repository that contains implementations for every problem in Striver's SDE interview sheet, written in C++ and Shell across separate branches. The code is organized by language and each solution is committed individually.",
    "why": "Created to practice algorithmic interview questions and showcase proficiency in multiple programming languages.",
-   "impact": "Demonstrates ability to translate algorithmic concepts into clean C++ and Shell implementations and manage a multi‑branch codebase.",
+   "impact": "Demonstrates ability to translate algorithmic concepts into clean C++ and Shell implementations and manage a multi-branch codebase.",
    "highlights": [
     "100+ interview problems solved",
     "C++ and Shell implementations",
@@ -5991,12 +6065,12 @@
     "backend-engineer"
    ],
    "headline": "FastAPI demo with CRUD endpoints and CI/CD pipeline",
-   "what": "Provides a RESTful API with GET, POST, PUT, and DELETE routes for managing items, using FastAPI and an in‑memory store. Includes a comprehensive pytest suite and a GitHub Actions workflow for continuous integration. Documentation and a README outline usage and contribution steps.",
+   "what": "Provides a RESTful API with GET, POST, PUT, and DELETE routes for managing items, using FastAPI and an in-memory store. Includes a comprehensive pytest suite and a GitHub Actions workflow for continuous integration. Documentation and a README outline usage and contribution steps.",
    "why": "Created as a quick demonstration of FastAPI basics, data persistence patterns, and automated testing pipelines.",
    "impact": "Demonstrates ability to build a Python API, write automated tests, and set up CI/CD.",
    "highlights": [
     "CRUD endpoints with FastAPI",
-    "In‑memory data store for demo",
+    "In-memory data store for demo",
     "Automated pytest suite",
     "GitHub Actions CI pipeline"
    ],
@@ -6036,14 +6110,14 @@
     "fullstack-developer"
    ],
    "headline": "Curated list of Computer Science resources",
-   "what": "Provides a markdown file that aggregates links and references for CS topics. The repository includes step‑by‑step instructions for forking, cloning, branching, editing, and submitting pull requests on GitHub.",
+   "what": "Provides a markdown file that aggregates links and references for CS topics. The repository includes step-by-step instructions for forking, cloning, branching, editing, and submitting pull requests on GitHub.",
    "why": "Created to give beginners a simple way to contribute to open source while accessing organized learning material.",
    "impact": "Shows competence in documentation, repository structuring, and guiding collaborative workflows.",
    "highlights": [
     "Markdown resource collection",
     "Contribution workflow guide",
-    "GitHub fork‑clone‑PR process",
-    "Beginner‑friendly documentation"
+    "GitHub fork-clone-PR process",
+    "Beginner-friendly documentation"
    ],
    "tech": [
     "Git",
@@ -6085,11 +6159,11 @@
     "mobile-developer"
    ],
    "headline": "Android Tic Tac Toe game",
-   "what": "A two‑player Tic Tac Toe app for Android that lets users tap a 3×3 grid to place X or O marks. The game tracks moves, checks rows, columns and diagonals for a win, and shows a draw message when the board fills. Built in Java using the Android SDK and XML layouts in Android Studio.",
-   "why": "Created to practice Android UI components, event handling, and simple game‑state management.",
+   "what": "A two-player Tic Tac Toe app for Android that lets users tap a 3×3 grid to place X or O marks. The game tracks moves, checks rows, columns and diagonals for a win, and shows a draw message when the board fills. Built in Java using the Android SDK and XML layouts in Android Studio.",
+   "why": "Created to practice Android UI components, event handling, and simple game-state management.",
    "impact": "Shows competence in building a complete Android UI, handling user input, and implementing game logic in Java.",
    "highlights": [
-    "Two‑player turn handling",
+    "Two-player turn handling",
     "Restart button clears board",
     "Winner/draw detection logic",
     "Java with Android SDK"
@@ -6137,9 +6211,9 @@
    "headline": "Portfolio Calculator landing page",
    "what": "A static HTML landing page that lists internship projects and provides a simple calculator interface. Built with plain HTML and hosted on GitHub Pages.",
    "why": "Created to present CodSoft internship work in a single accessible web page.",
-   "impact": "Shows ability to assemble and deploy a client‑side web page using GitHub Pages.",
+   "impact": "Shows ability to assemble and deploy a client-side web page using GitHub Pages.",
    "highlights": [
-    "HTML‑only static site",
+    "HTML-only static site",
     "Deployed via GitHub Pages",
     "Links to internship projects",
     "Live URL available"
@@ -6190,7 +6264,7 @@
    "headline": "Java CRUD book shop demo",
    "what": "A console program that lets users add, view, modify, and delete book records. It stores book name, price, and edition in a MySQL database accessed via JDBC. The project includes a SQL script for schema creation and runs against a local XAMPP MySQL instance.",
    "why": "It was created to demonstrate basic CRUD operations in Java and to provide a simple reference for database interaction.",
-   "impact": "Shows ability to implement end‑to‑end data persistence with Java and MySQL.",
+   "impact": "Shows ability to implement end-to-end data persistence with Java and MySQL.",
    "highlights": [
     "Implements Create, Read, Update, Delete",
     "Uses JDBC for MySQL connectivity",
@@ -6208,54 +6282,6 @@
    "enrichedBy": "groq",
    "contentHash": "ec2b9473b9458127",
    "primaryRole": "backend-engineer"
-  },
-  {
-   "id": "piyush-mishra-00-placement-prediction",
-   "name": "Placement-Prediction",
-   "owner": "PIYUSH-MISHRA-00",
-   "nameWithOwner": "PIYUSH-MISHRA-00/Placement-Prediction",
-   "url": "https://github.com/PIYUSH-MISHRA-00/Placement-Prediction",
-   "homepage": "https://placement-prediction-2s70.onrender.com",
-   "description": "This project predicts whether a student will get placed based on their CGPA and IQ using a machine learning model. The project includes a trained model, a Streamlit application for prediction, and is fully containerized using Docker. ",
-   "topics": [],
-   "languages": [
-    {
-     "name": "Python",
-     "bytes": 1973,
-     "pct": 82.7
-    },
-    {
-     "name": "Dockerfile",
-     "bytes": 412,
-     "pct": 17.3
-    }
-   ],
-   "primaryLanguage": "Python",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 6,
-   "createdAt": "2024-09-11T07:15:11Z",
-   "pushedAt": "2024-09-12T14:12:59Z",
-   "isArchived": false,
-   "isOrg": false,
-   "org": null,
-   "roles": [
-    "data-scientist"
-   ],
-   "headline": "This project predicts whether a student will get placed based on their CGPA and IQ using a",
-   "what": "Link to the project : Link Student Placement Predictor This project predicts whether a student will get placed based on their CGPA and IQ using a machine learning model. The project includes a trained model, a Streamlit application for prediction, and is fully containerized using Docker.",
-   "why": "",
-   "impact": "",
-   "highlights": [],
-   "tech": [
-    "Python",
-    "Dockerfile"
-   ],
-   "signal": "minor",
-   "enrichedBy": "readme",
-   "contentHash": "a82f75c308251488",
-   "primaryRole": "data-scientist"
   },
   {
    "id": "piyush-mishra-00-bmi",
@@ -6288,7 +6314,7 @@
    ],
    "headline": "Android BMI Calculator app",
    "what": "The app accepts weight in kilograms and height in feet and inches, converts the inputs, and computes the Body Mass Index. It presents the result on a simple Android UI built with Java and XML layouts. The code runs on Android devices or emulators via Android Studio.",
-   "why": "Provides a quick, on‑device way for users to assess their BMI without needing a web service.",
+   "why": "Provides a quick, on-device way for users to assess their BMI without needing a web service.",
    "impact": "Demonstrates ability to develop a native Android application handling user input, unit conversion, and basic arithmetic in Java.",
    "highlights": [
     "User input validation",
@@ -6384,13 +6410,13 @@
     "mobile-developer"
    ],
    "headline": "Simple Birthday Greeting App in Kotlin",
-   "what": "A Kotlin application that takes a name input and produces a formatted birthday greeting. Built as a single‑activity Android app using native Kotlin UI components.",
+   "what": "A Kotlin application that takes a name input and produces a formatted birthday greeting. Built as a single-activity Android app using native Kotlin UI components.",
    "why": "Provides a quick way to generate personalized birthday messages without external tools.",
    "impact": "Shows competence in creating a complete Android app using Kotlin.",
    "highlights": [
-    "Kotlin‑only codebase",
+    "Kotlin-only codebase",
     "Generates personalized greeting",
-    "Single‑activity UI",
+    "Single-activity UI",
     "Handles user name input"
    ],
    "tech": [
@@ -6436,14 +6462,14 @@
     "fullstack-developer"
    ],
    "headline": "Static profile creation page for TLT assessment",
-   "what": "Builds a responsive “Create Your Profile” form using only HTML5 and CSS3. Implements semantic markup, accessible labels, and a dark‑theme design matching the provided specifications. The page adapts to desktop and mobile breakpoints without horizontal scrolling.",
+   "what": "Builds a responsive “Create Your Profile” form using only HTML5 and CSS3. Implements semantic markup, accessible labels, and a dark-theme design matching the provided specifications. The page adapts to desktop and mobile breakpoints without horizontal scrolling.",
    "why": "Created to satisfy the TLT assessment requirement for a professional profile management interface.",
-   "impact": "Shows proficiency in translating design specs into clean, responsive front‑end code.",
+   "impact": "Shows proficiency in translating design specs into clean, responsive front-end code.",
    "highlights": [
     "Responsive layout for desktop and mobile",
     "Semantic HTML5 structure",
     "Accessible form elements with labels",
-    "Design‑compliant dark theme and spacing"
+    "Design-compliant dark theme and spacing"
    ],
    "tech": [
     "HTML5",
@@ -6512,9 +6538,9 @@
    "headline": "Ruby assessment web application",
    "what": "A small web app built with Ruby that serves HTML pages, includes CSS styling and JavaScript for interactivity, and is packaged in a Docker container. The repository contains a basic project layout, a Dockerfile, and shell scripts for setup.",
    "why": "Created to demonstrate Ruby development skills and the ability to configure a simple web stack.",
-   "impact": "Shows competence in building and containerizing a Ruby‑based web service.",
+   "impact": "Shows competence in building and containerizing a Ruby-based web service.",
    "highlights": [
-    "Ruby web app with HTML/JS front‑end",
+    "Ruby web app with HTML/JS front-end",
     "Dockerfile for container build",
     "Basic project structure with README",
     "Shell scripts for setup"
@@ -6573,7 +6599,7 @@
    ],
    "headline": "React learning assignment",
    "what": "A small React application created to practice component composition, state handling, and styling. Built with JavaScript, JSX, HTML and CSS using npm scripts for development and build.",
-   "why": "The project was made to follow the Lets Upgrade React curriculum and gain hands‑on experience with the library.",
+   "why": "The project was made to follow the Lets Upgrade React curriculum and gain hands-on experience with the library.",
    "impact": "Shows ability to scaffold a React project and implement basic UI components.",
    "highlights": [
     "Three commits establishing project structure",
@@ -6635,7 +6661,7 @@
    "headline": "Static dummy ecommerce website",
    "what": "Provides a set of static pages that simulate product browsing, cart, and checkout flow. Implemented with HTML for structure, CSS for styling, and a shell script for deployment.",
    "why": "Created as a learning project to practice web layout and basic site organization.",
-   "impact": "Shows competence in building end‑to‑end web pages without a framework.",
+   "impact": "Shows competence in building end-to-end web pages without a framework.",
    "highlights": [
     "Static product catalog pages",
     "Basic cart UI",
@@ -6690,7 +6716,7 @@
    "headline": "GitHub app to view users and add favorites",
    "what": "A service that authenticates with GitHub, fetches user profiles, and lets the user mark profiles as favorites. Built primarily in Kotlin with shell scripts for setup and deployment. Communicates with the GitHub API over REST.",
    "why": "Provides a quick way to browse GitHub users and keep a personal list of preferred accounts without leaving the app.",
-   "impact": "Shows competence in integrating third‑party APIs and building end‑to‑end Kotlin services.",
+   "impact": "Shows competence in integrating third-party APIs and building end-to-end Kotlin services.",
    "highlights": [
     "Implements OAuth flow for GitHub app",
     "Stores favorite users locally",
@@ -6796,8 +6822,8 @@
     "fullstack-developer"
    ],
    "headline": "Static web page for ItzFizz task",
-   "what": "A client‑side page that presents the ItzFizz coding challenge and displays results based on user input. Built with HTML for markup, CSS for styling, and JavaScript for the interactive logic.",
-   "why": "Created to showcase front‑end implementation of a common programming exercise and to practice DOM manipulation.",
+   "what": "A client-side page that presents the ItzFizz coding challenge and displays results based on user input. Built with HTML for markup, CSS for styling, and JavaScript for the interactive logic.",
+   "why": "Created to showcase front-end implementation of a common programming exercise and to practice DOM manipulation.",
    "impact": "Demonstrates ability to deliver a complete interactive web page using core web technologies.",
    "highlights": [
     "HTML structure for task UI",
@@ -6854,11 +6880,11 @@
    "headline": "Inventory Management System with Django and MongoDB",
    "what": "A web application that tracks products, suppliers, stock movements, and sales orders. Built with Django for the server side and MongoDB as the document store, rendering HTML templates for the UI. Provides CRUD interfaces for inventory entities.",
    "why": "Needed a simple tool to manage inventory data without a relational database.",
-   "impact": "Demonstrates ability to integrate Django with a NoSQL backend and implement full‑stack CRUD flows.",
+   "impact": "Demonstrates ability to integrate Django with a NoSQL backend and implement full-stack CRUD flows.",
    "highlights": [
     "CRUD UI for products and suppliers",
     "MongoDB connection via Django",
-    "Server‑side rendering with HTML templates",
+    "Server-side rendering with HTML templates",
     "Handles stock movement and sales orders"
    ],
    "tech": [
@@ -6914,13 +6940,13 @@
    ],
    "headline": "React/Redux web app with authentication",
    "what": "A web application built with React and Redux that provides login and registration pages. The app defines routes to render the authentication components and uses a Redux store to track user authentication status and data. State transitions are handled through Redux actions and reducers.",
-   "why": "It supplies a basic user authentication flow and centralized state management for a single‑page interface.",
-   "impact": "Shows competence in constructing React components, routing, and Redux‑based state handling for auth features.",
+   "why": "It supplies a basic user authentication flow and centralized state management for a single-page interface.",
+   "impact": "Shows competence in constructing React components, routing, and Redux-based state handling for auth features.",
    "highlights": [
     "Login and registration UI",
     "Redux store for auth state",
     "React Router for navigation",
-    "Component‑based form handling"
+    "Component-based form handling"
    ],
    "tech": [
     "JavaScript",
@@ -6988,15 +7014,15 @@
    "roles": [
     "mobile-developer"
    ],
-   "headline": "Joker – Flutter mobile app for telling jokes",
+   "headline": "Joker - Flutter mobile app for telling jokes",
    "what": "A mobile app that displays jokes to the user. Built with Flutter using Dart for UI and logic, and includes native modules written in C++ and Swift compiled via CMake.",
-   "why": "Created to demonstrate a simple cross‑platform joke bot as part of a DevProjects assignment.",
+   "why": "Created to demonstrate a simple cross-platform joke bot as part of a DevProjects assignment.",
    "impact": "Shows ability to assemble a Flutter project with native extensions for iOS and Android.",
    "highlights": [
-    "Cross‑platform UI with Flutter",
+    "Cross-platform UI with Flutter",
     "Native modules compiled via CMake",
     "Simple joke retrieval flow",
-    "MIT‑licensed open source"
+    "MIT-licensed open source"
    ],
    "tech": [
     "Flutter",
@@ -7050,7 +7076,7 @@
    "headline": "Interactive KML visualizer with React and Leaflet",
    "what": "A React application that loads a KML file and displays its points, line strings, and polygons on a Leaflet map. The UI includes a sidebar that lists element names, types, coordinates, and lengths. Built with TypeScript for type safety and CSS for styling.",
    "why": "Provides a quick way to inspect geographic data without needing GIS software.",
-   "impact": "Demonstrates ability to integrate third‑party mapping libraries with typed React code.",
+   "impact": "Demonstrates ability to integrate third-party mapping libraries with typed React code.",
    "highlights": [
     "Parses KML points, lines, polygons",
     "Renders data on Leaflet map",
@@ -7099,7 +7125,7 @@
     "automation-engineer"
    ],
    "headline": "Python tool that extracts audio from media files and transcribes it with Whisper",
-   "what": "The service extracts audio tracks from MP3, WAV, MP4, MKV, FLAC, and OGG files using MoviePy and ffmpeg, then feeds the audio to OpenAI's Whisper model for speech‑to‑text conversion. It writes the transcription to a plain‑text file and a JSON file for downstream use. The script is a single Python entry point configurable via a model name variable.",
+   "what": "The service extracts audio tracks from MP3, WAV, MP4, MKV, FLAC, and OGG files using MoviePy and ffmpeg, then feeds the audio to OpenAI's Whisper model for speech-to-text conversion. It writes the transcription to a plain-text file and a JSON file for downstream use. The script is a single Python entry point configurable via a model name variable.",
    "why": "It automates the otherwise manual process of pulling audio from video containers and generating accurate transcripts, useful for content indexing and accessibility.",
    "impact": "Shows ability to combine multimedia processing libraries with AI transcription models in a fully automated Python workflow.",
    "highlights": [
@@ -7151,13 +7177,13 @@
    ],
    "headline": "Movie review system built with Java Spring Boot",
    "what": "Provides a REST API for creating, reading, updating, and deleting movie reviews. Implemented as a Spring Boot application using Java, with Spring MVC handling HTTP requests and Spring Data JPA managing persistence.",
-   "why": "Enables storage and retrieval of user‑generated movie reviews through a simple web service.",
+   "why": "Enables storage and retrieval of user-generated movie reviews through a simple web service.",
    "impact": "Demonstrates ability to develop a complete Spring Boot backend from source to deployment.",
    "highlights": [
     "REST CRUD endpoints",
     "Spring MVC request handling",
     "Spring Data JPA integration",
-    "Single‑commit implementation"
+    "Single-commit implementation"
    ],
    "tech": [
     "Java",
@@ -7197,8 +7223,8 @@
    ],
    "headline": "E-commerce Inventory Management System",
    "what": "A service that tracks product stock levels for an online store and exposes basic CRUD operations for inventory items. The repository contains the source code and configuration needed to run the system as a web application.",
-   "why": "Provides a centralized way to keep inventory data consistent and up‑to‑date for e‑commerce operations.",
-   "impact": "Demonstrates ability to design and implement an end‑to‑end inventory management backend.",
+   "why": "Provides a centralized way to keep inventory data consistent and up-to-date for e-commerce operations.",
+   "impact": "Demonstrates ability to design and implement an end-to-end inventory management backend.",
    "highlights": [
     "Tracks product stock levels",
     "Provides CRUD API for items",
