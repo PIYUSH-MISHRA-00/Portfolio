@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-17T17:25:57.781Z",
+ "syncedAt": "2026-08-17T17:50:46.266Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -11,9 +11,9 @@
   "joinedAt": "2020-05-22T20:31:19Z"
  },
  "stats": {
-  "projects": 93,
+  "projects": 92,
   "flagships": 9,
-  "commitsByMe": 3499,
+  "commitsByMe": 3494,
   "stars": 61,
   "roles": 9,
   "orgs": 2,
@@ -28,54 +28,54 @@
     "name": "Python",
     "projects": 40,
     "bytes": 1486993,
-    "pct": 43
+    "pct": 43.5
    },
    {
     "name": "Shell",
     "projects": 29,
     "bytes": 119423,
-    "pct": 31.2
+    "pct": 31.5
    },
    {
     "name": "HTML",
     "projects": 24,
     "bytes": 377341,
-    "pct": 25.8
+    "pct": 26.1
    },
    {
     "name": "CSS",
     "projects": 19,
     "bytes": 58490,
-    "pct": 20.4
+    "pct": 20.7
    },
    {
     "name": "JavaScript",
     "projects": 17,
     "bytes": 443204,
-    "pct": 18.3
+    "pct": 18.5
    },
    {
     "name": "Java",
     "projects": 16,
     "bytes": 743932,
-    "pct": 17.2
+    "pct": 17.4
    },
    {
     "name": "Dockerfile",
     "projects": 16,
     "bytes": 10295,
-    "pct": 17.2
+    "pct": 17.4
    },
    {
     "name": "Jupyter Notebook",
-    "projects": 8,
-    "bytes": 14820399,
-    "pct": 8.6
+    "projects": 7,
+    "bytes": 13526392,
+    "pct": 7.6
    },
    {
     "name": "TypeScript",
     "projects": 6,
-    "bytes": 879491,
+    "bytes": 880097,
     "pct": 6.5
    },
    {
@@ -1681,7 +1681,7 @@
    "id": "data-scientist",
    "name": "Data Scientist",
    "tagline": "Modelling, prediction and analysis on real datasets.",
-   "count": 10
+   "count": 9
   },
   {
    "id": "security-engineer",
@@ -2583,71 +2583,6 @@
    "enrichedBy": "groq",
    "contentHash": "974e941127533627",
    "primaryRole": "data-scientist"
-  },
-  {
-   "id": "piyush-mishra-00-sunaai",
-   "name": "SunaAI",
-   "owner": "PIYUSH-MISHRA-00",
-   "nameWithOwner": "PIYUSH-MISHRA-00/SunaAI",
-   "url": "https://github.com/PIYUSH-MISHRA-00/SunaAI",
-   "homepage": null,
-   "description": "SunaAI is a privacy-first AI call intelligence platform that turns phone calls into searchable memory with real-time transcription, summaries, action items, and emotion insights. Built with Flutter and native Android, it uses local encryption and user-owned API keys. Open-core, enterprise-ready, and community driven.",
-   "topics": [],
-   "languages": [
-    {
-     "name": "Dart",
-     "bytes": 814947,
-     "pct": 66.1
-    },
-    {
-     "name": "Kotlin",
-     "bytes": 384536,
-     "pct": 31.2
-    },
-    {
-     "name": "C++",
-     "bytes": 19718,
-     "pct": 1.6
-    }
-   ],
-   "primaryLanguage": "Dart",
-   "license": "NOASSERTION",
-   "stars": 3,
-   "forks": 0,
-   "commits": 3,
-   "createdAt": "2026-02-22T17:10:11Z",
-   "pushedAt": "2026-02-22T19:42:36Z",
-   "isArchived": false,
-   "isOrg": false,
-   "org": null,
-   "roles": [
-    "mobile-developer",
-    "ai-engineer"
-   ],
-   "headline": "Privacy-first AI call intelligence platform for searchable transcripts",
-   "what": "Transforms phone calls into searchable memory with real-time transcription, summaries, action items, and emotion insights. Built with Flutter for the UI, native Android/Kotlin for call capture, and a C++ implementation of a time-based encryption algorithm. Uses user-provided Groq API keys so all AI processing stays under the user’s control.",
-   "why": "Provides call intelligence without sending raw audio or transcripts to cloud services, addressing privacy and data-ownership concerns for professionals and businesses.",
-   "impact": "Shows ability to combine cross-platform mobile development, on-device encryption, and AI integration in a single product.",
-   "highlights": [
-    "Real-time transcription via Groq API",
-    "On-device time-based encryption (Kaalka)",
-    "Flutter UI with native Android call capture",
-    "User-owned API keys for privacy"
-   ],
-   "tech": [
-    "Flutter",
-    "Dart",
-    "Kotlin",
-    "C++",
-    "Android",
-    "Groq API",
-    "Kaalka Encryption",
-    "AGPL license"
-   ],
-   "signal": "solid",
-   "enrichedBy": "groq",
-   "contentHash": "b7a5d279b012ae7f",
-   "primaryRole": "mobile-developer"
   },
   {
    "id": "ni-sh-a-char-monsterrr",
@@ -3829,13 +3764,13 @@
    "languages": [
     {
      "name": "TypeScript",
-     "bytes": 70047,
-     "pct": 56.4
+     "bytes": 70653,
+     "pct": 56.6
     },
     {
      "name": "JavaScript",
      "bytes": 47384,
-     "pct": 38.2
+     "pct": 38
     },
     {
      "name": "CSS",
@@ -3847,9 +3782,9 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 78,
+   "commits": 79,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-17T17:23:24Z",
+   "pushedAt": "2026-08-17T17:25:59Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
@@ -3879,7 +3814,7 @@
    ],
    "signal": "solid",
    "enrichedBy": "ai",
-   "contentHash": "44e4ae1c4740f0e8",
+   "contentHash": "29a97acfc29dd582",
    "primaryRole": "fullstack-developer"
   },
   {
@@ -4766,60 +4701,6 @@
    "signal": "solid",
    "enrichedBy": "groq",
    "contentHash": "a82f75c308251488",
-   "primaryRole": "data-scientist"
-  },
-  {
-   "id": "piyush-mishra-00-breast-cancer-detection",
-   "name": "Breast-Cancer-Detection",
-   "owner": "PIYUSH-MISHRA-00",
-   "nameWithOwner": "PIYUSH-MISHRA-00/Breast-Cancer-Detection",
-   "url": "https://github.com/PIYUSH-MISHRA-00/Breast-Cancer-Detection",
-   "homepage": "https://breast-cancer-detection-x3ud.onrender.com",
-   "description": null,
-   "topics": [],
-   "languages": [
-    {
-     "name": "Jupyter Notebook",
-     "bytes": 1294007,
-     "pct": 99.6
-    }
-   ],
-   "primaryLanguage": "Jupyter Notebook",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 6,
-   "createdAt": "2024-09-06T18:16:18Z",
-   "pushedAt": "2024-09-11T16:00:04Z",
-   "isArchived": false,
-   "isOrg": false,
-   "org": null,
-   "roles": [
-    "data-scientist",
-    "fullstack-developer"
-   ],
-   "headline": "Streamlit app for breast cancer prediction",
-   "what": "A web app lets users enter medical measurements via a Streamlit sidebar and returns a benign or malignant classification with probability. The prediction uses a pre-trained logistic regression model built on the Breast Cancer Wisconsin dataset and is served by a Python backend. The service is containerized with Docker for consistent deployment.",
-   "why": "Provides a quick, accessible way for non-experts to assess breast cancer risk from standard clinical features.",
-   "impact": "Shows end-to-end integration of a machine-learning model into a deployable web interface.",
-   "highlights": [
-    "Logistic regression model on Wisconsin data",
-    "Streamlit UI with sidebar inputs",
-    "Dockerfile for reproducible deployment",
-    "Displays prediction probability"
-   ],
-   "tech": [
-    "Python",
-    "Streamlit",
-    "scikit-learn",
-    "Docker",
-    "pandas",
-    "NumPy",
-    "pickle"
-   ],
-   "signal": "solid",
-   "enrichedBy": "groq",
-   "contentHash": "5f029258e68ba929",
    "primaryRole": "data-scientist"
   },
   {
@@ -5730,27 +5611,24 @@
     "fullstack-developer",
     "backend-engineer"
    ],
-   "headline": "Web-based Hotel Management System with admin and user booking flows",
-   "what": "A Flask application that lets administrators add, view, and delete room records while customers can register, log in, browse available rooms, make bookings, and cancel them. The backend uses SQLite for persistence and Werkzeug for password hashing; the frontend renders responsive pages with HTML and CSS via Flask templates.",
-   "why": "It provides a single interface to coordinate room inventory and reservations, reducing manual handling for small hotels.",
-   "impact": "Demonstrates end-to-end development of a database-backed web service with authentication and session management.",
+   "headline": "Web-based Hotel Management System with admin and booking features",
+   "what": "A Flask application that lets administrators create and edit room information and enables users to browse rooms, make bookings, view existing reservations, and cancel them. The interface is rendered with HTML templates served by Flask routes, and the backend processes requests and updates persistent data.",
+   "why": "It provides a single portal for hotel staff and guests to manage room inventory and reservations, reducing manual paperwork and coordination errors.",
+   "impact": "Demonstrates ability to build end-to-end Flask applications with database-backed booking flows.",
    "highlights": [
-    "Admin dashboard for room CRUD",
-    "User registration and login",
-    "Booking creation and cancellation",
-    "Secure password storage with Werkzeug"
+    "Admin CRUD for room details",
+    "User booking and cancellation",
+    "Flask routes with HTML templates",
+    "Persistent storage of bookings"
    ],
    "tech": [
-    "Flask",
     "Python",
-    "HTML",
-    "CSS",
-    "SQLite",
-    "Werkzeug"
+    "Flask",
+    "HTML"
    ],
    "signal": "solid",
-   "enrichedBy": "groq",
-   "contentHash": "7bd770328506e422",
+   "enrichedBy": "ai",
+   "contentHash": "5d2191dc9a32564e",
    "primaryRole": "fullstack-developer"
   },
   {
@@ -5817,6 +5695,69 @@
    "enrichedBy": "groq",
    "contentHash": "a5cb61aa257f1fee",
    "primaryRole": "fullstack-developer"
+  },
+  {
+   "id": "piyush-mishra-00-sunaai",
+   "name": "SunaAI",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/SunaAI",
+   "url": "https://github.com/PIYUSH-MISHRA-00/SunaAI",
+   "homepage": null,
+   "description": "SunaAI is a privacy-first AI call intelligence platform that turns phone calls into searchable memory with real-time transcription, summaries, action items, and emotion insights. Built with Flutter and native Android, it uses local encryption and user-owned API keys. Open-core, enterprise-ready, and community driven.",
+   "topics": [],
+   "languages": [
+    {
+     "name": "Dart",
+     "bytes": 814947,
+     "pct": 66.1
+    },
+    {
+     "name": "Kotlin",
+     "bytes": 384536,
+     "pct": 31.2
+    },
+    {
+     "name": "C++",
+     "bytes": 19718,
+     "pct": 1.6
+    }
+   ],
+   "primaryLanguage": "Dart",
+   "license": "NOASSERTION",
+   "stars": 3,
+   "forks": 0,
+   "commits": 3,
+   "createdAt": "2026-02-22T17:10:11Z",
+   "pushedAt": "2026-02-22T19:42:36Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "mobile-developer",
+    "ai-engineer"
+   ],
+   "headline": "Privacy-first AI call intelligence mobile app",
+   "what": "A service that transcribes phone calls in real time, creates summaries, action items, and emotion insights. Built with a Flutter front-end in Dart, native Android components in Kotlin, and performance-critical code in C++. Stores recordings and transcripts encrypted locally and requires user-owned API keys for any external AI services.",
+   "why": "Provides searchable memory of phone conversations while keeping user data private and under user control.",
+   "impact": "Shows competence in cross-platform mobile development, real-time speech processing, and on-device security.",
+   "highlights": [
+    "Real-time transcription and summarization",
+    "On-device encrypted storage of call data",
+    "User-supplied API keys for AI services",
+    "Flutter UI with native Kotlin integration"
+   ],
+   "tech": [
+    "Dart",
+    "Kotlin",
+    "C++",
+    "Flutter",
+    "Android SDK",
+    "Local encryption"
+   ],
+   "signal": "minor",
+   "enrichedBy": "ai",
+   "contentHash": "76d29453e348330b",
+   "primaryRole": "mobile-developer"
   },
   {
    "id": "ni-sh-a-char-image-to-sketch",
@@ -6208,23 +6149,22 @@
    "roles": [
     "fullstack-developer"
    ],
-   "headline": "Portfolio Calculator landing page",
-   "what": "A static HTML landing page that lists internship projects and provides a simple calculator interface. Built with plain HTML and hosted on GitHub Pages.",
-   "why": "Created to present CodSoft internship work in a single accessible web page.",
-   "impact": "Shows ability to assemble and deploy a client-side web page using GitHub Pages.",
+   "headline": "Static site showcasing CodSoft internship projects",
+   "what": "A static HTML site that lists internship projects completed during a CodSoft internship. Built with plain HTML and published via GitHub Pages.",
+   "why": "Provides a simple, accessible portfolio for reviewers without requiring backend infrastructure.",
+   "impact": "Shows ability to create and deploy a static web presence using GitHub Pages.",
    "highlights": [
-    "HTML-only static site",
-    "Deployed via GitHub Pages",
-    "Links to internship projects",
-    "Live URL available"
+    "HTML-only site",
+    "GitHub Pages deployment",
+    "Organizes internship project links"
    ],
    "tech": [
     "HTML",
     "GitHub Pages"
    ],
    "signal": "minor",
-   "enrichedBy": "groq",
-   "contentHash": "5abf5154f8b45bd0",
+   "enrichedBy": "ai",
+   "contentHash": "d69ff1b84aa83fb9",
    "primaryRole": "fullstack-developer"
   },
   {
@@ -6362,22 +6302,22 @@
    "roles": [
     "mobile-developer"
    ],
-   "headline": "Dart learning code collection",
-   "what": "A set of example programs written in Dart to explore language features and standard libraries. The files are organized as independent scripts compiled with the Dart SDK. The repository contains five small programs that illustrate syntax, collections, async, and I/O.",
-   "why": "Created to practice Dart syntax and core APIs while the author was learning the language.",
-   "impact": "Shows competence in writing and structuring Dart code using the official SDK.",
+   "headline": "Learning Dart code samples",
+   "what": "A collection of small Dart programs written to explore language syntax and core libraries. Each file is a self-contained example compiled and run with the Dart SDK. The repository tracks incremental learning through Git commits.",
+   "why": "Created to practice Dart fundamentals before building larger applications.",
+   "impact": "Shows competence in writing and organizing Dart code with version control.",
    "highlights": [
     "5 example programs",
-    "covers core Dart syntax",
-    "single-language repository",
-    "uses standard Dart SDK"
+    "Pure Dart without external packages",
+    "Focus on language basics",
+    "Tracked via Git"
    ],
    "tech": [
     "Dart"
    ],
    "signal": "minor",
-   "enrichedBy": "groq",
-   "contentHash": "ca6cc6ab702351e9",
+   "enrichedBy": "ai",
+   "contentHash": "58a83807414c1fee",
    "primaryRole": "mobile-developer"
   },
   {
