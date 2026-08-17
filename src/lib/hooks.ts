@@ -1,6 +1,9 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
+
+/** useLayoutEffect warns during SSR; fall back to useEffect on the server. */
+const useIsomorphicLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : useEffect;
 
 /**
  * Adds `.shown` once an element scrolls into view. Replaces an animation library
@@ -77,18 +80,24 @@ export function useActiveSection(ids: string[]) {
   return active;
 }
 
-/** Counts up to `to` when the element is first seen. Skipped for reduced motion. */
+/**
+ * Counts up to `to` when the element is first seen. Skipped for reduced motion.
+ *
+ * Starts at `to` rather than 0 so the server-rendered HTML carries the real
+ * number — these are the headline stats, and rendering them as zeros hid them
+ * from crawlers and from anyone without JavaScript. The reset to zero happens in
+ * a layout effect, before the browser paints, so there is no visible flash.
+ */
 export function useCountUp(to: number, durationMs = 1100) {
-  const [value, setValue] = useState(0);
+  const [value, setValue] = useState(to);
   const ref = useRef<HTMLSpanElement>(null);
 
-  useEffect(() => {
+  useIsomorphicLayoutEffect(() => {
     const el = ref.current;
     if (!el) return;
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      setValue(to);
-      return;
-    }
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    setValue(0);
 
     let frame = 0;
     const io = new IntersectionObserver(([entry]) => {
@@ -108,6 +117,8 @@ export function useCountUp(to: number, durationMs = 1100) {
     return () => {
       io.disconnect();
       cancelAnimationFrame(frame);
+      // Leave the true value behind if this unmounts mid-animation.
+      setValue(to);
     };
   }, [to, durationMs]);
 
