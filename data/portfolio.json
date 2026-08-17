@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-17T16:32:37.015Z",
+ "syncedAt": "2026-08-17T16:36:00.589Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 93,
   "flagships": 9,
-  "commitsByMe": 3492,
+  "commitsByMe": 3493,
   "stars": 61,
   "roles": 9,
   "orgs": 2,
@@ -3847,9 +3847,9 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 71,
+   "commits": 72,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-17T16:31:09Z",
+   "pushedAt": "2026-08-17T16:32:37Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
@@ -3858,14 +3858,14 @@
     "devops-engineer"
    ],
    "headline": "Self-maintaining developer portfolio site",
-   "what": "A static site that lists the engineer’s public repositories and generates recruiter-facing narratives automatically. It uses a Next.js 14 app with Tailwind CSS for the UI and a GitHub Action that queries GitHub, calls Groq for text generation, and writes the results to a JSON data file. The site is exported as static HTML and can be installed as a web app.",
-   "why": "Keeps a portfolio up-to-date without manual edits, ensuring recruiters see the latest work and contribution metrics.",
-   "impact": "Demonstrates end-to-end automation of content generation and deployment using modern web and CI/CD tools.",
+   "what": "A static portfolio that lists projects automatically by querying the user’s public GitHub repositories. A GitHub Action runs on each push or on a schedule, fetches repository metadata, calls Groq to generate recruiter-facing narratives, and writes them to a JSON file. The Next.js 14 app consumes that file, rendering role-first sections with Tailwind CSS, a command palette, PDF export, and PWA installability.",
+   "why": "Manual updates to a portfolio are error-prone and time-consuming; this site keeps the showcase current without developer intervention.",
+   "impact": "Shows end-to-end automation of content generation, CI/CD, and full-stack rendering using TypeScript and Next.js.",
    "highlights": [
-    "GitHub Action drives live sync of repos",
-    "Command palette for fuzzy project search",
-    "Static export with installable PWA manifest",
-    "Responsive layout with dark/light themes"
+    "GitHub Action syncs repos on push or schedule",
+    "Groq generates recruiter narratives per repo",
+    "Role-first project organization with live counts",
+    "Command palette for fuzzy search across projects"
    ],
    "tech": [
     "Next.js 14",
@@ -3873,13 +3873,12 @@
     "Tailwind CSS",
     "GitHub Actions",
     "Groq",
-    "App Router",
-    "IntersectionObserver",
-    "Static export"
+    "npm",
+    "CSS"
    ],
    "signal": "solid",
    "enrichedBy": "groq",
-   "contentHash": "11bc238b7ed4855e",
+   "contentHash": "ea018cf2bde92918",
    "primaryRole": "fullstack-developer"
   },
   {
