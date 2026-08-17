@@ -58,7 +58,7 @@ Without it, the twice-daily schedule still catches everything — just up to 12 
 | --- | --- | --- |
 | `GROQ_API_KEY` | recommended | Writes the what / why / demonstrates copy. Missing → falls back to README extraction. |
 | `GH_PAT` | optional | Classic PAT with `read:org`. Unlocks full contribution totals; the default `GITHUB_TOKEN` gives public-only counts. |
-| `GROQ_MODEL` (variable) | optional | Model override. Defaults to `llama-3.3-70b-versatile`. |
+| `GROQ_MODEL` (variable) | optional | Model override. Defaults to `openai/gpt-oss-120b`; if that id is ever retired the sync resolves the best available chat model from Groq's `/models` catalogue instead of failing. |
 
 Narratives are cached in `data/portfolio.json` and keyed by a content hash of each repo, so a sync
 only spends Groq tokens on repositories that are new or have been pushed to since last time.

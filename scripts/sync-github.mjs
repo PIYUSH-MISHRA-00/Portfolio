@@ -68,7 +68,8 @@ const ROLE_IDS = ROLES.map((r) => r.id);
 
 const TOKEN = process.env.GH_PAT || process.env.GITHUB_TOKEN;
 const GROQ_KEY = process.env.GROQ_API_KEY;
-const GROQ_MODEL = process.env.GROQ_MODEL || "llama-3.3-70b-versatile";
+// Verified present in Groq's catalogue; resolveGroqModel() re-picks if it is retired.
+const GROQ_MODEL = process.env.GROQ_MODEL || "openai/gpt-oss-120b";
 
 
 // ---------------------------------------------------------------- GitHub
@@ -508,9 +509,46 @@ async function groq(c, model) {
   return JSON.parse(text);
 }
 
+/**
+ * The model likes U+2011 non-breaking hyphens ("end‑to‑end"), which look right
+ * but make the on-page search miss anything typed with an ASCII hyphen.
+ * Also collapses non-breaking spaces. Em dashes are left alone — they are wanted.
+ */
+const normaliseText = (s) =>
+  typeof s === "string"
+    ? s
+        // U+2010 hyphen through U+2013 en dash become ASCII "-"; U+2014 em dash is kept.
+        .replace(/[\u2010-\u2013]/g, "-")
+        // Non-breaking and narrow no-break spaces become an ordinary space.
+        .replace(/[\u00a0\u202f]/g, " ")
+        .replace(/\s+/g, " ")
+        .trim()
+    : s;
+
+/** Clamps to `max` without slicing a word in half. */
+function clamp(s, max) {
+  if (s.length <= max) return s;
+  const cut = s.slice(0, max);
+  const space = cut.lastIndexOf(" ");
+  return (space > max * 0.6 ? cut.slice(0, space) : cut).trim();
+}
+
+/** Applied to fresh and cached narratives alike, so a re-sync cleans old text for free. */
+function normaliseNarrative(n) {
+  return {
+    ...n,
+    headline: normaliseText(n.headline),
+    what: normaliseText(n.what),
+    why: normaliseText(n.why),
+    impact: normaliseText(n.impact),
+    highlights: (n.highlights ?? []).map(normaliseText).filter(Boolean),
+    tech: (n.tech ?? []).map(normaliseText).filter(Boolean),
+  };
+}
+
 /** Keeps a bad model response from corrupting the site. */
 function sanitise(raw, c) {
-  const str = (v, max) => (typeof v === "string" ? v.trim().slice(0, max) : "");
+  const str = (v, max) => (typeof v === "string" ? clamp(normaliseText(v), max) : "");
   const roles = (Array.isArray(raw?.roles) ? raw.roles : []).filter((r) => ROLE_IDS.includes(r)).slice(0, 2);
   const signal = ["flagship", "solid", "minor"].includes(raw?.signal) ? raw.signal : "solid";
   return {
@@ -521,11 +559,11 @@ function sanitise(raw, c) {
     impact: str(raw?.impact, 300),
     highlights: (Array.isArray(raw?.highlights) ? raw.highlights : [])
       .filter((h) => typeof h === "string" && h.trim())
-      .map((h) => h.trim().slice(0, 70))
+      .map((h) => clamp(normaliseText(h), 70))
       .slice(0, 4),
     tech: (Array.isArray(raw?.tech) ? raw.tech : [])
       .filter((t) => typeof t === "string" && t.trim())
-      .map((t) => t.trim().slice(0, 24))
+      .map((t) => clamp(normaliseText(t), 28))
       .slice(0, 8),
     signal,
     enrichedBy: "groq",
@@ -634,7 +672,7 @@ async function enrich(candidates, cache) {
 }
 
 const NARRATIVE_KEYS = ["roles", "headline", "what", "why", "impact", "highlights", "tech", "signal", "enrichedBy"];
-const pickNarrative = (o) => Object.fromEntries(NARRATIVE_KEYS.map((k) => [k, o[k]]));
+const pickNarrative = (o) => normaliseNarrative(Object.fromEntries(NARRATIVE_KEYS.map((k) => [k, o[k]])));
 
 // ---------------------------------------------------------------- assemble
 
@@ -682,9 +720,11 @@ function aggregate(projects, profileData) {
     .map((o) => ({ ...o, ...(orgMeta.get(o.login) || {}), url: `https://github.com/${o.login}` }))
     .sort((a, b) => b.commits - a.commits);
 
+  // Counted by primary role so the numbers match the sections, where each
+  // project appears exactly once rather than in every role it touches.
   const roles = ROLES.map((r) => ({
     ...r,
-    count: projects.filter((p) => p.roles.includes(r.id)).length,
+    count: projects.filter((p) => p.primaryRole === r.id).length,
   })).filter((r) => r.count > 0);
 
   return {
@@ -760,6 +800,8 @@ async function main() {
   console.log(`  ${candidates.length}/${shortlist.length} projects are explainable`);
 
   const projects = await enrich(candidates, cache);
+  // Strongest role first — this is the section a project is filed under.
+  for (const p of projects) p.primaryRole = p.roles[0];
 
   // Ranking: flagships first, then real work, then recency.
   const weight = { flagship: 0, solid: 1, minor: 2 };
@@ -790,10 +832,7 @@ async function main() {
     syncedAt: new Date().toISOString(),
     ...aggregate(projects, profileData),
     roleCatalog: ROLES,
-    projects: projects.map(({ readme, readmeBytes, totalCommits, ...keep }) => ({
-      ...keep,
-      primaryRole: keep.roles[0],
-    })),
+    projects: projects.map(({ readme, readmeBytes, totalCommits, authored, ...keep }) => keep),
   };
 
   await mkdir(dirname(OUT), { recursive: true });

@@ -97,4 +97,25 @@ assert.equal(
 );
 assert.ok(modelRank("llama-3.3-70b-versatile") > modelRank("llama-3.1-8b-instant"));
 
+// --- unicode hyphens must not survive: they break on-page search for "end-to-end"
+const dashed = sanitise(
+  {
+    roles: ["ai-engineer"],
+    headline: "Time‑based end‐to–end encryption",
+    what: "Uses a non‑breaking space and hyphen.",
+    tech: ["1D Convolutional Neural Network Layer", "Node.js"],
+    highlights: ["Real‑time transcription"],
+    signal: "solid",
+  },
+  { name: "x", description: "d", topics: [], readme: "", languages: [] }
+);
+assert.equal(dashed.headline, "Time-based end-to-end encryption", "all hyphen variants become ASCII");
+assert.equal(dashed.what, "Uses a non-breaking space and hyphen.", "nbsp becomes a plain space");
+assert.equal(dashed.highlights[0], "Real-time transcription");
+// Long tech labels are cut at a word boundary, never mid-word.
+assert.ok(dashed.tech[0].length <= 28);
+assert.ok(!dashed.tech[0].endsWith(" "), "no trailing space from the clamp");
+assert.equal(dashed.tech[0], "1D Convolutional Neural", "clamped on a word boundary");
+assert.equal(dashed.tech[1], "Node.js", "short labels pass through untouched");
+
 console.log("sync-github: all checks passed");

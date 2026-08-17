@@ -80,7 +80,12 @@ export const featured = portfolio.projects.filter((p) => p.signal !== "minor");
 /** Coursework, assignments and small utilities — shown compactly, never dropped. */
 export const archive = portfolio.projects.filter((p) => p.signal === "minor");
 
-export const projectsForRole = (roleId: string) => featured.filter((p) => p.roles.includes(roleId));
+/**
+ * Sections group by primary role so each project is listed exactly once. Most
+ * projects legitimately touch two roles, and listing them under both made the
+ * page repeat itself — secondary roles surface on the card instead.
+ */
+export const projectsForRole = (roleId: string) => featured.filter((p) => p.primaryRole === roleId);
 
 /** Roles that have at least one non-archive project, in catalog order. */
 export const activeRoles: RoleGroup[] = portfolio.roles

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Archive, ExternalLink, GitCommitHorizontal, Github, GitFork, Globe, Star, Users } from "lucide-react";
-import { activeRoles, archive, featured, monthYear, projectsForRole, relativeTime, type Project } from "@/lib/data";
+import { activeRoles, archive, featured, monthYear, projectsForRole, relativeTime, roleName, type Project } from "@/lib/data";
 import { useReveal } from "@/lib/hooks";
 
 function Meta({ project }: { project: Project }) {
@@ -70,6 +70,13 @@ function ProjectCard({ project, rank }: { project: Project; rank: number }) {
         </h4>
 
         {project.headline && <p className="mt-1.5 text-sm leading-snug text-muted">{project.headline}</p>}
+
+        {/* Secondary roles: the project is filed under its primary one only. */}
+        {project.roles.length > 1 && (
+          <p className="mt-2 font-mono text-[0.625rem] text-faint">
+            also demonstrates {project.roles.slice(1).map(roleName).join(", ")}
+          </p>
+        )}
       </header>
 
       {/* The what / why / impact split is what a recruiter is actually scanning for. */}
