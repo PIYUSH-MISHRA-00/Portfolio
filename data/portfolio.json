@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-17T17:50:46.266Z",
+ "syncedAt": "2026-08-18T05:50:25.164Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -11,9 +11,9 @@
   "joinedAt": "2020-05-22T20:31:19Z"
  },
  "stats": {
-  "projects": 92,
+  "projects": 93,
   "flagships": 9,
-  "commitsByMe": 3494,
+  "commitsByMe": 3501,
   "stars": 61,
   "roles": 9,
   "orgs": 2,
@@ -28,49 +28,49 @@
     "name": "Python",
     "projects": 40,
     "bytes": 1486993,
-    "pct": 43.5
+    "pct": 43
    },
    {
     "name": "Shell",
     "projects": 29,
     "bytes": 119423,
-    "pct": 31.5
+    "pct": 31.2
    },
    {
     "name": "HTML",
     "projects": 24,
     "bytes": 377341,
-    "pct": 26.1
+    "pct": 25.8
    },
    {
     "name": "CSS",
     "projects": 19,
     "bytes": 58490,
-    "pct": 20.7
+    "pct": 20.4
    },
    {
     "name": "JavaScript",
     "projects": 17,
     "bytes": 443204,
-    "pct": 18.5
+    "pct": 18.3
    },
    {
     "name": "Java",
     "projects": 16,
     "bytes": 743932,
-    "pct": 17.4
+    "pct": 17.2
    },
    {
     "name": "Dockerfile",
     "projects": 16,
     "bytes": 10295,
-    "pct": 17.4
+    "pct": 17.2
    },
    {
     "name": "Jupyter Notebook",
-    "projects": 7,
-    "bytes": 13526392,
-    "pct": 7.6
+    "projects": 8,
+    "bytes": 14820399,
+    "pct": 8.6
    },
    {
     "name": "TypeScript",
@@ -1667,6 +1667,10 @@
    {
     "date": "2026-08-17",
     "contributionCount": 19
+   },
+   {
+    "date": "2026-08-18",
+    "contributionCount": 0
    }
   ]
  ],
@@ -1681,7 +1685,7 @@
    "id": "data-scientist",
    "name": "Data Scientist",
    "tagline": "Modelling, prediction and analysis on real datasets.",
-   "count": 9
+   "count": 10
   },
   {
    "id": "security-engineer",
@@ -1699,7 +1703,7 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 30
+   "count": 29
   },
   {
    "id": "mobile-developer",
@@ -1711,7 +1715,7 @@
    "id": "devops-engineer",
    "name": "DevOps & Platform Engineer",
    "tagline": "Containers, images and reproducible environments.",
-   "count": 1
+   "count": 2
   },
   {
    "id": "systems-engineer",
@@ -3782,40 +3786,40 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 79,
+   "commits": 80,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-17T17:25:59Z",
+   "pushedAt": "2026-08-17T17:50:47Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "fullstack-developer",
-    "devops-engineer"
+    "devops-engineer",
+    "fullstack-developer"
    ],
-   "headline": "Self-maintaining developer portfolio site",
-   "what": "A static site that displays a JSON-driven list of public repositories, organized by role. A GitHub Action scans the user’s public repos, runs a free-tier LLM to write recruiter-facing narratives, and writes the results to data/portfolio.json, which the site renders with TypeScript and CSS. The workflow can also be triggered on each push via a repository-level workflow file.",
-   "why": "Keeps a personal portfolio current without manual edits, ensuring new projects appear automatically for recruiters.",
-   "impact": "Shows ability to design end-to-end CI/CD automation that integrates GitHub APIs, LLM services, and a TypeScript front-end.",
+   "headline": "Self-maintaining portfolio site generated via GitHub Actions",
+   "what": "A static portfolio site reads every public, non-fork repository on the account, runs an LLM to create recruiter-facing narratives, and writes the results to data/portfolio.json. The site is a static export built with TypeScript and CSS, driven by that JSON file. GitHub Actions and the gh CLI automate the sync on each push or on a schedule.",
+   "why": "Keeps the developer’s portfolio current without manual edits, reducing stale information and maintenance effort.",
+   "impact": "Shows end-to-end automation of data collection, AI-generated content, and static site deployment using CI/CD pipelines.",
    "highlights": [
-    "GitHub Action syncs repos to JSON",
-    "LLM generates project narratives",
-    "Role-first organization of projects",
-    "Fuzzy-search command palette"
+    "GitHub Action fetches repos and writes JSON",
+    "LLM generates recruiter narratives per project",
+    "Static site rendered from data/portfolio.json",
+    "Command palette provides fuzzy search across projects"
    ],
    "tech": [
     "TypeScript",
     "JavaScript",
     "CSS",
-    "GitHub Actions",
     "Node.js",
-    "GitHub CLI",
+    "GitHub Actions",
+    "GitHub CLI (gh)",
     "OpenAI-compatible LLM APIs",
-    "Static site export"
+    "npm"
    ],
    "signal": "solid",
    "enrichedBy": "ai",
-   "contentHash": "29a97acfc29dd582",
-   "primaryRole": "fullstack-developer"
+   "contentHash": "8935585e0e2c7cd7",
+   "primaryRole": "devops-engineer"
   },
   {
    "id": "piyush-mishra-00-git-automation-script",
@@ -4701,6 +4705,61 @@
    "signal": "solid",
    "enrichedBy": "groq",
    "contentHash": "a82f75c308251488",
+   "primaryRole": "data-scientist"
+  },
+  {
+   "id": "piyush-mishra-00-breast-cancer-detection",
+   "name": "Breast-Cancer-Detection",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Breast-Cancer-Detection",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Breast-Cancer-Detection",
+   "homepage": "https://breast-cancer-detection-x3ud.onrender.com",
+   "description": null,
+   "topics": [],
+   "languages": [
+    {
+     "name": "Jupyter Notebook",
+     "bytes": 1294007,
+     "pct": 99.6
+    }
+   ],
+   "primaryLanguage": "Jupyter Notebook",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 6,
+   "createdAt": "2024-09-06T18:16:18Z",
+   "pushedAt": "2024-09-11T16:00:04Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "data-scientist",
+    "fullstack-developer"
+   ],
+   "headline": "Breast Cancer Prediction web app with Streamlit",
+   "what": "A Streamlit application that lets users enter medical measurements and returns a benign or malignant classification with probability. The prediction uses a pre-trained logistic regression model on the Breast Cancer Wisconsin dataset and runs inside a Docker container.",
+   "why": "Provides a quick, interactive way to explore model predictions without writing code, demonstrating end-to-end ML deployment.",
+   "impact": "Shows ability to turn a scikit-learn model into a containerized web service.",
+   "highlights": [
+    "Streamlit UI for feature entry",
+    "Logistic regression inference",
+    "Dockerized for reproducible deployment",
+    "Displays prediction probability"
+   ],
+   "tech": [
+    "Python",
+    "Streamlit",
+    "scikit-learn",
+    "Docker",
+    "pandas",
+    "logistic regression",
+    "Jupyter Notebook",
+    "requirements.txt"
+   ],
+   "signal": "solid",
+   "enrichedBy": "ai",
+   "contentHash": "5f029258e68ba929",
    "primaryRole": "data-scientist"
   },
   {
@@ -5611,24 +5670,28 @@
     "fullstack-developer",
     "backend-engineer"
    ],
-   "headline": "Web-based Hotel Management System with admin and booking features",
-   "what": "A Flask application that lets administrators create and edit room information and enables users to browse rooms, make bookings, view existing reservations, and cancel them. The interface is rendered with HTML templates served by Flask routes, and the backend processes requests and updates persistent data.",
-   "why": "It provides a single portal for hotel staff and guests to manage room inventory and reservations, reducing manual paperwork and coordination errors.",
-   "impact": "Demonstrates ability to build end-to-end Flask applications with database-backed booking flows.",
+   "headline": "Flask-based Hotel Management System web app",
+   "what": "A web application that lets administrators add, view, and delete room records and lets users register, log in, browse available rooms, make bookings, and cancel them. Built with Flask for routing and business logic, HTML/CSS templates for the UI, SQLite for data storage, and Werkzeug for password hashing.",
+   "why": "Created to provide a single interface for hotel staff and guests, reducing manual paperwork and coordinating room availability in real time.",
+   "impact": "Shows end-to-end development of a full-stack Flask app with authentication, CRUD operations, and session handling.",
    "highlights": [
-    "Admin CRUD for room details",
-    "User booking and cancellation",
-    "Flask routes with HTML templates",
-    "Persistent storage of bookings"
+    "Admin dashboard with room CRUD",
+    "User registration and booking flow",
+    "Secure password hashing via Werkzeug",
+    "SQLite persistence with auto-init"
    ],
    "tech": [
-    "Python",
     "Flask",
-    "HTML"
+    "Python",
+    "HTML",
+    "CSS",
+    "SQLite",
+    "Werkzeug",
+    "Jinja2"
    ],
    "signal": "solid",
    "enrichedBy": "ai",
-   "contentHash": "5d2191dc9a32564e",
+   "contentHash": "7bd770328506e422",
    "primaryRole": "fullstack-developer"
   },
   {
@@ -5756,7 +5819,7 @@
    ],
    "signal": "minor",
    "enrichedBy": "ai",
-   "contentHash": "76d29453e348330b",
+   "contentHash": "b7a5d279b012ae7f",
    "primaryRole": "mobile-developer"
   },
   {
@@ -6164,7 +6227,7 @@
    ],
    "signal": "minor",
    "enrichedBy": "ai",
-   "contentHash": "d69ff1b84aa83fb9",
+   "contentHash": "5abf5154f8b45bd0",
    "primaryRole": "fullstack-developer"
   },
   {
@@ -6302,22 +6365,22 @@
    "roles": [
     "mobile-developer"
    ],
-   "headline": "Learning Dart code samples",
-   "what": "A collection of small Dart programs written to explore language syntax and core libraries. Each file is a self-contained example compiled and run with the Dart SDK. The repository tracks incremental learning through Git commits.",
+   "headline": "Dart learning code samples",
+   "what": "A collection of small Dart programs written to explore language syntax and core libraries. The files are plain Dart scripts organized in a single repository and version-controlled with five commits.",
    "why": "Created to practice Dart fundamentals before building larger applications.",
-   "impact": "Shows competence in writing and organizing Dart code with version control.",
+   "impact": "Shows competence in writing and structuring Dart code.",
    "highlights": [
     "5 example programs",
-    "Pure Dart without external packages",
-    "Focus on language basics",
-    "Tracked via Git"
+    "pure Dart scripts",
+    "covers basic language features",
+    "consistent commit history"
    ],
    "tech": [
     "Dart"
    ],
    "signal": "minor",
    "enrichedBy": "ai",
-   "contentHash": "58a83807414c1fee",
+   "contentHash": "ca6cc6ab702351e9",
    "primaryRole": "mobile-developer"
   },
   {
