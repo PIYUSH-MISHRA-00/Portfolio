@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-18T05:50:25.164Z",
+ "syncedAt": "2026-08-18T17:48:42.430Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -12,23 +12,23 @@
  },
  "stats": {
   "projects": 93,
-  "flagships": 9,
-  "commitsByMe": 3501,
+  "flagships": 10,
+  "commitsByMe": 3614,
   "stars": 61,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 14827,
-  "totalCommitContributions": 3489,
-  "totalIssueContributions": 8843,
+  "contributionsLastYear": 13229,
+  "totalCommitContributions": 3019,
+  "totalIssueContributions": 7832,
   "totalPullRequestContributions": 0,
-  "privateContributions": 2485,
+  "privateContributions": 2367,
   "languages": [
    {
     "name": "Python",
-    "projects": 40,
-    "bytes": 1486993,
-    "pct": 43
+    "projects": 38,
+    "bytes": 1481437,
+    "pct": 40.9
    },
    {
     "name": "Shell",
@@ -38,21 +38,21 @@
    },
    {
     "name": "HTML",
-    "projects": 24,
-    "bytes": 377341,
-    "pct": 25.8
+    "projects": 26,
+    "bytes": 402556,
+    "pct": 28
    },
    {
     "name": "CSS",
-    "projects": 19,
-    "bytes": 58490,
-    "pct": 20.4
+    "projects": 21,
+    "bytes": 105172,
+    "pct": 22.6
    },
    {
     "name": "JavaScript",
-    "projects": 17,
-    "bytes": 443204,
-    "pct": 18.3
+    "projects": 19,
+    "bytes": 553167,
+    "pct": 20.4
    },
    {
     "name": "Java",
@@ -264,25 +264,25 @@
    },
    {
     "date": "2025-09-24",
-    "contributionCount": 786
+    "contributionCount": 572
    },
    {
     "date": "2025-09-25",
-    "contributionCount": 794
+    "contributionCount": 632
    },
    {
     "date": "2025-09-26",
-    "contributionCount": 1039
+    "contributionCount": 629
    },
    {
     "date": "2025-09-27",
-    "contributionCount": 882
+    "contributionCount": 556
    }
   ],
   [
    {
     "date": "2025-09-28",
-    "contributionCount": 357
+    "contributionCount": 343
    },
    {
     "date": "2025-09-29",
@@ -362,11 +362,11 @@
    },
    {
     "date": "2025-10-17",
-    "contributionCount": 126
+    "contributionCount": 66
    },
    {
     "date": "2025-10-18",
-    "contributionCount": 44
+    "contributionCount": 39
    }
   ],
   [
@@ -380,15 +380,15 @@
    },
    {
     "date": "2025-10-21",
-    "contributionCount": 37
+    "contributionCount": 36
    },
    {
     "date": "2025-10-22",
-    "contributionCount": 39
+    "contributionCount": 37
    },
    {
     "date": "2025-10-23",
-    "contributionCount": 85
+    "contributionCount": 71
    },
    {
     "date": "2025-10-24",
@@ -396,25 +396,25 @@
    },
    {
     "date": "2025-10-25",
-    "contributionCount": 80
+    "contributionCount": 68
    }
   ],
   [
    {
     "date": "2025-10-26",
-    "contributionCount": 45
+    "contributionCount": 44
    },
    {
     "date": "2025-10-27",
-    "contributionCount": 34
+    "contributionCount": 32
    },
    {
     "date": "2025-10-28",
-    "contributionCount": 91
+    "contributionCount": 44
    },
    {
     "date": "2025-10-29",
-    "contributionCount": 48
+    "contributionCount": 47
    },
    {
     "date": "2025-10-30",
@@ -422,7 +422,7 @@
    },
    {
     "date": "2025-10-31",
-    "contributionCount": 44
+    "contributionCount": 40
    },
    {
     "date": "2025-11-01",
@@ -436,23 +436,23 @@
    },
    {
     "date": "2025-11-03",
-    "contributionCount": 59
+    "contributionCount": 57
    },
    {
     "date": "2025-11-04",
-    "contributionCount": 42
+    "contributionCount": 36
    },
    {
     "date": "2025-11-05",
-    "contributionCount": 86
+    "contributionCount": 81
    },
    {
     "date": "2025-11-06",
-    "contributionCount": 46
+    "contributionCount": 44
    },
    {
     "date": "2025-11-07",
-    "contributionCount": 72
+    "contributionCount": 70
    },
    {
     "date": "2025-11-08",
@@ -466,7 +466,7 @@
    },
    {
     "date": "2025-11-10",
-    "contributionCount": 43
+    "contributionCount": 40
    },
    {
     "date": "2025-11-11",
@@ -474,41 +474,41 @@
    },
    {
     "date": "2025-11-12",
-    "contributionCount": 64
+    "contributionCount": 63
    },
    {
     "date": "2025-11-13",
-    "contributionCount": 42
+    "contributionCount": 38
    },
    {
     "date": "2025-11-14",
-    "contributionCount": 88
+    "contributionCount": 86
    },
    {
     "date": "2025-11-15",
-    "contributionCount": 104
+    "contributionCount": 87
    }
   ],
   [
    {
     "date": "2025-11-16",
-    "contributionCount": 40
+    "contributionCount": 38
    },
    {
     "date": "2025-11-17",
-    "contributionCount": 46
+    "contributionCount": 43
    },
    {
     "date": "2025-11-18",
-    "contributionCount": 44
+    "contributionCount": 42
    },
    {
     "date": "2025-11-19",
-    "contributionCount": 59
+    "contributionCount": 56
    },
    {
     "date": "2025-11-20",
-    "contributionCount": 83
+    "contributionCount": 78
    },
    {
     "date": "2025-11-21",
@@ -516,17 +516,17 @@
    },
    {
     "date": "2025-11-22",
-    "contributionCount": 102
+    "contributionCount": 81
    }
   ],
   [
    {
     "date": "2025-11-23",
-    "contributionCount": 41
+    "contributionCount": 40
    },
    {
     "date": "2025-11-24",
-    "contributionCount": 46
+    "contributionCount": 41
    },
    {
     "date": "2025-11-25",
@@ -542,11 +542,11 @@
    },
    {
     "date": "2025-11-28",
-    "contributionCount": 118
+    "contributionCount": 97
    },
    {
     "date": "2025-11-29",
-    "contributionCount": 46
+    "contributionCount": 44
    }
   ],
   [
@@ -556,53 +556,53 @@
    },
    {
     "date": "2025-12-01",
-    "contributionCount": 21
+    "contributionCount": 20
    },
    {
     "date": "2025-12-02",
-    "contributionCount": 51
+    "contributionCount": 35
    },
    {
     "date": "2025-12-03",
-    "contributionCount": 79
+    "contributionCount": 63
    },
    {
     "date": "2025-12-04",
-    "contributionCount": 88
+    "contributionCount": 73
    },
    {
     "date": "2025-12-05",
-    "contributionCount": 106
+    "contributionCount": 102
    },
    {
     "date": "2025-12-06",
-    "contributionCount": 61
+    "contributionCount": 58
    }
   ],
   [
    {
     "date": "2025-12-07",
-    "contributionCount": 264
+    "contributionCount": 140
    },
    {
     "date": "2025-12-08",
-    "contributionCount": 75
+    "contributionCount": 74
    },
    {
     "date": "2025-12-09",
-    "contributionCount": 67
+    "contributionCount": 48
    },
    {
     "date": "2025-12-10",
-    "contributionCount": 49
+    "contributionCount": 45
    },
    {
     "date": "2025-12-11",
-    "contributionCount": 43
+    "contributionCount": 41
    },
    {
     "date": "2025-12-12",
-    "contributionCount": 40
+    "contributionCount": 38
    },
    {
     "date": "2025-12-13",
@@ -612,7 +612,7 @@
   [
    {
     "date": "2025-12-14",
-    "contributionCount": 50
+    "contributionCount": 49
    },
    {
     "date": "2025-12-15",
@@ -620,7 +620,7 @@
    },
    {
     "date": "2025-12-16",
-    "contributionCount": 36
+    "contributionCount": 35
    },
    {
     "date": "2025-12-17",
@@ -646,11 +646,11 @@
    },
    {
     "date": "2025-12-22",
-    "contributionCount": 53
+    "contributionCount": 42
    },
    {
     "date": "2025-12-23",
-    "contributionCount": 41
+    "contributionCount": 40
    },
    {
     "date": "2025-12-24",
@@ -658,7 +658,7 @@
    },
    {
     "date": "2025-12-25",
-    "contributionCount": 46
+    "contributionCount": 40
    },
    {
     "date": "2025-12-26",
@@ -1670,7 +1670,7 @@
    },
    {
     "date": "2026-08-18",
-    "contributionCount": 0
+    "contributionCount": 13
    }
   ]
  ],
@@ -1697,13 +1697,13 @@
    "id": "backend-engineer",
    "name": "Backend & API Engineer",
    "tagline": "Services, data layers and APIs built to be consumed.",
-   "count": 16
+   "count": 14
   },
   {
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 29
+   "count": 31
   },
   {
    "id": "mobile-developer",
@@ -1715,7 +1715,7 @@
    "id": "devops-engineer",
    "name": "DevOps & Platform Engineer",
    "tagline": "Containers, images and reproducible environments.",
-   "count": 2
+   "count": 1
   },
   {
    "id": "systems-engineer",
@@ -1727,14 +1727,14 @@
    "id": "automation-engineer",
    "name": "Automation Engineer",
    "tagline": "Scripts and pipelines that delete repetitive work.",
-   "count": 6
+   "count": 7
   }
  ],
  "orgs": [
   {
    "login": "ni-sh-a-char",
    "projects": 39,
-   "commits": 3012,
+   "commits": 3124,
    "name": "ni_sh_a.char",
    "description": "Transforming Computing...!",
    "url": "https://github.com/ni-sh-a-char",
@@ -2292,6 +2292,71 @@
    "enrichedBy": "groq",
    "contentHash": "06a7ca409c56dec1",
    "primaryRole": "security-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-portfolio",
+   "name": "Portfolio",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
+   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
+   "description": "https://piyush-mishra-00.github.io/Portfolio/",
+   "topics": [],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 70653,
+     "pct": 56.6
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 47384,
+     "pct": 38
+    },
+    {
+     "name": "CSS",
+     "bytes": 6753,
+     "pct": 5.4
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 81,
+   "createdAt": "2023-03-30T11:31:18Z",
+   "pushedAt": "2026-08-18T05:50:26Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "fullstack-developer",
+    "devops-engineer"
+   ],
+   "headline": "Self-maintaining developer portfolio site",
+   "what": "A static site that displays projects grouped by role and provides a fuzzy-search command palette. A GitHub Action scans all public, non-fork repositories, calls a free OpenAI-compatible LLM to write recruiter-facing narratives, and writes the results to data/portfolio.json. The site reads that JSON at build time and exports a static HTML bundle.",
+   "why": "Keeps the portfolio current without manual edits, ensuring new work appears as soon as it is pushed to GitHub.",
+   "impact": "Shows end-to-end automation from CI/CD pipelines to LLM integration and static-site generation.",
+   "highlights": [
+    "GitHub Action generates project narratives",
+    "Command palette (⌘K) for fuzzy search",
+    "Role-first organization of projects",
+    "Multi-provider free LLM failover"
+   ],
+   "tech": [
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "GitHub Actions",
+    "GitHub CLI",
+    "npm",
+    "OpenAI-compatible LLM APIs",
+    "JSON"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "7481cf3053e53943",
+   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-youtube-shorts-automation",
@@ -3296,6 +3361,77 @@
    "primaryRole": "security-engineer"
   },
   {
+   "id": "ni-sh-a-char-galiyaara",
+   "name": "Galiyaara",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Galiyaara",
+   "url": "https://github.com/ni-sh-a-char/Galiyaara",
+   "homepage": "https://ni-sh-a-char.github.io/Galiyaara/",
+   "description": "A photography portfolio you walk through instead of scroll — a moonlit 3D arcade rendered live in the browser. Drop a photo in a folder, push, and it's on the wall.",
+   "topics": [
+    "3d-gallery",
+    "art-gallery",
+    "creative-coding",
+    "github-pages",
+    "immersive",
+    "no-build",
+    "photography",
+    "photography-portfolio",
+    "portfolio-website",
+    "sharp",
+    "static-site",
+    "threejs"
+   ],
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 89386,
+     "pct": 70.6
+    },
+    {
+     "name": "CSS",
+     "bytes": 26577,
+     "pct": 21
+    },
+    {
+     "name": "HTML",
+     "bytes": 10662,
+     "pct": 8.4
+    }
+   ],
+   "primaryLanguage": "JavaScript",
+   "license": "MIT",
+   "stars": 0,
+   "forks": 0,
+   "commits": 128,
+   "createdAt": "2022-07-23T05:52:06Z",
+   "pushedAt": "2026-08-18T12:08:54Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "automation-engineer"
+   ],
+   "headline": "A photography portfolio you walk through instead of scroll — a moonlit 3D arcade rendered ",
+   "what": "Galiyaara · गलियारा A photography portfolio you walk through instead of scroll. So the site is one — a moonlit stone arcade rendered live in your browser, with the photographs hung between the arches.",
+   "why": "",
+   "impact": "",
+   "highlights": [
+    "3d-gallery",
+    "art-gallery",
+    "creative-coding"
+   ],
+   "tech": [
+    "JavaScript",
+    "CSS",
+    "HTML"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "d60c033c1eff33b2",
+   "primaryRole": "automation-engineer"
+  },
+  {
    "id": "ni-sh-a-char-ni-sh-a-char-ide",
    "name": "ni_sh_a.char-IDE",
    "owner": "ni-sh-a-char",
@@ -3755,71 +3891,6 @@
    "enrichedBy": "groq",
    "contentHash": "b50e512431171a71",
    "primaryRole": "mobile-developer"
-  },
-  {
-   "id": "piyush-mishra-00-portfolio",
-   "name": "Portfolio",
-   "owner": "PIYUSH-MISHRA-00",
-   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
-   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
-   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
-   "description": "https://piyush-mishra-00.github.io/Portfolio/",
-   "topics": [],
-   "languages": [
-    {
-     "name": "TypeScript",
-     "bytes": 70653,
-     "pct": 56.6
-    },
-    {
-     "name": "JavaScript",
-     "bytes": 47384,
-     "pct": 38
-    },
-    {
-     "name": "CSS",
-     "bytes": 6753,
-     "pct": 5.4
-    }
-   ],
-   "primaryLanguage": "TypeScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 80,
-   "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-17T17:50:47Z",
-   "isArchived": false,
-   "isOrg": false,
-   "org": null,
-   "roles": [
-    "devops-engineer",
-    "fullstack-developer"
-   ],
-   "headline": "Self-maintaining portfolio site generated via GitHub Actions",
-   "what": "A static portfolio site reads every public, non-fork repository on the account, runs an LLM to create recruiter-facing narratives, and writes the results to data/portfolio.json. The site is a static export built with TypeScript and CSS, driven by that JSON file. GitHub Actions and the gh CLI automate the sync on each push or on a schedule.",
-   "why": "Keeps the developer’s portfolio current without manual edits, reducing stale information and maintenance effort.",
-   "impact": "Shows end-to-end automation of data collection, AI-generated content, and static site deployment using CI/CD pipelines.",
-   "highlights": [
-    "GitHub Action fetches repos and writes JSON",
-    "LLM generates recruiter narratives per project",
-    "Static site rendered from data/portfolio.json",
-    "Command palette provides fuzzy search across projects"
-   ],
-   "tech": [
-    "TypeScript",
-    "JavaScript",
-    "CSS",
-    "Node.js",
-    "GitHub Actions",
-    "GitHub CLI (gh)",
-    "OpenAI-compatible LLM APIs",
-    "npm"
-   ],
-   "signal": "solid",
-   "enrichedBy": "ai",
-   "contentHash": "8935585e0e2c7cd7",
-   "primaryRole": "devops-engineer"
   },
   {
    "id": "piyush-mishra-00-git-automation-script",
@@ -4313,57 +4384,6 @@
    "primaryRole": "data-scientist"
   },
   {
-   "id": "ni-sh-a-char-monsterrr-project-20250923-2213",
-   "name": "monsterrr-project-20250923-2213",
-   "owner": "ni-sh-a-char",
-   "nameWithOwner": "ni-sh-a-char/monsterrr-project-20250923-2213",
-   "url": "https://github.com/ni-sh-a-char/monsterrr-project-20250923-2213",
-   "homepage": null,
-   "description": "Auto-generated project by Monsterrr",
-   "topics": [],
-   "languages": [
-    {
-     "name": "Python",
-     "bytes": 2778,
-     "pct": 100
-    }
-   ],
-   "primaryLanguage": "Python",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 10,
-   "createdAt": "2025-09-23T22:13:11Z",
-   "pushedAt": "2025-09-23T22:13:22Z",
-   "isArchived": false,
-   "isOrg": true,
-   "org": "ni-sh-a-char",
-   "roles": [
-    "backend-engineer",
-    "devops-engineer"
-   ],
-   "headline": "FastAPI demo service with CRUD endpoints and CI/CD",
-   "what": "Provides a RESTful API with GET, POST, PUT, and DELETE routes for item resources, using FastAPI and an in-memory store for demonstration. Includes a comprehensive pytest suite and a GitHub Actions workflow for continuous integration and deployment. Documentation and a README outline usage and contribution steps.",
-   "why": "Created as a scaffold to illustrate FastAPI project structure, endpoint design, and automated testing pipelines.",
-   "impact": "Shows ability to deliver a full-stack backend service with testing and CI automation.",
-   "highlights": [
-    "CRUD API with FastAPI",
-    "In-memory data store",
-    "Automated tests with pytest",
-    "GitHub Actions CI pipeline"
-   ],
-   "tech": [
-    "Python",
-    "FastAPI",
-    "pytest",
-    "GitHub Actions"
-   ],
-   "signal": "solid",
-   "enrichedBy": "groq",
-   "contentHash": "ecb918c183d5a06c",
-   "primaryRole": "backend-engineer"
-  },
-  {
    "id": "ni-sh-a-char-youtube-video-automation-system",
    "name": "YouTube-Video-Automation-System",
    "owner": "ni-sh-a-char",
@@ -4761,6 +4781,71 @@
    "enrichedBy": "ai",
    "contentHash": "5f029258e68ba929",
    "primaryRole": "data-scientist"
+  },
+  {
+   "id": "ni-sh-a-char-ni-sh-a-char",
+   "name": "ni_sh_a.char",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/ni_sh_a.char",
+   "url": "https://github.com/ni-sh-a-char/ni_sh_a.char",
+   "homepage": "https://ni-sh-a-char.github.io/ni_sh_a.char/",
+   "description": "Website for the organization",
+   "topics": [],
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 20577,
+     "pct": 37.3
+    },
+    {
+     "name": "CSS",
+     "bytes": 20105,
+     "pct": 36.4
+    },
+    {
+     "name": "HTML",
+     "bytes": 14553,
+     "pct": 26.3
+    }
+   ],
+   "primaryLanguage": "JavaScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 4,
+   "createdAt": "2026-08-18T05:24:38Z",
+   "pushedAt": "2026-08-18T07:00:57Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "fullstack-developer",
+    "ai-engineer"
+   ],
+   "headline": "Static organization site with AI-generated repo summaries",
+   "what": "A public website lists every repository in the ni-sh-a-char organization and shows AI-written descriptions. It is pure HTML, CSS and JavaScript served by GitHub Pages, loads a snapshot JSON then fetches the GitHub API for newer data. A daily GitHub Actions workflow regenerates the JSON and calls an LLM to write summaries for changed repositories.",
+   "why": "It automates the creation of readable overviews for all org projects, keeping the page current without manual edits.",
+   "impact": "Shows integration of CI/CD, LLM APIs, and client-side data handling in a zero-build static site.",
+   "highlights": [
+    "Static site on GitHub Pages",
+    "GitHub Actions workflow refreshes data",
+    "LLM generates repo summaries",
+    "Client-side fallback when offline"
+   ],
+   "tech": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "GitHub Pages",
+    "GitHub Actions",
+    "GitHub API",
+    "LLM (Groq/OpenAI compatible)",
+    "JSON"
+   ],
+   "signal": "solid",
+   "enrichedBy": "ai",
+   "contentHash": "337aeef86d352e8a",
+   "primaryRole": "fullstack-developer"
   },
   {
    "id": "piyush-mishra-00-movie-recommendations-system",
@@ -6037,57 +6122,6 @@
    "signal": "minor",
    "enrichedBy": "groq",
    "contentHash": "6de5fd5b34c03c5e",
-   "primaryRole": "backend-engineer"
-  },
-  {
-   "id": "ni-sh-a-char-monsterrr-project-20250924-0413",
-   "name": "monsterrr-project-20250924-0413",
-   "owner": "ni-sh-a-char",
-   "nameWithOwner": "ni-sh-a-char/monsterrr-project-20250924-0413",
-   "url": "https://github.com/ni-sh-a-char/monsterrr-project-20250924-0413",
-   "homepage": null,
-   "description": "Auto-generated project by Monsterrr",
-   "topics": [],
-   "languages": [
-    {
-     "name": "Python",
-     "bytes": 2778,
-     "pct": 100
-    }
-   ],
-   "primaryLanguage": "Python",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 10,
-   "createdAt": "2025-09-24T04:13:11Z",
-   "pushedAt": "2025-09-24T04:13:22Z",
-   "isArchived": false,
-   "isOrg": true,
-   "org": "ni-sh-a-char",
-   "roles": [
-    "backend-engineer"
-   ],
-   "headline": "FastAPI demo with CRUD endpoints and CI/CD pipeline",
-   "what": "Provides a RESTful API with GET, POST, PUT, and DELETE routes for managing items, using FastAPI and an in-memory store. Includes a comprehensive pytest suite and a GitHub Actions workflow for continuous integration. Documentation and a README outline usage and contribution steps.",
-   "why": "Created as a quick demonstration of FastAPI basics, data persistence patterns, and automated testing pipelines.",
-   "impact": "Demonstrates ability to build a Python API, write automated tests, and set up CI/CD.",
-   "highlights": [
-    "CRUD endpoints with FastAPI",
-    "In-memory data store for demo",
-    "Automated pytest suite",
-    "GitHub Actions CI pipeline"
-   ],
-   "tech": [
-    "Python",
-    "FastAPI",
-    "pytest",
-    "GitHub Actions",
-    "Pydantic"
-   ],
-   "signal": "minor",
-   "enrichedBy": "groq",
-   "contentHash": "a593c0758b436cc8",
    "primaryRole": "backend-engineer"
   },
   {
