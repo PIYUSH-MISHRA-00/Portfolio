@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-19T05:50:50.736Z",
+ "syncedAt": "2026-08-19T17:46:00.784Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,8 +13,8 @@
  "stats": {
   "projects": 93,
   "flagships": 11,
-  "commitsByMe": 3615,
-  "stars": 61,
+  "commitsByMe": 3616,
+  "stars": 62,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
@@ -1707,7 +1707,7 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 31
+   "count": 32
   },
   {
    "id": "mobile-developer",
@@ -1719,7 +1719,7 @@
    "id": "devops-engineer",
    "name": "DevOps & Platform Engineer",
    "tagline": "Containers, images and reproducible environments.",
-   "count": 2
+   "count": 1
   },
   {
    "id": "systems-engineer",
@@ -2041,6 +2041,84 @@
    "primaryRole": "ai-engineer"
   },
   {
+   "id": "ni-sh-a-char-galiyaara",
+   "name": "Galiyaara",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Galiyaara",
+   "url": "https://github.com/ni-sh-a-char/Galiyaara",
+   "homepage": "https://ni-sh-a-char.github.io/Galiyaara/",
+   "description": "A photography portfolio you walk through instead of scroll — a moonlit 3D arcade rendered live in the browser. Drop a photo in a folder, push, and it's on the wall.",
+   "topics": [
+    "3d-gallery",
+    "art-gallery",
+    "creative-coding",
+    "github-pages",
+    "immersive",
+    "no-build",
+    "photography",
+    "photography-portfolio",
+    "portfolio-website",
+    "sharp",
+    "static-site",
+    "threejs"
+   ],
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 89386,
+     "pct": 70.6
+    },
+    {
+     "name": "CSS",
+     "bytes": 26577,
+     "pct": 21
+    },
+    {
+     "name": "HTML",
+     "bytes": 10662,
+     "pct": 8.4
+    }
+   ],
+   "primaryLanguage": "JavaScript",
+   "license": "MIT",
+   "stars": 1,
+   "forks": 0,
+   "commits": 128,
+   "createdAt": "2022-07-23T05:52:06Z",
+   "pushedAt": "2026-08-18T12:08:54Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "fullstack-developer",
+    "devops-engineer"
+   ],
+   "headline": "3D immersive photography portfolio site",
+   "what": "A web site renders a moonlit stone arcade with photographs hung on the walls using three.js. Visitors can scroll, walk with WASD controls, or click frames to view full-resolution images. A GitHub Actions workflow resizes images, extracts colors, runs a free AI model to generate titles and captions, and deploys the static site via GitHub Pages.",
+   "why": "Typical photo galleries use static grids; this project provides an immersive, walkable experience without external gallery services or build frameworks.",
+   "impact": "Shows ability to build an interactive three.js application with automated CI/CD and AI-augmented content generation.",
+   "highlights": [
+    "Three.js corridor rendering",
+    "Keyboard-driven navigation",
+    "GitHub Actions image processing",
+    "AI-generated metadata"
+   ],
+   "tech": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "three.js",
+    "GitHub Actions",
+    "GitHub Pages",
+    "Sharp",
+    "AI model"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "d60c033c1eff33b2",
+   "primaryRole": "fullstack-developer"
+  },
+  {
    "id": "piyush-mishra-00-rag-application",
    "name": "RAG-Application",
    "owner": "PIYUSH-MISHRA-00",
@@ -2298,84 +2376,6 @@
    "primaryRole": "security-engineer"
   },
   {
-   "id": "ni-sh-a-char-galiyaara",
-   "name": "Galiyaara",
-   "owner": "ni-sh-a-char",
-   "nameWithOwner": "ni-sh-a-char/Galiyaara",
-   "url": "https://github.com/ni-sh-a-char/Galiyaara",
-   "homepage": "https://ni-sh-a-char.github.io/Galiyaara/",
-   "description": "A photography portfolio you walk through instead of scroll — a moonlit 3D arcade rendered live in the browser. Drop a photo in a folder, push, and it's on the wall.",
-   "topics": [
-    "3d-gallery",
-    "art-gallery",
-    "creative-coding",
-    "github-pages",
-    "immersive",
-    "no-build",
-    "photography",
-    "photography-portfolio",
-    "portfolio-website",
-    "sharp",
-    "static-site",
-    "threejs"
-   ],
-   "languages": [
-    {
-     "name": "JavaScript",
-     "bytes": 89386,
-     "pct": 70.6
-    },
-    {
-     "name": "CSS",
-     "bytes": 26577,
-     "pct": 21
-    },
-    {
-     "name": "HTML",
-     "bytes": 10662,
-     "pct": 8.4
-    }
-   ],
-   "primaryLanguage": "JavaScript",
-   "license": "MIT",
-   "stars": 0,
-   "forks": 0,
-   "commits": 128,
-   "createdAt": "2022-07-23T05:52:06Z",
-   "pushedAt": "2026-08-18T12:08:54Z",
-   "isArchived": false,
-   "isOrg": true,
-   "org": "ni-sh-a-char",
-   "roles": [
-    "fullstack-developer",
-    "devops-engineer"
-   ],
-   "headline": "3D immersive photography portfolio site",
-   "what": "A web site renders a moonlit stone arcade with photographs hung on the walls using three.js. Visitors can scroll, walk with WASD controls, or click frames to view full-resolution images. A GitHub Actions workflow resizes images, extracts colors, runs a free AI model to generate titles and captions, and deploys the static site via GitHub Pages.",
-   "why": "Typical photo galleries use static grids; this project provides an immersive, walkable experience without external gallery services or build frameworks.",
-   "impact": "Shows ability to build an interactive three.js application with automated CI/CD and AI-augmented content generation.",
-   "highlights": [
-    "Three.js corridor rendering",
-    "Keyboard-driven navigation",
-    "GitHub Actions image processing",
-    "AI-generated metadata"
-   ],
-   "tech": [
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "three.js",
-    "GitHub Actions",
-    "GitHub Pages",
-    "Sharp",
-    "AI model"
-   ],
-   "signal": "flagship",
-   "enrichedBy": "ai",
-   "contentHash": "d60c033c1eff33b2",
-   "primaryRole": "fullstack-developer"
-  },
-  {
    "id": "piyush-mishra-00-portfolio",
    "name": "Portfolio",
    "owner": "PIYUSH-MISHRA-00",
@@ -2405,40 +2405,40 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 82,
+   "commits": 83,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-18T17:48:44Z",
+   "pushedAt": "2026-08-19T05:50:51Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "devops-engineer",
-    "fullstack-developer"
+    "fullstack-developer",
+    "automation-engineer"
    ],
-   "headline": "Self-maintaining portfolio site that auto-generates project narratives",
-   "what": "A static site reads a JSON file generated by a GitHub Action that scans all public, non-fork repositories owned or contributed to by the user. The Action invokes a free LLM to write recruiter-facing narratives for each repo and commits the results back to the repository. The site renders the data with a role-first layout, command palette, and brief mode for recruiters.",
-   "why": "Manual updates to a portfolio are time-consuming and error-prone; this automation keeps the showcase current without developer intervention.",
-   "impact": "Shows ability to design end-to-end CI/CD pipelines, integrate AI services, and deliver a production-grade static site using TypeScript.",
+   "headline": "Self-maintaining developer portfolio site",
+   "what": "A static site displays a JSON file of recruiter-facing narratives for each public repository. A GitHub Action scans the account, invokes free LLM APIs to generate the narratives, and commits the result to data/portfolio.json. The site is built with TypeScript, JavaScript and CSS and updates automatically via the workflow.",
+   "why": "Manual updates to a portfolio are error-prone and quickly become outdated, so the project automates data collection and content generation.",
+   "impact": "Shows end-to-end automation of CI/CD pipelines, LLM integration, and front-end delivery in a single personal project.",
    "highlights": [
-    "GitHub Action fetches public repos",
-    "LLM writes recruiter-facing narratives",
-    "Static export from data/portfolio.json",
-    "Fuzzy-search command palette"
+    "GitHub Action scans repos and writes narratives",
+    "LLM-generated recruiter summaries stored in JSON",
+    "Command palette with fuzzy search over projects",
+    "Role-first organization of project sections"
    ],
    "tech": [
     "TypeScript",
     "JavaScript",
     "CSS",
     "GitHub Actions",
-    "Node.js",
-    "OpenAI-compatible APIs",
-    "gh CLI",
+    "GitHub CLI (gh)",
+    "OpenAI-compatible LLM APIs",
+    "npm scripts",
     "JSON"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "d7b2c04ee1ac78b2",
-   "primaryRole": "devops-engineer"
+   "contentHash": "766fc98bb90ce590",
+   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-youtube-shorts-automation",
