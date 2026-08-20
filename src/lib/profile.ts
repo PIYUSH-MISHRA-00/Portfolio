@@ -24,7 +24,7 @@ export const links = [
   { label: "X", href: "https://twitter.com/its_Mishra_00", handle: "@its_Mishra_00" },
   { label: "YouTube", href: "https://www.youtube.com/@ni-sh-a-char/featured", handle: "@ni-sh-a-char" },
   { label: "Instagram", href: "https://www.instagram.com/ni_sh_a.char/", handle: "@ni_sh_a.char" },
-  { label: "Galiyaara", href: "https://galiyaara-36629.web.app/", handle: "galiyaara.web.app" },
+  { label: "Galiyaara", href: "https://ni-sh-a-char.github.io/Galiyaara/", handle: "ni-sh-a-char.github.io/Galiyaara" },
 ] as const;
 
 export type Role = {
