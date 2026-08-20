@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-19T17:46:00.784Z",
+ "syncedAt": "2026-08-20T05:51:14.182Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 93,
   "flagships": 11,
-  "commitsByMe": 3616,
+  "commitsByMe": 3617,
   "stars": 62,
   "roles": 9,
   "orgs": 2,
@@ -1675,6 +1675,10 @@
    {
     "date": "2026-08-19",
     "contributionCount": 0
+   },
+   {
+    "date": "2026-08-20",
+    "contributionCount": 0
    }
   ]
  ],
@@ -2405,9 +2409,9 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 83,
+   "commits": 84,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-19T05:50:51Z",
+   "pushedAt": "2026-08-19T17:46:02Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
@@ -2437,7 +2441,7 @@
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "766fc98bb90ce590",
+   "contentHash": "dd9a86ee026c9961",
    "primaryRole": "fullstack-developer"
   },
   {
@@ -4825,7 +4829,7 @@
    "forks": 0,
    "commits": 4,
    "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-08-19T04:52:06Z",
+   "pushedAt": "2026-08-20T04:53:40Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -4833,29 +4837,29 @@
     "fullstack-developer",
     "ai-engineer"
    ],
-   "headline": "Static organization website with AI-generated repository summaries",
-   "what": "A public site lists every public repository in the organisation and shows an AI-written breakdown of each project. The page loads a pre-generated data/repos.json and makes one unauthenticated GitHub API request to capture new repos, falling back to the snapshot if offline. Data and summaries are refreshed daily by a GitHub Actions workflow that calls a free LLM API. Built with plain HTML, CSS and JavaScript and hosted on GitHub Pages.",
-   "why": "To provide an up-to-date, low-maintenance overview of the organisation’s codebase without manual documentation effort.",
-   "impact": "Shows practical integration of LLM services in CI pipelines and delivery of a zero-build static web app.",
+   "headline": "Static organization website with AI-generated repo summaries",
+   "what": "A public site lists every public repository in the organisation and shows an AI-written breakdown of each project. It is served as plain HTML, CSS and JavaScript on GitHub Pages, loads a snapshot from data/repos.json, then makes a single unauthenticated GitHub API call for newer repos. A daily GitHub Actions workflow regenerates the JSON and invokes a free LLM to write summaries for changed repositories.",
+   "why": "The site automates documentation of the organisation’s codebase, keeping visitors informed without manual updates.",
+   "impact": "Shows practical integration of LLMs into CI pipelines while delivering a zero-build static web experience.",
    "highlights": [
-    "AI-generated repo descriptions",
-    "Daily data refresh via GitHub Actions",
-    "Static site on GitHub Pages",
-    "Unauthenticated GitHub API fetch with fallback"
+    "AI-generated project descriptions via GitHub Actions",
+    "Static site with no framework or bundler",
+    "Fallback to cached JSON on rate-limit or offline",
+    "Automated daily data refresh"
    ],
    "tech": [
+    "JavaScript",
     "HTML",
     "CSS",
-    "JavaScript",
     "GitHub Pages",
     "GitHub Actions",
+    "GitHub API",
     "LLM API (Groq/OpenAI",
-    "GitHub REST API",
     "JSON"
    ],
    "signal": "solid",
    "enrichedBy": "ai",
-   "contentHash": "c63fc3be1355180f",
+   "contentHash": "2d052e4965cecd18",
    "primaryRole": "fullstack-developer"
   },
   {
