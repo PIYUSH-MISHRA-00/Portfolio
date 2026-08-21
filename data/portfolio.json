@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-21T05:52:28.690Z",
+ "syncedAt": "2026-08-21T17:50:40.158Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -12,8 +12,8 @@
  },
  "stats": {
   "projects": 93,
-  "flagships": 9,
-  "commitsByMe": 3626,
+  "flagships": 10,
+  "commitsByMe": 3627,
   "stars": 63,
   "roles": 9,
   "orgs": 2,
@@ -2306,6 +2306,71 @@
    "primaryRole": "security-engineer"
   },
   {
+   "id": "piyush-mishra-00-portfolio",
+   "name": "Portfolio",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
+   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
+   "description": "https://piyush-mishra-00.github.io/Portfolio/",
+   "topics": [],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 70677,
+     "pct": 56.6
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 47384,
+     "pct": 38
+    },
+    {
+     "name": "CSS",
+     "bytes": 6753,
+     "pct": 5.4
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 89,
+   "createdAt": "2023-03-30T11:31:18Z",
+   "pushedAt": "2026-08-21T05:52:29Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "automation-engineer",
+    "fullstack-developer"
+   ],
+   "headline": "Self-maintaining developer portfolio generated via GitHub Actions",
+   "what": "A static site lists public, non-fork repositories with recruiter-focused narratives that are created automatically. A GitHub Action runs on a schedule and on repository dispatch events, queries GitHub, calls a free LLM to write the narratives, and writes the output to data/portfolio.json. The site is built from that JSON with a role-first layout, command palette, and brief mode using TypeScript and standard web technologies.",
+   "why": "Manual updates to a portfolio are time-consuming; this project keeps the showcase current without human intervention.",
+   "impact": "Demonstrates end-to-end automation of data collection, LLM integration, and production-grade static web development.",
+   "highlights": [
+    "GitHub Action syncs repos on push",
+    "LLM generates project narratives",
+    "Role-first project organization",
+    "Command palette for fuzzy search"
+   ],
+   "tech": [
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "Node.js",
+    "GitHub Actions",
+    "GitHub CLI",
+    "OpenAI-compatible LLM APIs",
+    "npm"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "611aad6dddf7ce62",
+   "primaryRole": "automation-engineer"
+  },
+  {
    "id": "ni-sh-a-char-youtube-shorts-automation",
    "name": "YouTube-Shorts-Automation",
    "owner": "ni-sh-a-char",
@@ -3845,71 +3910,6 @@
    "enrichedBy": "groq",
    "contentHash": "b50e512431171a71",
    "primaryRole": "mobile-developer"
-  },
-  {
-   "id": "piyush-mishra-00-portfolio",
-   "name": "Portfolio",
-   "owner": "PIYUSH-MISHRA-00",
-   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
-   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
-   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
-   "description": "https://piyush-mishra-00.github.io/Portfolio/",
-   "topics": [],
-   "languages": [
-    {
-     "name": "TypeScript",
-     "bytes": 70677,
-     "pct": 56.6
-    },
-    {
-     "name": "JavaScript",
-     "bytes": 47384,
-     "pct": 38
-    },
-    {
-     "name": "CSS",
-     "bytes": 6753,
-     "pct": 5.4
-    }
-   ],
-   "primaryLanguage": "TypeScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 88,
-   "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-20T17:50:44Z",
-   "isArchived": false,
-   "isOrg": false,
-   "org": null,
-   "roles": [
-    "automation-engineer",
-    "fullstack-developer"
-   ],
-   "headline": "Self-maintaining developer portfolio site",
-   "what": "A static site that lists all public, non-fork repositories and displays LLM-generated recruiter narratives. A GitHub Action queries GitHub, runs a free-tier LLM to write the narratives, stores them in data/portfolio.json, and the site is built with TypeScript and exported as static HTML.",
-   "why": "Keeps the portfolio current without manual edits, ensuring new work appears as soon as it is pushed.",
-   "impact": "Shows ability to automate CI/CD pipelines and integrate LLM services for dynamic content generation.",
-   "highlights": [
-    "GitHub Action syncs repos nightly",
-    "LLM generates recruiter narratives",
-    "Role-first project organization",
-    "Command palette for fuzzy search"
-   ],
-   "tech": [
-    "TypeScript",
-    "JavaScript",
-    "CSS",
-    "Node.js",
-    "GitHub Actions",
-    "GitHub CLI",
-    "OpenAI-compatible LLM APIs",
-    "npm"
-   ],
-   "signal": "solid",
-   "enrichedBy": "ai",
-   "contentHash": "cfdabf2e982929e1",
-   "primaryRole": "automation-engineer"
   },
   {
    "id": "piyush-mishra-00-git-automation-script",
