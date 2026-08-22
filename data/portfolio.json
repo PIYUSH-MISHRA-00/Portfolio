@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-22T05:47:27.204Z",
+ "syncedAt": "2026-08-22T17:41:45.273Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 93,
   "flagships": 10,
-  "commitsByMe": 3628,
+  "commitsByMe": 3629,
   "stars": 63,
   "roles": 9,
   "orgs": 2,
@@ -1719,7 +1719,7 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 31
+   "count": 32
   },
   {
    "id": "mobile-developer",
@@ -1731,7 +1731,7 @@
    "id": "devops-engineer",
    "name": "DevOps & Platform Engineer",
    "tagline": "Containers, images and reproducible environments.",
-   "count": 2
+   "count": 1
   },
   {
    "id": "systems-engineer",
@@ -2339,25 +2339,25 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 90,
+   "commits": 91,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-21T17:50:41Z",
+   "pushedAt": "2026-08-22T05:47:28Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "devops-engineer",
-    "fullstack-developer"
+    "fullstack-developer",
+    "devops-engineer"
    ],
-   "headline": "Self-maintaining portfolio site generated from public repos",
-   "what": "A static site displays a JSON file of project narratives generated automatically. A GitHub Action scans public, non-fork repositories, calls a free-tier LLM to write recruiter-facing summaries, and writes them to data/portfolio.json. The site, built with TypeScript/JavaScript and CSS, renders the JSON and updates on each push via the workflow.",
-   "why": "Manual updates to a portfolio are time-consuming and error-prone; the automation keeps the showcase current without developer intervention.",
-   "impact": "Shows end-to-end automation of content creation, CI/CD, and deployment using GitHub Actions, LLM APIs, and a TypeScript-based static site.",
+   "headline": "Self-maintaining portfolio site that auto-generates project narratives",
+   "what": "A static site displays a JSON file of project entries generated from the engineer’s public GitHub repositories. A GitHub Action scans repositories, calls a free-tier OpenAI-compatible LLM to write recruiter-facing narratives, and commits the results to data/portfolio.json. The front-end, built with TypeScript, JavaScript and CSS, renders the JSON as a searchable, role-first portfolio.",
+   "why": "Manual updates to a portfolio are time-consuming and error-prone; the automation keeps the site current with each push. It also demonstrates a reproducible workflow for summarizing code contributions.",
+   "impact": "Shows end-to-end automation of CI/CD, LLM integration, and front-end rendering in a production-ready web app.",
    "highlights": [
-    "GitHub Action syncs repos nightly",
-    "LLM creates recruiter narratives",
-    "Role-first project organization",
-    "Command palette for fuzzy search"
+    "GitHub Action fetches public repos",
+    "LLM writes recruiter narratives",
+    "Static export renders JSON data",
+    "Fuzzy command-palette search"
    ],
    "tech": [
     "TypeScript",
@@ -2365,14 +2365,14 @@
     "CSS",
     "GitHub Actions",
     "GitHub CLI",
-    "Node.js",
+    "OpenAI-compatible LLM APIs",
     "npm",
-    "OpenAI-compatible LLM API"
+    "GitHub API"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "2b38a1ee5f646fb0",
-   "primaryRole": "devops-engineer"
+   "contentHash": "a45633eeba8c89a8",
+   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-youtube-shorts-automation",
