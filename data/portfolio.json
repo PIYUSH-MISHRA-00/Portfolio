@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-21T17:50:40.158Z",
+ "syncedAt": "2026-08-22T05:47:27.204Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 93,
   "flagships": 10,
-  "commitsByMe": 3627,
+  "commitsByMe": 3628,
   "stars": 63,
   "roles": 9,
   "orgs": 2,
@@ -1683,6 +1683,10 @@
    {
     "date": "2026-08-21",
     "contributionCount": 0
+   },
+   {
+    "date": "2026-08-22",
+    "contributionCount": 0
    }
   ]
  ],
@@ -1727,7 +1731,7 @@
    "id": "devops-engineer",
    "name": "DevOps & Platform Engineer",
    "tagline": "Containers, images and reproducible environments.",
-   "count": 1
+   "count": 2
   },
   {
    "id": "systems-engineer",
@@ -1739,7 +1743,7 @@
    "id": "automation-engineer",
    "name": "Automation Engineer",
    "tagline": "Scripts and pipelines that delete repetitive work.",
-   "count": 7
+   "count": 6
   }
  ],
  "orgs": [
@@ -2335,23 +2339,23 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 89,
+   "commits": 90,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-21T05:52:29Z",
+   "pushedAt": "2026-08-21T17:50:41Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "automation-engineer",
+    "devops-engineer",
     "fullstack-developer"
    ],
-   "headline": "Self-maintaining developer portfolio generated via GitHub Actions",
-   "what": "A static site lists public, non-fork repositories with recruiter-focused narratives that are created automatically. A GitHub Action runs on a schedule and on repository dispatch events, queries GitHub, calls a free LLM to write the narratives, and writes the output to data/portfolio.json. The site is built from that JSON with a role-first layout, command palette, and brief mode using TypeScript and standard web technologies.",
-   "why": "Manual updates to a portfolio are time-consuming; this project keeps the showcase current without human intervention.",
-   "impact": "Demonstrates end-to-end automation of data collection, LLM integration, and production-grade static web development.",
+   "headline": "Self-maintaining portfolio site generated from public repos",
+   "what": "A static site displays a JSON file of project narratives generated automatically. A GitHub Action scans public, non-fork repositories, calls a free-tier LLM to write recruiter-facing summaries, and writes them to data/portfolio.json. The site, built with TypeScript/JavaScript and CSS, renders the JSON and updates on each push via the workflow.",
+   "why": "Manual updates to a portfolio are time-consuming and error-prone; the automation keeps the showcase current without developer intervention.",
+   "impact": "Shows end-to-end automation of content creation, CI/CD, and deployment using GitHub Actions, LLM APIs, and a TypeScript-based static site.",
    "highlights": [
-    "GitHub Action syncs repos on push",
-    "LLM generates project narratives",
+    "GitHub Action syncs repos nightly",
+    "LLM creates recruiter narratives",
     "Role-first project organization",
     "Command palette for fuzzy search"
    ],
@@ -2359,16 +2363,16 @@
     "TypeScript",
     "JavaScript",
     "CSS",
-    "Node.js",
     "GitHub Actions",
     "GitHub CLI",
-    "OpenAI-compatible LLM APIs",
-    "npm"
+    "Node.js",
+    "npm",
+    "OpenAI-compatible LLM API"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "611aad6dddf7ce62",
-   "primaryRole": "automation-engineer"
+   "contentHash": "2b38a1ee5f646fb0",
+   "primaryRole": "devops-engineer"
   },
   {
    "id": "ni-sh-a-char-youtube-shorts-automation",
@@ -4833,7 +4837,7 @@
    "forks": 0,
    "commits": 4,
    "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-08-21T04:54:10Z",
+   "pushedAt": "2026-08-22T04:49:25Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -4841,15 +4845,15 @@
     "fullstack-developer",
     "ai-engineer"
    ],
-   "headline": "Static organization website with AI-generated repo summaries",
-   "what": "A public site lists every public repository in the organisation and shows an AI-written description for each. The page is plain HTML, CSS and JavaScript, loads a pre-generated data/repos.json and makes a single unauthenticated GitHub API call for recent changes. A daily GitHub Actions workflow regenerates the JSON and calls a free LLM to write summaries, storing the API key in secrets.",
-   "why": "It provides visitors an up-to-date overview of the organisation’s projects without manual maintenance.",
-   "impact": "Shows integration of CI, LLM APIs, and client-side data handling in a zero-build static site.",
+   "headline": "Static site listing organization repositories with AI-generated summaries",
+   "what": "A public website lists every public repository in the organization and shows an AI-written description of each. It is served as plain HTML, CSS and JavaScript on GitHub Pages, with no framework or bundler. A daily GitHub Actions workflow regenerates data/repos.json and calls an LLM to produce the summaries, which the browser fetches together with a single unauthenticated GitHub API request.",
+   "why": "Keeps the organization’s repo catalog up-to-date without manual editing, providing quick context for visitors.",
+   "impact": "Shows integration of CI/CD, LLM APIs, and client-side rendering in a zero-build static site.",
    "highlights": [
-    "Plain HTML/CSS/JS, no bundler",
-    "GitHub Actions refreshes data daily",
-    "LLM generates repo summaries",
-    "Offline and rate-limit fallback"
+    "Client-side fetch of repos.json and GitHub API",
+    "GitHub Actions workflow generates AI summaries",
+    "No build step; pure static assets",
+    "Handles rate limits with cached snapshot"
    ],
    "tech": [
     "JavaScript",
@@ -4857,13 +4861,13 @@
     "CSS",
     "GitHub Pages",
     "GitHub Actions",
-    "REST API",
-    "LLM (Groq/OpenAI compatible)",
-    "JSON"
+    "LLM API (Groq/OpenAI",
+    "JSON",
+    "GitHub API"
    ],
    "signal": "solid",
    "enrichedBy": "ai",
-   "contentHash": "419ade946492eb50",
+   "contentHash": "3ff7ebbe53347699",
    "primaryRole": "fullstack-developer"
   },
   {
