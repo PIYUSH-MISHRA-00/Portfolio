@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-26T05:54:44.263Z",
+ "syncedAt": "2026-08-26T19:24:07.420Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 93,
   "flagships": 10,
-  "commitsByMe": 3636,
+  "commitsByMe": 3637,
   "stars": 63,
   "roles": 9,
   "orgs": 2,
@@ -2327,9 +2327,9 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 98,
+   "commits": 99,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-25T17:49:41Z",
+   "pushedAt": "2026-08-26T05:54:45Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
@@ -2337,15 +2337,15 @@
     "automation-engineer",
     "devops-engineer"
    ],
-   "headline": "Self-maintaining portfolio site that auto-generates project narratives",
-   "what": "A static website renders a JSON list of public repositories organized by role. A GitHub Action scans the user’s public, non-fork repos, filters by description length, calls a free LLM to write recruiter-facing narratives, and commits the output to data/portfolio.json. The site includes a role-first layout, fuzzy command-palette search, and a brief mode for dense recruiter view.",
-   "why": "Manual updates to a portfolio are time-consuming; the automation keeps the site current as soon as a repository changes.",
-   "impact": "Shows end-to-end automation of repository discovery, LLM integration, and static site generation using GitHub Actions and TypeScript.",
+   "headline": "Self-maintaining developer portfolio site",
+   "what": "A static site that displays recruiter-facing narratives for every public repository. A GitHub Action scans the account, queries the GitHub API, and uses a free OpenAI-compatible LLM to write the narratives, committing them to data/portfolio.json. The site is generated from that JSON with TypeScript, JavaScript and CSS.",
+   "why": "Manually updating a portfolio is time-consuming and error-prone; the automation keeps the content current and consistent.",
+   "impact": "Shows end-to-end automation from source control to live documentation using CI/CD and LLM integration.",
    "highlights": [
-    "GitHub Action scans repos and updates JSON",
-    "Free-tier LLM writes recruiter narratives",
-    "Role-first project organization",
-    "Command palette with fuzzy search"
+    "GitHub Action scans public repos",
+    "LLM writes recruiter narratives",
+    "Static site rendered from JSON data",
+    "Fuzzy-search command palette"
    ],
    "tech": [
     "TypeScript",
@@ -2353,13 +2353,13 @@
     "CSS",
     "GitHub Actions",
     "GitHub CLI",
-    "OpenAI-compatible LLM APIs",
-    "npm",
-    "JSON"
+    "OpenAI-compatible LLM API",
+    "Node.js",
+    "npm"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "b083f82a7594f7ad",
+   "contentHash": "504f861de1081745",
    "primaryRole": "automation-engineer"
   },
   {
