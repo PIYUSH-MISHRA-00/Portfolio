@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-26T19:24:07.420Z",
+ "syncedAt": "2026-08-27T16:35:46.631Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -12,14 +12,14 @@
  },
  "stats": {
   "projects": 93,
-  "flagships": 10,
-  "commitsByMe": 3637,
+  "flagships": 11,
+  "commitsByMe": 3644,
   "stars": 63,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 13188,
-  "totalCommitContributions": 2977,
+  "contributionsLastYear": 13190,
+  "totalCommitContributions": 2978,
   "totalIssueContributions": 7832,
   "totalPullRequestContributions": 0,
   "privateContributions": 2368,
@@ -27,32 +27,32 @@
    {
     "name": "Python",
     "projects": 38,
-    "bytes": 1481437,
+    "bytes": 1725185,
     "pct": 40.9
    },
    {
     "name": "Shell",
-    "projects": 29,
-    "bytes": 119423,
-    "pct": 31.2
+    "projects": 28,
+    "bytes": 116238,
+    "pct": 30.1
    },
    {
     "name": "HTML",
-    "projects": 26,
-    "bytes": 402972,
-    "pct": 28
+    "projects": 27,
+    "bytes": 505185,
+    "pct": 29
    },
    {
     "name": "CSS",
-    "projects": 21,
-    "bytes": 105571,
-    "pct": 22.6
+    "projects": 22,
+    "bytes": 123278,
+    "pct": 23.7
    },
    {
     "name": "JavaScript",
-    "projects": 19,
-    "bytes": 573208,
-    "pct": 20.4
+    "projects": 20,
+    "bytes": 589072,
+    "pct": 21.5
    },
    {
     "name": "Java",
@@ -324,7 +324,7 @@
    },
    {
     "date": "2025-10-15",
-    "contributionCount": 412
+    "contributionCount": 407
    },
    {
     "date": "2025-10-16",
@@ -1675,6 +1675,10 @@
    {
     "date": "2026-08-26",
     "contributionCount": 0
+   },
+   {
+    "date": "2026-08-27",
+    "contributionCount": 7
    }
   ]
  ],
@@ -1738,7 +1742,7 @@
   {
    "login": "ni-sh-a-char",
    "projects": 39,
-   "commits": 3129,
+   "commits": 3135,
    "name": "ni_sh_a.char",
    "description": "Transforming Computing...!",
    "url": "https://github.com/ni-sh-a-char",
@@ -1930,28 +1934,51 @@
    "owner": "ni-sh-a-char",
    "nameWithOwner": "ni-sh-a-char/SHE",
    "url": "https://github.com/ni-sh-a-char/SHE",
-   "homepage": null,
-   "description": "A Programming Language",
-   "topics": [],
+   "homepage": "https://ni-sh-a-char.github.io/SHE/",
+   "description": "A programming language that reads like English — and can't touch your machine unless you say so. Capability sandbox, pattern matching, gradual types. pip install she-lang",
+   "topics": [
+    "beginner-friendly",
+    "capability-security",
+    "compiler",
+    "cryptography",
+    "easy-to-learn",
+    "education",
+    "hacktoberfest",
+    "interpreter",
+    "language-design",
+    "learn-to-code",
+    "pattern-matching",
+    "programming-language"
+   ],
    "languages": [
     {
      "name": "Python",
-     "bytes": 67138,
-     "pct": 95.5
+     "bytes": 310886,
+     "pct": 69.6
     },
     {
-     "name": "Shell",
-     "bytes": 3185,
-     "pct": 4.5
+     "name": "HTML",
+     "bytes": 102213,
+     "pct": 22.9
+    },
+    {
+     "name": "CSS",
+     "bytes": 17707,
+     "pct": 4
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 15864,
+     "pct": 3.6
     }
    ],
    "primaryLanguage": "Python",
    "license": "NOASSERTION",
    "stars": 3,
-   "forks": 2,
-   "commits": 160,
+   "forks": 3,
+   "commits": 166,
    "createdAt": "2022-06-02T10:37:21Z",
-   "pushedAt": "2025-12-25T07:31:22Z",
+   "pushedAt": "2026-08-27T15:54:53Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -1959,26 +1986,108 @@
     "backend-engineer",
     "security-engineer"
    ],
-   "headline": "SHE - a beginner-friendly interpreted programming language",
-   "what": "SHE is an interpreted language written in Python that provides a simple syntax for arithmetic, variables, conditionals, loops, functions, strings, and lists. The interpreter includes a REPL and a script runner that execute .she files. Built-in functions expose the Kaalka encryption package for message encryption and decryption.",
-   "why": "It offers a lightweight teaching tool for newcomers to programming while demonstrating how to embed cryptographic primitives in a language runtime.",
-   "impact": "Shows end-to-end design and implementation of a custom interpreter with integrated security features.",
+   "headline": "SHE - English-like scripting language with capability sandbox",
+   "what": "SHE is an interpreted programming language whose syntax mirrors natural English sentences, eliminating braces and semicolons. It runs on Python 3.9+, offering pattern matching, gradual types, and a built-in capability sandbox that requires explicit grants for any external access. The project includes a VS Code extension and LSP server for live diagnostics, plus standard libraries for crypto and web handling.",
+   "why": "It targets learners and developers who need a readable language while retaining fine-grained security controls, enabling safe script distribution without hidden side effects.",
+   "impact": "Shows end-to-end design and implementation of a custom language toolchain, type system, sandbox model, and editor integration using Python.",
    "highlights": [
-    "Implements lexer, parser, and runtime in Python",
-    "Supports variables, loops, functions, and lists",
-    "Integrates Kaalka encryption API",
-    "Provides REPL and script execution"
+    "English-style syntax without braces",
+    "Capability-based sandbox with explicit grants",
+    "Pattern matching and gradual typing",
+    "VS Code LSP with live diagnostics"
    ],
    "tech": [
     "Python",
-    "Shell",
-    "Kaalka encryption",
-    "CLI"
+    "pip",
+    "VS Code extension",
+    "Language Server Protocol",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "cryptography"
    ],
    "signal": "flagship",
-   "enrichedBy": "groq",
-   "contentHash": "a3012eacd4f6fc57",
+   "enrichedBy": "ai",
+   "contentHash": "237406bbb00351ea",
    "primaryRole": "backend-engineer"
+  },
+  {
+   "id": "ni-sh-a-char-galiyaara",
+   "name": "Galiyaara",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/Galiyaara",
+   "url": "https://github.com/ni-sh-a-char/Galiyaara",
+   "homepage": "https://ni-sh-a-char.github.io/Galiyaara/",
+   "description": "A photography portfolio you walk through instead of scroll — a moonlit 3D arcade rendered live in the browser. Drop a photo in a folder, push, and it's on the wall.",
+   "topics": [
+    "3d-gallery",
+    "art-gallery",
+    "creative-coding",
+    "github-pages",
+    "immersive",
+    "no-build",
+    "photography",
+    "photography-portfolio",
+    "portfolio-website",
+    "sharp",
+    "static-site",
+    "threejs"
+   ],
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 109427,
+     "pct": 74.2
+    },
+    {
+     "name": "CSS",
+     "bytes": 26976,
+     "pct": 18.3
+    },
+    {
+     "name": "HTML",
+     "bytes": 11078,
+     "pct": 7.5
+    }
+   ],
+   "primaryLanguage": "JavaScript",
+   "license": "MIT",
+   "stars": 2,
+   "forks": 0,
+   "commits": 133,
+   "createdAt": "2022-07-23T05:52:06Z",
+   "pushedAt": "2026-08-27T14:53:11Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "fullstack-developer",
+    "devops-engineer"
+   ],
+   "headline": "3D immersive photography portfolio rendered in the browser",
+   "what": "A site places user photos on the walls of a moonlit stone arcade that can be walked through with WASD, mouse drag or scrolling. It is a single-page app written in JavaScript, HTML and CSS and uses three.js for the WebGL scene. GitHub Actions resize uploaded images, sample colours and invoke a free AI model to generate titles, captions and tags at build time, then redeploy the static site on GitHub Pages.",
+   "why": "Typical photography sites show images in a grid, limiting visual context; this project creates an immersive environment and automates curation so new photos appear on the wall with no code changes.",
+   "impact": "Shows ability to deliver an interactive 3-D web experience and automate an asset pipeline with CI/CD.",
+   "highlights": [
+    "Keyboard-navigable 3-D corridor using three.js",
+    "GitHub Actions resize images and generate AI captions",
+    "Zero-build static site hosted on GitHub Pages",
+    "Layout derived automatically from photo metadata"
+   ],
+   "tech": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "three.js",
+    "GitHub Pages",
+    "GitHub Actions",
+    "Node.js",
+    "AI model"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "833affdcaf4fe4bd",
+   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-webweavex",
@@ -2327,9 +2436,9 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 99,
+   "commits": 100,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-26T05:54:45Z",
+   "pushedAt": "2026-08-26T19:24:08Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
@@ -2359,7 +2468,7 @@
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "504f861de1081745",
+   "contentHash": "92207f6961a44323",
    "primaryRole": "automation-engineer"
   },
   {
@@ -2656,84 +2765,6 @@
    "enrichedBy": "groq",
    "contentHash": "974e941127533627",
    "primaryRole": "data-scientist"
-  },
-  {
-   "id": "ni-sh-a-char-galiyaara",
-   "name": "Galiyaara",
-   "owner": "ni-sh-a-char",
-   "nameWithOwner": "ni-sh-a-char/Galiyaara",
-   "url": "https://github.com/ni-sh-a-char/Galiyaara",
-   "homepage": "https://ni-sh-a-char.github.io/Galiyaara/",
-   "description": "A photography portfolio you walk through instead of scroll — a moonlit 3D arcade rendered live in the browser. Drop a photo in a folder, push, and it's on the wall.",
-   "topics": [
-    "3d-gallery",
-    "art-gallery",
-    "creative-coding",
-    "github-pages",
-    "immersive",
-    "no-build",
-    "photography",
-    "photography-portfolio",
-    "portfolio-website",
-    "sharp",
-    "static-site",
-    "threejs"
-   ],
-   "languages": [
-    {
-     "name": "JavaScript",
-     "bytes": 109427,
-     "pct": 74.2
-    },
-    {
-     "name": "CSS",
-     "bytes": 26976,
-     "pct": 18.3
-    },
-    {
-     "name": "HTML",
-     "bytes": 11078,
-     "pct": 7.5
-    }
-   ],
-   "primaryLanguage": "JavaScript",
-   "license": "MIT",
-   "stars": 2,
-   "forks": 0,
-   "commits": 133,
-   "createdAt": "2022-07-23T05:52:06Z",
-   "pushedAt": "2026-08-20T08:33:11Z",
-   "isArchived": false,
-   "isOrg": true,
-   "org": "ni-sh-a-char",
-   "roles": [
-    "fullstack-developer",
-    "devops-engineer"
-   ],
-   "headline": "3D immersive photography portfolio built with Three.js and GitHub Actions",
-   "what": "The site renders a moonlit arcade corridor in the browser where each photograph hangs on a wall. Users can scroll, walk with WASD, or click frames to view full-resolution images. The build pipeline watches the photos folder, resizes images, extracts colors, runs an AI model to generate titles and captions, and redeploys via GitHub Actions without a separate framework.",
-   "why": "Typical photography sites display images in a static grid; this project creates an interactive spatial experience that showcases photos as part of an environment.",
-   "impact": "Demonstrates end-to-end development of an interactive 3D web app with automated CI/CD and AI-augmented content generation.",
-   "highlights": [
-    "Keyboard-controlled walk through 3D corridor",
-    "GitHub Actions resize images and generate metadata",
-    "AI-generated titles and captions at build time",
-    "Single-page HTML entry point, no framework"
-   ],
-   "tech": [
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "Three.js",
-    "GitHub Pages",
-    "GitHub Actions",
-    "Node.js",
-    "OpenAI API"
-   ],
-   "signal": "solid",
-   "enrichedBy": "ai",
-   "contentHash": "c2ac42ac71f51491",
-   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-monsterrr",
@@ -4825,7 +4856,7 @@
    "forks": 0,
    "commits": 4,
    "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-08-26T04:56:01Z",
+   "pushedAt": "2026-08-27T15:15:04Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -4833,15 +4864,15 @@
     "fullstack-developer",
     "ai-engineer"
    ],
-   "headline": "Static site that lists organization repos with AI-generated summaries",
-   "what": "A public website displays every repository in the organization, fetching a snapshot from a JSON file and then augmenting it with a single unauthenticated GitHub API call. A daily GitHub Actions workflow runs an LLM to write summaries for changed repositories and writes them to data/repos.json. The site uses plain HTML, CSS and JavaScript, served directly from GitHub Pages with no build step.",
-   "why": "It provides an up-to-date, human-readable overview of the organization’s projects without manual maintenance.",
-   "impact": "Shows ability to integrate LLM APIs in CI pipelines and deliver dynamic content through a static site.",
+   "headline": "Static organization website with AI-generated repo summaries",
+   "what": "A public site lists every public repository in the organisation and shows an AI-written breakdown of each project. It loads a pre-generated data/repos.json, then makes a single unauthenticated GitHub API call to fetch newer repos, falling back to the snapshot if offline or rate-limited. A daily GitHub Actions workflow regenerates the JSON and invokes a free LLM to write summaries, keeping the site up-to-date without a build step.",
+   "why": "The site provides an always-current overview of the organisation’s projects without manual maintenance.",
+   "impact": "Shows integration of LLM APIs in CI pipelines and delivery of a zero-build static web app.",
    "highlights": [
-    "Fetches repo list via GitHub API",
-    "Generates AI summaries in GitHub Actions",
-    "Updates data daily without build step",
-    "Filters unwanted repos client-side"
+    "AI-generated repo descriptions via GitHub Actions",
+    "Static site with no bundler or framework",
+    "Rate-limit fallback to cached snapshot",
+    "Automated daily data refresh"
    ],
    "tech": [
     "JavaScript",
@@ -4849,13 +4880,12 @@
     "CSS",
     "GitHub Pages",
     "GitHub Actions",
-    "LLM API (Groq/OpenAI",
-    "JSON",
-    "GitHub REST API"
+    "GitHub REST API",
+    "LLM API (Groq/OpenAI"
    ],
    "signal": "solid",
    "enrichedBy": "ai",
-   "contentHash": "e21ecbe3c8058798",
+   "contentHash": "3ccf1dbe5279f82c",
    "primaryRole": "fullstack-developer"
   },
   {
