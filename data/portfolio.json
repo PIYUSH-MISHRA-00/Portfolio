@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-28T01:32:12.176Z",
+ "syncedAt": "2026-08-28T17:30:20.050Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,40 +13,40 @@
  "stats": {
   "projects": 93,
   "flagships": 11,
-  "commitsByMe": 3647,
+  "commitsByMe": 3673,
   "stars": 63,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 13192,
-  "totalCommitContributions": 2980,
+  "contributionsLastYear": 13217,
+  "totalCommitContributions": 3005,
   "totalIssueContributions": 7832,
   "totalPullRequestContributions": 0,
   "privateContributions": 2368,
   "languages": [
    {
     "name": "Python",
-    "projects": 38,
-    "bytes": 1726875,
-    "pct": 40.9
+    "projects": 39,
+    "bytes": 1832379,
+    "pct": 41.9
+   },
+   {
+    "name": "HTML",
+    "projects": 28,
+    "bytes": 541065,
+    "pct": 30.1
    },
    {
     "name": "Shell",
     "projects": 28,
-    "bytes": 116238,
+    "bytes": 126193,
     "pct": 30.1
    },
    {
-    "name": "HTML",
-    "projects": 27,
-    "bytes": 505197,
-    "pct": 29
-   },
-   {
     "name": "CSS",
-    "projects": 22,
-    "bytes": 123278,
-    "pct": 23.7
+    "projects": 23,
+    "bytes": 146277,
+    "pct": 24.7
    },
    {
     "name": "JavaScript",
@@ -62,9 +62,9 @@
    },
    {
     "name": "Dockerfile",
-    "projects": 16,
-    "bytes": 10295,
-    "pct": 17.2
+    "projects": 15,
+    "bytes": 10049,
+    "pct": 16.1
    },
    {
     "name": "Jupyter Notebook",
@@ -324,7 +324,7 @@
    },
    {
     "date": "2025-10-15",
-    "contributionCount": 407
+    "contributionCount": 399
    },
    {
     "date": "2025-10-16",
@@ -1682,7 +1682,7 @@
    },
    {
     "date": "2026-08-28",
-    "contributionCount": 0
+    "contributionCount": 33
    }
   ]
  ],
@@ -1746,7 +1746,7 @@
   {
    "login": "ni-sh-a-char",
    "projects": 39,
-   "commits": 3137,
+   "commits": 3162,
    "name": "ni_sh_a.char",
    "description": "Transforming Computing...!",
    "url": "https://github.com/ni-sh-a-char",
@@ -1957,13 +1957,13 @@
    "languages": [
     {
      "name": "Python",
-     "bytes": 312576,
-     "pct": 69.7
+     "bytes": 314092,
+     "pct": 69.5
     },
     {
      "name": "HTML",
-     "bytes": 102225,
-     "pct": 22.8
+     "bytes": 104000,
+     "pct": 23
     },
     {
      "name": "CSS",
@@ -1980,9 +1980,9 @@
    "license": "NOASSERTION",
    "stars": 3,
    "forks": 3,
-   "commits": 168,
+   "commits": 170,
    "createdAt": "2022-06-02T10:37:21Z",
-   "pushedAt": "2026-08-27T16:48:13Z",
+   "pushedAt": "2026-08-28T02:51:28Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -2012,7 +2012,7 @@
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "0c5e5890d9ce6cdd",
+   "contentHash": "28e079aacddeb51f",
    "primaryRole": "security-engineer"
   },
   {
@@ -2060,7 +2060,7 @@
    "forks": 0,
    "commits": 133,
    "createdAt": "2022-07-23T05:52:06Z",
-   "pushedAt": "2026-08-27T14:53:11Z",
+   "pushedAt": "2026-08-28T16:01:42Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -2068,29 +2068,29 @@
     "fullstack-developer",
     "devops-engineer"
    ],
-   "headline": "3D immersive photography portfolio rendered in the browser",
-   "what": "A site places user photos on the walls of a moonlit stone arcade that can be walked through with WASD, mouse drag or scrolling. It is a single-page app written in JavaScript, HTML and CSS and uses three.js for the WebGL scene. GitHub Actions resize uploaded images, sample colours and invoke a free AI model to generate titles, captions and tags at build time, then redeploy the static site on GitHub Pages.",
-   "why": "Typical photography sites show images in a grid, limiting visual context; this project creates an immersive environment and automates curation so new photos appear on the wall with no code changes.",
-   "impact": "Shows ability to deliver an interactive 3-D web experience and automate an asset pipeline with CI/CD.",
+   "headline": "3D interactive photography portfolio site",
+   "what": "A static website renders a moonlit stone arcade in the browser and hangs photographs on the walls. Navigation uses WASD, mouse drag, and keyboard shortcuts, all powered by Three.js and plain JavaScript. GitHub Actions resize images, sample colors, and invoke a free AI model to generate titles, captions, and tags during the build.",
+   "why": "Typical photo sites use a grid; this project creates an immersive walkthrough that showcases each image in context. It also automates image preparation and metadata generation without a separate backend.",
+   "impact": "Shows end-to-end creation of a framework-less 3D web experience with automated CI pipelines.",
    "highlights": [
-    "Keyboard-navigable 3-D corridor using three.js",
-    "GitHub Actions resize images and generate AI captions",
-    "Zero-build static site hosted on GitHub Pages",
-    "Layout derived automatically from photo metadata"
+    "Keyboard and pointer navigation",
+    "Three.js corridor rendering",
+    "GitHub Actions resize and tag images",
+    "AI-generated captions at build time"
    ],
    "tech": [
     "JavaScript",
     "HTML",
     "CSS",
-    "three.js",
+    "Three.js",
     "GitHub Pages",
     "GitHub Actions",
     "Node.js",
-    "AI model"
+    "OpenAI API"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "833affdcaf4fe4bd",
+   "contentHash": "5cf7244304115fdd",
    "primaryRole": "fullstack-developer"
   },
   {
@@ -2440,9 +2440,9 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 101,
+   "commits": 102,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-27T16:35:47Z",
+   "pushedAt": "2026-08-28T01:32:13Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
@@ -2472,7 +2472,7 @@
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "cc3e8a03e46d1a08",
+   "contentHash": "872154139e375ffb",
    "primaryRole": "fullstack-developer"
   },
   {
@@ -3299,6 +3299,104 @@
    "primaryRole": "fullstack-developer"
   },
   {
+   "id": "ni-sh-a-char-resentment-kernel",
+   "name": "RESENTMENT---kernel",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/RESENTMENT---kernel",
+   "url": "https://github.com/ni-sh-a-char/RESENTMENT---kernel",
+   "homepage": "https://ni-sh-a-char.github.io/RESENTMENT---kernel/",
+   "description": "A capability-secure, AI-native kernel for x86_64, ARM64 and RISC-V. Authority expires, the system is a graph you can hash, and inference is a scheduling class.",
+   "topics": [
+    "aarch64",
+    "ai",
+    "bare-metal",
+    "c",
+    "capability-security",
+    "cryptography",
+    "kernel",
+    "microkernel",
+    "operating-system",
+    "osdev",
+    "qemu",
+    "riscv"
+   ],
+   "languages": [
+    {
+     "name": "C",
+     "bytes": 905370,
+     "pct": 78.6
+    },
+    {
+     "name": "Python",
+     "bytes": 103988,
+     "pct": 9
+    },
+    {
+     "name": "Assembly",
+     "bytes": 35658,
+     "pct": 3.1
+    },
+    {
+     "name": "HTML",
+     "bytes": 34093,
+     "pct": 3
+    },
+    {
+     "name": "CSS",
+     "bytes": 22999,
+     "pct": 2
+    },
+    {
+     "name": "Makefile",
+     "bytes": 19132,
+     "pct": 1.7
+    },
+    {
+     "name": "Shell",
+     "bytes": 16916,
+     "pct": 1.5
+    }
+   ],
+   "primaryLanguage": "C",
+   "license": "NOASSERTION",
+   "stars": 0,
+   "forks": 0,
+   "commits": 146,
+   "createdAt": "2023-02-16T19:34:49Z",
+   "pushedAt": "2026-08-28T12:40:30Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "systems-engineer",
+    "devops-engineer"
+   ],
+   "headline": "Boot-time kernel that prints a message",
+   "what": "A minimal kernel that outputs a static message at boot. It combines Assembly boot code with C initialization, compiled via a Makefile. The build runs inside a Docker container to provide a consistent environment.",
+   "why": "Created to explore low-level system programming and kernel boot processes.",
+   "impact": "Shows competence in assembly, kernel development, and Dockerized build pipelines.",
+   "highlights": [
+    "Boot message printed on kernel start",
+    "Assembly bootloader with C runtime",
+    "Makefile-driven multi-language build",
+    "Docker container for reproducible builds"
+   ],
+   "tech": [
+    "Assembly",
+    "C",
+    "Shell",
+    "Makefile",
+    "Docker",
+    "Dockerfile",
+    "Linux kernel",
+    "Git"
+   ],
+   "signal": "solid",
+   "enrichedBy": "groq",
+   "contentHash": "b18e3f03ec70fa03",
+   "primaryRole": "systems-engineer"
+  },
+  {
    "id": "ni-sh-a-char-emessages",
    "name": "Emessages",
    "owner": "ni-sh-a-char",
@@ -3529,81 +3627,6 @@
    "enrichedBy": "groq",
    "contentHash": "859942ad881da03a",
    "primaryRole": "fullstack-developer"
-  },
-  {
-   "id": "ni-sh-a-char-resentment-kernel",
-   "name": "RESENTMENT---kernel",
-   "owner": "ni-sh-a-char",
-   "nameWithOwner": "ni-sh-a-char/RESENTMENT---kernel",
-   "url": "https://github.com/ni-sh-a-char/RESENTMENT---kernel",
-   "homepage": null,
-   "description": null,
-   "topics": [],
-   "languages": [
-    {
-     "name": "Shell",
-     "bytes": 6961,
-     "pct": 50.4
-    },
-    {
-     "name": "Assembly",
-     "bytes": 2552,
-     "pct": 18.5
-    },
-    {
-     "name": "C",
-     "bytes": 2427,
-     "pct": 17.6
-    },
-    {
-     "name": "Makefile",
-     "bytes": 1525,
-     "pct": 11
-    },
-    {
-     "name": "Dockerfile",
-     "bytes": 246,
-     "pct": 1.8
-    }
-   ],
-   "primaryLanguage": "Shell",
-   "license": "NOASSERTION",
-   "stars": 0,
-   "forks": 0,
-   "commits": 123,
-   "createdAt": "2023-02-16T19:34:49Z",
-   "pushedAt": "2025-12-25T07:54:23Z",
-   "isArchived": false,
-   "isOrg": true,
-   "org": "ni-sh-a-char",
-   "roles": [
-    "systems-engineer",
-    "devops-engineer"
-   ],
-   "headline": "Boot-time kernel that prints a message",
-   "what": "A minimal kernel that outputs a static message at boot. It combines Assembly boot code with C initialization, compiled via a Makefile. The build runs inside a Docker container to provide a consistent environment.",
-   "why": "Created to explore low-level system programming and kernel boot processes.",
-   "impact": "Shows competence in assembly, kernel development, and Dockerized build pipelines.",
-   "highlights": [
-    "Boot message printed on kernel start",
-    "Assembly bootloader with C runtime",
-    "Makefile-driven multi-language build",
-    "Docker container for reproducible builds"
-   ],
-   "tech": [
-    "Assembly",
-    "C",
-    "Shell",
-    "Makefile",
-    "Docker",
-    "Dockerfile",
-    "Linux kernel",
-    "Git"
-   ],
-   "signal": "solid",
-   "enrichedBy": "groq",
-   "contentHash": "f4790ea3c5b1b4ae",
-   "primaryRole": "systems-engineer"
   },
   {
    "id": "ni-sh-a-char-rest-api",
@@ -4827,70 +4850,6 @@
    "enrichedBy": "ai",
    "contentHash": "5f029258e68ba929",
    "primaryRole": "data-scientist"
-  },
-  {
-   "id": "ni-sh-a-char-ni-sh-a-char",
-   "name": "ni_sh_a.char",
-   "owner": "ni-sh-a-char",
-   "nameWithOwner": "ni-sh-a-char/ni_sh_a.char",
-   "url": "https://github.com/ni-sh-a-char/ni_sh_a.char",
-   "homepage": "https://ni-sh-a-char.github.io/ni_sh_a.char/",
-   "description": "Website for the organization",
-   "topics": [],
-   "languages": [
-    {
-     "name": "JavaScript",
-     "bytes": 20577,
-     "pct": 37.3
-    },
-    {
-     "name": "CSS",
-     "bytes": 20105,
-     "pct": 36.4
-    },
-    {
-     "name": "HTML",
-     "bytes": 14553,
-     "pct": 26.3
-    }
-   ],
-   "primaryLanguage": "JavaScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 4,
-   "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-08-27T15:15:04Z",
-   "isArchived": false,
-   "isOrg": true,
-   "org": "ni-sh-a-char",
-   "roles": [
-    "fullstack-developer",
-    "ai-engineer"
-   ],
-   "headline": "Static organization website with AI-generated repo summaries",
-   "what": "A public site lists every public repository in the organisation and shows an AI-written breakdown of each project. It loads a pre-generated data/repos.json, then makes a single unauthenticated GitHub API call to fetch newer repos, falling back to the snapshot if offline or rate-limited. A daily GitHub Actions workflow regenerates the JSON and invokes a free LLM to write summaries, keeping the site up-to-date without a build step.",
-   "why": "The site provides an always-current overview of the organisation’s projects without manual maintenance.",
-   "impact": "Shows integration of LLM APIs in CI pipelines and delivery of a zero-build static web app.",
-   "highlights": [
-    "AI-generated repo descriptions via GitHub Actions",
-    "Static site with no bundler or framework",
-    "Rate-limit fallback to cached snapshot",
-    "Automated daily data refresh"
-   ],
-   "tech": [
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "GitHub Pages",
-    "GitHub Actions",
-    "GitHub REST API",
-    "LLM API (Groq/OpenAI"
-   ],
-   "signal": "solid",
-   "enrichedBy": "ai",
-   "contentHash": "3ccf1dbe5279f82c",
-   "primaryRole": "fullstack-developer"
   },
   {
    "id": "piyush-mishra-00-movie-recommendations-system",
@@ -6461,6 +6420,71 @@
    "enrichedBy": "ai",
    "contentHash": "ca6cc6ab702351e9",
    "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "ni-sh-a-char-ni-sh-a-char",
+   "name": "ni_sh_a.char",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/ni_sh_a.char",
+   "url": "https://github.com/ni-sh-a-char/ni_sh_a.char",
+   "homepage": "https://ni-sh-a-char.github.io/ni_sh_a.char/",
+   "description": "Website for the organization",
+   "topics": [],
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 20577,
+     "pct": 37.3
+    },
+    {
+     "name": "CSS",
+     "bytes": 20105,
+     "pct": 36.4
+    },
+    {
+     "name": "HTML",
+     "bytes": 14553,
+     "pct": 26.3
+    }
+   ],
+   "primaryLanguage": "JavaScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 4,
+   "createdAt": "2026-08-18T05:24:38Z",
+   "pushedAt": "2026-08-28T16:39:38Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "fullstack-developer",
+    "ai-engineer"
+   ],
+   "headline": "Static site that lists organization repos with AI-generated summaries",
+   "what": "The site displays every public repository in the organization and shows an AI-written description for each. It is served as plain HTML, CSS and JavaScript from GitHub Pages and refreshes its data daily via a GitHub Actions workflow that calls the GitHub API and an LLM to update data/repos.json.",
+   "why": "It provides a single, up-to-date view of the organization’s projects without requiring a separate documentation effort.",
+   "impact": "Demonstrates ability to integrate serverless CI workflows, external APIs, and LLM services into a client-side application.",
+   "highlights": [
+    "Fetches live repo data from GitHub API",
+    "Generates summaries using a free LLM in CI",
+    "Caches JSON to serve offline",
+    "Runs on GitHub Pages without a build step"
+   ],
+   "tech": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "GitHub Pages",
+    "GitHub Actions",
+    "GitHub REST API",
+    "LLM (Groq/OpenAI)",
+    "JSON"
+   ],
+   "signal": "minor",
+   "enrichedBy": "ai",
+   "contentHash": "f3b532445d0d586a",
+   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-birthdaygreet",
