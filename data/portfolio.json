@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-29T11:43:08.581Z",
+ "syncedAt": "2026-08-29T19:48:45.794Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,13 +13,13 @@
  "stats": {
   "projects": 93,
   "flagships": 11,
-  "commitsByMe": 3676,
+  "commitsByMe": 3685,
   "stars": 66,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 13219,
-  "totalCommitContributions": 3007,
+  "contributionsLastYear": 13227,
+  "totalCommitContributions": 3015,
   "totalIssueContributions": 7832,
   "totalPullRequestContributions": 0,
   "privateContributions": 2368,
@@ -27,7 +27,7 @@
    {
     "name": "Python",
     "projects": 39,
-    "bytes": 1834410,
+    "bytes": 1852666,
     "pct": 41.9
    },
    {
@@ -39,7 +39,7 @@
    {
     "name": "Shell",
     "projects": 28,
-    "bytes": 126193,
+    "bytes": 126213,
     "pct": 30.1
    },
    {
@@ -1686,7 +1686,7 @@
    },
    {
     "date": "2026-08-29",
-    "contributionCount": 0
+    "contributionCount": 8
    }
   ]
  ],
@@ -1750,7 +1750,7 @@
   {
    "login": "ni-sh-a-char",
    "projects": 39,
-   "commits": 3164,
+   "commits": 3172,
    "name": "ni_sh_a.char",
    "description": "Transforming Computing...!",
    "url": "https://github.com/ni-sh-a-char",
@@ -2285,6 +2285,104 @@
    "primaryRole": "devops-engineer"
   },
   {
+   "id": "ni-sh-a-char-resentment-kernel",
+   "name": "RESENTMENT---kernel",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/RESENTMENT---kernel",
+   "url": "https://github.com/ni-sh-a-char/RESENTMENT---kernel",
+   "homepage": "https://ni-sh-a-char.github.io/RESENTMENT---kernel/",
+   "description": "A capability-secure, AI-native kernel for x86_64, ARM64 and RISC-V. Authority expires, the system is a graph you can hash, and inference is a scheduling class.",
+   "topics": [
+    "aarch64",
+    "ai",
+    "bare-metal",
+    "c",
+    "capability-security",
+    "cryptography",
+    "kernel",
+    "microkernel",
+    "operating-system",
+    "osdev",
+    "qemu",
+    "riscv"
+   ],
+   "languages": [
+    {
+     "name": "C",
+     "bytes": 905370,
+     "pct": 77.3
+    },
+    {
+     "name": "Python",
+     "bytes": 122244,
+     "pct": 10.4
+    },
+    {
+     "name": "Assembly",
+     "bytes": 35658,
+     "pct": 3
+    },
+    {
+     "name": "HTML",
+     "bytes": 34093,
+     "pct": 2.9
+    },
+    {
+     "name": "CSS",
+     "bytes": 22999,
+     "pct": 2
+    },
+    {
+     "name": "Makefile",
+     "bytes": 19167,
+     "pct": 1.6
+    },
+    {
+     "name": "Shell",
+     "bytes": 16936,
+     "pct": 1.4
+    }
+   ],
+   "primaryLanguage": "C",
+   "license": "NOASSERTION",
+   "stars": 0,
+   "forks": 0,
+   "commits": 154,
+   "createdAt": "2023-02-16T19:34:49Z",
+   "pushedAt": "2026-08-29T13:01:38Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "systems-engineer",
+    "security-engineer"
+   ],
+   "headline": "Capability-secure AI-native microkernel for x86_64, ARM64, RISC-V",
+   "what": "A from-scratch operating system kernel that runs on x86_64, ARM64 and RISC-V without relying on Unix abstractions. It encodes every kernel object as a node in a Merkle DAG, providing a single SHA-256 root digest for state attestation and replay. The kernel is written primarily in C with assembly boot code and uses a portable Makefile-driven toolchain, runnable under QEMU or Docker.",
+   "why": "Conventional kernels lack fine-grained, time-bounded authority and cannot verify whole-system state efficiently; this design adds expiring capabilities and cryptographic state hashing to address those gaps, especially for AI workloads that need safe inference scheduling.",
+   "impact": "Shows end-to-end design and implementation of a multi-ISA microkernel that integrates capability security and AI-native resource management.",
+   "highlights": [
+    "Expiring capabilities with cryptographic seals",
+    "Merkle DAG hashing for attestation and replay",
+    "AI models treated as kernel objects with dedicated scheduling",
+    "Cross-ISA build using portable toolchain"
+   ],
+   "tech": [
+    "C",
+    "Assembly",
+    "Python",
+    "Makefile",
+    "QEMU",
+    "Docker",
+    "SHA-256",
+    "Git"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "8edd4266f683f264",
+   "primaryRole": "systems-engineer"
+  },
+  {
    "id": "ni-sh-a-char-texter",
    "name": "Texter",
    "owner": "ni-sh-a-char",
@@ -2413,71 +2511,6 @@
    "enrichedBy": "groq",
    "contentHash": "06a7ca409c56dec1",
    "primaryRole": "security-engineer"
-  },
-  {
-   "id": "piyush-mishra-00-portfolio",
-   "name": "Portfolio",
-   "owner": "PIYUSH-MISHRA-00",
-   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
-   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
-   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
-   "description": "https://piyush-mishra-00.github.io/Portfolio/",
-   "topics": [],
-   "languages": [
-    {
-     "name": "TypeScript",
-     "bytes": 70677,
-     "pct": 56.6
-    },
-    {
-     "name": "JavaScript",
-     "bytes": 47384,
-     "pct": 38
-    },
-    {
-     "name": "CSS",
-     "bytes": 6753,
-     "pct": 5.4
-    }
-   ],
-   "primaryLanguage": "TypeScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 103,
-   "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-28T17:30:21Z",
-   "isArchived": false,
-   "isOrg": false,
-   "org": null,
-   "roles": [
-    "devops-engineer",
-    "fullstack-developer"
-   ],
-   "headline": "Self-maintaining portfolio site that auto-generates project narratives",
-   "what": "A static site that displays a JSON-driven list of public repositories, organized by role. A GitHub Action scans the user’s public, non-fork repos, calls free LLM APIs to write recruiter-facing narratives, and writes the results to data/portfolio.json. The site is built with TypeScript/JavaScript and CSS and is regenerated on each push or on a twice-daily schedule.",
-   "why": "Manual updates to a portfolio are time-consuming; the project automates data collection and narrative creation to keep the showcase current without developer intervention.",
-   "impact": "Demonstrates end-to-end CI/CD automation and integration of LLM services for dynamic content generation.",
-   "highlights": [
-    "GitHub Action fetches repos and triggers sync",
-    "LLM-driven narrative generation",
-    "Role-first project organization",
-    "Fuzzy-search command palette"
-   ],
-   "tech": [
-    "TypeScript",
-    "JavaScript",
-    "CSS",
-    "GitHub Actions",
-    "GitHub CLI",
-    "Node.js",
-    "npm",
-    "OpenAI-compatible LLM APIs"
-   ],
-   "signal": "flagship",
-   "enrichedBy": "ai",
-   "contentHash": "7cc5b334bdd1f6e2",
-   "primaryRole": "devops-engineer"
   },
   {
    "id": "ni-sh-a-char-youtube-shorts-automation",
@@ -3303,104 +3336,6 @@
    "primaryRole": "fullstack-developer"
   },
   {
-   "id": "ni-sh-a-char-resentment-kernel",
-   "name": "RESENTMENT---kernel",
-   "owner": "ni-sh-a-char",
-   "nameWithOwner": "ni-sh-a-char/RESENTMENT---kernel",
-   "url": "https://github.com/ni-sh-a-char/RESENTMENT---kernel",
-   "homepage": "https://ni-sh-a-char.github.io/RESENTMENT---kernel/",
-   "description": "A capability-secure, AI-native kernel for x86_64, ARM64 and RISC-V. Authority expires, the system is a graph you can hash, and inference is a scheduling class.",
-   "topics": [
-    "aarch64",
-    "ai",
-    "bare-metal",
-    "c",
-    "capability-security",
-    "cryptography",
-    "kernel",
-    "microkernel",
-    "operating-system",
-    "osdev",
-    "qemu",
-    "riscv"
-   ],
-   "languages": [
-    {
-     "name": "C",
-     "bytes": 905370,
-     "pct": 78.6
-    },
-    {
-     "name": "Python",
-     "bytes": 103988,
-     "pct": 9
-    },
-    {
-     "name": "Assembly",
-     "bytes": 35658,
-     "pct": 3.1
-    },
-    {
-     "name": "HTML",
-     "bytes": 34093,
-     "pct": 3
-    },
-    {
-     "name": "CSS",
-     "bytes": 22999,
-     "pct": 2
-    },
-    {
-     "name": "Makefile",
-     "bytes": 19132,
-     "pct": 1.7
-    },
-    {
-     "name": "Shell",
-     "bytes": 16916,
-     "pct": 1.5
-    }
-   ],
-   "primaryLanguage": "C",
-   "license": "NOASSERTION",
-   "stars": 0,
-   "forks": 0,
-   "commits": 146,
-   "createdAt": "2023-02-16T19:34:49Z",
-   "pushedAt": "2026-08-28T12:40:30Z",
-   "isArchived": false,
-   "isOrg": true,
-   "org": "ni-sh-a-char",
-   "roles": [
-    "systems-engineer",
-    "devops-engineer"
-   ],
-   "headline": "Boot-time kernel that prints a message",
-   "what": "A minimal kernel that outputs a static message at boot. It combines Assembly boot code with C initialization, compiled via a Makefile. The build runs inside a Docker container to provide a consistent environment.",
-   "why": "Created to explore low-level system programming and kernel boot processes.",
-   "impact": "Shows competence in assembly, kernel development, and Dockerized build pipelines.",
-   "highlights": [
-    "Boot message printed on kernel start",
-    "Assembly bootloader with C runtime",
-    "Makefile-driven multi-language build",
-    "Docker container for reproducible builds"
-   ],
-   "tech": [
-    "Assembly",
-    "C",
-    "Shell",
-    "Makefile",
-    "Docker",
-    "Dockerfile",
-    "Linux kernel",
-    "Git"
-   ],
-   "signal": "solid",
-   "enrichedBy": "groq",
-   "contentHash": "b18e3f03ec70fa03",
-   "primaryRole": "systems-engineer"
-  },
-  {
    "id": "ni-sh-a-char-emessages",
    "name": "Emessages",
    "owner": "ni-sh-a-char",
@@ -3964,6 +3899,71 @@
    "enrichedBy": "groq",
    "contentHash": "b50e512431171a71",
    "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "piyush-mishra-00-portfolio",
+   "name": "Portfolio",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
+   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
+   "description": "https://piyush-mishra-00.github.io/Portfolio/",
+   "topics": [],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 70677,
+     "pct": 56.6
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 47384,
+     "pct": 38
+    },
+    {
+     "name": "CSS",
+     "bytes": 6753,
+     "pct": 5.4
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 104,
+   "createdAt": "2023-03-30T11:31:18Z",
+   "pushedAt": "2026-08-29T11:43:09Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "devops-engineer",
+    "automation-engineer"
+   ],
+   "headline": "Self-maintaining developer portfolio site",
+   "what": "A static site that displays a JSON-driven list of public repositories with recruiter-facing narratives. A GitHub Action scans the user’s public, non-fork repos, calls free OpenAI-compatible LLMs to generate descriptions, and writes them to data/portfolio.json; the site renders this file with TypeScript/JavaScript and CSS.",
+   "why": "Keeps the portfolio up-to-date automatically, removing manual edits after each commit or new project.",
+   "impact": "Shows end-to-end automation of content generation and CI/CD using GitHub Actions and LLM APIs.",
+   "highlights": [
+    "GitHub Action scans public repos",
+    "LLM writes recruiter narratives",
+    "Static site renders JSON data",
+    "Command palette provides fuzzy search"
+   ],
+   "tech": [
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "GitHub Actions",
+    "GitHub CLI",
+    "OpenAI-compatible LLM API",
+    "npm",
+    "JSON"
+   ],
+   "signal": "solid",
+   "enrichedBy": "ai",
+   "contentHash": "a3aa15f2ee594791",
+   "primaryRole": "devops-engineer"
   },
   {
    "id": "piyush-mishra-00-git-automation-script",
