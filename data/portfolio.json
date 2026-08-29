@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-28T17:30:20.050Z",
+ "syncedAt": "2026-08-29T11:43:08.581Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,13 +13,13 @@
  "stats": {
   "projects": 93,
   "flagships": 11,
-  "commitsByMe": 3673,
-  "stars": 63,
+  "commitsByMe": 3676,
+  "stars": 66,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 13217,
-  "totalCommitContributions": 3005,
+  "contributionsLastYear": 13219,
+  "totalCommitContributions": 3007,
   "totalIssueContributions": 7832,
   "totalPullRequestContributions": 0,
   "privateContributions": 2368,
@@ -27,13 +27,13 @@
    {
     "name": "Python",
     "projects": 39,
-    "bytes": 1832379,
+    "bytes": 1834410,
     "pct": 41.9
    },
    {
     "name": "HTML",
     "projects": 28,
-    "bytes": 541065,
+    "bytes": 542836,
     "pct": 30.1
    },
    {
@@ -1682,7 +1682,11 @@
    },
    {
     "date": "2026-08-28",
-    "contributionCount": 33
+    "contributionCount": 35
+   },
+   {
+    "date": "2026-08-29",
+    "contributionCount": 0
    }
   ]
  ],
@@ -1715,7 +1719,7 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 32
+   "count": 31
   },
   {
    "id": "mobile-developer",
@@ -1727,7 +1731,7 @@
    "id": "devops-engineer",
    "name": "DevOps & Platform Engineer",
    "tagline": "Containers, images and reproducible environments.",
-   "count": 1
+   "count": 2
   },
   {
    "id": "systems-engineer",
@@ -1746,7 +1750,7 @@
   {
    "login": "ni-sh-a-char",
    "projects": 39,
-   "commits": 3162,
+   "commits": 3164,
    "name": "ni_sh_a.char",
    "description": "Transforming Computing...!",
    "url": "https://github.com/ni-sh-a-char",
@@ -1868,6 +1872,89 @@
    "primaryRole": "automation-engineer"
   },
   {
+   "id": "ni-sh-a-char-she",
+   "name": "SHE",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/SHE",
+   "url": "https://github.com/ni-sh-a-char/SHE",
+   "homepage": "https://ni-sh-a-char.github.io/SHE/",
+   "description": "A programming language that reads like English — and can't touch your machine unless you say so. Capability sandbox, pattern matching, gradual types. pip install she-lang",
+   "topics": [
+    "beginner-friendly",
+    "capability-security",
+    "compiler",
+    "cryptography",
+    "easy-to-learn",
+    "education",
+    "hacktoberfest",
+    "interpreter",
+    "language-design",
+    "learn-to-code",
+    "pattern-matching",
+    "programming-language"
+   ],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 316123,
+     "pct": 69.4
+    },
+    {
+     "name": "HTML",
+     "bytes": 105771,
+     "pct": 23.2
+    },
+    {
+     "name": "CSS",
+     "bytes": 17707,
+     "pct": 3.9
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 15864,
+     "pct": 3.5
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": "NOASSERTION",
+   "stars": 6,
+   "forks": 3,
+   "commits": 172,
+   "createdAt": "2022-06-02T10:37:21Z",
+   "pushedAt": "2026-08-28T17:38:13Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "security-engineer",
+    "backend-engineer"
+   ],
+   "headline": "SHE - English-like scripting language with capability sandbox",
+   "what": "SHE is a Python-implemented language that reads like plain English, using keywords such as is, for each, and end instead of braces or semicolons. It runs inside a capability sandbox that blocks file, network, or process access until explicitly granted. The project includes a pip-installable interpreter, a test runner, formatter, and a VS Code extension that provides syntax highlighting and LSP-based diagnostics.",
+   "why": "It addresses the trade-off between readability for beginners and security for production scripts by making permissions explicit and errors instructional. The design lets non-programmers understand code while giving developers fine-grained sandbox control.",
+   "impact": "Shows end-to-end design and implementation of a custom language toolchain, including interpreter, gradual type system, sandbox enforcement, and editor integration, all in Python.",
+   "highlights": [
+    "English-style syntax without braces",
+    "Capability-based sandbox for external actions",
+    "Gradual type system with pattern matching",
+    "VS Code LSP extension for live diagnostics"
+   ],
+   "tech": [
+    "Python",
+    "pip",
+    "VS Code",
+    "Language Server Protocol",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "cryptography"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "e3756a30ccb7140e",
+   "primaryRole": "security-engineer"
+  },
+  {
    "id": "piyush-mishra-00-kaalka-encryption-algorithm",
    "name": "Kaalka-Encryption-Algorithm",
    "owner": "PIYUSH-MISHRA-00",
@@ -1933,89 +2020,6 @@
    "primaryRole": "security-engineer"
   },
   {
-   "id": "ni-sh-a-char-she",
-   "name": "SHE",
-   "owner": "ni-sh-a-char",
-   "nameWithOwner": "ni-sh-a-char/SHE",
-   "url": "https://github.com/ni-sh-a-char/SHE",
-   "homepage": "https://ni-sh-a-char.github.io/SHE/",
-   "description": "A programming language that reads like English — and can't touch your machine unless you say so. Capability sandbox, pattern matching, gradual types. pip install she-lang",
-   "topics": [
-    "beginner-friendly",
-    "capability-security",
-    "compiler",
-    "cryptography",
-    "easy-to-learn",
-    "education",
-    "hacktoberfest",
-    "interpreter",
-    "language-design",
-    "learn-to-code",
-    "pattern-matching",
-    "programming-language"
-   ],
-   "languages": [
-    {
-     "name": "Python",
-     "bytes": 314092,
-     "pct": 69.5
-    },
-    {
-     "name": "HTML",
-     "bytes": 104000,
-     "pct": 23
-    },
-    {
-     "name": "CSS",
-     "bytes": 17707,
-     "pct": 3.9
-    },
-    {
-     "name": "JavaScript",
-     "bytes": 15864,
-     "pct": 3.5
-    }
-   ],
-   "primaryLanguage": "Python",
-   "license": "NOASSERTION",
-   "stars": 3,
-   "forks": 3,
-   "commits": 170,
-   "createdAt": "2022-06-02T10:37:21Z",
-   "pushedAt": "2026-08-28T02:51:28Z",
-   "isArchived": false,
-   "isOrg": true,
-   "org": "ni-sh-a-char",
-   "roles": [
-    "security-engineer",
-    "backend-engineer"
-   ],
-   "headline": "SHE - English-like scripting language with capability sandbox",
-   "what": "SHE is a Python-implemented language that reads like plain English, using keywords such as is, for each, and end instead of braces or semicolons. It runs inside a capability sandbox that blocks file, network, or process access until explicitly granted. The project includes a pip-installable interpreter, a test runner, formatter, and a VS Code extension that provides syntax highlighting and LSP-based diagnostics.",
-   "why": "It addresses the trade-off between readability for beginners and security for production scripts by making permissions explicit and errors instructional. The design lets non-programmers understand code while giving developers fine-grained sandbox control.",
-   "impact": "Shows end-to-end design and implementation of a custom language toolchain, including interpreter, gradual type system, sandbox enforcement, and editor integration, all in Python.",
-   "highlights": [
-    "English-style syntax without braces",
-    "Capability-based sandbox for external actions",
-    "Gradual type system with pattern matching",
-    "VS Code LSP extension for live diagnostics"
-   ],
-   "tech": [
-    "Python",
-    "pip",
-    "VS Code",
-    "Language Server Protocol",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "cryptography"
-   ],
-   "signal": "flagship",
-   "enrichedBy": "ai",
-   "contentHash": "28e079aacddeb51f",
-   "primaryRole": "security-engineer"
-  },
-  {
    "id": "ni-sh-a-char-galiyaara",
    "name": "Galiyaara",
    "owner": "ni-sh-a-char",
@@ -2060,7 +2064,7 @@
    "forks": 0,
    "commits": 133,
    "createdAt": "2022-07-23T05:52:06Z",
-   "pushedAt": "2026-08-28T16:01:42Z",
+   "pushedAt": "2026-08-29T10:37:08Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -2068,29 +2072,29 @@
     "fullstack-developer",
     "devops-engineer"
    ],
-   "headline": "3D interactive photography portfolio site",
-   "what": "A static website renders a moonlit stone arcade in the browser and hangs photographs on the walls. Navigation uses WASD, mouse drag, and keyboard shortcuts, all powered by Three.js and plain JavaScript. GitHub Actions resize images, sample colors, and invoke a free AI model to generate titles, captions, and tags during the build.",
-   "why": "Typical photo sites use a grid; this project creates an immersive walkthrough that showcases each image in context. It also automates image preparation and metadata generation without a separate backend.",
-   "impact": "Shows end-to-end creation of a framework-less 3D web experience with automated CI pipelines.",
+   "headline": "3D immersive photography portfolio rendered in the browser",
+   "what": "A site lets visitors walk through a moonlit stone arcade where each photograph hangs on a wall. The corridor is generated with Three.js and supports WASD movement, pointer-lock, and click navigation. Image processing, resizing, colour sampling and AI-generated captions run in a GitHub Actions workflow that redeploys the static site on push.",
+   "why": "Typical photography portfolios use static grids; this project provides an exploratory spatial experience that automatically incorporates new images without code changes.",
+   "impact": "Shows ability to combine interactive three.js front-end work with automated CI pipelines and AI-driven content generation.",
    "highlights": [
-    "Keyboard and pointer navigation",
-    "Three.js corridor rendering",
-    "GitHub Actions resize and tag images",
-    "AI-generated captions at build time"
+    "Three.js scene with keyboard and pointer-lock navigation",
+    "GitHub Actions pipeline resizes images and creates AI captions",
+    "Zero-build static site deployed via GitHub Pages",
+    "Layout and metadata derived automatically from photo folder"
    ],
    "tech": [
     "JavaScript",
     "HTML",
     "CSS",
     "Three.js",
-    "GitHub Pages",
     "GitHub Actions",
     "Node.js",
-    "OpenAI API"
+    "OpenAI API",
+    "GitHub Pages"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "5cf7244304115fdd",
+   "contentHash": "54bd241ccbda43ce",
    "primaryRole": "fullstack-developer"
   },
   {
@@ -2440,25 +2444,25 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 102,
+   "commits": 103,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-28T01:32:13Z",
+   "pushedAt": "2026-08-28T17:30:21Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "fullstack-developer",
-    "devops-engineer"
+    "devops-engineer",
+    "fullstack-developer"
    ],
    "headline": "Self-maintaining portfolio site that auto-generates project narratives",
-   "what": "A static site reads every public, non-fork repository on the account, extracts metadata, and writes recruiter-facing narratives to a JSON file. The sync runs in a GitHub Action that calls free LLM providers and the GitHub CLI, then the site exports the JSON as a static HTML page. Built with TypeScript, JavaScript and CSS.",
-   "why": "Manual portfolio updates are time-consuming; the project automates data collection and narrative generation to keep the showcase current without developer intervention.",
-   "impact": "Demonstrates end-to-end automation of CI pipelines, API integration, and static site generation.",
+   "what": "A static site that displays a JSON-driven list of public repositories, organized by role. A GitHub Action scans the user’s public, non-fork repos, calls free LLM APIs to write recruiter-facing narratives, and writes the results to data/portfolio.json. The site is built with TypeScript/JavaScript and CSS and is regenerated on each push or on a twice-daily schedule.",
+   "why": "Manual updates to a portfolio are time-consuming; the project automates data collection and narrative creation to keep the showcase current without developer intervention.",
+   "impact": "Demonstrates end-to-end CI/CD automation and integration of LLM services for dynamic content generation.",
    "highlights": [
-    "GitHub Action syncs repos nightly",
-    "LLM-generated recruiter narratives",
+    "GitHub Action fetches repos and triggers sync",
+    "LLM-driven narrative generation",
     "Role-first project organization",
-    "Command palette with fuzzy search"
+    "Fuzzy-search command palette"
    ],
    "tech": [
     "TypeScript",
@@ -2466,14 +2470,14 @@
     "CSS",
     "GitHub Actions",
     "GitHub CLI",
+    "Node.js",
     "npm",
-    "OpenAI-compatible LLM APIs",
-    "JSON"
+    "OpenAI-compatible LLM APIs"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "872154139e375ffb",
-   "primaryRole": "fullstack-developer"
+   "contentHash": "7cc5b334bdd1f6e2",
+   "primaryRole": "devops-engineer"
   },
   {
    "id": "ni-sh-a-char-youtube-shorts-automation",
@@ -6453,7 +6457,7 @@
    "forks": 0,
    "commits": 4,
    "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-08-28T16:39:38Z",
+   "pushedAt": "2026-08-29T11:06:24Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -6461,15 +6465,15 @@
     "fullstack-developer",
     "ai-engineer"
    ],
-   "headline": "Static site that lists organization repos with AI-generated summaries",
-   "what": "The site displays every public repository in the organization and shows an AI-written description for each. It is served as plain HTML, CSS and JavaScript from GitHub Pages and refreshes its data daily via a GitHub Actions workflow that calls the GitHub API and an LLM to update data/repos.json.",
-   "why": "It provides a single, up-to-date view of the organization’s projects without requiring a separate documentation effort.",
-   "impact": "Demonstrates ability to integrate serverless CI workflows, external APIs, and LLM services into a client-side application.",
+   "headline": "Static site listing organization repos with AI-generated summaries",
+   "what": "A public website that lists every public repository in the organisation and shows an AI-written breakdown of each project. It loads a snapshot JSON, then makes a single unauthenticated GitHub API call to add newer repos. The data and summaries are regenerated daily by a GitHub Actions workflow that calls a free LLM API. The site is plain HTML, CSS and JavaScript served directly from GitHub Pages.",
+   "why": "To give visitors an up-to-date overview of the organisation’s work without manual maintenance, and to demonstrate automated content generation using LLMs.",
+   "impact": "Shows integration of LLM APIs in CI pipelines and delivery of a zero-build static site.",
    "highlights": [
-    "Fetches live repo data from GitHub API",
-    "Generates summaries using a free LLM in CI",
-    "Caches JSON to serve offline",
-    "Runs on GitHub Pages without a build step"
+    "AI-generated repo descriptions via GitHub Actions",
+    "Static HTML/CSS/JS on GitHub Pages",
+    "Fallback to cached JSON on rate-limit or offline",
+    "Daily data refresh workflow"
    ],
    "tech": [
     "JavaScript",
@@ -6477,13 +6481,13 @@
     "CSS",
     "GitHub Pages",
     "GitHub Actions",
-    "GitHub REST API",
-    "LLM (Groq/OpenAI)",
+    "LLM API (Groq/OpenAI",
+    "GitHub API",
     "JSON"
    ],
    "signal": "minor",
    "enrichedBy": "ai",
-   "contentHash": "f3b532445d0d586a",
+   "contentHash": "8b78eb3f58852c68",
    "primaryRole": "fullstack-developer"
   },
   {
