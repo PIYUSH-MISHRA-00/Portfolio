@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-30T10:32:15.656Z",
+ "syncedAt": "2026-08-30T19:52:35.171Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,16 +13,16 @@
  "stats": {
   "projects": 93,
   "flagships": 11,
-  "commitsByMe": 3686,
+  "commitsByMe": 3687,
   "stars": 66,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 13227,
+  "contributionsLastYear": 13230,
   "totalCommitContributions": 3015,
   "totalIssueContributions": 7832,
   "totalPullRequestContributions": 0,
-  "privateContributions": 2368,
+  "privateContributions": 2371,
   "languages": [
    {
     "name": "Python",
@@ -1662,7 +1662,7 @@
   [
    {
     "date": "2026-08-30",
-    "contributionCount": 0
+    "contributionCount": 3
    }
   ]
  ],
@@ -1695,7 +1695,7 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 32
+   "count": 31
   },
   {
    "id": "mobile-developer",
@@ -1719,7 +1719,7 @@
    "id": "automation-engineer",
    "name": "Automation Engineer",
    "tagline": "Scripts and pipelines that delete repetitive work.",
-   "count": 6
+   "count": 7
   }
  ],
  "orgs": [
@@ -3906,25 +3906,25 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 105,
+   "commits": 106,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-29T19:48:46Z",
+   "pushedAt": "2026-08-30T10:32:16Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "fullstack-developer",
-    "devops-engineer"
+    "automation-engineer",
+    "fullstack-developer"
    ],
-   "headline": "Self-maintaining developer portfolio site",
-   "what": "A static site that lists public repositories and displays recruiter-facing narratives generated automatically. A GitHub Action scans the account, calls a free LLM via OpenAI-compatible APIs, writes the output to data/portfolio.json, and the front-end renders the JSON with TypeScript, JavaScript and CSS.",
-   "why": "Keeps the portfolio current without manual edits, ensuring every new public repo appears instantly for recruiters.",
-   "impact": "Shows end-to-end automation from CI/CD pipelines to front-end rendering using modern web and cloud tools.",
+   "headline": "Self-maintaining portfolio site generated from GitHub data",
+   "what": "A static website that lists public repositories with recruiter-focused narratives. A GitHub Action scans the account, calls free OpenAI-compatible LLM providers to write descriptions into data/portfolio.json, and the site renders the JSON in a role-first layout. The workflow triggers on push or on a twice-daily schedule and uses the gh CLI for reliable GitHub API calls.",
+   "why": "Keeps the portfolio current without manual edits, eliminating stale project information.",
+   "impact": "Shows end-to-end automation of data collection, LLM integration, and CI/CD with GitHub Actions.",
    "highlights": [
-    "GitHub Action fetches repos and triggers LLM",
-    "Dynamic JSON generation for static site",
-    "Command-palette fuzzy search across projects",
-    "Role-first organization of projects"
+    "GitHub Action scans public repos",
+    "LLM-generated recruiter narratives",
+    "Command palette fuzzy search",
+    "Role-first project organization"
    ],
    "tech": [
     "TypeScript",
@@ -3932,14 +3932,14 @@
     "CSS",
     "GitHub Actions",
     "GitHub CLI",
-    "Node.js",
-    "OpenAI-compatible APIs",
-    "npm"
+    "OpenAI-compatible LLM APIs",
+    "npm",
+    "Static site export"
    ],
    "signal": "solid",
    "enrichedBy": "ai",
-   "contentHash": "d4b712d22b40e17e",
-   "primaryRole": "fullstack-developer"
+   "contentHash": "ca45528ab97fa7a4",
+   "primaryRole": "automation-engineer"
   },
   {
    "id": "piyush-mishra-00-git-automation-script",
