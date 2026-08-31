@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-08-31T11:40:18.441Z",
+ "syncedAt": "2026-08-31T21:56:43.644Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 93,
   "flagships": 11,
-  "commitsByMe": 3688,
+  "commitsByMe": 3689,
   "stars": 66,
   "roles": 9,
   "orgs": 2,
@@ -1699,7 +1699,7 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 32
+   "count": 31
   },
   {
    "id": "mobile-developer",
@@ -1711,7 +1711,7 @@
    "id": "devops-engineer",
    "name": "DevOps & Platform Engineer",
    "tagline": "Containers, images and reproducible environments.",
-   "count": 1
+   "count": 2
   },
   {
    "id": "systems-engineer",
@@ -3910,25 +3910,25 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 107,
+   "commits": 108,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-08-30T19:52:36Z",
+   "pushedAt": "2026-08-31T11:40:19Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "fullstack-developer",
-    "automation-engineer"
+    "devops-engineer",
+    "fullstack-developer"
    ],
-   "headline": "Self-maintaining portfolio site that auto-generates project narratives",
-   "what": "A static website displays a JSON file of project narratives. A GitHub Action scans the user’s public, non-fork repositories, calls a free-tier LLM to write recruiter-facing descriptions, and writes the output to data/portfolio.json. The site reads that file and renders role-first sections with a command-palette search.",
-   "why": "Keeps a developer’s portfolio current without manual edits, reducing the overhead of updating project listings after each commit.",
-   "impact": "Shows ability to design end-to-end automation pipelines and deliver a production-ready TypeScript front-end.",
+   "headline": "Self-maintaining developer portfolio generator",
+   "what": "A static site that lists the engineer’s public repositories and auto-generates recruiter-facing narratives. A GitHub Action scans public, non-fork repos, invokes free LLM providers to write project summaries, and writes the output to data/portfolio.json. The site is built with TypeScript/JavaScript and served as a static export.",
+   "why": "Keeps a portfolio up-to-date without manual edits, ensuring new work appears immediately for recruiters.",
+   "impact": "Shows ability to automate data pipelines and CI workflows that produce a production-ready web artifact.",
    "highlights": [
-    "GitHub Action fetches and filters public repos",
-    "LLM generates recruiter-focused narratives",
-    "Static site renders JSON data by role",
-    "Fuzzy command-palette search over projects"
+    "GitHub Action scans public repos",
+    "LLM generates project narratives",
+    "Static export from JSON data",
+    "Fuzzy-search command palette"
    ],
    "tech": [
     "TypeScript",
@@ -3942,8 +3942,8 @@
    ],
    "signal": "solid",
    "enrichedBy": "ai",
-   "contentHash": "33fb79528834bc3c",
-   "primaryRole": "fullstack-developer"
+   "contentHash": "ab3b1cd9102859a5",
+   "primaryRole": "devops-engineer"
   },
   {
    "id": "piyush-mishra-00-git-automation-script",
