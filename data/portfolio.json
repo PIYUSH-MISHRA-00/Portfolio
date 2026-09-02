@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-09-02T09:44:35.410Z",
+ "syncedAt": "2026-09-02T19:52:17.786Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -12,14 +12,14 @@
  },
  "stats": {
   "projects": 95,
-  "flagships": 11,
-  "commitsByMe": 3840,
+  "flagships": 14,
+  "commitsByMe": 3871,
   "stars": 66,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 13249,
-  "totalCommitContributions": 3033,
+  "contributionsLastYear": 13270,
+  "totalCommitContributions": 3054,
   "totalIssueContributions": 7832,
   "totalPullRequestContributions": 0,
   "privateContributions": 2371,
@@ -27,38 +27,38 @@
    {
     "name": "Python",
     "projects": 40,
-    "bytes": 1972025,
+    "bytes": 1981228,
     "pct": 42.1
    },
    {
     "name": "HTML",
     "projects": 30,
-    "bytes": 614368,
+    "bytes": 617399,
     "pct": 31.6
    },
    {
     "name": "Shell",
-    "projects": 29,
-    "bytes": 126485,
-    "pct": 30.5
+    "projects": 28,
+    "bytes": 124163,
+    "pct": 29.5
    },
    {
     "name": "CSS",
     "projects": 25,
-    "bytes": 179279,
+    "bytes": 179841,
     "pct": 26.3
    },
    {
     "name": "JavaScript",
     "projects": 22,
-    "bytes": 602314,
+    "bytes": 626812,
     "pct": 23.2
    },
    {
     "name": "Java",
-    "projects": 16,
-    "bytes": 743932,
-    "pct": 16.8
+    "projects": 17,
+    "bytes": 846665,
+    "pct": 17.9
    },
    {
     "name": "Dockerfile",
@@ -74,21 +74,21 @@
    },
    {
     "name": "TypeScript",
-    "projects": 6,
-    "bytes": 880121,
-    "pct": 6.3
+    "projects": 7,
+    "bytes": 920864,
+    "pct": 7.4
    },
    {
     "name": "Dart",
-    "projects": 5,
-    "bytes": 856025,
-    "pct": 5.3
+    "projects": 6,
+    "bytes": 920342,
+    "pct": 6.3
    },
    {
     "name": "Kotlin",
-    "projects": 5,
-    "bytes": 443798,
-    "pct": 5.3
+    "projects": 6,
+    "bytes": 509361,
+    "pct": 6.3
    },
    {
     "name": "C++",
@@ -1674,7 +1674,7 @@
    },
    {
     "date": "2026-09-02",
-    "contributionCount": 25
+    "contributionCount": 46
    }
   ]
  ],
@@ -1738,7 +1738,7 @@
   {
    "login": "ni-sh-a-char",
    "projects": 40,
-   "commits": 3308,
+   "commits": 3321,
    "name": "ni_sh_a.char",
    "description": "Transforming Computing...!",
    "url": "https://github.com/ni-sh-a-char",
@@ -2371,6 +2371,73 @@
    "primaryRole": "devops-engineer"
   },
   {
+   "id": "ni-sh-a-char-ni-sh-a-char-ide",
+   "name": "ni_sh_a.char-IDE",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/ni_sh_a.char-IDE",
+   "url": "https://github.com/ni-sh-a-char/ni_sh_a.char-IDE",
+   "homepage": "https://ni-sh-a-char.github.io/ni_sh_a.char-IDE/",
+   "description": "Run any language, anywhere. A polyglot execution engine, standalone IDE, and one-line embeddable web component. 62 languages, three of them running in your browser with no backend at all.",
+   "topics": [
+    "code-editor",
+    "code-execution",
+    "code-runner",
+    "codemirror",
+    "custom-elements",
+    "developer-tools",
+    "docker",
+    "embeddable",
+    "hacktoberfest",
+    "ide",
+    "javascript",
+    "online-ide"
+   ],
+   "languages": [
+    {
+     "name": "HTML",
+     "bytes": 50588,
+     "pct": 100
+    }
+   ],
+   "primaryLanguage": "HTML",
+   "license": "Apache-2.0",
+   "stars": 0,
+   "forks": 1,
+   "commits": 140,
+   "createdAt": "2022-07-04T04:33:43Z",
+   "pushedAt": "2026-09-02T16:06:27Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "fullstack-developer",
+    "security-engineer"
+   ],
+   "headline": "Polyglot in-browser IDE and embeddable web component",
+   "what": "Provides a browser-based IDE that can execute code in 62 languages, with three languages running entirely client-side. The interface auto-selects between a local toolchain, a Docker container sandbox, or an in-browser interpreter. It is packaged as a native Web Component that can be dropped into any page or framework.",
+   "why": "Typical online IDEs depend on remote servers that incur cost and can disappear; this engine runs on the visitor’s own hardware, eliminating backend dependencies and billing.",
+   "impact": "Shows end-to-end design of a multi-language execution platform with sandboxing, web-component integration, and zero-cost hosting.",
+   "highlights": [
+    "Supports 62 languages, 3 run fully client-side",
+    "Web Component works in React, Vue, Svelte, Angular",
+    "Docker sandbox with resource caps and network isolation",
+    "Add a language via an 8-line JSON file"
+   ],
+   "tech": [
+    "HTML",
+    "JavaScript",
+    "CodeMirror",
+    "Docker",
+    "Web Components",
+    "JSON",
+    "CSS"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "d306e47613ae350c",
+   "primaryRole": "fullstack-developer"
+  },
+  {
    "id": "ni-sh-a-char-texter",
    "name": "Texter",
    "owner": "ni-sh-a-char",
@@ -2501,6 +2568,71 @@
    "primaryRole": "security-engineer"
   },
   {
+   "id": "piyush-mishra-00-portfolio",
+   "name": "Portfolio",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
+   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
+   "description": "https://piyush-mishra-00.github.io/Portfolio/",
+   "topics": [],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 70677,
+     "pct": 56.6
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 47384,
+     "pct": 38
+    },
+    {
+     "name": "CSS",
+     "bytes": 6753,
+     "pct": 5.4
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 112,
+   "createdAt": "2023-03-30T11:31:18Z",
+   "pushedAt": "2026-09-02T09:44:36Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "fullstack-developer",
+    "devops-engineer"
+   ],
+   "headline": "Self-maintaining developer portfolio site",
+   "what": "A static site that displays recruiter-facing narratives for every public repository. It is built with TypeScript and CSS and is regenerated by a GitHub Action that queries the GitHub API, runs a free LLM to write descriptions, and commits the result to data/portfolio.json.",
+   "why": "Keeps the portfolio up-to-date automatically, removing manual edits after each project push. Provides a role-first view that highlights relevant experience for recruiters.",
+   "impact": "Shows end-to-end automation from source control to live web content using CI/CD and LLM integration.",
+   "highlights": [
+    "GitHub Action scans repos and writes narratives",
+    "LLM-driven auto-generation of project descriptions",
+    "Role-first organization with live project counts",
+    "Command palette for fuzzy search across projects"
+   ],
+   "tech": [
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "GitHub Actions",
+    "GitHub CLI",
+    "OpenAI-compatible LLM API",
+    "npm",
+    "JSON"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "f903f37482ac7b69",
+   "primaryRole": "fullstack-developer"
+  },
+  {
    "id": "ni-sh-a-char-youtube-shorts-automation",
    "name": "YouTube-Shorts-Automation",
    "owner": "ni-sh-a-char",
@@ -2554,6 +2686,102 @@
    "enrichedBy": "groq",
    "contentHash": "cf0eb7281cd58029",
    "primaryRole": "automation-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-kryon",
+   "name": "kryon",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/kryon",
+   "url": "https://github.com/PIYUSH-MISHRA-00/kryon",
+   "homepage": "https://piyush-mishra-00.github.io/kryon/",
+   "description": "Powerful terminal execution, everywhere. Cross-platform command execution, interactive processes and streaming, with one conceptual API across Python, TypeScript, Dart, Java and Kotlin.",
+   "topics": [
+    "command-execution",
+    "cross-platform",
+    "developer-tools",
+    "process-execution",
+    "pty",
+    "python",
+    "sdk",
+    "subprocess",
+    "terminal",
+    "terminal-emulator"
+   ],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 109508,
+     "pct": 25.5
+    },
+    {
+     "name": "Java",
+     "bytes": 102733,
+     "pct": 23.9
+    },
+    {
+     "name": "Kotlin",
+     "bytes": 65563,
+     "pct": 15.3
+    },
+    {
+     "name": "Dart",
+     "bytes": 64317,
+     "pct": 15
+    },
+    {
+     "name": "TypeScript",
+     "bytes": 40743,
+     "pct": 9.5
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 28553,
+     "pct": 6.7
+    },
+    {
+     "name": "CSS",
+     "bytes": 13882,
+     "pct": 3.2
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": "Apache-2.0",
+   "stars": 0,
+   "forks": 0,
+   "commits": 29,
+   "createdAt": "2026-09-02T08:33:45Z",
+   "pushedAt": "2026-09-02T18:57:39Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "backend-engineer",
+    "devops-engineer"
+   ],
+   "headline": "Cross-language SDK for consistent terminal command execution",
+   "what": "Provides a single conceptual API for running OS commands and streaming processes in Python, TypeScript, Dart, Java and Kotlin. Each SDK implements the same execution model and passes a shared conformance test suite on Linux, macOS and Windows. The libraries are published to PyPI, npm, pub.dev and Maven Central with minimal runtime dependencies.",
+   "why": "Language-specific subprocess utilities diverge on error handling, timeouts and resource limits, leading to fragile code. The SDK offers a well-specified, uniform model that avoids common pitfalls such as accidental shell execution and unbounded output buffering.",
+   "impact": "Shows ability to design and deliver a multi-language developer tool with unified behavior and comprehensive automated verification.",
+   "highlights": [
+    "Unified API across five languages",
+    "Shared conformance corpus enforces identical behavior",
+    "Zero-runtime dependencies (Kotlin uses only coroutines)",
+    "Accurate timeout and output-cap enforcement"
+   ],
+   "tech": [
+    "Python",
+    "Java",
+    "Kotlin",
+    "Dart",
+    "TypeScript",
+    "subprocess",
+    "coroutines",
+    "Maven Central"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "25ea1f9a5f6ba9b8",
+   "primaryRole": "backend-engineer"
   },
   {
    "id": "the-lord-buddha-club-rak-sh-ak",
@@ -3527,23 +3755,23 @@
    "languages": [
     {
      "name": "HTML",
-     "bytes": 23448,
-     "pct": 31.6
+     "bytes": 23975,
+     "pct": 32
     },
     {
      "name": "Python",
      "bytes": 20829,
-     "pct": 28.1
+     "pct": 27.8
     },
     {
      "name": "CSS",
-     "bytes": 19579,
-     "pct": 26.4
+     "bytes": 19682,
+     "pct": 26.3
     },
     {
      "name": "JavaScript",
      "bytes": 9187,
-     "pct": 12.4
+     "pct": 12.3
     },
     {
      "name": "Shell",
@@ -3555,9 +3783,9 @@
    "license": "Apache-2.0",
    "stars": 0,
    "forks": 0,
-   "commits": 133,
+   "commits": 136,
    "createdAt": "2023-02-16T19:33:14Z",
-   "pushedAt": "2026-09-02T09:05:55Z",
+   "pushedAt": "2026-09-02T13:36:51Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -3582,69 +3810,8 @@
    ],
    "signal": "solid",
    "enrichedBy": "readme",
-   "contentHash": "5118092b4681141c",
+   "contentHash": "ec492ff285e4105c",
    "primaryRole": "security-engineer"
-  },
-  {
-   "id": "ni-sh-a-char-ni-sh-a-char-ide",
-   "name": "ni_sh_a.char-IDE",
-   "owner": "ni-sh-a-char",
-   "nameWithOwner": "ni-sh-a-char/ni_sh_a.char-IDE",
-   "url": "https://github.com/ni-sh-a-char/ni_sh_a.char-IDE",
-   "homepage": "https://ni-sh-a-char.github.io/ni_sh_a.char-IDE/",
-   "description": "Run any language, anywhere. A polyglot execution engine, standalone IDE, and one-line embeddable web component. 62 languages, three of them running in your browser with no backend at all.",
-   "topics": [
-    "code-editor",
-    "code-execution",
-    "code-runner",
-    "codemirror",
-    "custom-elements",
-    "developer-tools",
-    "docker",
-    "embeddable",
-    "hacktoberfest",
-    "ide",
-    "javascript",
-    "online-ide"
-   ],
-   "languages": [
-    {
-     "name": "HTML",
-     "bytes": 48084,
-     "pct": 100
-    }
-   ],
-   "primaryLanguage": "HTML",
-   "license": "Apache-2.0",
-   "stars": 0,
-   "forks": 1,
-   "commits": 130,
-   "createdAt": "2022-07-04T04:33:43Z",
-   "pushedAt": "2026-09-02T09:04:58Z",
-   "isArchived": false,
-   "isOrg": true,
-   "org": "ni-sh-a-char",
-   "roles": [
-    "fullstack-developer"
-   ],
-   "headline": "Simple Python IDE for writing and executing scripts",
-   "what": "Provides a graphical editor with syntax highlighting where users can type Python code and run it with a single click. The application is written in Python and uses a shell wrapper to invoke the local Python interpreter. Execution results are shown in an integrated output pane.",
-   "why": "Creates a lightweight alternative to heavyweight IDEs for quick script development and testing on a local machine.",
-   "impact": "Shows competence in building end-to-end desktop tools that combine UI, process control, and output handling.",
-   "highlights": [
-    "Editor with syntax highlighting",
-    "Run button launches scripts via shell",
-    "Displays script output in-app",
-    "Basic edit actions (copy, paste, undo/redo)"
-   ],
-   "tech": [
-    "Python",
-    "Shell"
-   ],
-   "signal": "solid",
-   "enrichedBy": "groq",
-   "contentHash": "f4f5ef8ff8001974",
-   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-rest-api",
@@ -3920,71 +4087,6 @@
    "signal": "solid",
    "enrichedBy": "groq",
    "contentHash": "3968b15eb2700ece",
-   "primaryRole": "fullstack-developer"
-  },
-  {
-   "id": "piyush-mishra-00-portfolio",
-   "name": "Portfolio",
-   "owner": "PIYUSH-MISHRA-00",
-   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
-   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
-   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
-   "description": "https://piyush-mishra-00.github.io/Portfolio/",
-   "topics": [],
-   "languages": [
-    {
-     "name": "TypeScript",
-     "bytes": 70677,
-     "pct": 56.6
-    },
-    {
-     "name": "JavaScript",
-     "bytes": 47384,
-     "pct": 38
-    },
-    {
-     "name": "CSS",
-     "bytes": 6753,
-     "pct": 5.4
-    }
-   ],
-   "primaryLanguage": "TypeScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 111,
-   "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-09-01T19:59:03Z",
-   "isArchived": false,
-   "isOrg": false,
-   "org": null,
-   "roles": [
-    "fullstack-developer",
-    "devops-engineer"
-   ],
-   "headline": "Self-maintaining portfolio site generated from GitHub data",
-   "what": "A static site that lists public repositories and displays recruiter-facing narratives. A GitHub Action queries the GitHub API, runs a free LLM to write project descriptions, and writes the output to data/portfolio.json, which the site renders. Built with TypeScript, JavaScript and CSS and driven by npm scripts and the GitHub CLI.",
-   "why": "Keeps a developer’s portfolio current without manual edits, turning repository activity into up-to-date recruiter material.",
-   "impact": "Shows end-to-end automation of content generation, CI/CD, and LLM integration in a production-ready web app.",
-   "highlights": [
-    "GitHub Action syncs repos nightly",
-    "LLM-generated project narratives",
-    "Role-first project organization",
-    "Command palette for fuzzy search"
-   ],
-   "tech": [
-    "TypeScript",
-    "JavaScript",
-    "CSS",
-    "GitHub Actions",
-    "GitHub CLI",
-    "Node.js",
-    "npm",
-    "OpenAI-compatible LLM APIs"
-   ],
-   "signal": "solid",
-   "enrichedBy": "ai",
-   "contentHash": "f8edacc989e9c4c3",
    "primaryRole": "fullstack-developer"
   },
   {
@@ -4474,87 +4576,6 @@
    "enrichedBy": "groq",
    "contentHash": "3f7c64871a0ed23f",
    "primaryRole": "fullstack-developer"
-  },
-  {
-   "id": "piyush-mishra-00-kryon",
-   "name": "kryon",
-   "owner": "PIYUSH-MISHRA-00",
-   "nameWithOwner": "PIYUSH-MISHRA-00/kryon",
-   "url": "https://github.com/PIYUSH-MISHRA-00/kryon",
-   "homepage": "https://piyush-mishra-00.github.io/kryon/",
-   "description": "Powerful terminal execution, everywhere. Cross-platform command execution, interactive processes and streaming, with one conceptual API across Python, TypeScript, Dart, Java and Kotlin.",
-   "topics": [
-    "command-execution",
-    "cross-platform",
-    "developer-tools",
-    "process-execution",
-    "pty",
-    "python",
-    "sdk",
-    "subprocess",
-    "terminal",
-    "terminal-emulator"
-   ],
-   "languages": [
-    {
-     "name": "Python",
-     "bytes": 100305,
-     "pct": 83.5
-    },
-    {
-     "name": "CSS",
-     "bytes": 13423,
-     "pct": 11.2
-    },
-    {
-     "name": "JavaScript",
-     "bytes": 4055,
-     "pct": 3.4
-    },
-    {
-     "name": "Shell",
-     "bytes": 2322,
-     "pct": 1.9
-    }
-   ],
-   "primaryLanguage": "Python",
-   "license": "Apache-2.0",
-   "stars": 0,
-   "forks": 0,
-   "commits": 12,
-   "createdAt": "2026-09-02T08:33:45Z",
-   "pushedAt": "2026-09-02T09:37:38Z",
-   "isArchived": false,
-   "isOrg": false,
-   "org": null,
-   "roles": [
-    "backend-engineer",
-    "devops-engineer"
-   ],
-   "headline": "Cross-language SDK for safe, streamed command execution",
-   "what": "Provides a single API for running OS commands and streaming interactive processes across Python, TypeScript, Dart, Java and Kotlin. The Python SDK implements execution, timeout handling, output limits and result objects without external dependencies and passes a shared JSON-based conformance suite on Linux, macOS and Windows. The design separates a simple result call from a conversational streaming call and enforces strict error reporting.",
-   "why": "Standard subprocess utilities differ per ecosystem and often expose unsafe defaults; the library offers a consistent, secure model for high-volume or untrusted command execution across languages.",
-   "impact": "Shows ability to design and deliver a zero-dependency, multi-language execution library with enforced safety guarantees.",
-   "highlights": [
-    "Unified API across five languages",
-    "Zero-dependency Python implementation",
-    "Strict subprocess safety model",
-    "Cross-platform conformance tests"
-   ],
-   "tech": [
-    "Python",
-    "TypeScript",
-    "Dart",
-    "Java",
-    "Kotlin",
-    "JSON",
-    "subprocess",
-    "cross-platform"
-   ],
-   "signal": "solid",
-   "enrichedBy": "ai",
-   "contentHash": "3c4e3833a450b7fc",
-   "primaryRole": "backend-engineer"
   },
   {
    "id": "piyush-mishra-00-bookish",
