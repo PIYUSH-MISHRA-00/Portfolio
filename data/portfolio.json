@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-09-01T19:59:02.374Z",
+ "syncedAt": "2026-09-02T09:44:35.410Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -7,94 +7,94 @@
   "location": "India",
   "company": "ni-sh-a.char",
   "followers": 19,
-  "publicRepos": 119,
+  "publicRepos": 120,
   "joinedAt": "2020-05-22T20:31:19Z"
  },
  "stats": {
-  "projects": 93,
+  "projects": 95,
   "flagships": 11,
-  "commitsByMe": 3691,
+  "commitsByMe": 3840,
   "stars": 66,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 13230,
-  "totalCommitContributions": 3015,
+  "contributionsLastYear": 13249,
+  "totalCommitContributions": 3033,
   "totalIssueContributions": 7832,
   "totalPullRequestContributions": 0,
   "privateContributions": 2371,
   "languages": [
    {
     "name": "Python",
-    "projects": 39,
-    "bytes": 1852666,
-    "pct": 41.9
+    "projects": 40,
+    "bytes": 1972025,
+    "pct": 42.1
    },
    {
     "name": "HTML",
-    "projects": 28,
-    "bytes": 542836,
-    "pct": 30.1
+    "projects": 30,
+    "bytes": 614368,
+    "pct": 31.6
    },
    {
     "name": "Shell",
-    "projects": 28,
-    "bytes": 126213,
-    "pct": 30.1
+    "projects": 29,
+    "bytes": 126485,
+    "pct": 30.5
    },
    {
     "name": "CSS",
-    "projects": 23,
-    "bytes": 146277,
-    "pct": 24.7
+    "projects": 25,
+    "bytes": 179279,
+    "pct": 26.3
    },
    {
     "name": "JavaScript",
-    "projects": 20,
-    "bytes": 589072,
-    "pct": 21.5
+    "projects": 22,
+    "bytes": 602314,
+    "pct": 23.2
    },
    {
     "name": "Java",
     "projects": 16,
     "bytes": 743932,
-    "pct": 17.2
+    "pct": 16.8
    },
    {
     "name": "Dockerfile",
     "projects": 15,
     "bytes": 10049,
-    "pct": 16.1
+    "pct": 15.8
    },
    {
     "name": "Jupyter Notebook",
     "projects": 8,
     "bytes": 14820399,
-    "pct": 8.6
+    "pct": 8.4
    },
    {
     "name": "TypeScript",
     "projects": 6,
     "bytes": 880121,
-    "pct": 6.5
+    "pct": 6.3
    },
    {
     "name": "Dart",
     "projects": 5,
     "bytes": 856025,
-    "pct": 5.4
+    "pct": 5.3
    },
    {
     "name": "Kotlin",
     "projects": 5,
     "bytes": 443798,
-    "pct": 5.4
+    "pct": 5.3
    },
    {
     "name": "C++",
     "projects": 5,
     "bytes": 96051,
-    "pct": 5.4
+    "pct": 5.3
    }
   ]
  },
@@ -294,7 +294,7 @@
    },
    {
     "date": "2025-10-15",
-    "contributionCount": 400
+    "contributionCount": 394
    },
    {
     "date": "2025-10-16",
@@ -1671,6 +1671,10 @@
    {
     "date": "2026-09-01",
     "contributionCount": 0
+   },
+   {
+    "date": "2026-09-02",
+    "contributionCount": 25
    }
   ]
  ],
@@ -1691,13 +1695,13 @@
    "id": "security-engineer",
    "name": "Security & Cryptography Engineer",
    "tagline": "Original ciphers, encrypted transport and hardened systems.",
-   "count": 6
+   "count": 7
   },
   {
    "id": "backend-engineer",
    "name": "Backend & API Engineer",
    "tagline": "Services, data layers and APIs built to be consumed.",
-   "count": 13
+   "count": 14
   },
   {
    "id": "fullstack-developer",
@@ -1733,8 +1737,8 @@
  "orgs": [
   {
    "login": "ni-sh-a-char",
-   "projects": 39,
-   "commits": 3172,
+   "projects": 40,
+   "commits": 3308,
    "name": "ni_sh_a.char",
    "description": "Transforming Computing...!",
    "url": "https://github.com/ni-sh-a-char",
@@ -2197,6 +2201,104 @@
    "primaryRole": "fullstack-developer"
   },
   {
+   "id": "ni-sh-a-char-resentment-kernel",
+   "name": "RESENTMENT---kernel",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/RESENTMENT---kernel",
+   "url": "https://github.com/ni-sh-a-char/RESENTMENT---kernel",
+   "homepage": "https://ni-sh-a-char.github.io/RESENTMENT---kernel/",
+   "description": "A capability-secure, AI-native kernel for x86_64, ARM64 and RISC-V. Authority expires, the system is a graph you can hash, and inference is a scheduling class.",
+   "topics": [
+    "aarch64",
+    "ai",
+    "bare-metal",
+    "c",
+    "capability-security",
+    "cryptography",
+    "kernel",
+    "microkernel",
+    "operating-system",
+    "osdev",
+    "qemu",
+    "riscv"
+   ],
+   "languages": [
+    {
+     "name": "C",
+     "bytes": 905370,
+     "pct": 77.3
+    },
+    {
+     "name": "Python",
+     "bytes": 122244,
+     "pct": 10.4
+    },
+    {
+     "name": "Assembly",
+     "bytes": 35658,
+     "pct": 3
+    },
+    {
+     "name": "HTML",
+     "bytes": 34093,
+     "pct": 2.9
+    },
+    {
+     "name": "CSS",
+     "bytes": 22999,
+     "pct": 2
+    },
+    {
+     "name": "Makefile",
+     "bytes": 19539,
+     "pct": 1.7
+    },
+    {
+     "name": "Shell",
+     "bytes": 16936,
+     "pct": 1.4
+    }
+   ],
+   "primaryLanguage": "C",
+   "license": "NOASSERTION",
+   "stars": 0,
+   "forks": 0,
+   "commits": 155,
+   "createdAt": "2023-02-16T19:34:49Z",
+   "pushedAt": "2026-09-02T08:37:57Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "systems-engineer",
+    "security-engineer"
+   ],
+   "headline": "Capability-secure AI-native microkernel for x86_64, ARM64, RISC-V",
+   "what": "A from-scratch operating system kernel that runs on x86_64, ARM64 and RISC-V without relying on Unix abstractions. It encodes every kernel object as a node in a Merkle DAG, providing a single SHA-256 root digest for state attestation and replay. The kernel is written primarily in C with assembly boot code and uses a portable Makefile-driven toolchain, runnable under QEMU or Docker.",
+   "why": "Conventional kernels lack fine-grained, time-bounded authority and cannot verify whole-system state efficiently; this design adds expiring capabilities and cryptographic state hashing to address those gaps, especially for AI workloads that need safe inference scheduling.",
+   "impact": "Shows end-to-end design and implementation of a multi-ISA microkernel that integrates capability security and AI-native resource management.",
+   "highlights": [
+    "Expiring capabilities with cryptographic seals",
+    "Merkle DAG hashing for attestation and replay",
+    "AI models treated as kernel objects with dedicated scheduling",
+    "Cross-ISA build using portable toolchain"
+   ],
+   "tech": [
+    "C",
+    "Assembly",
+    "Python",
+    "Makefile",
+    "QEMU",
+    "Docker",
+    "SHA-256",
+    "Git"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "fd0bc82d72872174",
+   "primaryRole": "systems-engineer"
+  },
+  {
    "id": "ni-sh-a-char-dockeroid",
    "name": "Dockeroid",
    "owner": "ni-sh-a-char",
@@ -2267,104 +2369,6 @@
    "enrichedBy": "groq",
    "contentHash": "bdc3f9f107717586",
    "primaryRole": "devops-engineer"
-  },
-  {
-   "id": "ni-sh-a-char-resentment-kernel",
-   "name": "RESENTMENT---kernel",
-   "owner": "ni-sh-a-char",
-   "nameWithOwner": "ni-sh-a-char/RESENTMENT---kernel",
-   "url": "https://github.com/ni-sh-a-char/RESENTMENT---kernel",
-   "homepage": "https://ni-sh-a-char.github.io/RESENTMENT---kernel/",
-   "description": "A capability-secure, AI-native kernel for x86_64, ARM64 and RISC-V. Authority expires, the system is a graph you can hash, and inference is a scheduling class.",
-   "topics": [
-    "aarch64",
-    "ai",
-    "bare-metal",
-    "c",
-    "capability-security",
-    "cryptography",
-    "kernel",
-    "microkernel",
-    "operating-system",
-    "osdev",
-    "qemu",
-    "riscv"
-   ],
-   "languages": [
-    {
-     "name": "C",
-     "bytes": 905370,
-     "pct": 77.3
-    },
-    {
-     "name": "Python",
-     "bytes": 122244,
-     "pct": 10.4
-    },
-    {
-     "name": "Assembly",
-     "bytes": 35658,
-     "pct": 3
-    },
-    {
-     "name": "HTML",
-     "bytes": 34093,
-     "pct": 2.9
-    },
-    {
-     "name": "CSS",
-     "bytes": 22999,
-     "pct": 2
-    },
-    {
-     "name": "Makefile",
-     "bytes": 19167,
-     "pct": 1.6
-    },
-    {
-     "name": "Shell",
-     "bytes": 16936,
-     "pct": 1.4
-    }
-   ],
-   "primaryLanguage": "C",
-   "license": "NOASSERTION",
-   "stars": 0,
-   "forks": 0,
-   "commits": 154,
-   "createdAt": "2023-02-16T19:34:49Z",
-   "pushedAt": "2026-08-29T13:01:38Z",
-   "isArchived": false,
-   "isOrg": true,
-   "org": "ni-sh-a-char",
-   "roles": [
-    "systems-engineer",
-    "security-engineer"
-   ],
-   "headline": "Capability-secure AI-native microkernel for x86_64, ARM64, RISC-V",
-   "what": "A from-scratch operating system kernel that runs on x86_64, ARM64 and RISC-V without relying on Unix abstractions. It encodes every kernel object as a node in a Merkle DAG, providing a single SHA-256 root digest for state attestation and replay. The kernel is written primarily in C with assembly boot code and uses a portable Makefile-driven toolchain, runnable under QEMU or Docker.",
-   "why": "Conventional kernels lack fine-grained, time-bounded authority and cannot verify whole-system state efficiently; this design adds expiring capabilities and cryptographic state hashing to address those gaps, especially for AI workloads that need safe inference scheduling.",
-   "impact": "Shows end-to-end design and implementation of a multi-ISA microkernel that integrates capability security and AI-native resource management.",
-   "highlights": [
-    "Expiring capabilities with cryptographic seals",
-    "Merkle DAG hashing for attestation and replay",
-    "AI models treated as kernel objects with dedicated scheduling",
-    "Cross-ISA build using portable toolchain"
-   ],
-   "tech": [
-    "C",
-    "Assembly",
-    "Python",
-    "Makefile",
-    "QEMU",
-    "Docker",
-    "SHA-256",
-    "Git"
-   ],
-   "signal": "flagship",
-   "enrichedBy": "ai",
-   "contentHash": "8edd4266f683f264",
-   "primaryRole": "systems-engineer"
   },
   {
    "id": "ni-sh-a-char-texter",
@@ -3499,33 +3503,124 @@
    "primaryRole": "security-engineer"
   },
   {
+   "id": "ni-sh-a-char-resentment",
+   "name": "RESENTMENT",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/RESENTMENT",
+   "url": "https://github.com/ni-sh-a-char/RESENTMENT",
+   "homepage": "https://ni-sh-a-char.github.io/RESENTMENT/",
+   "description": "An AI operating system on its own kernel and your own key. Authority expires, the system is one hash, agents are processes. Any provider, no server.",
+   "topics": [
+    "aarch64",
+    "agents",
+    "ai",
+    "ai-os",
+    "anthropic",
+    "bring-your-own-key",
+    "capability-security",
+    "desktop",
+    "gemini",
+    "kernel",
+    "llm",
+    "local-first"
+   ],
+   "languages": [
+    {
+     "name": "HTML",
+     "bytes": 23448,
+     "pct": 31.6
+    },
+    {
+     "name": "Python",
+     "bytes": 20829,
+     "pct": 28.1
+    },
+    {
+     "name": "CSS",
+     "bytes": 19579,
+     "pct": 26.4
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 9187,
+     "pct": 12.4
+    },
+    {
+     "name": "Shell",
+     "bytes": 1135,
+     "pct": 1.5
+    }
+   ],
+   "primaryLanguage": "HTML",
+   "license": "Apache-2.0",
+   "stars": 0,
+   "forks": 0,
+   "commits": 133,
+   "createdAt": "2023-02-16T19:33:14Z",
+   "pushedAt": "2026-09-02T09:05:55Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "security-engineer"
+   ],
+   "headline": "An AI operating system on its own kernel and your own key. Authority expires, the system i",
+   "what": "--- RESENTMENT OS An AI operating system on its own kernel and your own key. Paste a key from any model provider.",
+   "why": "",
+   "impact": "",
+   "highlights": [
+    "aarch64",
+    "agents",
+    "ai"
+   ],
+   "tech": [
+    "HTML",
+    "Python",
+    "CSS",
+    "JavaScript",
+    "Shell"
+   ],
+   "signal": "solid",
+   "enrichedBy": "readme",
+   "contentHash": "5118092b4681141c",
+   "primaryRole": "security-engineer"
+  },
+  {
    "id": "ni-sh-a-char-ni-sh-a-char-ide",
    "name": "ni_sh_a.char-IDE",
    "owner": "ni-sh-a-char",
    "nameWithOwner": "ni-sh-a-char/ni_sh_a.char-IDE",
    "url": "https://github.com/ni-sh-a-char/ni_sh_a.char-IDE",
-   "homepage": null,
-   "description": "A simple IDE to execute Python codes",
-   "topics": [],
+   "homepage": "https://ni-sh-a-char.github.io/ni_sh_a.char-IDE/",
+   "description": "Run any language, anywhere. A polyglot execution engine, standalone IDE, and one-line embeddable web component. 62 languages, three of them running in your browser with no backend at all.",
+   "topics": [
+    "code-editor",
+    "code-execution",
+    "code-runner",
+    "codemirror",
+    "custom-elements",
+    "developer-tools",
+    "docker",
+    "embeddable",
+    "hacktoberfest",
+    "ide",
+    "javascript",
+    "online-ide"
+   ],
    "languages": [
     {
-     "name": "Shell",
-     "bytes": 3185,
-     "pct": 64.2
-    },
-    {
-     "name": "Python",
-     "bytes": 1775,
-     "pct": 35.8
+     "name": "HTML",
+     "bytes": 48084,
+     "pct": 100
     }
    ],
-   "primaryLanguage": "Shell",
-   "license": "MIT",
+   "primaryLanguage": "HTML",
+   "license": "Apache-2.0",
    "stars": 0,
    "forks": 1,
-   "commits": 128,
+   "commits": 130,
    "createdAt": "2022-07-04T04:33:43Z",
-   "pushedAt": "2025-12-25T07:33:47Z",
+   "pushedAt": "2026-09-02T09:04:58Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -3548,7 +3643,7 @@
    ],
    "signal": "solid",
    "enrichedBy": "groq",
-   "contentHash": "859942ad881da03a",
+   "contentHash": "f4f5ef8ff8001974",
    "primaryRole": "fullstack-developer"
   },
   {
@@ -3857,9 +3952,9 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 110,
+   "commits": 111,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-09-01T10:13:08Z",
+   "pushedAt": "2026-09-01T19:59:03Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
@@ -3889,7 +3984,7 @@
    ],
    "signal": "solid",
    "enrichedBy": "ai",
-   "contentHash": "ed69e2ddc411b869",
+   "contentHash": "f8edacc989e9c4c3",
    "primaryRole": "fullstack-developer"
   },
   {
@@ -4379,6 +4474,87 @@
    "enrichedBy": "groq",
    "contentHash": "3f7c64871a0ed23f",
    "primaryRole": "fullstack-developer"
+  },
+  {
+   "id": "piyush-mishra-00-kryon",
+   "name": "kryon",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/kryon",
+   "url": "https://github.com/PIYUSH-MISHRA-00/kryon",
+   "homepage": "https://piyush-mishra-00.github.io/kryon/",
+   "description": "Powerful terminal execution, everywhere. Cross-platform command execution, interactive processes and streaming, with one conceptual API across Python, TypeScript, Dart, Java and Kotlin.",
+   "topics": [
+    "command-execution",
+    "cross-platform",
+    "developer-tools",
+    "process-execution",
+    "pty",
+    "python",
+    "sdk",
+    "subprocess",
+    "terminal",
+    "terminal-emulator"
+   ],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 100305,
+     "pct": 83.5
+    },
+    {
+     "name": "CSS",
+     "bytes": 13423,
+     "pct": 11.2
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 4055,
+     "pct": 3.4
+    },
+    {
+     "name": "Shell",
+     "bytes": 2322,
+     "pct": 1.9
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": "Apache-2.0",
+   "stars": 0,
+   "forks": 0,
+   "commits": 12,
+   "createdAt": "2026-09-02T08:33:45Z",
+   "pushedAt": "2026-09-02T09:37:38Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "backend-engineer",
+    "devops-engineer"
+   ],
+   "headline": "Cross-language SDK for safe, streamed command execution",
+   "what": "Provides a single API for running OS commands and streaming interactive processes across Python, TypeScript, Dart, Java and Kotlin. The Python SDK implements execution, timeout handling, output limits and result objects without external dependencies and passes a shared JSON-based conformance suite on Linux, macOS and Windows. The design separates a simple result call from a conversational streaming call and enforces strict error reporting.",
+   "why": "Standard subprocess utilities differ per ecosystem and often expose unsafe defaults; the library offers a consistent, secure model for high-volume or untrusted command execution across languages.",
+   "impact": "Shows ability to design and deliver a zero-dependency, multi-language execution library with enforced safety guarantees.",
+   "highlights": [
+    "Unified API across five languages",
+    "Zero-dependency Python implementation",
+    "Strict subprocess safety model",
+    "Cross-platform conformance tests"
+   ],
+   "tech": [
+    "Python",
+    "TypeScript",
+    "Dart",
+    "Java",
+    "Kotlin",
+    "JSON",
+    "subprocess",
+    "cross-platform"
+   ],
+   "signal": "solid",
+   "enrichedBy": "ai",
+   "contentHash": "3c4e3833a450b7fc",
+   "primaryRole": "backend-engineer"
   },
   {
    "id": "piyush-mishra-00-bookish",
@@ -4871,23 +5047,23 @@
    "forks": 0,
    "commits": 4,
    "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-09-01T09:24:24Z",
+   "pushedAt": "2026-09-02T08:47:30Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
    "roles": [
     "fullstack-developer",
-    "ai-engineer"
+    "devops-engineer"
    ],
-   "headline": "Static site listing organization repos with AI-generated summaries",
-   "what": "The site displays every public repository in the ni-sh-a-char organization and shows an AI-written description for each. It is built with plain HTML, CSS and JavaScript served via GitHub Pages, without any framework or bundler. A daily GitHub Actions workflow regenerates a JSON data file and calls an LLM to produce the summaries.",
-   "why": "It provides visitors a quick overview of the organization’s projects without manual documentation.",
-   "impact": "Shows ability to combine static web delivery with CI-driven LLM integration.",
+   "headline": "Static organization website with AI-generated repo summaries",
+   "what": "A public site lists every repository in the organisation and shows an AI-written description of each. It is built with plain HTML, CSS and JavaScript served directly from GitHub Pages, fetching a pre-generated data/repos.json and then a single unauthenticated GitHub API call for recent updates. A daily GitHub Actions workflow invokes an LLM to refresh the JSON when repository metadata changes.",
+   "why": "Provides an up-to-date, human-readable catalog of the org’s projects without manual maintenance, helping visitors understand the codebase quickly.",
+   "impact": "Shows competence in client-side data integration combined with CI-driven AI content generation.",
    "highlights": [
-    "Plain HTML/CSS/JS static site",
-    "GitHub Pages hosting",
-    "GitHub Actions workflow for data refresh",
-    "LLM-generated repo summaries"
+    "Client-side fetch of repos.json and GitHub API",
+    "GitHub Actions workflow generates AI summaries",
+    "Static site deployed via GitHub Pages",
+    "No build step or bundler required"
    ],
    "tech": [
     "JavaScript",
@@ -4895,13 +5071,13 @@
     "CSS",
     "GitHub Pages",
     "GitHub Actions",
-    "Groq API",
-    "LLM",
+    "GitHub API",
+    "LLM API",
     "JSON"
    ],
    "signal": "solid",
    "enrichedBy": "ai",
-   "contentHash": "36607cef40fe5fed",
+   "contentHash": "f0d3854fc5eb21ec",
    "primaryRole": "fullstack-developer"
   },
   {
