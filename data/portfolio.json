@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-09-03T09:57:03.362Z",
+ "syncedAt": "2026-09-03T19:56:17.596Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -12,8 +12,8 @@
  },
  "stats": {
   "projects": 95,
-  "flagships": 14,
-  "commitsByMe": 3876,
+  "flagships": 15,
+  "commitsByMe": 3877,
   "stars": 66,
   "roles": 9,
   "orgs": 2,
@@ -1687,7 +1687,7 @@
    "id": "ai-engineer",
    "name": "AI & LLM Engineer",
    "tagline": "Generative AI, agents, RAG and applied language models.",
-   "count": 9
+   "count": 10
   },
   {
    "id": "data-scientist",
@@ -1699,7 +1699,7 @@
    "id": "security-engineer",
    "name": "Security & Cryptography Engineer",
    "tagline": "Original ciphers, encrypted transport and hardened systems.",
-   "count": 7
+   "count": 6
   },
   {
    "id": "backend-engineer",
@@ -2508,6 +2508,94 @@
    "primaryRole": "data-scientist"
   },
   {
+   "id": "ni-sh-a-char-resentment",
+   "name": "RESENTMENT",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/RESENTMENT",
+   "url": "https://github.com/ni-sh-a-char/RESENTMENT",
+   "homepage": "https://ni-sh-a-char.github.io/RESENTMENT/",
+   "description": "An AI operating system on its own kernel and your own key. Authority expires, the system is one hash, agents are processes. Any provider, no server.",
+   "topics": [
+    "aarch64",
+    "agents",
+    "ai",
+    "ai-os",
+    "anthropic",
+    "bring-your-own-key",
+    "capability-security",
+    "desktop",
+    "gemini",
+    "kernel",
+    "llm",
+    "local-first"
+   ],
+   "languages": [
+    {
+     "name": "HTML",
+     "bytes": 23975,
+     "pct": 32
+    },
+    {
+     "name": "Python",
+     "bytes": 20829,
+     "pct": 27.8
+    },
+    {
+     "name": "CSS",
+     "bytes": 19682,
+     "pct": 26.3
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 9187,
+     "pct": 12.3
+    },
+    {
+     "name": "Shell",
+     "bytes": 1135,
+     "pct": 1.5
+    }
+   ],
+   "primaryLanguage": "HTML",
+   "license": "Apache-2.0",
+   "stars": 0,
+   "forks": 0,
+   "commits": 136,
+   "createdAt": "2023-02-16T19:33:14Z",
+   "pushedAt": "2026-09-02T13:36:51Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "ai-engineer",
+    "security-engineer"
+   ],
+   "headline": "AI-native operating system with capability-secure kernel",
+   "what": "Provides a browser-hosted desktop that talks to a from-scratch kernel via a WebSocket-bridged serial console. The kernel enforces capability-based permissions, tracks a Merkle root hash of the whole machine state, and runs agents as processes using a built-in SHE shell. The system accepts any LLM provider key, keeps it client-side, and can be sealed with AES-GCM.",
+   "why": "It addresses the need for a local-first AI platform that avoids server-side authority and protects model keys while still offering full desktop functionality.",
+   "impact": "Shows end-to-end design and implementation of a capability-secure AI OS, from kernel to web UI, using multiple languages and low-level security primitives.",
+   "highlights": [
+    "Capability-secure kernel with Merkle root hash",
+    "Browser desktop communicates via WebSocket serial bridge",
+    "Bring-your-own-LLM key, never leaves the client",
+    "Supports x86_64, ARM64, RISC-V via QEMU testing"
+   ],
+   "tech": [
+    "Python",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Shell",
+    "WebSocket",
+    "AES-GCM",
+    "QEMU"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "ec492ff285e4105c",
+   "primaryRole": "ai-engineer"
+  },
+  {
    "id": "ni-sh-a-char-natraj",
    "name": "NATRAJ",
    "owner": "ni-sh-a-char",
@@ -2601,25 +2689,25 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 113,
+   "commits": 114,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-09-02T19:52:18Z",
+   "pushedAt": "2026-09-03T09:57:04Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
     "automation-engineer",
-    "devops-engineer"
+    "fullstack-developer"
    ],
-   "headline": "Self-maintaining portfolio site that auto-generates project narratives",
-   "what": "A static website presents a developer’s public repositories organized by role. A GitHub Action scans the account, filters eligible repos, calls a free LLM to write recruiter-facing narratives, and writes the output to data/portfolio.json, which the site renders. The site is built with TypeScript, JavaScript and CSS and updates via a workflow triggered on push or on schedule.",
-   "why": "Manual portfolio updates are time-consuming and error-prone; this automation keeps the showcase current with minimal effort.",
-   "impact": "Shows end-to-end automation of repository discovery, LLM integration, and CI/CD for a live portfolio.",
+   "headline": "Self-maintaining developer portfolio site",
+   "what": "A static site displays a JSON-driven list of public repositories, organized by role. A GitHub Action scans the account, invokes a free-tier LLM to write recruiter-facing narratives, and writes the output to data/portfolio.json. The site reads this file to render a searchable, role-first portfolio without manual edits.",
+   "why": "Keeps a developer’s showcase current without manual copy-pasting, reducing stale information and effort after each commit.",
+   "impact": "Shows automation of a content pipeline from repository discovery to published site using GitHub Actions and LLM APIs.",
    "highlights": [
     "GitHub Action scans public repos",
-    "LLM generates recruiter narratives",
-    "Command palette with fuzzy search",
-    "Role-first project organization"
+    "LLM generates project narratives",
+    "Static export built from JSON data",
+    "Fuzzy command-palette search"
    ],
    "tech": [
     "TypeScript",
@@ -2627,13 +2715,13 @@
     "CSS",
     "GitHub Actions",
     "GitHub CLI",
-    "OpenAI-compatible LLM APIs",
     "Node.js",
-    "npm"
+    "OpenAI-compatible LLM APIs",
+    "JSON"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "28448668bc4d4bd5",
+   "contentHash": "a54ac5328e7be5d3",
    "primaryRole": "automation-engineer"
   },
   {
@@ -3732,89 +3820,6 @@
    "signal": "solid",
    "enrichedBy": "groq",
    "contentHash": "18146fcb1c33fb7d",
-   "primaryRole": "security-engineer"
-  },
-  {
-   "id": "ni-sh-a-char-resentment",
-   "name": "RESENTMENT",
-   "owner": "ni-sh-a-char",
-   "nameWithOwner": "ni-sh-a-char/RESENTMENT",
-   "url": "https://github.com/ni-sh-a-char/RESENTMENT",
-   "homepage": "https://ni-sh-a-char.github.io/RESENTMENT/",
-   "description": "An AI operating system on its own kernel and your own key. Authority expires, the system is one hash, agents are processes. Any provider, no server.",
-   "topics": [
-    "aarch64",
-    "agents",
-    "ai",
-    "ai-os",
-    "anthropic",
-    "bring-your-own-key",
-    "capability-security",
-    "desktop",
-    "gemini",
-    "kernel",
-    "llm",
-    "local-first"
-   ],
-   "languages": [
-    {
-     "name": "HTML",
-     "bytes": 23975,
-     "pct": 32
-    },
-    {
-     "name": "Python",
-     "bytes": 20829,
-     "pct": 27.8
-    },
-    {
-     "name": "CSS",
-     "bytes": 19682,
-     "pct": 26.3
-    },
-    {
-     "name": "JavaScript",
-     "bytes": 9187,
-     "pct": 12.3
-    },
-    {
-     "name": "Shell",
-     "bytes": 1135,
-     "pct": 1.5
-    }
-   ],
-   "primaryLanguage": "HTML",
-   "license": "Apache-2.0",
-   "stars": 0,
-   "forks": 0,
-   "commits": 136,
-   "createdAt": "2023-02-16T19:33:14Z",
-   "pushedAt": "2026-09-02T13:36:51Z",
-   "isArchived": false,
-   "isOrg": true,
-   "org": "ni-sh-a-char",
-   "roles": [
-    "security-engineer"
-   ],
-   "headline": "An AI operating system on its own kernel and your own key. Authority expires, the system i",
-   "what": "--- RESENTMENT OS An AI operating system on its own kernel and your own key. Paste a key from any model provider.",
-   "why": "",
-   "impact": "",
-   "highlights": [
-    "aarch64",
-    "agents",
-    "ai"
-   ],
-   "tech": [
-    "HTML",
-    "Python",
-    "CSS",
-    "JavaScript",
-    "Shell"
-   ],
-   "signal": "solid",
-   "enrichedBy": "readme",
-   "contentHash": "ec492ff285e4105c",
    "primaryRole": "security-engineer"
   },
   {
