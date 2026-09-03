@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-09-02T19:52:17.786Z",
+ "syncedAt": "2026-09-03T09:57:03.362Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,13 +13,13 @@
  "stats": {
   "projects": 95,
   "flagships": 14,
-  "commitsByMe": 3871,
+  "commitsByMe": 3876,
   "stars": 66,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 13270,
-  "totalCommitContributions": 3054,
+  "contributionsLastYear": 13277,
+  "totalCommitContributions": 3061,
   "totalIssueContributions": 7832,
   "totalPullRequestContributions": 0,
   "privateContributions": 2371,
@@ -1675,6 +1675,10 @@
    {
     "date": "2026-09-02",
     "contributionCount": 46
+   },
+   {
+    "date": "2026-09-03",
+    "contributionCount": 7
    }
   ]
  ],
@@ -1707,7 +1711,7 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 32
+   "count": 31
   },
   {
    "id": "mobile-developer",
@@ -1731,14 +1735,14 @@
    "id": "automation-engineer",
    "name": "Automation Engineer",
    "tagline": "Scripts and pipelines that delete repetitive work.",
-   "count": 6
+   "count": 7
   }
  ],
  "orgs": [
   {
    "login": "ni-sh-a-char",
    "projects": 40,
-   "commits": 3321,
+   "commits": 3324,
    "name": "ni_sh_a.char",
    "description": "Transforming Computing...!",
    "url": "https://github.com/ni-sh-a-char",
@@ -2050,9 +2054,9 @@
    "license": "MIT",
    "stars": 2,
    "forks": 0,
-   "commits": 133,
+   "commits": 134,
    "createdAt": "2022-07-23T05:52:06Z",
-   "pushedAt": "2026-08-29T10:37:08Z",
+   "pushedAt": "2026-09-03T09:46:19Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -2060,21 +2064,21 @@
     "fullstack-developer",
     "devops-engineer"
    ],
-   "headline": "3D immersive photography portfolio rendered in the browser",
-   "what": "A site lets visitors walk through a moonlit stone arcade where each photograph hangs on a wall. The corridor is generated with Three.js and supports WASD movement, pointer-lock, and click navigation. Image processing, resizing, colour sampling and AI-generated captions run in a GitHub Actions workflow that redeploys the static site on push.",
-   "why": "Typical photography portfolios use static grids; this project provides an exploratory spatial experience that automatically incorporates new images without code changes.",
-   "impact": "Shows ability to combine interactive three.js front-end work with automated CI pipelines and AI-driven content generation.",
+   "headline": "3D browser-based photography gallery with walk-through navigation",
+   "what": "A static site renders a moonlit stone arcade in the browser using three.js, letting visitors walk through and inspect photographs. Images placed in a folder are processed by GitHub Actions, which resize them, sample colors and invoke an AI model to generate titles, captions and tags at build time. The resulting metadata drives the placement of frames along the corridor, and the site is served via GitHub Pages without a build framework.",
+   "why": "Typical photo portfolios use grid layouts; this project provides an immersive, navigable space that updates automatically when new images are added.",
+   "impact": "Shows end-to-end skill in interactive three.js development, CI-driven asset pipelines, and AI-augmented content generation.",
    "highlights": [
-    "Three.js scene with keyboard and pointer-lock navigation",
-    "GitHub Actions pipeline resizes images and creates AI captions",
-    "Zero-build static site deployed via GitHub Pages",
-    "Layout and metadata derived automatically from photo folder"
+    "Three.js corridor rendered in real time",
+    "GitHub Actions auto-process images",
+    "AI-generated titles and tags at build time",
+    "Keyboard-driven walk navigation"
    ],
    "tech": [
     "JavaScript",
     "HTML",
     "CSS",
-    "Three.js",
+    "three.js",
     "GitHub Actions",
     "Node.js",
     "OpenAI API",
@@ -2082,7 +2086,7 @@
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "54bd241ccbda43ce",
+   "contentHash": "de529285e327fd6d",
    "primaryRole": "fullstack-developer"
   },
   {
@@ -2250,7 +2254,7 @@
     },
     {
      "name": "Makefile",
-     "bytes": 19539,
+     "bytes": 19795,
      "pct": 1.7
     },
     {
@@ -2263,9 +2267,9 @@
    "license": "NOASSERTION",
    "stars": 0,
    "forks": 0,
-   "commits": 155,
+   "commits": 157,
    "createdAt": "2023-02-16T19:34:49Z",
-   "pushedAt": "2026-09-02T08:37:57Z",
+   "pushedAt": "2026-09-03T09:54:04Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -2274,28 +2278,28 @@
     "security-engineer"
    ],
    "headline": "Capability-secure AI-native microkernel for x86_64, ARM64, RISC-V",
-   "what": "A from-scratch operating system kernel that runs on x86_64, ARM64 and RISC-V without relying on Unix abstractions. It encodes every kernel object as a node in a Merkle DAG, providing a single SHA-256 root digest for state attestation and replay. The kernel is written primarily in C with assembly boot code and uses a portable Makefile-driven toolchain, runnable under QEMU or Docker.",
-   "why": "Conventional kernels lack fine-grained, time-bounded authority and cannot verify whole-system state efficiently; this design adds expiring capabilities and cryptographic state hashing to address those gaps, especially for AI workloads that need safe inference scheduling.",
-   "impact": "Shows end-to-end design and implementation of a multi-ISA microkernel that integrates capability security and AI-native resource management.",
+   "what": "A from-scratch operating system kernel that runs on x86_64, ARM64 and RISC-V. It implements expiring capabilities sealed with cryptographic timestamps and represents every kernel object as a node in a Merkle DAG with a SHA-256 root digest. The kernel also treats AI models, tensors and attention caches as first-class scheduling classes.",
+   "why": "Conventional kernels lack fine-grained authority expiration and cannot provide verifiable system state, making revocation and attestation difficult. The design adds built-in expiration, state hashing, and AI inference as a managed resource.",
+   "impact": "Shows end-to-end design and implementation of a low-level kernel that integrates capability security and AI resource management.",
    "highlights": [
     "Expiring capabilities with cryptographic seals",
-    "Merkle DAG hashing for attestation and replay",
-    "AI models treated as kernel objects with dedicated scheduling",
-    "Cross-ISA build using portable toolchain"
+    "Merkle DAG representation of kernel objects",
+    "Inference objects as schedulable resources",
+    "Cross-architecture build for x86_64, ARM64, RISC-V"
    ],
    "tech": [
     "C",
     "Assembly",
     "Python",
     "Makefile",
-    "QEMU",
-    "Docker",
     "SHA-256",
-    "Git"
+    "Merkle DAG",
+    "QEMU",
+    "Docker"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "fd0bc82d72872174",
+   "contentHash": "269e1745de4a0c73",
    "primaryRole": "systems-engineer"
   },
   {
@@ -2597,25 +2601,25 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 112,
+   "commits": 113,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-09-02T09:44:36Z",
+   "pushedAt": "2026-09-02T19:52:18Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "fullstack-developer",
+    "automation-engineer",
     "devops-engineer"
    ],
-   "headline": "Self-maintaining developer portfolio site",
-   "what": "A static site that displays recruiter-facing narratives for every public repository. It is built with TypeScript and CSS and is regenerated by a GitHub Action that queries the GitHub API, runs a free LLM to write descriptions, and commits the result to data/portfolio.json.",
-   "why": "Keeps the portfolio up-to-date automatically, removing manual edits after each project push. Provides a role-first view that highlights relevant experience for recruiters.",
-   "impact": "Shows end-to-end automation from source control to live web content using CI/CD and LLM integration.",
+   "headline": "Self-maintaining portfolio site that auto-generates project narratives",
+   "what": "A static website presents a developer’s public repositories organized by role. A GitHub Action scans the account, filters eligible repos, calls a free LLM to write recruiter-facing narratives, and writes the output to data/portfolio.json, which the site renders. The site is built with TypeScript, JavaScript and CSS and updates via a workflow triggered on push or on schedule.",
+   "why": "Manual portfolio updates are time-consuming and error-prone; this automation keeps the showcase current with minimal effort.",
+   "impact": "Shows end-to-end automation of repository discovery, LLM integration, and CI/CD for a live portfolio.",
    "highlights": [
-    "GitHub Action scans repos and writes narratives",
-    "LLM-driven auto-generation of project descriptions",
-    "Role-first organization with live project counts",
-    "Command palette for fuzzy search across projects"
+    "GitHub Action scans public repos",
+    "LLM generates recruiter narratives",
+    "Command palette with fuzzy search",
+    "Role-first project organization"
    ],
    "tech": [
     "TypeScript",
@@ -2623,14 +2627,14 @@
     "CSS",
     "GitHub Actions",
     "GitHub CLI",
-    "OpenAI-compatible LLM API",
-    "npm",
-    "JSON"
+    "OpenAI-compatible LLM APIs",
+    "Node.js",
+    "npm"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "f903f37482ac7b69",
-   "primaryRole": "fullstack-developer"
+   "contentHash": "28448668bc4d4bd5",
+   "primaryRole": "automation-engineer"
   },
   {
    "id": "ni-sh-a-char-youtube-shorts-automation",
@@ -2748,9 +2752,9 @@
    "license": "Apache-2.0",
    "stars": 0,
    "forks": 0,
-   "commits": 29,
+   "commits": 30,
    "createdAt": "2026-09-02T08:33:45Z",
-   "pushedAt": "2026-09-02T18:57:39Z",
+   "pushedAt": "2026-09-03T09:33:04Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
@@ -2758,29 +2762,29 @@
     "backend-engineer",
     "devops-engineer"
    ],
-   "headline": "Cross-language SDK for consistent terminal command execution",
-   "what": "Provides a single conceptual API for running OS commands and streaming processes in Python, TypeScript, Dart, Java and Kotlin. Each SDK implements the same execution model and passes a shared conformance test suite on Linux, macOS and Windows. The libraries are published to PyPI, npm, pub.dev and Maven Central with minimal runtime dependencies.",
-   "why": "Language-specific subprocess utilities diverge on error handling, timeouts and resource limits, leading to fragile code. The SDK offers a well-specified, uniform model that avoids common pitfalls such as accidental shell execution and unbounded output buffering.",
-   "impact": "Shows ability to design and deliver a multi-language developer tool with unified behavior and comprehensive automated verification.",
+   "headline": "Cross-language SDK for safe, streamed command execution",
+   "what": "Provides a single conceptual API for running OS commands and streaming process output in Python, TypeScript, Dart, Java and Kotlin. Each SDK enforces strict error handling, timeouts, and output caps without relying on shell execution. The libraries share a JSON-based conformance corpus that validates identical behavior on Linux, macOS and Windows.",
+   "why": "Standard subprocess utilities differ across ecosystems and often expose unsafe defaults; the SDK offers a consistent, secure model for streaming, limiting, and handling untrusted commands across languages.",
+   "impact": "Shows ability to design and deliver a multi-language library with uniform semantics and automated cross-platform verification.",
    "highlights": [
-    "Unified API across five languages",
-    "Shared conformance corpus enforces identical behavior",
-    "Zero-runtime dependencies (Kotlin uses only coroutines)",
-    "Accurate timeout and output-cap enforcement"
+    "Unified API across 5 languages",
+    "Enforced timeouts and memory caps",
+    "Zero-runtime dependencies (Kotlin uses coroutines)",
+    "Shared conformance test suite"
    ],
    "tech": [
     "Python",
+    "TypeScript",
+    "Dart",
     "Java",
     "Kotlin",
-    "Dart",
-    "TypeScript",
-    "subprocess",
-    "coroutines",
-    "Maven Central"
+    "Maven Central",
+    "npm",
+    "PyPI"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "25ea1f9a5f6ba9b8",
+   "contentHash": "68fbaa13963e8a07",
    "primaryRole": "backend-engineer"
   },
   {
@@ -5037,71 +5041,6 @@
    "primaryRole": "data-scientist"
   },
   {
-   "id": "ni-sh-a-char-ni-sh-a-char",
-   "name": "ni_sh_a.char",
-   "owner": "ni-sh-a-char",
-   "nameWithOwner": "ni-sh-a-char/ni_sh_a.char",
-   "url": "https://github.com/ni-sh-a-char/ni_sh_a.char",
-   "homepage": "https://ni-sh-a-char.github.io/ni_sh_a.char/",
-   "description": "Website for the organization",
-   "topics": [],
-   "languages": [
-    {
-     "name": "JavaScript",
-     "bytes": 20577,
-     "pct": 37.3
-    },
-    {
-     "name": "CSS",
-     "bytes": 20105,
-     "pct": 36.4
-    },
-    {
-     "name": "HTML",
-     "bytes": 14553,
-     "pct": 26.3
-    }
-   ],
-   "primaryLanguage": "JavaScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 4,
-   "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-09-02T08:47:30Z",
-   "isArchived": false,
-   "isOrg": true,
-   "org": "ni-sh-a-char",
-   "roles": [
-    "fullstack-developer",
-    "devops-engineer"
-   ],
-   "headline": "Static organization website with AI-generated repo summaries",
-   "what": "A public site lists every repository in the organisation and shows an AI-written description of each. It is built with plain HTML, CSS and JavaScript served directly from GitHub Pages, fetching a pre-generated data/repos.json and then a single unauthenticated GitHub API call for recent updates. A daily GitHub Actions workflow invokes an LLM to refresh the JSON when repository metadata changes.",
-   "why": "Provides an up-to-date, human-readable catalog of the org’s projects without manual maintenance, helping visitors understand the codebase quickly.",
-   "impact": "Shows competence in client-side data integration combined with CI-driven AI content generation.",
-   "highlights": [
-    "Client-side fetch of repos.json and GitHub API",
-    "GitHub Actions workflow generates AI summaries",
-    "Static site deployed via GitHub Pages",
-    "No build step or bundler required"
-   ],
-   "tech": [
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "GitHub Pages",
-    "GitHub Actions",
-    "GitHub API",
-    "LLM API",
-    "JSON"
-   ],
-   "signal": "solid",
-   "enrichedBy": "ai",
-   "contentHash": "f0d3854fc5eb21ec",
-   "primaryRole": "fullstack-developer"
-  },
-  {
    "id": "piyush-mishra-00-movie-recommendations-system",
    "name": "Movie-Recommendations-System",
    "owner": "PIYUSH-MISHRA-00",
@@ -6670,6 +6609,70 @@
    "enrichedBy": "ai",
    "contentHash": "ca6cc6ab702351e9",
    "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "ni-sh-a-char-ni-sh-a-char",
+   "name": "ni_sh_a.char",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/ni_sh_a.char",
+   "url": "https://github.com/ni-sh-a-char/ni_sh_a.char",
+   "homepage": "https://ni-sh-a-char.github.io/ni_sh_a.char/",
+   "description": "Website for the organization",
+   "topics": [],
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 20577,
+     "pct": 37.3
+    },
+    {
+     "name": "CSS",
+     "bytes": 20105,
+     "pct": 36.4
+    },
+    {
+     "name": "HTML",
+     "bytes": 14553,
+     "pct": 26.3
+    }
+   ],
+   "primaryLanguage": "JavaScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 4,
+   "createdAt": "2026-08-18T05:24:38Z",
+   "pushedAt": "2026-09-03T08:56:20Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "fullstack-developer",
+    "ai-engineer"
+   ],
+   "headline": "Static organization website with AI-generated repo summaries",
+   "what": "Provides a public site that lists all repositories in the ni-sh-a-char organization and shows AI-written descriptions. The page is static HTML/CSS/JS served via GitHub Pages; a daily GitHub Actions workflow regenerates a JSON snapshot and calls an LLM to write summaries for changed repos.",
+   "why": "Allows visitors to discover the organization’s projects without manual updates, and automates summary creation.",
+   "impact": "Demonstrates ability to integrate CI workflows, external LLM APIs, and client-side data fetching in a zero-build static site.",
+   "highlights": [
+    "AI-generated repo descriptions",
+    "Daily data refresh via GitHub Actions",
+    "Static site hosted on GitHub Pages",
+    "Handles offline or rate-limited API fallback"
+   ],
+   "tech": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "GitHub Pages",
+    "GitHub Actions",
+    "LLM API (Groq/OpenAI)",
+    "fetch API"
+   ],
+   "signal": "minor",
+   "enrichedBy": "ai",
+   "contentHash": "a7d68c9f3df8e36d",
+   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-birthdaygreet",
