@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-09-03T19:56:17.596Z",
+ "syncedAt": "2026-09-04T09:51:14.869Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,8 +13,8 @@
  "stats": {
   "projects": 95,
   "flagships": 15,
-  "commitsByMe": 3877,
-  "stars": 66,
+  "commitsByMe": 3878,
+  "stars": 67,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
@@ -1679,6 +1679,10 @@
    {
     "date": "2026-09-03",
     "contributionCount": 7
+   },
+   {
+    "date": "2026-09-04",
+    "contributionCount": 0
    }
   ]
  ],
@@ -1687,7 +1691,7 @@
    "id": "ai-engineer",
    "name": "AI & LLM Engineer",
    "tagline": "Generative AI, agents, RAG and applied language models.",
-   "count": 10
+   "count": 11
   },
   {
    "id": "data-scientist",
@@ -1735,7 +1739,7 @@
    "id": "automation-engineer",
    "name": "Automation Engineer",
    "tagline": "Scripts and pipelines that delete repetitive work.",
-   "count": 7
+   "count": 6
   }
  ],
  "orgs": [
@@ -2148,6 +2152,102 @@
    "enrichedBy": "groq",
    "contentHash": "31452846d08f1b48",
    "primaryRole": "ai-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-kryon",
+   "name": "kryon",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/kryon",
+   "url": "https://github.com/PIYUSH-MISHRA-00/kryon",
+   "homepage": "https://piyush-mishra-00.github.io/kryon/",
+   "description": "Powerful terminal execution, everywhere. Cross-platform command execution, interactive processes and streaming, with one conceptual API across Python, TypeScript, Dart, Java and Kotlin.",
+   "topics": [
+    "command-execution",
+    "cross-platform",
+    "developer-tools",
+    "process-execution",
+    "pty",
+    "python",
+    "sdk",
+    "subprocess",
+    "terminal",
+    "terminal-emulator"
+   ],
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 109508,
+     "pct": 25.5
+    },
+    {
+     "name": "Java",
+     "bytes": 102733,
+     "pct": 23.9
+    },
+    {
+     "name": "Kotlin",
+     "bytes": 65563,
+     "pct": 15.3
+    },
+    {
+     "name": "Dart",
+     "bytes": 64317,
+     "pct": 15
+    },
+    {
+     "name": "TypeScript",
+     "bytes": 40743,
+     "pct": 9.5
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 28553,
+     "pct": 6.7
+    },
+    {
+     "name": "CSS",
+     "bytes": 13882,
+     "pct": 3.2
+    }
+   ],
+   "primaryLanguage": "Python",
+   "license": "Apache-2.0",
+   "stars": 1,
+   "forks": 0,
+   "commits": 30,
+   "createdAt": "2026-09-02T08:33:45Z",
+   "pushedAt": "2026-09-03T09:33:04Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "backend-engineer",
+    "devops-engineer"
+   ],
+   "headline": "Cross-language SDK for safe, streamed command execution",
+   "what": "Provides a single conceptual API for running OS commands and streaming process output in Python, TypeScript, Dart, Java and Kotlin. Each SDK enforces strict error handling, timeouts, and output caps without relying on shell execution. The libraries share a JSON-based conformance corpus that validates identical behavior on Linux, macOS and Windows.",
+   "why": "Standard subprocess utilities differ across ecosystems and often expose unsafe defaults; the SDK offers a consistent, secure model for streaming, limiting, and handling untrusted commands across languages.",
+   "impact": "Shows ability to design and deliver a multi-language library with uniform semantics and automated cross-platform verification.",
+   "highlights": [
+    "Unified API across 5 languages",
+    "Enforced timeouts and memory caps",
+    "Zero-runtime dependencies (Kotlin uses coroutines)",
+    "Shared conformance test suite"
+   ],
+   "tech": [
+    "Python",
+    "TypeScript",
+    "Dart",
+    "Java",
+    "Kotlin",
+    "Maven Central",
+    "npm",
+    "PyPI"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "68fbaa13963e8a07",
+   "primaryRole": "backend-engineer"
   },
   {
    "id": "piyush-mishra-00-rag-application",
@@ -2689,25 +2789,25 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 114,
+   "commits": 115,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-09-03T09:57:04Z",
+   "pushedAt": "2026-09-03T19:56:18Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "automation-engineer",
-    "fullstack-developer"
+    "fullstack-developer",
+    "devops-engineer"
    ],
    "headline": "Self-maintaining developer portfolio site",
-   "what": "A static site displays a JSON-driven list of public repositories, organized by role. A GitHub Action scans the account, invokes a free-tier LLM to write recruiter-facing narratives, and writes the output to data/portfolio.json. The site reads this file to render a searchable, role-first portfolio without manual edits.",
-   "why": "Keeps a developer’s showcase current without manual copy-pasting, reducing stale information and effort after each commit.",
-   "impact": "Shows automation of a content pipeline from repository discovery to published site using GitHub Actions and LLM APIs.",
+   "what": "A static site that lists public repositories and displays recruiter-facing narratives. A GitHub Action queries the GitHub API, runs a free LLM to write project summaries, and writes the results to data/portfolio.json, which the site renders. Built with TypeScript, JavaScript and CSS and driven by npm scripts and the GitHub CLI.",
+   "why": "Manual updates to a portfolio are time-consuming; this service keeps the page current automatically after each push.",
+   "impact": "Shows end-to-end automation of CI/CD, API integration, and static-site generation with TypeScript.",
    "highlights": [
-    "GitHub Action scans public repos",
-    "LLM generates project narratives",
-    "Static export built from JSON data",
-    "Fuzzy command-palette search"
+    "GitHub Action automates repo discovery",
+    "LLM-generated project narratives",
+    "Role-first project organization",
+    "Command palette with fuzzy search"
    ],
    "tech": [
     "TypeScript",
@@ -2715,14 +2815,14 @@
     "CSS",
     "GitHub Actions",
     "GitHub CLI",
-    "Node.js",
-    "OpenAI-compatible LLM APIs",
+    "npm",
+    "LLM APIs (OpenAI-compatible)",
     "JSON"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "a54ac5328e7be5d3",
-   "primaryRole": "automation-engineer"
+   "contentHash": "93813f59f66d49a7",
+   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-youtube-shorts-automation",
@@ -2778,102 +2878,6 @@
    "enrichedBy": "groq",
    "contentHash": "cf0eb7281cd58029",
    "primaryRole": "automation-engineer"
-  },
-  {
-   "id": "piyush-mishra-00-kryon",
-   "name": "kryon",
-   "owner": "PIYUSH-MISHRA-00",
-   "nameWithOwner": "PIYUSH-MISHRA-00/kryon",
-   "url": "https://github.com/PIYUSH-MISHRA-00/kryon",
-   "homepage": "https://piyush-mishra-00.github.io/kryon/",
-   "description": "Powerful terminal execution, everywhere. Cross-platform command execution, interactive processes and streaming, with one conceptual API across Python, TypeScript, Dart, Java and Kotlin.",
-   "topics": [
-    "command-execution",
-    "cross-platform",
-    "developer-tools",
-    "process-execution",
-    "pty",
-    "python",
-    "sdk",
-    "subprocess",
-    "terminal",
-    "terminal-emulator"
-   ],
-   "languages": [
-    {
-     "name": "Python",
-     "bytes": 109508,
-     "pct": 25.5
-    },
-    {
-     "name": "Java",
-     "bytes": 102733,
-     "pct": 23.9
-    },
-    {
-     "name": "Kotlin",
-     "bytes": 65563,
-     "pct": 15.3
-    },
-    {
-     "name": "Dart",
-     "bytes": 64317,
-     "pct": 15
-    },
-    {
-     "name": "TypeScript",
-     "bytes": 40743,
-     "pct": 9.5
-    },
-    {
-     "name": "JavaScript",
-     "bytes": 28553,
-     "pct": 6.7
-    },
-    {
-     "name": "CSS",
-     "bytes": 13882,
-     "pct": 3.2
-    }
-   ],
-   "primaryLanguage": "Python",
-   "license": "Apache-2.0",
-   "stars": 0,
-   "forks": 0,
-   "commits": 30,
-   "createdAt": "2026-09-02T08:33:45Z",
-   "pushedAt": "2026-09-03T09:33:04Z",
-   "isArchived": false,
-   "isOrg": false,
-   "org": null,
-   "roles": [
-    "backend-engineer",
-    "devops-engineer"
-   ],
-   "headline": "Cross-language SDK for safe, streamed command execution",
-   "what": "Provides a single conceptual API for running OS commands and streaming process output in Python, TypeScript, Dart, Java and Kotlin. Each SDK enforces strict error handling, timeouts, and output caps without relying on shell execution. The libraries share a JSON-based conformance corpus that validates identical behavior on Linux, macOS and Windows.",
-   "why": "Standard subprocess utilities differ across ecosystems and often expose unsafe defaults; the SDK offers a consistent, secure model for streaming, limiting, and handling untrusted commands across languages.",
-   "impact": "Shows ability to design and deliver a multi-language library with uniform semantics and automated cross-platform verification.",
-   "highlights": [
-    "Unified API across 5 languages",
-    "Enforced timeouts and memory caps",
-    "Zero-runtime dependencies (Kotlin uses coroutines)",
-    "Shared conformance test suite"
-   ],
-   "tech": [
-    "Python",
-    "TypeScript",
-    "Dart",
-    "Java",
-    "Kotlin",
-    "Maven Central",
-    "npm",
-    "PyPI"
-   ],
-   "signal": "flagship",
-   "enrichedBy": "ai",
-   "contentHash": "68fbaa13963e8a07",
-   "primaryRole": "backend-engineer"
   },
   {
    "id": "the-lord-buddha-club-rak-sh-ak",
@@ -5046,6 +5050,71 @@
    "primaryRole": "data-scientist"
   },
   {
+   "id": "ni-sh-a-char-ni-sh-a-char",
+   "name": "ni_sh_a.char",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/ni_sh_a.char",
+   "url": "https://github.com/ni-sh-a-char/ni_sh_a.char",
+   "homepage": "https://ni-sh-a-char.github.io/ni_sh_a.char/",
+   "description": "Website for the organization",
+   "topics": [],
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 20577,
+     "pct": 37.3
+    },
+    {
+     "name": "CSS",
+     "bytes": 20105,
+     "pct": 36.4
+    },
+    {
+     "name": "HTML",
+     "bytes": 14553,
+     "pct": 26.3
+    }
+   ],
+   "primaryLanguage": "JavaScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 4,
+   "createdAt": "2026-08-18T05:24:38Z",
+   "pushedAt": "2026-09-04T08:50:51Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "ai-engineer",
+    "fullstack-developer"
+   ],
+   "headline": "Static organization website with AI-generated repo summaries",
+   "what": "A public site lists every repository in the organisation and shows an AI-written breakdown of each project. It is built with plain HTML, CSS and JavaScript served directly from GitHub Pages, without any framework or bundler. A daily GitHub Actions workflow calls an LLM to refresh data/repos.json and updates the summaries.",
+   "why": "Keeps the organisation’s repository catalog up-to-date automatically, removing manual editing of project descriptions.",
+   "impact": "Demonstrates end-to-end integration of client-side rendering, CI/CD, and LLM-driven content generation.",
+   "highlights": [
+    "AI-generated project descriptions",
+    "GitHub Actions daily data refresh",
+    "No build step or framework",
+    "Fallback snapshot on API limits"
+   ],
+   "tech": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "GitHub Pages",
+    "GitHub Actions",
+    "LLM API (Groq/OpenAI",
+    "JSON",
+    "Fetch API"
+   ],
+   "signal": "solid",
+   "enrichedBy": "ai",
+   "contentHash": "864829896c0c57f3",
+   "primaryRole": "ai-engineer"
+  },
+  {
    "id": "piyush-mishra-00-movie-recommendations-system",
    "name": "Movie-Recommendations-System",
    "owner": "PIYUSH-MISHRA-00",
@@ -6614,70 +6683,6 @@
    "enrichedBy": "ai",
    "contentHash": "ca6cc6ab702351e9",
    "primaryRole": "mobile-developer"
-  },
-  {
-   "id": "ni-sh-a-char-ni-sh-a-char",
-   "name": "ni_sh_a.char",
-   "owner": "ni-sh-a-char",
-   "nameWithOwner": "ni-sh-a-char/ni_sh_a.char",
-   "url": "https://github.com/ni-sh-a-char/ni_sh_a.char",
-   "homepage": "https://ni-sh-a-char.github.io/ni_sh_a.char/",
-   "description": "Website for the organization",
-   "topics": [],
-   "languages": [
-    {
-     "name": "JavaScript",
-     "bytes": 20577,
-     "pct": 37.3
-    },
-    {
-     "name": "CSS",
-     "bytes": 20105,
-     "pct": 36.4
-    },
-    {
-     "name": "HTML",
-     "bytes": 14553,
-     "pct": 26.3
-    }
-   ],
-   "primaryLanguage": "JavaScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 4,
-   "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-09-03T08:56:20Z",
-   "isArchived": false,
-   "isOrg": true,
-   "org": "ni-sh-a-char",
-   "roles": [
-    "fullstack-developer",
-    "ai-engineer"
-   ],
-   "headline": "Static organization website with AI-generated repo summaries",
-   "what": "Provides a public site that lists all repositories in the ni-sh-a-char organization and shows AI-written descriptions. The page is static HTML/CSS/JS served via GitHub Pages; a daily GitHub Actions workflow regenerates a JSON snapshot and calls an LLM to write summaries for changed repos.",
-   "why": "Allows visitors to discover the organization’s projects without manual updates, and automates summary creation.",
-   "impact": "Demonstrates ability to integrate CI workflows, external LLM APIs, and client-side data fetching in a zero-build static site.",
-   "highlights": [
-    "AI-generated repo descriptions",
-    "Daily data refresh via GitHub Actions",
-    "Static site hosted on GitHub Pages",
-    "Handles offline or rate-limited API fallback"
-   ],
-   "tech": [
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "GitHub Pages",
-    "GitHub Actions",
-    "LLM API (Groq/OpenAI)",
-    "fetch API"
-   ],
-   "signal": "minor",
-   "enrichedBy": "ai",
-   "contentHash": "a7d68c9f3df8e36d",
-   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-birthdaygreet",
