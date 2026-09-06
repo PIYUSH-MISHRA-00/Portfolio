@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-09-05T19:06:42.084Z",
+ "syncedAt": "2026-09-06T09:31:25.044Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 95,
   "flagships": 15,
-  "commitsByMe": 3881,
+  "commitsByMe": 3882,
   "stars": 67,
   "roles": 9,
   "orgs": 2,
@@ -99,36 +99,6 @@
   ]
  },
  "calendar": [
-  [
-   {
-    "date": "2025-08-31",
-    "contributionCount": 0
-   },
-   {
-    "date": "2025-09-01",
-    "contributionCount": 0
-   },
-   {
-    "date": "2025-09-02",
-    "contributionCount": 0
-   },
-   {
-    "date": "2025-09-03",
-    "contributionCount": 0
-   },
-   {
-    "date": "2025-09-04",
-    "contributionCount": 0
-   },
-   {
-    "date": "2025-09-05",
-    "contributionCount": 0
-   },
-   {
-    "date": "2025-09-06",
-    "contributionCount": 10
-   }
-  ],
   [
    {
     "date": "2025-09-07",
@@ -1688,6 +1658,12 @@
     "date": "2026-09-05",
     "contributionCount": 0
    }
+  ],
+  [
+   {
+    "date": "2026-09-06",
+    "contributionCount": 0
+   }
   ]
  ],
  "roles": [
@@ -1719,7 +1695,7 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 31
+   "count": 32
   },
   {
    "id": "mobile-developer",
@@ -1731,7 +1707,7 @@
    "id": "devops-engineer",
    "name": "DevOps & Platform Engineer",
    "tagline": "Containers, images and reproducible environments.",
-   "count": 2
+   "count": 1
   },
   {
    "id": "systems-engineer",
@@ -2793,40 +2769,40 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 118,
+   "commits": 119,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-09-05T09:10:14Z",
+   "pushedAt": "2026-09-05T19:06:43Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "devops-engineer",
-    "automation-engineer"
+    "fullstack-developer",
+    "devops-engineer"
    ],
-   "headline": "Self-maintaining portfolio site generator",
-   "what": "A static site reads a generated data/portfolio.json and displays projects organized by role. A GitHub Action scans public repositories, invokes a free LLM to write recruiter-facing narratives, and commits the results. The workflow runs on push or on a twice-daily schedule to keep the site current.",
-   "why": "Keeps a personal portfolio synchronized with every public contribution without manual edits, reducing stale information and manual effort.",
-   "impact": "Shows ability to automate CI/CD pipelines and content generation with GitHub Actions and TypeScript.",
+   "headline": "Self-maintaining portfolio site that auto-generates project narratives",
+   "what": "A static site reads every public, non-fork repository on the account, runs a GitHub Action that calls free LLM APIs to write recruiter-facing narratives, and writes the results to data/portfolio.json. The front-end renders the JSON with a role-first layout, command palette, and brief mode. Built with TypeScript, JavaScript, CSS and Node.js, orchestrated by GitHub Actions and the GitHub CLI.",
+   "why": "Keeps a developer’s portfolio current without manual edits, ensuring new work appears as soon as it is pushed. Reduces the overhead of maintaining separate documentation for each project.",
+   "impact": "Shows end-to-end automation of data collection, AI-generated content, and CI/CD deployment in a production-ready web app.",
    "highlights": [
-    "GitHub Action syncs repos to JSON",
-    "LLM writes recruiter narratives",
-    "Role-first project organization",
-    "Command palette with fuzzy search"
+    "GitHub Action fetches repos and triggers sync",
+    "LLM-generated recruiter narratives per project",
+    "Role-first organization with live project counts",
+    "Fuzzy command-palette search across projects"
    ],
    "tech": [
     "TypeScript",
     "JavaScript",
     "CSS",
     "GitHub Actions",
-    "GitHub CLI",
     "Node.js",
-    "npm",
-    "OpenAI-compatible LLM APIs"
+    "OpenAI-compatible LLM APIs",
+    "GitHub CLI",
+    "Static site generation"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "d2f7d3c21a39adbb",
-   "primaryRole": "devops-engineer"
+   "contentHash": "f428c38c6f0e5347",
+   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-youtube-shorts-automation",
@@ -5085,36 +5061,37 @@
    "forks": 0,
    "commits": 4,
    "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-09-05T08:21:26Z",
+   "pushedAt": "2026-09-06T08:39:54Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
    "roles": [
     "fullstack-developer",
-    "ai-engineer"
+    "devops-engineer"
    ],
-   "headline": "Static organization site with AI-generated repo summaries",
-   "what": "A public website lists every public repository in the organisation and shows an AI-written description of each. The site is plain HTML, CSS and JavaScript with no framework or build step; it loads a pre-generated data/repos.json and optionally refreshes data via a single unauthenticated GitHub API call. A daily GitHub Actions workflow regenerates the JSON and calls an LLM to write summaries for changed repositories.",
-   "why": "It provides an up-to-date, human-readable overview of the organisation’s code assets without manual maintenance.",
-   "impact": "Shows practical integration of LLM APIs in CI pipelines and delivery of a zero-build static web service.",
+   "headline": "Static organization website with AI-generated repo summaries",
+   "what": "A public site lists every organization repository and shows an AI-written description of each. It is pure HTML, CSS and JavaScript served by GitHub Pages, loads a static repos.json then makes a single unauthenticated GitHub API request for newer repos. A daily GitHub Actions workflow regenerates repos.json and calls a free LLM to write summaries, keeping the API key in secrets.",
+   "why": "Keeps the organization’s project catalog up-to-date without manual edits, giving visitors quick insight into each repo’s purpose.",
+   "impact": "Shows competence in client-side API integration, CI/CD automation, and secure LLM usage within a static web context.",
    "highlights": [
-    "Daily GitHub Actions workflow generates repo JSON",
-    "AI summaries produced via LLM API",
-    "Static site loads data with one API call",
-    "Client-side filtering of unwanted repos"
+    "Client-side fetch of GitHub repo list",
+    "GitHub Actions workflow generates repos.json",
+    "LLM integration via secret API key",
+    "No build step; pure static assets"
    ],
    "tech": [
     "JavaScript",
     "HTML",
     "CSS",
+    "GitHub Pages",
     "GitHub Actions",
-    "LLM API (Groq/OpenAI",
-    "GitHub API",
+    "REST API",
+    "LLM (Groq/OpenAI compatible)",
     "JSON"
    ],
    "signal": "solid",
    "enrichedBy": "ai",
-   "contentHash": "189e52abd12b4e90",
+   "contentHash": "750388fa3ca237d7",
    "primaryRole": "fullstack-developer"
   },
   {
