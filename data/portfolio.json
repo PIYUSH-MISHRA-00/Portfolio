@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-09-07T10:28:32.619Z",
+ "syncedAt": "2026-09-07T20:39:24.863Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 95,
   "flagships": 15,
-  "commitsByMe": 3884,
+  "commitsByMe": 3885,
   "stars": 68,
   "roles": 9,
   "orgs": 2,
@@ -2773,9 +2773,9 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 121,
+   "commits": 122,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-09-06T19:17:11Z",
+   "pushedAt": "2026-09-07T10:28:33Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
@@ -2784,28 +2784,28 @@
     "fullstack-developer"
    ],
    "headline": "Self-maintaining portfolio site generated from GitHub data",
-   "what": "A static site reads a JSON file produced by a GitHub Action that scans all public, non-fork repositories owned or contributed to by the user. The Action queries GitHub, invokes a free-tier LLM to write recruiter-facing narratives, and writes the results to data/portfolio.json. The front-end renders the file with TypeScript, JavaScript and CSS, offering a role-first view and a command-palette search.",
-   "why": "Keeps a developer’s portfolio up-to-date automatically, removing manual edits after each repo change.",
-   "impact": "Demonstrates end-to-end automation of CI/CD pipelines, API integration, and front-end rendering in a single personal project.",
+   "what": "A static site that lists public repositories and displays AI-written recruiter narratives. A GitHub Action runs a sync script written in TypeScript that queries the GitHub API, calls free OpenAI-compatible models, and writes results to data/portfolio.json, which the site statically exports. The site includes a role-first layout and a fuzzy-search command palette.",
+   "why": "Keeps a personal portfolio up-to-date automatically, removing manual editing whenever a repository changes.",
+   "impact": "Shows end-to-end automation of CI/CD, API integration, and dynamic content generation with TypeScript.",
    "highlights": [
-    "GitHub Action auto-syncs repo metadata",
-    "Fuzzy command-palette search over projects",
-    "Role-first organization of portfolio entries",
-    "Free-tier LLM generates project narratives"
+    "GitHub Action syncs repos nightly",
+    "LLM-generated project narratives",
+    "Role-first project organization",
+    "Command palette with fuzzy search"
    ],
    "tech": [
     "TypeScript",
     "JavaScript",
     "CSS",
     "GitHub Actions",
-    "GitHub CLI",
+    "GitHub CLI (gh)",
+    "OpenAI-compatible LLM APIs",
     "npm",
-    "Node.js",
-    "OpenAI-compatible LLM API"
+    "static site export"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "089df3da98924d5f",
+   "contentHash": "52af88b514e17c57",
    "primaryRole": "devops-engineer"
   },
   {
