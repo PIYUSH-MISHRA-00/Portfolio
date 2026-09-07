@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-09-06T19:17:10.619Z",
+ "syncedAt": "2026-09-07T10:28:32.619Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -12,14 +12,14 @@
  },
  "stats": {
   "projects": 95,
-  "flagships": 14,
-  "commitsByMe": 3883,
-  "stars": 67,
+  "flagships": 15,
+  "commitsByMe": 3884,
+  "stars": 68,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 13277,
-  "totalCommitContributions": 3061,
+  "contributionsLastYear": 13267,
+  "totalCommitContributions": 3051,
   "totalIssueContributions": 7832,
   "totalPullRequestContributions": 0,
   "privateContributions": 2371,
@@ -1663,6 +1663,10 @@
    {
     "date": "2026-09-06",
     "contributionCount": 0
+   },
+   {
+    "date": "2026-09-07",
+    "contributionCount": 0
    }
   ]
  ],
@@ -2134,6 +2138,94 @@
    "primaryRole": "ai-engineer"
   },
   {
+   "id": "ni-sh-a-char-resentment",
+   "name": "RESENTMENT",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/RESENTMENT",
+   "url": "https://github.com/ni-sh-a-char/RESENTMENT",
+   "homepage": "https://ni-sh-a-char.github.io/RESENTMENT/",
+   "description": "An AI operating system on its own kernel and your own key. Authority expires, the system is one hash, agents are processes. Any provider, no server.",
+   "topics": [
+    "aarch64",
+    "agents",
+    "ai",
+    "ai-os",
+    "anthropic",
+    "bring-your-own-key",
+    "capability-security",
+    "desktop",
+    "gemini",
+    "kernel",
+    "llm",
+    "local-first"
+   ],
+   "languages": [
+    {
+     "name": "HTML",
+     "bytes": 23975,
+     "pct": 32
+    },
+    {
+     "name": "Python",
+     "bytes": 20829,
+     "pct": 27.8
+    },
+    {
+     "name": "CSS",
+     "bytes": 19682,
+     "pct": 26.3
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 9187,
+     "pct": 12.3
+    },
+    {
+     "name": "Shell",
+     "bytes": 1135,
+     "pct": 1.5
+    }
+   ],
+   "primaryLanguage": "HTML",
+   "license": "Apache-2.0",
+   "stars": 1,
+   "forks": 0,
+   "commits": 136,
+   "createdAt": "2023-02-16T19:33:14Z",
+   "pushedAt": "2026-09-02T13:36:51Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "ai-engineer",
+    "security-engineer"
+   ],
+   "headline": "AI-native operating system with capability-secure kernel",
+   "what": "Provides a browser-hosted desktop that talks to a from-scratch kernel via a WebSocket-bridged serial console. The kernel enforces capability-based permissions, tracks a Merkle root hash of the whole machine state, and runs agents as processes using a built-in SHE shell. The system accepts any LLM provider key, keeps it client-side, and can be sealed with AES-GCM.",
+   "why": "It addresses the need for a local-first AI platform that avoids server-side authority and protects model keys while still offering full desktop functionality.",
+   "impact": "Shows end-to-end design and implementation of a capability-secure AI OS, from kernel to web UI, using multiple languages and low-level security primitives.",
+   "highlights": [
+    "Capability-secure kernel with Merkle root hash",
+    "Browser desktop communicates via WebSocket serial bridge",
+    "Bring-your-own-LLM key, never leaves the client",
+    "Supports x86_64, ARM64, RISC-V via QEMU testing"
+   ],
+   "tech": [
+    "Python",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Shell",
+    "WebSocket",
+    "AES-GCM",
+    "QEMU"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "ec492ff285e4105c",
+   "primaryRole": "ai-engineer"
+  },
+  {
    "id": "piyush-mishra-00-kryon",
    "name": "kryon",
    "owner": "PIYUSH-MISHRA-00",
@@ -2196,7 +2288,7 @@
    "forks": 0,
    "commits": 30,
    "createdAt": "2026-09-02T08:33:45Z",
-   "pushedAt": "2026-09-03T09:33:04Z",
+   "pushedAt": "2026-09-07T05:27:07Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
@@ -2205,12 +2297,12 @@
     "devops-engineer"
    ],
    "headline": "Cross-language SDK for safe, streamed command execution",
-   "what": "Provides a single conceptual API for running OS commands and streaming process output in Python, TypeScript, Dart, Java and Kotlin. Each SDK enforces strict error handling, timeouts, and output caps without relying on shell execution. The libraries share a JSON-based conformance corpus that validates identical behavior on Linux, macOS and Windows.",
-   "why": "Standard subprocess utilities differ across ecosystems and often expose unsafe defaults; the SDK offers a consistent, secure model for streaming, limiting, and handling untrusted commands across languages.",
-   "impact": "Shows ability to design and deliver a multi-language library with uniform semantics and automated cross-platform verification.",
+   "what": "Provides a single conceptual API for running OS commands and streaming process output in Python, TypeScript, Dart, Java and Kotlin. Each SDK implements the same execution model, enforces timeouts, output caps and strict error handling with virtually no runtime dependencies.",
+   "why": "Language-specific subprocess utilities often expose unsafe defaults and inconsistent behavior, making reliable streaming and resource limits hard to achieve. The library centralizes these concerns so developers can handle untrusted input and long-running processes uniformly across ecosystems.",
+   "impact": "Shows ability to design and deliver a multi-language library with consistent semantics and a shared conformance test suite.",
    "highlights": [
-    "Unified API across 5 languages",
-    "Enforced timeouts and memory caps",
+    "Unified API across five languages",
+    "Enforces timeouts and output caps",
     "Zero-runtime dependencies (Kotlin uses coroutines)",
     "Shared conformance test suite"
    ],
@@ -2220,13 +2312,13 @@
     "Dart",
     "Java",
     "Kotlin",
-    "Maven Central",
+    "PyPI",
     "npm",
-    "PyPI"
+    "Maven Central"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "68fbaa13963e8a07",
+   "contentHash": "2daac3ba9779edeb",
    "primaryRole": "backend-engineer"
   },
   {
@@ -2588,94 +2680,6 @@
    "primaryRole": "data-scientist"
   },
   {
-   "id": "ni-sh-a-char-resentment",
-   "name": "RESENTMENT",
-   "owner": "ni-sh-a-char",
-   "nameWithOwner": "ni-sh-a-char/RESENTMENT",
-   "url": "https://github.com/ni-sh-a-char/RESENTMENT",
-   "homepage": "https://ni-sh-a-char.github.io/RESENTMENT/",
-   "description": "An AI operating system on its own kernel and your own key. Authority expires, the system is one hash, agents are processes. Any provider, no server.",
-   "topics": [
-    "aarch64",
-    "agents",
-    "ai",
-    "ai-os",
-    "anthropic",
-    "bring-your-own-key",
-    "capability-security",
-    "desktop",
-    "gemini",
-    "kernel",
-    "llm",
-    "local-first"
-   ],
-   "languages": [
-    {
-     "name": "HTML",
-     "bytes": 23975,
-     "pct": 32
-    },
-    {
-     "name": "Python",
-     "bytes": 20829,
-     "pct": 27.8
-    },
-    {
-     "name": "CSS",
-     "bytes": 19682,
-     "pct": 26.3
-    },
-    {
-     "name": "JavaScript",
-     "bytes": 9187,
-     "pct": 12.3
-    },
-    {
-     "name": "Shell",
-     "bytes": 1135,
-     "pct": 1.5
-    }
-   ],
-   "primaryLanguage": "HTML",
-   "license": "Apache-2.0",
-   "stars": 0,
-   "forks": 0,
-   "commits": 136,
-   "createdAt": "2023-02-16T19:33:14Z",
-   "pushedAt": "2026-09-02T13:36:51Z",
-   "isArchived": false,
-   "isOrg": true,
-   "org": "ni-sh-a-char",
-   "roles": [
-    "ai-engineer",
-    "security-engineer"
-   ],
-   "headline": "AI-native operating system with capability-secure kernel",
-   "what": "Provides a browser-hosted desktop that talks to a from-scratch kernel via a WebSocket-bridged serial console. The kernel enforces capability-based permissions, tracks a Merkle root hash of the whole machine state, and runs agents as processes using a built-in SHE shell. The system accepts any LLM provider key, keeps it client-side, and can be sealed with AES-GCM.",
-   "why": "It addresses the need for a local-first AI platform that avoids server-side authority and protects model keys while still offering full desktop functionality.",
-   "impact": "Shows end-to-end design and implementation of a capability-secure AI OS, from kernel to web UI, using multiple languages and low-level security primitives.",
-   "highlights": [
-    "Capability-secure kernel with Merkle root hash",
-    "Browser desktop communicates via WebSocket serial bridge",
-    "Bring-your-own-LLM key, never leaves the client",
-    "Supports x86_64, ARM64, RISC-V via QEMU testing"
-   ],
-   "tech": [
-    "Python",
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "Shell",
-    "WebSocket",
-    "AES-GCM",
-    "QEMU"
-   ],
-   "signal": "flagship",
-   "enrichedBy": "ai",
-   "contentHash": "ec492ff285e4105c",
-   "primaryRole": "ai-engineer"
-  },
-  {
    "id": "ni-sh-a-char-natraj",
    "name": "NATRAJ",
    "owner": "ni-sh-a-char",
@@ -2738,6 +2742,71 @@
    "enrichedBy": "groq",
    "contentHash": "06a7ca409c56dec1",
    "primaryRole": "security-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-portfolio",
+   "name": "Portfolio",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
+   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
+   "description": "https://piyush-mishra-00.github.io/Portfolio/",
+   "topics": [],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 70677,
+     "pct": 56.6
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 47384,
+     "pct": 38
+    },
+    {
+     "name": "CSS",
+     "bytes": 6753,
+     "pct": 5.4
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 121,
+   "createdAt": "2023-03-30T11:31:18Z",
+   "pushedAt": "2026-09-06T19:17:11Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "devops-engineer",
+    "fullstack-developer"
+   ],
+   "headline": "Self-maintaining portfolio site generated from GitHub data",
+   "what": "A static site reads a JSON file produced by a GitHub Action that scans all public, non-fork repositories owned or contributed to by the user. The Action queries GitHub, invokes a free-tier LLM to write recruiter-facing narratives, and writes the results to data/portfolio.json. The front-end renders the file with TypeScript, JavaScript and CSS, offering a role-first view and a command-palette search.",
+   "why": "Keeps a developer’s portfolio up-to-date automatically, removing manual edits after each repo change.",
+   "impact": "Demonstrates end-to-end automation of CI/CD pipelines, API integration, and front-end rendering in a single personal project.",
+   "highlights": [
+    "GitHub Action auto-syncs repo metadata",
+    "Fuzzy command-palette search over projects",
+    "Role-first organization of portfolio entries",
+    "Free-tier LLM generates project narratives"
+   ],
+   "tech": [
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "GitHub Actions",
+    "GitHub CLI",
+    "npm",
+    "Node.js",
+    "OpenAI-compatible LLM API"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "089df3da98924d5f",
+   "primaryRole": "devops-engineer"
   },
   {
    "id": "ni-sh-a-char-youtube-shorts-automation",
@@ -3881,71 +3950,6 @@
    "primaryRole": "automation-engineer"
   },
   {
-   "id": "piyush-mishra-00-portfolio",
-   "name": "Portfolio",
-   "owner": "PIYUSH-MISHRA-00",
-   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
-   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
-   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
-   "description": "https://piyush-mishra-00.github.io/Portfolio/",
-   "topics": [],
-   "languages": [
-    {
-     "name": "TypeScript",
-     "bytes": 70677,
-     "pct": 56.6
-    },
-    {
-     "name": "JavaScript",
-     "bytes": 47384,
-     "pct": 38
-    },
-    {
-     "name": "CSS",
-     "bytes": 6753,
-     "pct": 5.4
-    }
-   ],
-   "primaryLanguage": "TypeScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 120,
-   "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-09-06T09:31:26Z",
-   "isArchived": false,
-   "isOrg": false,
-   "org": null,
-   "roles": [
-    "devops-engineer",
-    "automation-engineer"
-   ],
-   "headline": "Self-maintaining portfolio site generated via GitHub Actions",
-   "what": "A static site that lists all public repositories and displays AI-written recruiter narratives. A GitHub Action scans the account, calls free LLM providers, writes results to data/portfolio.json, and triggers a site rebuild. The front-end is built with TypeScript, JavaScript and CSS and includes a command-palette search.",
-   "why": "Keeps a developer’s portfolio up-to-date automatically without manual edits, ensuring recruiters see the latest work.",
-   "impact": "Demonstrates end-to-end automation of CI/CD pipelines, API integration, and front-end generation.",
-   "highlights": [
-    "GitHub Action auto-syncs repos",
-    "LLM-generated project narratives",
-    "Role-first project organization",
-    "Command-palette fuzzy search"
-   ],
-   "tech": [
-    "TypeScript",
-    "JavaScript",
-    "CSS",
-    "GitHub Actions",
-    "GitHub CLI",
-    "LLM APIs",
-    "npm",
-    "GitHub API"
-   ],
-   "signal": "solid",
-   "enrichedBy": "ai",
-   "contentHash": "1de09da0c728fd67",
-   "primaryRole": "devops-engineer"
-  },
-  {
    "id": "ni-sh-a-char-financer",
    "name": "Financer",
    "owner": "ni-sh-a-char",
@@ -5028,71 +5032,6 @@
    "enrichedBy": "ai",
    "contentHash": "5f029258e68ba929",
    "primaryRole": "data-scientist"
-  },
-  {
-   "id": "ni-sh-a-char-ni-sh-a-char",
-   "name": "ni_sh_a.char",
-   "owner": "ni-sh-a-char",
-   "nameWithOwner": "ni-sh-a-char/ni_sh_a.char",
-   "url": "https://github.com/ni-sh-a-char/ni_sh_a.char",
-   "homepage": "https://ni-sh-a-char.github.io/ni_sh_a.char/",
-   "description": "Website for the organization",
-   "topics": [],
-   "languages": [
-    {
-     "name": "JavaScript",
-     "bytes": 20577,
-     "pct": 37.3
-    },
-    {
-     "name": "CSS",
-     "bytes": 20105,
-     "pct": 36.4
-    },
-    {
-     "name": "HTML",
-     "bytes": 14553,
-     "pct": 26.3
-    }
-   ],
-   "primaryLanguage": "JavaScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 4,
-   "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-09-06T08:39:54Z",
-   "isArchived": false,
-   "isOrg": true,
-   "org": "ni-sh-a-char",
-   "roles": [
-    "fullstack-developer",
-    "devops-engineer"
-   ],
-   "headline": "Static organization website with AI-generated repo summaries",
-   "what": "A public site lists every organization repository and shows an AI-written description of each. It is pure HTML, CSS and JavaScript served by GitHub Pages, loads a static repos.json then makes a single unauthenticated GitHub API request for newer repos. A daily GitHub Actions workflow regenerates repos.json and calls a free LLM to write summaries, keeping the API key in secrets.",
-   "why": "Keeps the organization’s project catalog up-to-date without manual edits, giving visitors quick insight into each repo’s purpose.",
-   "impact": "Shows competence in client-side API integration, CI/CD automation, and secure LLM usage within a static web context.",
-   "highlights": [
-    "Client-side fetch of GitHub repo list",
-    "GitHub Actions workflow generates repos.json",
-    "LLM integration via secret API key",
-    "No build step; pure static assets"
-   ],
-   "tech": [
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "GitHub Pages",
-    "GitHub Actions",
-    "REST API",
-    "LLM (Groq/OpenAI compatible)",
-    "JSON"
-   ],
-   "signal": "solid",
-   "enrichedBy": "ai",
-   "contentHash": "750388fa3ca237d7",
-   "primaryRole": "fullstack-developer"
   },
   {
    "id": "piyush-mishra-00-movie-recommendations-system",
@@ -6663,6 +6602,71 @@
    "enrichedBy": "ai",
    "contentHash": "ca6cc6ab702351e9",
    "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "ni-sh-a-char-ni-sh-a-char",
+   "name": "ni_sh_a.char",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/ni_sh_a.char",
+   "url": "https://github.com/ni-sh-a-char/ni_sh_a.char",
+   "homepage": "https://ni-sh-a-char.github.io/ni_sh_a.char/",
+   "description": "Website for the organization",
+   "topics": [],
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 20577,
+     "pct": 37.3
+    },
+    {
+     "name": "CSS",
+     "bytes": 20105,
+     "pct": 36.4
+    },
+    {
+     "name": "HTML",
+     "bytes": 14553,
+     "pct": 26.3
+    }
+   ],
+   "primaryLanguage": "JavaScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 4,
+   "createdAt": "2026-08-18T05:24:38Z",
+   "pushedAt": "2026-09-07T09:20:40Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "fullstack-developer",
+    "devops-engineer"
+   ],
+   "headline": "Static site listing org repos with AI-generated summaries",
+   "what": "A public website lists every public repository in the organisation and shows an AI-written breakdown of each project. It is served as static HTML, CSS and JavaScript on GitHub Pages, with no framework or bundler. A daily GitHub Actions workflow regenerates data/repos.json and calls an LLM to write summaries for changed repositories.",
+   "why": "Provides an up-to-date, human-readable overview of the organisation’s codebase without manual documentation effort.",
+   "impact": "Shows ability to combine static web delivery with automated data pipelines and LLM integration via CI.",
+   "highlights": [
+    "AI-generated repo descriptions",
+    "Daily GitHub Actions data refresh",
+    "Static HTML/CSS/JS, no build step",
+    "Fallback snapshot on API limits"
+   ],
+   "tech": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "GitHub Pages",
+    "GitHub Actions",
+    "GitHub API",
+    "LLM API (Groq/OpenAI",
+    "JSON"
+   ],
+   "signal": "minor",
+   "enrichedBy": "ai",
+   "contentHash": "e6dfa757d06b678e",
+   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-birthdaygreet",
