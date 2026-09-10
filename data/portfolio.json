@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-09-09T19:51:26.566Z",
+ "syncedAt": "2026-09-10T09:50:48.924Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -12,8 +12,8 @@
  },
  "stats": {
   "projects": 95,
-  "flagships": 14,
-  "commitsByMe": 3889,
+  "flagships": 15,
+  "commitsByMe": 3890,
   "stars": 68,
   "roles": 9,
   "orgs": 2,
@@ -1675,6 +1675,10 @@
    {
     "date": "2026-09-09",
     "contributionCount": 0
+   },
+   {
+    "date": "2026-09-10",
+    "contributionCount": 0
    }
   ]
  ],
@@ -2052,7 +2056,7 @@
    "forks": 0,
    "commits": 134,
    "createdAt": "2022-07-23T05:52:06Z",
-   "pushedAt": "2026-09-03T09:46:19Z",
+   "pushedAt": "2026-09-10T08:28:33Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -2082,7 +2086,7 @@
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "de529285e327fd6d",
+   "contentHash": "739023dcac6725bf",
    "primaryRole": "fullstack-developer"
   },
   {
@@ -2586,7 +2590,7 @@
    "primaryLanguage": "HTML",
    "license": "Apache-2.0",
    "stars": 0,
-   "forks": 1,
+   "forks": 2,
    "commits": 140,
    "createdAt": "2022-07-04T04:33:43Z",
    "pushedAt": "2026-09-02T16:06:27Z",
@@ -2750,6 +2754,71 @@
    "enrichedBy": "groq",
    "contentHash": "06a7ca409c56dec1",
    "primaryRole": "security-engineer"
+  },
+  {
+   "id": "piyush-mishra-00-portfolio",
+   "name": "Portfolio",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
+   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
+   "description": "https://piyush-mishra-00.github.io/Portfolio/",
+   "topics": [],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 70677,
+     "pct": 56.6
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 47384,
+     "pct": 38
+    },
+    {
+     "name": "CSS",
+     "bytes": 6753,
+     "pct": 5.4
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 127,
+   "createdAt": "2023-03-30T11:31:18Z",
+   "pushedAt": "2026-09-09T19:51:27Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "automation-engineer",
+    "devops-engineer"
+   ],
+   "headline": "Self-maintaining portfolio site generated via GitHub Actions",
+   "what": "A static site that lists the engineer’s public repositories and auto-generates recruiter-facing narratives. A GitHub Action scans GitHub, calls a free LLM to write summaries, stores them in data/portfolio.json, and the site renders the JSON. The workflow runs on push and on a twice-daily schedule, using the gh CLI for reliable API calls.",
+   "why": "Keeps a portfolio current without manual edits, reducing stale information and manual copy-pasting of project details.",
+   "impact": "Shows ability to design end-to-end automation pipelines that integrate CI/CD, external APIs, and static site generation.",
+   "highlights": [
+    "GitHub Action syncs repos nightly",
+    "LLM writes recruiter narratives",
+    "Static site built from JSON data",
+    "Fuzzy command-palette search"
+   ],
+   "tech": [
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "GitHub Actions",
+    "GitHub CLI",
+    "Node.js",
+    "OpenAI-compatible API",
+    "npm"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "0e3e110af103815e",
+   "primaryRole": "automation-engineer"
   },
   {
    "id": "ni-sh-a-char-youtube-shorts-automation",
@@ -3752,71 +3821,6 @@
    "enrichedBy": "groq",
    "contentHash": "18146fcb1c33fb7d",
    "primaryRole": "security-engineer"
-  },
-  {
-   "id": "piyush-mishra-00-portfolio",
-   "name": "Portfolio",
-   "owner": "PIYUSH-MISHRA-00",
-   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
-   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
-   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
-   "description": "https://piyush-mishra-00.github.io/Portfolio/",
-   "topics": [],
-   "languages": [
-    {
-     "name": "TypeScript",
-     "bytes": 70677,
-     "pct": 56.6
-    },
-    {
-     "name": "JavaScript",
-     "bytes": 47384,
-     "pct": 38
-    },
-    {
-     "name": "CSS",
-     "bytes": 6753,
-     "pct": 5.4
-    }
-   ],
-   "primaryLanguage": "TypeScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 126,
-   "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-09-09T09:52:45Z",
-   "isArchived": false,
-   "isOrg": false,
-   "org": null,
-   "roles": [
-    "automation-engineer",
-    "devops-engineer"
-   ],
-   "headline": "Self-maintaining portfolio site generated from GitHub repos",
-   "what": "A static site reads every public, non-fork repository on the account, runs a GitHub Action to fetch metadata, and uses a free LLM to write recruiter-facing narratives stored in data/portfolio.json. The site renders this JSON with TypeScript/JavaScript and CSS, presenting projects by role. A command palette provides fuzzy search across projects, roles, and links.",
-   "why": "Keeps a developer’s portfolio current without manual edits, reducing stale information and manual copy-pasting of project details.",
-   "impact": "Demonstrates end-to-end automation of data collection, LLM integration, and CI/CD using GitHub Actions.",
-   "highlights": [
-    "GitHub Action syncs repos nightly",
-    "LLM generates recruiter narratives",
-    "Role-first project organization",
-    "Command palette fuzzy search"
-   ],
-   "tech": [
-    "TypeScript",
-    "JavaScript",
-    "CSS",
-    "GitHub Actions",
-    "GitHub CLI",
-    "OpenAI-compatible LLM APIs",
-    "npm",
-    "JSON"
-   ],
-   "signal": "solid",
-   "enrichedBy": "ai",
-   "contentHash": "dfce2c3057094094",
-   "primaryRole": "automation-engineer"
   },
   {
    "id": "ni-sh-a-char-rest-api",
@@ -6643,7 +6647,7 @@
    "forks": 0,
    "commits": 4,
    "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-09-09T08:58:01Z",
+   "pushedAt": "2026-09-10T08:57:05Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -6673,7 +6677,7 @@
    ],
    "signal": "minor",
    "enrichedBy": "ai",
-   "contentHash": "6fd7f9c4a6160c2a",
+   "contentHash": "2696c75a58d403c1",
    "primaryRole": "fullstack-developer"
   },
   {
