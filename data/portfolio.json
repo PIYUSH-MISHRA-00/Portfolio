@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-09-16T20:14:16.126Z",
+ "syncedAt": "2026-09-17T10:05:27.723Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 95,
   "flagships": 14,
-  "commitsByMe": 3903,
+  "commitsByMe": 3904,
   "stars": 69,
   "roles": 9,
   "orgs": 2,
@@ -1675,6 +1675,10 @@
    {
     "date": "2026-09-16",
     "contributionCount": 0
+   },
+   {
+    "date": "2026-09-17",
+    "contributionCount": 0
    }
   ]
  ],
@@ -1683,7 +1687,7 @@
    "id": "ai-engineer",
    "name": "AI & LLM Engineer",
    "tagline": "Generative AI, agents, RAG and applied language models.",
-   "count": 11
+   "count": 10
   },
   {
    "id": "data-scientist",
@@ -1707,7 +1711,7 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 30
+   "count": 31
   },
   {
    "id": "mobile-developer",
@@ -3721,9 +3725,9 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 140,
+   "commits": 141,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-09-16T10:02:11Z",
+   "pushedAt": "2026-09-16T20:14:17Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
@@ -3753,7 +3757,7 @@
    ],
    "signal": "solid",
    "enrichedBy": "ai",
-   "contentHash": "298f89222a2e4645",
+   "contentHash": "4e88bd19ed4c5a66",
    "primaryRole": "devops-engineer"
   },
   {
@@ -5040,71 +5044,6 @@
    "enrichedBy": "ai",
    "contentHash": "5f029258e68ba929",
    "primaryRole": "data-scientist"
-  },
-  {
-   "id": "ni-sh-a-char-ni-sh-a-char",
-   "name": "ni_sh_a.char",
-   "owner": "ni-sh-a-char",
-   "nameWithOwner": "ni-sh-a-char/ni_sh_a.char",
-   "url": "https://github.com/ni-sh-a-char/ni_sh_a.char",
-   "homepage": "https://ni-sh-a-char.github.io/ni_sh_a.char/",
-   "description": "Website for the organization",
-   "topics": [],
-   "languages": [
-    {
-     "name": "JavaScript",
-     "bytes": 20577,
-     "pct": 37.3
-    },
-    {
-     "name": "CSS",
-     "bytes": 20105,
-     "pct": 36.4
-    },
-    {
-     "name": "HTML",
-     "bytes": 14553,
-     "pct": 26.3
-    }
-   ],
-   "primaryLanguage": "JavaScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 4,
-   "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-09-16T09:17:56Z",
-   "isArchived": false,
-   "isOrg": true,
-   "org": "ni-sh-a-char",
-   "roles": [
-    "ai-engineer",
-    "fullstack-developer"
-   ],
-   "headline": "Static organization website with AI-generated repository summaries",
-   "what": "A public site lists every public repository in the organisation and shows an AI-written description for each. The page is plain HTML, CSS and JavaScript; it loads a pre-generated data/repos.json and makes a single unauthenticated GitHub API request for recent changes. A daily GitHub Actions workflow regenerates the JSON and calls a free LLM to write summaries, caching unchanged entries to limit API calls.",
-   "why": "It automates the creation of up-to-date, human-readable overviews of the organisation’s projects without manual editing or a build step.",
-   "impact": "Shows practical integration of LLM services in CI pipelines and delivery of a zero-build static site.",
-   "highlights": [
-    "GitHub Actions workflow refreshes repo data daily",
-    "LLM API generates project summaries automatically",
-    "Client-side fallback uses cached snapshot on rate-limit or offline",
-    "No framework or bundler; served directly via GitHub Pages"
-   ],
-   "tech": [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "GitHub Actions",
-    "GitHub Pages",
-    "GitHub API",
-    "LLM API (Groq/OpenAI",
-    "JSON"
-   ],
-   "signal": "solid",
-   "enrichedBy": "ai",
-   "contentHash": "d087e5736b2b754d",
-   "primaryRole": "ai-engineer"
   },
   {
    "id": "piyush-mishra-00-movie-recommendations-system",
@@ -6675,6 +6614,71 @@
    "enrichedBy": "ai",
    "contentHash": "ca6cc6ab702351e9",
    "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "ni-sh-a-char-ni-sh-a-char",
+   "name": "ni_sh_a.char",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/ni_sh_a.char",
+   "url": "https://github.com/ni-sh-a-char/ni_sh_a.char",
+   "homepage": "https://ni-sh-a-char.github.io/ni_sh_a.char/",
+   "description": "Website for the organization",
+   "topics": [],
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 20577,
+     "pct": 37.3
+    },
+    {
+     "name": "CSS",
+     "bytes": 20105,
+     "pct": 36.4
+    },
+    {
+     "name": "HTML",
+     "bytes": 14553,
+     "pct": 26.3
+    }
+   ],
+   "primaryLanguage": "JavaScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 4,
+   "createdAt": "2026-08-18T05:24:38Z",
+   "pushedAt": "2026-09-17T09:26:42Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "fullstack-developer",
+    "ai-engineer"
+   ],
+   "headline": "Static organization site with AI-generated repo summaries",
+   "what": "A public website lists every repository in the ni-sh-a-char organisation and shows an AI-written description for each. It is pure HTML, CSS and JavaScript served by GitHub Pages, loads a pre-generated data/repos.json and makes a single unauthenticated GitHub API request for newer repos. A daily GitHub Actions workflow regenerates the JSON and calls a free LLM to write summaries, caching unchanged entries.",
+   "why": "Provides a zero-maintenance, always-up-to-date overview of the organisation’s projects without manual documentation effort.",
+   "impact": "Shows practical integration of LLM calls in CI and delivery of a framework-free static site.",
+   "highlights": [
+    "Static HTML/CSS/JS, no bundler",
+    "GitHub Actions workflow refreshes data daily",
+    "LLM generates repo summaries in CI",
+    "Fallback to cached snapshot on rate-limit"
+   ],
+   "tech": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "GitHub Pages",
+    "GitHub Actions",
+    "GitHub API",
+    "LLM API (Groq/OpenAI",
+    "JSON"
+   ],
+   "signal": "minor",
+   "enrichedBy": "ai",
+   "contentHash": "a04cda675e3b80ab",
+   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-birthdaygreet",
