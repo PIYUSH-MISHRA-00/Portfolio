@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-09-17T10:05:27.723Z",
+ "syncedAt": "2026-09-17T20:23:46.295Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -12,8 +12,8 @@
  },
  "stats": {
   "projects": 95,
-  "flagships": 14,
-  "commitsByMe": 3904,
+  "flagships": 15,
+  "commitsByMe": 3905,
   "stars": 69,
   "roles": 9,
   "orgs": 2,
@@ -2559,6 +2559,71 @@
    "primaryRole": "devops-engineer"
   },
   {
+   "id": "piyush-mishra-00-portfolio",
+   "name": "Portfolio",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
+   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
+   "description": "https://piyush-mishra-00.github.io/Portfolio/",
+   "topics": [],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 70677,
+     "pct": 56.6
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 47384,
+     "pct": 38
+    },
+    {
+     "name": "CSS",
+     "bytes": 6753,
+     "pct": 5.4
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 142,
+   "createdAt": "2023-03-30T11:31:18Z",
+   "pushedAt": "2026-09-17T10:05:28Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "devops-engineer",
+    "automation-engineer"
+   ],
+   "headline": "Self-maintaining developer portfolio generator",
+   "what": "A static site that displays a JSON catalog of the engineer’s public repositories, organized by role. A GitHub Action scans the account, invokes free LLM APIs to generate recruiter-facing narratives, and writes the results to data/portfolio.json. The site is built with TypeScript/JavaScript and served as a static export.",
+   "why": "Keeps a portfolio current without manual edits, reducing stale information and manual copy-pasting of project details.",
+   "impact": "Demonstrates end-to-end CI/CD automation, AI-augmented content generation, and static-site production using GitHub Actions.",
+   "highlights": [
+    "GitHub Action syncs repos to JSON",
+    "AI writes recruiter narratives",
+    "Role-first project organization",
+    "Fuzzy-search command palette"
+   ],
+   "tech": [
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "GitHub Actions",
+    "GitHub CLI",
+    "Node.js",
+    "npm",
+    "OpenAI-compatible APIs"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "ed54c3c8c84466cc",
+   "primaryRole": "devops-engineer"
+  },
+  {
    "id": "ni-sh-a-char-ni-sh-a-char-ide",
    "name": "ni_sh_a.char-IDE",
    "owner": "ni-sh-a-char",
@@ -3694,71 +3759,6 @@
    "enrichedBy": "groq",
    "contentHash": "ba4264c3ff16a677",
    "primaryRole": "backend-engineer"
-  },
-  {
-   "id": "piyush-mishra-00-portfolio",
-   "name": "Portfolio",
-   "owner": "PIYUSH-MISHRA-00",
-   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
-   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
-   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
-   "description": "https://piyush-mishra-00.github.io/Portfolio/",
-   "topics": [],
-   "languages": [
-    {
-     "name": "TypeScript",
-     "bytes": 70677,
-     "pct": 56.6
-    },
-    {
-     "name": "JavaScript",
-     "bytes": 47384,
-     "pct": 38
-    },
-    {
-     "name": "CSS",
-     "bytes": 6753,
-     "pct": 5.4
-    }
-   ],
-   "primaryLanguage": "TypeScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 141,
-   "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-09-16T20:14:17Z",
-   "isArchived": false,
-   "isOrg": false,
-   "org": null,
-   "roles": [
-    "devops-engineer",
-    "fullstack-developer"
-   ],
-   "headline": "Self-maintaining portfolio site generated from GitHub data",
-   "what": "A static site displays a JSON file of project narratives. A GitHub Action scans public, non-fork repositories, calls a free LLM to write recruiter-facing summaries, and writes the results to data/portfolio.json. The site is built with TypeScript, JavaScript and CSS and served as a static export.",
-   "why": "Keeps the portfolio current without manual edits, ensuring new work appears as soon as it is pushed.",
-   "impact": "Demonstrates end-to-end automation of data collection, AI-generated content, and static site deployment via CI/CD.",
-   "highlights": [
-    "GitHub Action syncs repos to JSON",
-    "LLM generates recruiter narratives",
-    "Role-first project organization",
-    "Command palette for fuzzy search"
-   ],
-   "tech": [
-    "TypeScript",
-    "JavaScript",
-    "CSS",
-    "GitHub Actions",
-    "GitHub CLI",
-    "npm",
-    "OpenAI-compatible APIs",
-    "JSON"
-   ],
-   "signal": "solid",
-   "enrichedBy": "ai",
-   "contentHash": "4e88bd19ed4c5a66",
-   "primaryRole": "devops-engineer"
   },
   {
    "id": "ni-sh-a-char-safe-editor",
