@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-09-20T19:32:21.361Z",
+ "syncedAt": "2026-09-21T10:50:01.457Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -12,14 +12,14 @@
  },
  "stats": {
   "projects": 95,
-  "flagships": 15,
-  "commitsByMe": 3911,
+  "flagships": 14,
+  "commitsByMe": 3912,
   "stars": 69,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 13259,
-  "totalCommitContributions": 3046,
+  "contributionsLastYear": 13256,
+  "totalCommitContributions": 3043,
   "totalIssueContributions": 7832,
   "totalPullRequestContributions": 0,
   "privateContributions": 2371,
@@ -1663,6 +1663,10 @@
    {
     "date": "2026-09-20",
     "contributionCount": 0
+   },
+   {
+    "date": "2026-09-21",
+    "contributionCount": 0
    }
   ]
  ],
@@ -2540,70 +2544,6 @@
    "signal": "flagship",
    "enrichedBy": "groq",
    "contentHash": "bdc3f9f107717586",
-   "primaryRole": "devops-engineer"
-  },
-  {
-   "id": "piyush-mishra-00-portfolio",
-   "name": "Portfolio",
-   "owner": "PIYUSH-MISHRA-00",
-   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
-   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
-   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
-   "description": "https://piyush-mishra-00.github.io/Portfolio/",
-   "topics": [],
-   "languages": [
-    {
-     "name": "TypeScript",
-     "bytes": 70677,
-     "pct": 56.6
-    },
-    {
-     "name": "JavaScript",
-     "bytes": 47384,
-     "pct": 38
-    },
-    {
-     "name": "CSS",
-     "bytes": 6753,
-     "pct": 5.4
-    }
-   ],
-   "primaryLanguage": "TypeScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 148,
-   "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-09-20T09:52:27Z",
-   "isArchived": false,
-   "isOrg": false,
-   "org": null,
-   "roles": [
-    "devops-engineer",
-    "fullstack-developer"
-   ],
-   "headline": "Self-maintaining portfolio site generated via GitHub Actions and AI",
-   "what": "A static site displays a JSON file of project narratives. A GitHub Action scans public repositories, calls a free LLM to write recruiter-facing summaries, and writes the results to data/portfolio.json. The site reads that file and renders a role-first view with a command-palette search.",
-   "why": "Keeps a developer’s portfolio current without manual edits, reducing stale information and manual copy-pasting. Provides a single source of truth for public contributions.",
-   "impact": "Demonstrates end-to-end automation of data collection, AI-augmented content generation, and CI/CD deployment using TypeScript and GitHub Actions.",
-   "highlights": [
-    "GitHub Action syncs repos to JSON",
-    "AI-generated project narratives",
-    "Role-first project organization",
-    "Fuzzy search command palette"
-   ],
-   "tech": [
-    "TypeScript",
-    "JavaScript",
-    "CSS",
-    "GitHub Actions",
-    "GitHub CLI",
-    "Node.js",
-    "OpenAI-compatible LLM APIs"
-   ],
-   "signal": "flagship",
-   "enrichedBy": "ai",
-   "contentHash": "cdd19f518805028a",
    "primaryRole": "devops-engineer"
   },
   {
@@ -3559,6 +3499,70 @@
    "enrichedBy": "groq",
    "contentHash": "aa58391fd802a464",
    "primaryRole": "fullstack-developer"
+  },
+  {
+   "id": "piyush-mishra-00-portfolio",
+   "name": "Portfolio",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
+   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
+   "description": "https://piyush-mishra-00.github.io/Portfolio/",
+   "topics": [],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 70677,
+     "pct": 56.6
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 47384,
+     "pct": 38
+    },
+    {
+     "name": "CSS",
+     "bytes": 6753,
+     "pct": 5.4
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 149,
+   "createdAt": "2023-03-30T11:31:18Z",
+   "pushedAt": "2026-09-20T19:32:22Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "devops-engineer",
+    "fullstack-developer"
+   ],
+   "headline": "Self-maintaining portfolio site generated from GitHub data",
+   "what": "A static site reads a JSON file produced by a GitHub Action that queries every public, non-fork repository the engineer authored, then displays projects organized by role. The Action runs on push or on a schedule, uses the gh CLI for reliable GitHub API calls, and invokes free-tier LLM providers to write recruiter-facing narratives. The front-end is built with TypeScript, JavaScript and CSS and includes a command-palette fuzzy search.",
+   "why": "Manually updating a portfolio is error-prone and time-consuming; this system keeps the page current automatically as code is pushed.",
+   "impact": "Demonstrates end-to-end CI/CD automation, API integration, and full-stack development in a single personal project.",
+   "highlights": [
+    "GitHub Action syncs repos to JSON",
+    "AI writes recruiter narratives",
+    "Command palette for fuzzy search",
+    "Role-first project organization"
+   ],
+   "tech": [
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "GitHub Actions",
+    "Node.js",
+    "gh CLI",
+    "OpenAI-compatible APIs"
+   ],
+   "signal": "solid",
+   "enrichedBy": "ai",
+   "contentHash": "49df813bca86952b",
+   "primaryRole": "devops-engineer"
   },
   {
    "id": "ni-sh-a-char-touropedia",
@@ -5027,6 +5031,71 @@
    "enrichedBy": "ai",
    "contentHash": "5f029258e68ba929",
    "primaryRole": "data-scientist"
+  },
+  {
+   "id": "ni-sh-a-char-ni-sh-a-char",
+   "name": "ni_sh_a.char",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/ni_sh_a.char",
+   "url": "https://github.com/ni-sh-a-char/ni_sh_a.char",
+   "homepage": "https://ni-sh-a-char.github.io/ni_sh_a.char/",
+   "description": "Website for the organization",
+   "topics": [],
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 20577,
+     "pct": 37.3
+    },
+    {
+     "name": "CSS",
+     "bytes": 20105,
+     "pct": 36.4
+    },
+    {
+     "name": "HTML",
+     "bytes": 14553,
+     "pct": 26.3
+    }
+   ],
+   "primaryLanguage": "JavaScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 4,
+   "createdAt": "2026-08-18T05:24:38Z",
+   "pushedAt": "2026-09-21T09:56:13Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "fullstack-developer",
+    "devops-engineer"
+   ],
+   "headline": "Static organization site that lists repos with AI-generated summaries",
+   "what": "A public website lists every public repository in the ni-sh-a-char organisation and shows an AI-written breakdown for each. It is pure HTML, CSS and JavaScript served by GitHub Pages, loading a pre-generated data/repos.json and then making a single unauthenticated GitHub API request for newer repos. A daily GitHub Actions workflow regenerates the JSON and calls a free LLM to write summaries for changed repositories.",
+   "why": "Keeps the organisation’s repo catalog up-to-date automatically, removing manual editing of documentation.",
+   "impact": "Shows ability to combine CI/CD automation, LLM integration, and client-side web development without a build pipeline.",
+   "highlights": [
+    "Client-side fetch of GitHub API",
+    "GitHub Actions workflow generates repo data",
+    "AI-driven summary generation via LLM",
+    "Zero-bundle static site on GitHub Pages"
+   ],
+   "tech": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "GitHub Pages",
+    "GitHub Actions",
+    "LLM API (Groq/OpenAI",
+    "JSON",
+    "Fetch API"
+   ],
+   "signal": "solid",
+   "enrichedBy": "ai",
+   "contentHash": "b9c66cc94f02dcac",
+   "primaryRole": "fullstack-developer"
   },
   {
    "id": "piyush-mishra-00-movie-recommendations-system",
@@ -6597,71 +6666,6 @@
    "enrichedBy": "ai",
    "contentHash": "ca6cc6ab702351e9",
    "primaryRole": "mobile-developer"
-  },
-  {
-   "id": "ni-sh-a-char-ni-sh-a-char",
-   "name": "ni_sh_a.char",
-   "owner": "ni-sh-a-char",
-   "nameWithOwner": "ni-sh-a-char/ni_sh_a.char",
-   "url": "https://github.com/ni-sh-a-char/ni_sh_a.char",
-   "homepage": "https://ni-sh-a-char.github.io/ni_sh_a.char/",
-   "description": "Website for the organization",
-   "topics": [],
-   "languages": [
-    {
-     "name": "JavaScript",
-     "bytes": 20577,
-     "pct": 37.3
-    },
-    {
-     "name": "CSS",
-     "bytes": 20105,
-     "pct": 36.4
-    },
-    {
-     "name": "HTML",
-     "bytes": 14553,
-     "pct": 26.3
-    }
-   ],
-   "primaryLanguage": "JavaScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 4,
-   "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-09-20T09:17:10Z",
-   "isArchived": false,
-   "isOrg": true,
-   "org": "ni-sh-a-char",
-   "roles": [
-    "fullstack-developer",
-    "automation-engineer"
-   ],
-   "headline": "Static organization website with AI-generated repo summaries",
-   "what": "A public site lists every repository in the organisation and shows an AI-written description for each. It is pure HTML, CSS and JavaScript served by GitHub Pages, loading a pre-generated data/repos.json and then making a single unauthenticated GitHub API request for newer repos. A daily GitHub Actions workflow regenerates the JSON and calls a free LLM to write summaries, caching unchanged entries to limit API usage.",
-   "why": "The site provides an up-to-date overview of the organisation’s projects without manual maintenance, keeping visitors informed even when offline or rate-limited.",
-   "impact": "Shows practical integration of CI (GitHub Actions), external LLM APIs, and client-side data fetching in a zero-build static site.",
-   "highlights": [
-    "Fetches repo list via GitHub API",
-    "Daily refresh with GitHub Actions workflow",
-    "Generates AI summaries using LLM",
-    "Falls back to cached data on rate-limit or offline"
-   ],
-   "tech": [
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "GitHub Pages",
-    "GitHub Actions",
-    "GitHub API",
-    "LLM (Groq/OpenAI compatible)",
-    "JSON"
-   ],
-   "signal": "minor",
-   "enrichedBy": "ai",
-   "contentHash": "6d9c6e2e8f1bac2a",
-   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-birthdaygreet",
