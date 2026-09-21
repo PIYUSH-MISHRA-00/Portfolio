@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-09-21T10:50:01.457Z",
+ "syncedAt": "2026-09-21T21:08:46.561Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 95,
   "flagships": 14,
-  "commitsByMe": 3912,
+  "commitsByMe": 3913,
   "stars": 69,
   "roles": 9,
   "orgs": 2,
@@ -3530,9 +3530,9 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 149,
+   "commits": 150,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-09-20T19:32:22Z",
+   "pushedAt": "2026-09-21T10:50:02Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
@@ -3540,28 +3540,29 @@
     "devops-engineer",
     "fullstack-developer"
    ],
-   "headline": "Self-maintaining portfolio site generated from GitHub data",
-   "what": "A static site reads a JSON file produced by a GitHub Action that queries every public, non-fork repository the engineer authored, then displays projects organized by role. The Action runs on push or on a schedule, uses the gh CLI for reliable GitHub API calls, and invokes free-tier LLM providers to write recruiter-facing narratives. The front-end is built with TypeScript, JavaScript and CSS and includes a command-palette fuzzy search.",
-   "why": "Manually updating a portfolio is error-prone and time-consuming; this system keeps the page current automatically as code is pushed.",
-   "impact": "Demonstrates end-to-end CI/CD automation, API integration, and full-stack development in a single personal project.",
+   "headline": "Self-maintaining portfolio site that auto-generates project narratives",
+   "what": "A static site reads every public, non-fork repository on the account, runs a GitHub Action that queries the GitHub API, invokes a free-tier LLM to write recruiter-facing narratives, and writes the results to data/portfolio.json. The site is built with TypeScript/JavaScript and exported as static HTML, featuring a role-first layout and a fuzzy-search command palette.",
+   "why": "Keeps a personal portfolio up-to-date automatically, removing manual edits whenever a repository changes.",
+   "impact": "Shows end-to-end automation of content generation and CI/CD using GitHub Actions and LLM APIs.",
    "highlights": [
-    "GitHub Action syncs repos to JSON",
-    "AI writes recruiter narratives",
-    "Command palette for fuzzy search",
-    "Role-first project organization"
+    "GitHub Action syncs repos nightly",
+    "LLM generates recruiter narratives",
+    "Static site built with TypeScript",
+    "Command palette for fuzzy search"
    ],
    "tech": [
     "TypeScript",
     "JavaScript",
     "CSS",
     "GitHub Actions",
+    "GitHub CLI",
     "Node.js",
-    "gh CLI",
-    "OpenAI-compatible APIs"
+    "OpenAI-compatible APIs",
+    "npm"
    ],
    "signal": "solid",
    "enrichedBy": "ai",
-   "contentHash": "49df813bca86952b",
+   "contentHash": "a89ebf920131c1a6",
    "primaryRole": "devops-engineer"
   },
   {
