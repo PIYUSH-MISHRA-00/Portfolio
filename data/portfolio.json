@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-09-25T10:17:48.714Z",
+ "syncedAt": "2026-09-25T20:33:21.520Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 95,
   "flagships": 15,
-  "commitsByMe": 3920,
+  "commitsByMe": 3921,
   "stars": 68,
   "roles": 9,
   "orgs": 2,
@@ -2422,25 +2422,25 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 157,
+   "commits": 158,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-09-24T20:33:52Z",
+   "pushedAt": "2026-09-25T10:17:49Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
     "automation-engineer",
-    "fullstack-developer"
+    "devops-engineer"
    ],
-   "headline": "Self-maintaining portfolio site generated via GitHub Actions",
-   "what": "A static website that lists public, non-fork repositories with recruiter-focused narratives, populated automatically by a GitHub Action that queries GitHub, runs a free LLM to write descriptions, and writes the output to a JSON data file. The site is built with TypeScript, JavaScript and CSS and exported as static files. Updates occur on each push or on a twice-daily schedule.",
-   "why": "Manual portfolio updates are time-consuming and error-prone; the tool keeps the showcase current without developer intervention and organizes projects by role for recruiters.",
-   "impact": "Shows end-to-end automation of repository discovery, LLM-driven content generation, and static site deployment using GitHub Actions and TypeScript.",
+   "headline": "Self-maintaining developer portfolio site",
+   "what": "A static site that lists a developer’s public projects and displays recruiter-focused narratives. A GitHub Action scans public, non-fork repositories, invokes a free-tier LLM to write the narratives, and writes them to data/portfolio.json; the site renders this JSON with TypeScript/JavaScript and CSS. The workflow runs on each push or on a twice-daily schedule.",
+   "why": "Keeps a portfolio current without manual edits and automates the creation of concise project descriptions for recruiters.",
+   "impact": "Shows end-to-end automation of CI pipelines, LLM integration, and front-end delivery in a single repository.",
    "highlights": [
-    "GitHub Action fetches public repos",
+    "GitHub Action scans public repos",
     "LLM generates recruiter narratives",
-    "Role-first project organization",
-    "Command palette with fuzzy search"
+    "Command palette for fuzzy project search",
+    "Role-first project organization"
    ],
    "tech": [
     "TypeScript",
@@ -2449,12 +2449,12 @@
     "GitHub Actions",
     "GitHub CLI",
     "OpenAI-compatible LLM APIs",
-    "Node.js",
-    "npm"
+    "npm",
+    "JSON"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "826529a045d83da4",
+   "contentHash": "2dbacf5c11667984",
    "primaryRole": "automation-engineer"
   },
   {
