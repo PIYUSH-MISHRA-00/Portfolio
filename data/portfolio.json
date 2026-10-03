@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-10-02T21:22:34.180Z",
+ "syncedAt": "2026-10-03T10:28:50.486Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -7,76 +7,76 @@
   "location": "India",
   "company": "ni-sh-a.char",
   "followers": 19,
-  "publicRepos": 120,
+  "publicRepos": 121,
   "joinedAt": "2020-05-22T20:31:19Z"
  },
  "stats": {
-  "projects": 95,
-  "flagships": 14,
-  "commitsByMe": 3938,
+  "projects": 96,
+  "flagships": 15,
+  "commitsByMe": 4233,
   "stars": 68,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 12161,
-  "totalCommitContributions": 1978,
+  "contributionsLastYear": 12162,
+  "totalCommitContributions": 2274,
   "totalIssueContributions": 7990,
   "totalPullRequestContributions": 0,
-  "privateContributions": 2183,
+  "privateContributions": 1886,
   "languages": [
    {
     "name": "Python",
     "projects": 40,
     "bytes": 1981228,
-    "pct": 42.1
+    "pct": 41.7
    },
    {
     "name": "HTML",
     "projects": 30,
     "bytes": 613097,
-    "pct": 31.6
+    "pct": 31.3
    },
    {
     "name": "Shell",
     "projects": 28,
     "bytes": 124163,
-    "pct": 29.5
+    "pct": 29.2
    },
    {
     "name": "CSS",
-    "projects": 25,
-    "bytes": 179841,
-    "pct": 26.3
+    "projects": 26,
+    "bytes": 185305,
+    "pct": 27.1
    },
    {
     "name": "JavaScript",
-    "projects": 22,
-    "bytes": 628878,
-    "pct": 23.2
+    "projects": 23,
+    "bytes": 634271,
+    "pct": 24
    },
    {
     "name": "Java",
     "projects": 17,
     "bytes": 846665,
-    "pct": 17.9
+    "pct": 17.7
    },
    {
     "name": "Dockerfile",
     "projects": 15,
     "bytes": 10049,
-    "pct": 15.8
+    "pct": 15.6
    },
    {
     "name": "Jupyter Notebook",
     "projects": 8,
     "bytes": 14820399,
-    "pct": 8.4
+    "pct": 8.3
    },
    {
     "name": "TypeScript",
     "projects": 7,
     "bytes": 920864,
-    "pct": 7.4
+    "pct": 7.3
    },
    {
     "name": "Dart",
@@ -94,7 +94,7 @@
     "name": "C++",
     "projects": 5,
     "bytes": 96051,
-    "pct": 5.3
+    "pct": 5.2
    }
   ]
  },
@@ -1683,6 +1683,10 @@
    {
     "date": "2026-10-02",
     "contributionCount": 0
+   },
+   {
+    "date": "2026-10-03",
+    "contributionCount": 1
    }
   ]
  ],
@@ -1715,19 +1719,19 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 31
+   "count": 32
   },
   {
    "id": "mobile-developer",
    "name": "Mobile & Cross-Platform Developer",
    "tagline": "Flutter, Kotlin and native Android shipped to devices.",
-   "count": 15
+   "count": 16
   },
   {
    "id": "devops-engineer",
    "name": "DevOps & Platform Engineer",
    "tagline": "Containers, images and reproducible environments.",
-   "count": 2
+   "count": 1
   },
   {
    "id": "systems-engineer",
@@ -2391,6 +2395,79 @@
    "enrichedBy": "groq",
    "contentHash": "ff585db972e3d52f",
    "primaryRole": "fullstack-developer"
+  },
+  {
+   "id": "piyush-mishra-00-anything",
+   "name": "Anything",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Anything",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Anything",
+   "homepage": null,
+   "description": "Describe what you need and Anything builds, runs and keeps a real app for it — on your device, no account, no server. AI-generated apps as validated data, not code you maintain.",
+   "topics": [
+    "ai",
+    "ai-agents",
+    "android",
+    "app-generator",
+    "cross-platform",
+    "dart",
+    "dynamic-ui",
+    "flutter",
+    "generative-ai",
+    "generative-ui",
+    "groq",
+    "llm"
+   ],
+   "languages": [
+    {
+     "name": "CSS",
+     "bytes": 5464,
+     "pct": 50.3
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 5393,
+     "pct": 49.7
+    }
+   ],
+   "primaryLanguage": "CSS",
+   "license": "Apache-2.0",
+   "stars": 0,
+   "forks": 0,
+   "commits": 294,
+   "createdAt": "2026-03-08T09:24:21Z",
+   "pushedAt": "2026-10-03T08:35:03Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "mobile-developer",
+    "ai-engineer"
+   ],
+   "headline": "On-device AI-powered app generator for Android",
+   "what": "Anything lets users describe an app idea in plain language, then generates, validates, and runs a native Android application on the device without external servers. The system translates the description into a Flutter Experience, using a Groq LLM via WebWeaveX to produce UI code and business logic, which is executed by a custom runtime with Kaalka protection. The public website is a VitePress site built with JavaScript and CSS.",
+   "why": "It enables rapid prototyping of custom mobile apps without backend infrastructure or developer intervention.",
+   "impact": "Shows end-to-end integration of generative AI, Flutter compilation, and on-device execution in a publishable Android product.",
+   "highlights": [
+    "Generates full Flutter apps from natural language",
+    "Runs generated apps entirely on device",
+    "Integrates Groq LLM via WebWeaveX",
+    "Implements Kaalka protection and export/import"
+   ],
+   "tech": [
+    "Flutter",
+    "Dart",
+    "Groq",
+    "WebWeaveX",
+    "Kaalka",
+    "Android",
+    "VitePress",
+    "JavaScript"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "e8d8a023bbffde90",
+   "primaryRole": "mobile-developer"
   },
   {
    "id": "ni-sh-a-char-resentment-kernel",
@@ -3551,40 +3628,40 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 172,
+   "commits": 173,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-10-02T11:11:16Z",
+   "pushedAt": "2026-10-02T21:22:35Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "devops-engineer",
-    "fullstack-developer"
+    "fullstack-developer",
+    "devops-engineer"
    ],
-   "headline": "Self-maintaining portfolio site generated from GitHub data",
-   "what": "A static site displays a JSON file that lists every public, non-fork repository authored by the user. A GitHub Action runs nightly (or on push) to query GitHub, invoke a free LLM to write recruiter-facing narratives, and write the results to data/portfolio.json. The front-end, built with TypeScript, JavaScript and CSS, renders the data with a role-first layout and a fuzzy-search command palette.",
-   "why": "Keeping a developer portfolio current requires manual edits after each project update. This automation removes that friction by syncing directly from the source of truth on GitHub.",
-   "impact": "Shows ability to automate content pipelines with GitHub Actions, TypeScript, and AI services.",
+   "headline": "Self-maintaining portfolio site generated from public repos",
+   "what": "A static site displays a JSON file of project narratives. A GitHub Action scans the user’s public, non-fork repositories, calls a free LLM to write recruiter-facing summaries, and writes the results to data/portfolio.json. The site reads that file and renders role-first sections with a command-palette search.",
+   "why": "Keeps a developer’s portfolio current without manual edits, reducing stale information. Automates narrative creation for each repository using available LLM services.",
+   "impact": "Demonstrates end-to-end automation of data collection, AI-generated content, and static site deployment via CI/CD.",
    "highlights": [
-    "GitHub Action syncs repos to JSON",
-    "AI-generated project narratives",
-    "Command-palette fuzzy search",
-    "Role-first project organization"
+    "GitHub Action gathers repo metadata",
+    "LLM generates recruiter narratives",
+    "Static export consumes JSON data",
+    "Fuzzy command-palette search over projects"
    ],
    "tech": [
     "TypeScript",
     "JavaScript",
     "CSS",
-    "Node.js",
     "GitHub Actions",
     "GitHub CLI",
-    "OpenAI-compatible LLM APIs",
-    "npm"
+    "Node.js",
+    "npm",
+    "LLM API"
    ],
    "signal": "solid",
    "enrichedBy": "ai",
-   "contentHash": "5e5b7c09f2d16637",
-   "primaryRole": "devops-engineer"
+   "contentHash": "3b9d65a034fec81c",
+   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-touropedia",
@@ -6656,7 +6733,7 @@
    "forks": 0,
    "commits": 4,
    "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-10-02T10:30:25Z",
+   "pushedAt": "2026-10-03T09:52:04Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -6664,15 +6741,15 @@
     "fullstack-developer",
     "devops-engineer"
    ],
-   "headline": "Static site listing organization repositories with AI-generated summaries",
-   "what": "A public website that lists every public repository in the organisation and shows an AI-written description for each. It is served as plain HTML, CSS and JavaScript on GitHub Pages, loads a pre-generated data/repos.json and then makes a single unauthenticated GitHub API request for newer repos. A daily GitHub Actions workflow regenerates the JSON and calls an LLM to write summaries for changed repositories.",
-   "why": "To give visitors an up-to-date overview of the organisation’s projects without maintaining a custom backend.",
-   "impact": "Shows integration of CI/CD, API consumption, and LLM services in a zero-build static site.",
+   "headline": "Static organization website with AI-generated repository summaries",
+   "what": "A public site lists every public repository in the organisation and shows an AI-written description of each. It is pure HTML, CSS and JavaScript served by GitHub Pages, loading a pre-generated data/repos.json and optionally fetching fresh data from the GitHub API. A daily GitHub Actions workflow regenerates the JSON and calls an LLM to write summaries for changed repositories.",
+   "why": "The site provides an up-to-date, human-readable catalog of the organisation’s projects without manual documentation effort.",
+   "impact": "Shows practical integration of CI-driven LLM calls and static-site delivery on GitHub Pages.",
    "highlights": [
-    "Daily GitHub Actions workflow refreshes repository data",
-    "Client-side fetch with offline fallback to snapshot",
-    "LLM-generated summaries stored in data/repos.json",
-    "No framework or bundler; pure static assets"
+    "Static site on GitHub Pages",
+    "Daily GitHub Actions workflow",
+    "LLM-generated repo summaries",
+    "Fallback to cached JSON when offline"
    ],
    "tech": [
     "JavaScript",
@@ -6680,12 +6757,13 @@
     "CSS",
     "GitHub Pages",
     "GitHub Actions",
-    "GitHub API",
-    "LLM API (Groq/OpenAI"
+    "REST API",
+    "LLM (Groq/OpenAI)",
+    "JSON"
    ],
    "signal": "minor",
    "enrichedBy": "ai",
-   "contentHash": "e54af2fb239ad296",
+   "contentHash": "4a6e1e7a2c6e3ceb",
    "primaryRole": "fullstack-developer"
   },
   {
