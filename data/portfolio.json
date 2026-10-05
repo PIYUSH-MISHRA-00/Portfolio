@@ -1,28 +1,28 @@
 {
- "syncedAt": "2026-10-04T20:14:53.118Z",
+ "syncedAt": "2026-10-05T12:22:46.174Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
   "avatarUrl": "https://avatars.githubusercontent.com/u/65788721?u=efadb8c3391d216e3cc1ef8df6e5ca0beaebe2d3&v=4",
   "location": "India",
   "company": "ni-sh-a.char",
-  "followers": 19,
+  "followers": 21,
   "publicRepos": 121,
   "joinedAt": "2020-05-22T20:31:19Z"
  },
  "stats": {
   "projects": 96,
-  "flagships": 15,
-  "commitsByMe": 4236,
+  "flagships": 16,
+  "commitsByMe": 4237,
   "stars": 68,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 12162,
-  "totalCommitContributions": 2274,
-  "totalIssueContributions": 7990,
+  "contributionsLastYear": 10446,
+  "totalCommitContributions": 2259,
+  "totalIssueContributions": 6295,
   "totalPullRequestContributions": 0,
-  "privateContributions": 1886,
+  "privateContributions": 1881,
   "languages": [
    {
     "name": "Python",
@@ -148,11 +148,11 @@
    },
    {
     "date": "2025-10-16",
-    "contributionCount": 777
+    "contributionCount": 929
    },
    {
     "date": "2025-10-17",
-    "contributionCount": 66
+    "contributionCount": 743
    },
    {
     "date": "2025-10-18",
@@ -162,11 +162,11 @@
   [
    {
     "date": "2025-10-19",
-    "contributionCount": 61
+    "contributionCount": 62
    },
    {
     "date": "2025-10-20",
-    "contributionCount": 37
+    "contributionCount": 38
    },
    {
     "date": "2025-10-21",
@@ -182,7 +182,7 @@
    },
    {
     "date": "2025-10-24",
-    "contributionCount": 44
+    "contributionCount": 45
    },
    {
     "date": "2025-10-25",
@@ -196,7 +196,7 @@
    },
    {
     "date": "2025-10-27",
-    "contributionCount": 32
+    "contributionCount": 40
    },
    {
     "date": "2025-10-28",
@@ -226,11 +226,11 @@
    },
    {
     "date": "2025-11-03",
-    "contributionCount": 57
+    "contributionCount": 58
    },
    {
     "date": "2025-11-04",
-    "contributionCount": 36
+    "contributionCount": 37
    },
    {
     "date": "2025-11-05",
@@ -256,7 +256,7 @@
    },
    {
     "date": "2025-11-10",
-    "contributionCount": 40
+    "contributionCount": 41
    },
    {
     "date": "2025-11-11",
@@ -294,11 +294,11 @@
    },
    {
     "date": "2025-11-19",
-    "contributionCount": 56
+    "contributionCount": 57
    },
    {
     "date": "2025-11-20",
-    "contributionCount": 78
+    "contributionCount": 79
    },
    {
     "date": "2025-11-21",
@@ -306,7 +306,7 @@
    },
    {
     "date": "2025-11-22",
-    "contributionCount": 81
+    "contributionCount": 82
    }
   ],
   [
@@ -316,11 +316,11 @@
    },
    {
     "date": "2025-11-24",
-    "contributionCount": 41
+    "contributionCount": 47
    },
    {
     "date": "2025-11-25",
-    "contributionCount": 82
+    "contributionCount": 83
    },
    {
     "date": "2025-11-26",
@@ -328,11 +328,11 @@
    },
    {
     "date": "2025-11-27",
-    "contributionCount": 46
+    "contributionCount": 47
    },
    {
     "date": "2025-11-28",
-    "contributionCount": 97
+    "contributionCount": 98
    },
    {
     "date": "2025-11-29",
@@ -346,7 +346,7 @@
    },
    {
     "date": "2025-12-01",
-    "contributionCount": 20
+    "contributionCount": 21
    },
    {
     "date": "2025-12-02",
@@ -366,7 +366,7 @@
    },
    {
     "date": "2025-12-06",
-    "contributionCount": 58
+    "contributionCount": 59
    }
   ],
   [
@@ -384,7 +384,7 @@
    },
    {
     "date": "2025-12-10",
-    "contributionCount": 45
+    "contributionCount": 46
    },
    {
     "date": "2025-12-11",
@@ -448,7 +448,7 @@
    },
    {
     "date": "2025-12-25",
-    "contributionCount": 40
+    "contributionCount": 47
    },
    {
     "date": "2025-12-26",
@@ -1663,6 +1663,10 @@
    {
     "date": "2026-10-04",
     "contributionCount": 0
+   },
+   {
+    "date": "2026-10-05",
+    "contributionCount": 0
    }
   ]
  ],
@@ -1695,7 +1699,7 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 32
+   "count": 31
   },
   {
    "id": "mobile-developer",
@@ -1719,7 +1723,7 @@
    "id": "automation-engineer",
    "name": "Automation Engineer",
    "tagline": "Scripts and pipelines that delete repetitive work.",
-   "count": 6
+   "count": 7
   }
  ],
  "orgs": [
@@ -2444,6 +2448,71 @@
    "enrichedBy": "ai",
    "contentHash": "e8d8a023bbffde90",
    "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "piyush-mishra-00-portfolio",
+   "name": "Portfolio",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
+   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
+   "description": "https://piyush-mishra-00.github.io/Portfolio/",
+   "topics": [],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 70677,
+     "pct": 56.6
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 47384,
+     "pct": 38
+    },
+    {
+     "name": "CSS",
+     "bytes": 6753,
+     "pct": 5.4
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 177,
+   "createdAt": "2023-03-30T11:31:18Z",
+   "pushedAt": "2026-10-04T20:14:54Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "automation-engineer",
+    "devops-engineer"
+   ],
+   "headline": "Self-updating portfolio site generated from GitHub data",
+   "what": "A static site displays a JSON file of project narratives generated from the user's public repositories. A GitHub Action scans repositories, invokes a free-tier LLM to write recruiter-facing summaries, and commits the results to data/portfolio.json. The frontend, built with TypeScript, JavaScript and CSS, renders the data with a role-first layout and a fuzzy-search command palette.",
+   "why": "Manual portfolio maintenance is time-consuming and error-prone, so the system automates data collection and narrative creation to keep the site current with each push.",
+   "impact": "Shows end-to-end automation of CI/CD pipelines, LLM integration, and full-stack static site development.",
+   "highlights": [
+    "GitHub Action fetches repo metadata",
+    "LLM generates recruiter-friendly narratives",
+    "Static site built with TypeScript and CSS",
+    "Command palette enables fuzzy search"
+   ],
+   "tech": [
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "GitHub Actions",
+    "GitHub CLI",
+    "OpenAI-compatible API",
+    "Node.js",
+    "npm"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "d9b0e3e9aafa0e22",
+   "primaryRole": "automation-engineer"
   },
   {
    "id": "ni-sh-a-char-resentment-kernel",
@@ -3572,71 +3641,6 @@
    "signal": "solid",
    "enrichedBy": "groq",
    "contentHash": "aa58391fd802a464",
-   "primaryRole": "fullstack-developer"
-  },
-  {
-   "id": "piyush-mishra-00-portfolio",
-   "name": "Portfolio",
-   "owner": "PIYUSH-MISHRA-00",
-   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
-   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
-   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
-   "description": "https://piyush-mishra-00.github.io/Portfolio/",
-   "topics": [],
-   "languages": [
-    {
-     "name": "TypeScript",
-     "bytes": 70677,
-     "pct": 56.6
-    },
-    {
-     "name": "JavaScript",
-     "bytes": 47384,
-     "pct": 38
-    },
-    {
-     "name": "CSS",
-     "bytes": 6753,
-     "pct": 5.4
-    }
-   ],
-   "primaryLanguage": "TypeScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 176,
-   "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-10-04T11:10:37Z",
-   "isArchived": false,
-   "isOrg": false,
-   "org": null,
-   "roles": [
-    "fullstack-developer",
-    "devops-engineer"
-   ],
-   "headline": "Self-maintaining developer portfolio site",
-   "what": "A static site displays a JSON file of project narratives generated automatically. A GitHub Action scans every public, non-fork repository the engineer authored, calls free-tier OpenAI-compatible LLM providers to write recruiter-facing summaries, and writes the results to data/portfolio.json. The site includes a command-palette fuzzy search and a role-first organization of projects.",
-   "why": "Manual updates to a portfolio are time-consuming; the automation keeps the showcase current without developer intervention.",
-   "impact": "Shows end-to-end automation of CI/CD, LLM integration, and static-site generation in a production-ready web app.",
-   "highlights": [
-    "GitHub Action scans repos and writes JSON",
-    "Free-tier LLM generates recruiter narratives",
-    "Command palette with fuzzy search",
-    "Role-first project organization"
-   ],
-   "tech": [
-    "TypeScript",
-    "JavaScript",
-    "CSS",
-    "GitHub Actions",
-    "GitHub CLI",
-    "OpenAI-compatible LLM APIs",
-    "npm",
-    "JSON"
-   ],
-   "signal": "solid",
-   "enrichedBy": "ai",
-   "contentHash": "21545b758a10eefa",
    "primaryRole": "fullstack-developer"
   },
   {
@@ -6709,7 +6713,7 @@
    "forks": 0,
    "commits": 4,
    "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-10-04T10:34:52Z",
+   "pushedAt": "2026-10-05T11:28:48Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -6717,29 +6721,28 @@
     "fullstack-developer",
     "devops-engineer"
    ],
-   "headline": "Static site listing organization repos with AI-generated summaries",
-   "what": "A public website hosted on GitHub Pages that displays every public repository in the organisation, showing an AI-written description for each. It serves static HTML, CSS and JavaScript, loads a pre-generated data/repos.json and then makes a single unauthenticated GitHub API call for newer repos, falling back to the snapshot if offline. A daily GitHub Actions workflow regenerates the JSON and invokes an LLM to produce the summaries, keeping the API key in secrets.",
-   "why": "To provide an up-to-date, human-readable overview of the organisation’s projects without manual maintenance.",
-   "impact": "Shows practical integration of CI/CD, LLM APIs, and client-side data fetching in a static web deployment.",
+   "headline": "Static site listing organization repositories with AI-generated summaries",
+   "what": "A public website that lists every public repository in the organization and shows an AI-written description for each. Built with plain HTML, CSS and JavaScript served via GitHub Pages; a GitHub Actions workflow runs daily to refresh a JSON snapshot and invoke an LLM for new or changed repos.",
+   "why": "Provides an up-to-date, human-readable overview of the org’s projects without manual maintenance.",
+   "impact": "Shows integration of CI/CD automation with external LLM services to produce dynamic content on a static site.",
    "highlights": [
-    "Static HTML/CSS/JS site on GitHub Pages",
-    "Daily GitHub Actions workflow generates repos.json",
-    "LLM API creates AI summaries for each repo",
-    "Client fetches GitHub API with offline fallback"
+    "AI summaries generated in GitHub Actions",
+    "Daily data refresh workflow",
+    "Offline and rate-limit fallback using cached JSON",
+    "Zero-bundle static front-end"
    ],
    "tech": [
     "JavaScript",
     "HTML",
     "CSS",
-    "GitHub Pages",
     "GitHub Actions",
-    "LLM API",
-    "GitHub API",
-    "JSON"
+    "LLM API (Groq/OpenAI",
+    "GitHub Pages",
+    "fetch API"
    ],
    "signal": "minor",
    "enrichedBy": "ai",
-   "contentHash": "e818da2a0e2d9a6b",
+   "contentHash": "21028e569e7eb931",
    "primaryRole": "fullstack-developer"
   },
   {
