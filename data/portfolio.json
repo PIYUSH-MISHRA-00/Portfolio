@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-10-12T13:16:47.250Z",
+ "syncedAt": "2026-10-12T23:39:58.044Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 96,
   "flagships": 15,
-  "commitsByMe": 4255,
+  "commitsByMe": 4256,
   "stars": 68,
   "roles": 9,
   "orgs": 2,
@@ -1699,7 +1699,7 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 31
+   "count": 32
   },
   {
    "id": "mobile-developer",
@@ -1711,7 +1711,7 @@
    "id": "devops-engineer",
    "name": "DevOps & Platform Engineer",
    "tagline": "Containers, images and reproducible environments.",
-   "count": 2
+   "count": 1
   },
   {
    "id": "systems-engineer",
@@ -3608,38 +3608,40 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 191,
+   "commits": 192,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-10-11T21:00:10Z",
+   "pushedAt": "2026-10-12T13:16:48Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "devops-engineer",
-    "automation-engineer"
+    "fullstack-developer",
+    "devops-engineer"
    ],
-   "headline": "Self-maintaining developer portfolio generated via GitHub Actions and LLMs",
-   "what": "A static site that lists the engineer’s public repositories and displays recruiter-facing narratives. A GitHub Action scans public, non-fork repos, calls a free-tier OpenAI-compatible LLM to write the narrative, and commits the result to data/portfolio.json. The site is built with TypeScript, JavaScript and CSS and rendered as a static export.",
-   "why": "Manual updates to a portfolio are time-consuming; this automation keeps the content current and organized by role without developer intervention.",
-   "impact": "Shows end-to-end automation of repository discovery, LLM integration, and CI/CD pipeline deployment.",
+   "headline": "Self-maintaining portfolio site generated from GitHub data",
+   "what": "A static site that lists the engineer’s public repositories, organized by role. It is built with TypeScript, JavaScript and CSS and compiled to static HTML. A GitHub Action scans repositories, calls a free LLM to write recruiter-facing narratives, and writes the results to data/portfolio.json for the site to render.",
+   "why": "Keeps the portfolio up-to-date automatically without manual edits, eliminating stale information.",
+   "impact": "Shows end-to-end automation of data collection, LLM integration, and static site generation.",
    "highlights": [
-    "GitHub Action fetches public repos and writes narratives",
-    "Free-tier LLM selection with failover handling",
-    "Role-first project organization on the site",
-    "Command palette provides fuzzy search across projects"
+    "GitHub Action scans all public repos",
+    "LLM-driven narrative generation",
+    "Role-first project organization",
+    "Command palette with fuzzy search"
    ],
    "tech": [
     "TypeScript",
     "JavaScript",
     "CSS",
     "GitHub Actions",
+    "Node.js",
     "GitHub CLI",
-    "OpenAI-compatible LLM APIs"
+    "OpenAI-compatible LLM APIs",
+    "Static site generation"
    ],
    "signal": "solid",
    "enrichedBy": "ai",
-   "contentHash": "e6fc44ebdabc0e1b",
-   "primaryRole": "devops-engineer"
+   "contentHash": "6048c83b7ac1dcd0",
+   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-touropedia",
