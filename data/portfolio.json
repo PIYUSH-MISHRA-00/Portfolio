@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-10-16T09:56:24.152Z",
+ "syncedAt": "2026-10-16T20:00:12.903Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 96,
   "flagships": 16,
-  "commitsByMe": 4263,
+  "commitsByMe": 4264,
   "stars": 68,
   "roles": 9,
   "orgs": 2,
@@ -1715,7 +1715,7 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 32
+   "count": 31
   },
   {
    "id": "mobile-developer",
@@ -1739,7 +1739,7 @@
    "id": "automation-engineer",
    "name": "Automation Engineer",
    "tagline": "Scripts and pipelines that delete repetitive work.",
-   "count": 6
+   "count": 7
   }
  ],
  "orgs": [
@@ -2495,23 +2495,23 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 199,
+   "commits": 200,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-10-15T20:24:18Z",
+   "pushedAt": "2026-10-16T09:56:25Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "fullstack-developer",
+    "automation-engineer",
     "devops-engineer"
    ],
    "headline": "Self-maintaining portfolio site that auto-generates project narratives",
-   "what": "A static site reads a JSON file of project data and renders a role-first portfolio. A GitHub Action scans public repositories, invokes a free LLM to write recruiter-facing narratives, and writes the results to data/portfolio.json. The site is built with TypeScript, JavaScript and CSS and updates automatically via the workflow.",
-   "why": "Manual updates to a portfolio are error-prone and time-consuming, especially as new work is added across multiple repositories.",
-   "impact": "Demonstrates end-to-end automation of data collection, AI-driven content creation, and static site generation using modern web and CI/CD tools.",
+   "what": "A static site reads every public, non-fork repository of the account, extracts metadata, and writes recruiter-facing narratives to a JSON file. A GitHub Action runs the sync, calls free OpenAI-compatible LLM providers, and commits the result. The site is built with TypeScript/JavaScript and exported as static HTML/CSS.",
+   "why": "Keeps a developer’s portfolio current without manual edits, ensuring recruiters see up-to-date project descriptions.",
+   "impact": "Shows end-to-end automation of CI/CD pipelines and LLM integration for content generation.",
    "highlights": [
-    "GitHub Action syncs repos to JSON",
-    "AI-generated recruiter narratives",
+    "GitHub Action syncs repos nightly",
+    "LLM-generated recruiter narratives",
     "Role-first project organization",
     "Command palette for fuzzy search"
    ],
@@ -2522,13 +2522,13 @@
     "GitHub Actions",
     "GitHub CLI",
     "Node.js",
-    "npm",
-    "OpenAI-compatible LLM APIs"
+    "OpenAI-compatible LLM APIs",
+    "Static site export"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "a92282027d0ac55c",
-   "primaryRole": "fullstack-developer"
+   "contentHash": "df0a8e8a20fc8118",
+   "primaryRole": "automation-engineer"
   },
   {
    "id": "ni-sh-a-char-resentment-kernel",
