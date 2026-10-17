@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-10-16T20:00:12.903Z",
+ "syncedAt": "2026-10-17T09:29:23.791Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 96,
   "flagships": 16,
-  "commitsByMe": 4264,
+  "commitsByMe": 4265,
   "stars": 68,
   "roles": 9,
   "orgs": 2,
@@ -1683,6 +1683,10 @@
    {
     "date": "2026-10-16",
     "contributionCount": 0
+   },
+   {
+    "date": "2026-10-17",
+    "contributionCount": 0
    }
   ]
  ],
@@ -2495,9 +2499,9 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 200,
+   "commits": 201,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-10-16T09:56:25Z",
+   "pushedAt": "2026-10-16T20:00:13Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
@@ -2505,15 +2509,15 @@
     "automation-engineer",
     "devops-engineer"
    ],
-   "headline": "Self-maintaining portfolio site that auto-generates project narratives",
-   "what": "A static site reads every public, non-fork repository of the account, extracts metadata, and writes recruiter-facing narratives to a JSON file. A GitHub Action runs the sync, calls free OpenAI-compatible LLM providers, and commits the result. The site is built with TypeScript/JavaScript and exported as static HTML/CSS.",
-   "why": "Keeps a developer’s portfolio current without manual edits, ensuring recruiters see up-to-date project descriptions.",
-   "impact": "Shows end-to-end automation of CI/CD pipelines and LLM integration for content generation.",
+   "headline": "Self-maintaining portfolio site generated via GitHub Actions",
+   "what": "A static portfolio site reads every public, non-fork repository owned or contributed to by the user, runs an LLM to create recruiter-facing narratives, and writes the results to a JSON data file. The pipeline is implemented as a GitHub Action that uses the GitHub CLI, free-tier LLM providers, and npm scripts to sync on push or on a schedule. The site renders the JSON as a role-first, searchable portfolio with a command palette and brief mode.",
+   "why": "Keeps a developer’s public work up-to-date automatically, removing manual edits and ensuring recruiters see current project summaries.",
+   "impact": "Shows ability to automate data collection, LLM integration, and CI/CD for a production-ready static site.",
    "highlights": [
-    "GitHub Action syncs repos nightly",
-    "LLM-generated recruiter narratives",
-    "Role-first project organization",
-    "Command palette for fuzzy search"
+    "GitHub Action syncs repos on push",
+    "LLM generates project narratives",
+    "Static export from data/portfolio.json",
+    "Fuzzy search command palette"
    ],
    "tech": [
     "TypeScript",
@@ -2522,12 +2526,12 @@
     "GitHub Actions",
     "GitHub CLI",
     "Node.js",
-    "OpenAI-compatible LLM APIs",
-    "Static site export"
+    "npm",
+    "OpenAI-compatible LLM APIs"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "df0a8e8a20fc8118",
+   "contentHash": "1aabdd135ff84771",
    "primaryRole": "automation-engineer"
   },
   {
@@ -6729,22 +6733,23 @@
    "forks": 0,
    "commits": 4,
    "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-10-16T09:01:30Z",
+   "pushedAt": "2026-10-17T08:33:33Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
    "roles": [
-    "fullstack-developer"
+    "fullstack-developer",
+    "ai-engineer"
    ],
    "headline": "Static organization website with AI-generated repo summaries",
-   "what": "Provides a public site that lists every public repository in the organisation and shows AI-written breakdowns of each project. Built with plain HTML, CSS and JavaScript served via GitHub Pages; a daily GitHub Actions workflow regenerates a JSON data file and calls an LLM to produce the summaries.",
-   "why": "Needed a simple, zero-build site that stays current without manual updates.",
-   "impact": "Demonstrates ability to automate CI pipelines, integrate LLM APIs, and render data client-side.",
+   "what": "A public site lists every repository in the organization and shows an AI-written description for each. The pages are plain HTML, CSS and JavaScript served directly from GitHub Pages, with a single unauthenticated GitHub API call to fetch recent updates. A daily GitHub Actions workflow calls an LLM to refresh summaries and writes them to a JSON file used by the site.",
+   "why": "Provides an up-to-date, human-readable overview of the org’s projects without manual documentation effort.",
+   "impact": "Shows competence in wiring LLM services into CI pipelines and delivering dynamic content with a static-site stack.",
    "highlights": [
-    "Zero-build static site on GitHub Pages",
-    "GitHub Actions workflow generates data daily",
-    "LLM API used to write repository summaries",
-    "Graceful fallback when API rate-limited or offline"
+    "Fetches repo list via GitHub API",
+    "Generates AI summaries in GitHub Actions",
+    "Static site served via GitHub Pages",
+    "Offline and rate-limit fallback"
    ],
    "tech": [
     "JavaScript",
@@ -6752,13 +6757,13 @@
     "CSS",
     "GitHub Pages",
     "GitHub Actions",
-    "JSON",
-    "LLM API (Groq/OpenAI)",
-    "fetch API"
+    "GitHub API",
+    "LLM (Groq/OpenAI compatible)",
+    "JSON"
    ],
    "signal": "minor",
    "enrichedBy": "ai",
-   "contentHash": "80eca49261b82292",
+   "contentHash": "fef844b58e47fbb8",
    "primaryRole": "fullstack-developer"
   },
   {
