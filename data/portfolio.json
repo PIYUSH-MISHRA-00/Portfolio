@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-10-18T19:29:04.144Z",
+ "syncedAt": "2026-10-19T10:54:29.726Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,16 +13,16 @@
  "stats": {
   "projects": 96,
   "flagships": 16,
-  "commitsByMe": 4268,
+  "commitsByMe": 4269,
   "stars": 68,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 8159,
-  "totalCommitContributions": 2256,
-  "totalIssueContributions": 4087,
+  "contributionsLastYear": 4209,
+  "totalCommitContributions": 2207,
+  "totalIssueContributions": 298,
   "totalPullRequestContributions": 0,
-  "privateContributions": 1805,
+  "privateContributions": 1694,
   "languages": [
    {
     "name": "Python",
@@ -1663,6 +1663,10 @@
    {
     "date": "2026-10-18",
     "contributionCount": 0
+   },
+   {
+    "date": "2026-10-19",
+    "contributionCount": 0
    }
   ]
  ],
@@ -1695,7 +1699,7 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 31
+   "count": 32
   },
   {
    "id": "mobile-developer",
@@ -1719,7 +1723,7 @@
    "id": "automation-engineer",
    "name": "Automation Engineer",
    "tagline": "Scripts and pipelines that delete repetitive work.",
-   "count": 7
+   "count": 6
   }
  ],
  "orgs": [
@@ -2475,25 +2479,25 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 204,
+   "commits": 205,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-10-18T09:43:09Z",
+   "pushedAt": "2026-10-18T19:29:05Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "automation-engineer",
-    "devops-engineer"
+    "fullstack-developer",
+    "automation-engineer"
    ],
-   "headline": "Self-maintaining portfolio site that updates from GitHub repositories",
-   "what": "A static site generated from data/portfolio.json displays a live portfolio. A GitHub Action scans public, non-fork repos, calls a free OpenAI-compatible LLM to write recruiter-facing narratives, and commits the JSON back. The front-end is built with TypeScript, JavaScript and CSS and served as a static export.",
-   "why": "Keeps the portfolio current automatically, removing manual edits after each repository change.",
-   "impact": "Shows end-to-end automation of CI/CD, LLM integration, and static site generation.",
+   "headline": "Self-maintaining portfolio site that auto-generates project narratives",
+   "what": "A static site that lists the engineer’s public repositories and displays recruiter-facing narratives. A GitHub Action queries the GitHub API, runs free LLM providers to write the narratives, and commits the results to a JSON file used by the site. The front-end is built with TypeScript, JavaScript and CSS and includes a command-palette fuzzy search.",
+   "why": "Keeps a portfolio current without manual edits, reducing stale information and effort for the developer.",
+   "impact": "Shows end-to-end integration of CI/CD, API consumption, LLM services, and front-end development in a single project.",
    "highlights": [
-    "GitHub Action fetches repos and writes JSON",
-    "Free LLM creates project narratives",
-    "Command palette with fuzzy search",
-    "Role-first organization of projects"
+    "GitHub Action fetches repos and updates JSON",
+    "LLM-driven narrative generation",
+    "Role-first project organization",
+    "Command palette with fuzzy search"
    ],
    "tech": [
     "TypeScript",
@@ -2507,8 +2511,8 @@
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "5ad6fcef5be67d32",
-   "primaryRole": "automation-engineer"
+   "contentHash": "4ba055dbfc03e7ec",
+   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-resentment-kernel",
@@ -6709,7 +6713,7 @@
    "forks": 0,
    "commits": 4,
    "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-10-18T08:50:50Z",
+   "pushedAt": "2026-10-19T09:53:30Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -6718,14 +6722,14 @@
     "devops-engineer"
    ],
    "headline": "Static organization website with AI-generated repo summaries",
-   "what": "A public site lists every repository in the ni-sh-a-char organisation and shows an AI-written description for each. It is built with plain HTML, CSS and JavaScript served directly from GitHub Pages, without a framework or bundler. A daily GitHub Actions workflow regenerates a JSON data file and calls an LLM to update summaries when repository metadata changes.",
-   "why": "Provides a single, always-up-to-date view of the organisation’s projects without manual editing, and falls back to cached data when the GitHub API is unavailable.",
-   "impact": "Shows ability to combine client-side rendering with CI-driven data generation and LLM integration.",
+   "what": "A public site that lists every public repository in the organisation and shows an AI-written description of each. Built with plain HTML, CSS and JavaScript; the page loads a pre-generated data/repos.json and makes a single unauthenticated GitHub API request for newer repos. A GitHub Actions workflow runs daily, calls an LLM to write summaries, updates the JSON and caches unchanged entries.",
+   "why": "To give visitors an up-to-date overview of the organisation’s projects without manual maintenance.",
+   "impact": "Shows integration of CI (GitHub Actions) with an LLM API and client-side data handling in a zero-build static site.",
    "highlights": [
-    "Static site, no build step",
-    "GitHub Actions refreshes data daily",
-    "AI-generated summaries via LLM API",
-    "Graceful fallback when API rate-limited"
+    "AI-generated repo descriptions",
+    "GitHub Actions daily refresh",
+    "Static site, no bundler",
+    "Fallback snapshot on rate-limit"
    ],
    "tech": [
     "JavaScript",
@@ -6733,12 +6737,12 @@
     "CSS",
     "GitHub Pages",
     "GitHub Actions",
-    "JSON",
+    "GitHub API",
     "LLM API (Groq/OpenAI"
    ],
    "signal": "minor",
    "enrichedBy": "ai",
-   "contentHash": "23904aa96a3c9d27",
+   "contentHash": "a591f01526a4213b",
    "primaryRole": "fullstack-developer"
   },
   {
