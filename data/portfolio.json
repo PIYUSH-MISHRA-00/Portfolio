@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-10-22T10:19:08.996Z",
+ "syncedAt": "2026-10-22T20:37:16.683Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 96,
   "flagships": 16,
-  "commitsByMe": 4275,
+  "commitsByMe": 4276,
   "stars": 68,
   "roles": 9,
   "orgs": 2,
@@ -1723,7 +1723,7 @@
    "id": "devops-engineer",
    "name": "DevOps & Platform Engineer",
    "tagline": "Containers, images and reproducible environments.",
-   "count": 2
+   "count": 1
   },
   {
    "id": "systems-engineer",
@@ -1735,7 +1735,7 @@
    "id": "automation-engineer",
    "name": "Automation Engineer",
    "tagline": "Scripts and pipelines that delete repetitive work.",
-   "count": 6
+   "count": 7
   }
  ],
  "orgs": [
@@ -2491,25 +2491,25 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 211,
+   "commits": 212,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-10-21T20:42:26Z",
+   "pushedAt": "2026-10-22T10:19:10Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "devops-engineer",
-    "fullstack-developer"
+    "automation-engineer",
+    "devops-engineer"
    ],
-   "headline": "Self-maintaining portfolio site generated from public GitHub repos",
-   "what": "A static site reads every public, non-fork repository on the account, extracts metadata, and stores LLM-generated recruiter narratives in data/portfolio.json. A GitHub Action runs the sync, invoking free OpenAI-compatible models and the GitHub CLI for reliable API calls. The site is built with TypeScript, JavaScript and CSS and exported as a static HTML bundle.",
-   "why": "Manual portfolio updates are error-prone and time-consuming; this automation keeps the showcase current with each push.",
-   "impact": "Shows end-to-end CI/CD pipeline creation, LLM integration, and full-stack static site development.",
+   "headline": "Self-maintaining portfolio site generated via GitHub Actions",
+   "what": "A static site that lists the engineer’s public repositories and displays AI-written recruiter narratives. A GitHub Action queries GitHub, runs a free-tier LLM to create the narratives, and writes them to data/portfolio.json, which the site renders. The site includes a role-first layout, command-palette search, and a brief mode for recruiters.",
+   "why": "Keeps the portfolio current without manual edits, ensuring new projects appear automatically after a push.",
+   "impact": "Shows ability to design and implement an end-to-end CI pipeline that integrates GitHub APIs, LLM services, and static site generation.",
    "highlights": [
-    "GitHub Action fetches repo metadata",
-    "LLM-generated recruiter narratives",
+    "GitHub Action syncs repos to JSON",
+    "LLM generates recruiter narratives",
     "Role-first project organization",
-    "Command palette with fuzzy search"
+    "Fuzzy search command palette"
    ],
    "tech": [
     "TypeScript",
@@ -2517,14 +2517,14 @@
     "CSS",
     "GitHub Actions",
     "GitHub CLI",
-    "OpenAI-compatible LLM APIs",
     "Node.js",
+    "OpenAI-compatible LLM APIs",
     "npm"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "6504b8d5962ec086",
-   "primaryRole": "devops-engineer"
+   "contentHash": "134e7442ccef8805",
+   "primaryRole": "automation-engineer"
   },
   {
    "id": "ni-sh-a-char-resentment-kernel",
