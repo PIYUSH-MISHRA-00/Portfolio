@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-10-24T09:37:49.011Z",
+ "syncedAt": "2026-10-24T19:33:41.853Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 96,
   "flagships": 16,
-  "commitsByMe": 4279,
+  "commitsByMe": 4280,
   "stars": 68,
   "roles": 9,
   "orgs": 2,
@@ -2499,9 +2499,9 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 215,
+   "commits": 216,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-10-23T20:31:19Z",
+   "pushedAt": "2026-10-24T09:37:49Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
@@ -2509,13 +2509,13 @@
     "automation-engineer",
     "fullstack-developer"
    ],
-   "headline": "Self-maintaining developer portfolio site",
-   "what": "A static website that displays a developer’s public projects, organized by role. A GitHub Action scans the user’s public repositories, extracts metadata, and uses a free LLM to write recruiter-facing narratives, storing the result in data/portfolio.json. The site reads this JSON at build time to render the pages.",
-   "why": "Keeps the portfolio current without manual edits, reducing stale information.",
-   "impact": "Demonstrates end-to-end automation of data collection, AI-generated content, and static site deployment.",
+   "headline": "Self-maintaining portfolio site that auto-generates project narratives",
+   "what": "A static site reads every public, non-fork repository in the account, calls a free LLM to write recruiter-facing narratives, and stores the results in data/portfolio.json. The site is built with TypeScript, JavaScript and CSS and rendered from that JSON. A GitHub Action runs on push or on a schedule, using the GitHub CLI to query repos and invoke the LLM providers.",
+   "why": "Manual updates to a portfolio are time-consuming and error-prone; this automation keeps the showcase current with each commit. It also standardizes the presentation of projects across roles.",
+   "impact": "Demonstrates end-to-end CI/CD automation, LLM integration, and a TypeScript static-site implementation.",
    "highlights": [
-    "GitHub Action syncs repos to JSON",
-    "LLM generates recruiter narratives",
+    "GitHub Action fetches repos and writes narratives",
+    "LLM-driven content generation with provider fallback",
     "Role-first project organization",
     "Command palette with fuzzy search"
    ],
@@ -2526,11 +2526,12 @@
     "GitHub Actions",
     "GitHub CLI",
     "OpenAI-compatible LLM APIs",
-    "npm"
+    "npm",
+    "JSON"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "c850899ac8b3a929",
+   "contentHash": "b6319f5470396a67",
    "primaryRole": "automation-engineer"
   },
   {
