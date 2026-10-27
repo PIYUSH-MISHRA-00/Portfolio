@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-10-27T10:41:26.103Z",
+ "syncedAt": "2026-10-27T21:24:01.221Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 96,
   "flagships": 16,
-  "commitsByMe": 4285,
+  "commitsByMe": 4286,
   "stars": 68,
   "roles": 9,
   "orgs": 2,
@@ -1703,7 +1703,7 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 32
+   "count": 31
   },
   {
    "id": "mobile-developer",
@@ -1727,7 +1727,7 @@
    "id": "automation-engineer",
    "name": "Automation Engineer",
    "tagline": "Scripts and pipelines that delete repetitive work.",
-   "count": 6
+   "count": 7
   }
  ],
  "orgs": [
@@ -2483,40 +2483,40 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 221,
+   "commits": 222,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-10-26T21:41:07Z",
+   "pushedAt": "2026-10-27T10:41:27Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "fullstack-developer",
-    "devops-engineer"
+    "automation-engineer",
+    "fullstack-developer"
    ],
-   "headline": "Self-maintaining developer portfolio site",
-   "what": "A static site that lists the engineer’s public projects and generates recruiter-facing narratives automatically. It runs a GitHub Action written in TypeScript that queries GitHub, calls a free LLM API to write summaries, stores them in data/portfolio.json, and the site renders the JSON as a role-first portfolio with a command-palette search.",
-   "why": "Keeps the portfolio current without manual edits and provides concise, AI-generated project descriptions for recruiters. It removes the overhead of updating a personal site after each commit.",
-   "impact": "Shows end-to-end automation of CI/CD, LLM integration, and static-site generation using modern web tooling.",
+   "headline": "Self-updating developer portfolio generator",
+   "what": "A static site that lists every public, non-fork repository authored by the engineer, organized by role. A GitHub Action queries the GitHub API, runs a free LLM to write recruiter-facing narratives, and writes the results to data/portfolio.json. The site is built with TypeScript/JavaScript and deployed via GitHub Pages.",
+   "why": "Manual portfolio updates are time-consuming and error-prone; the tool keeps the showcase current automatically and structures projects by role for recruiters.",
+   "impact": "Demonstrates end-to-end automation of data collection, LLM integration, and CI/CD for a live developer portfolio.",
    "highlights": [
-    "GitHub Action fetches repos and writes JSON",
-    "LLM generates recruiter narratives",
-    "Command palette with fuzzy search",
-    "Role-first project organization"
+    "GitHub Action fetches repos and triggers sync",
+    "Free LLM providers generate project narratives",
+    "Role-first organization of projects",
+    "Command palette enables fuzzy search"
    ],
    "tech": [
     "TypeScript",
     "JavaScript",
     "CSS",
     "GitHub Actions",
-    "Node.js",
-    "gh CLI",
+    "GitHub API (gh CLI)",
     "OpenAI-compatible LLM APIs",
-    "npm"
+    "Node.js",
+    "GitHub Pages"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "85d45142982ed7f7",
-   "primaryRole": "fullstack-developer"
+   "contentHash": "7ecae8d8d25e7cbf",
+   "primaryRole": "automation-engineer"
   },
   {
    "id": "ni-sh-a-char-resentment-kernel",
