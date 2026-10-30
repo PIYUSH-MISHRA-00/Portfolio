@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-10-30T11:28:14.086Z",
+ "syncedAt": "2026-10-30T21:35:01.106Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 96,
   "flagships": 15,
-  "commitsByMe": 4291,
+  "commitsByMe": 4292,
   "stars": 68,
   "roles": 9,
   "orgs": 2,
@@ -3624,9 +3624,9 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 227,
+   "commits": 228,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-10-29T21:52:51Z",
+   "pushedAt": "2026-10-30T11:28:14Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
@@ -3634,29 +3634,29 @@
     "devops-engineer",
     "fullstack-developer"
    ],
-   "headline": "Self-maintaining portfolio site generated via GitHub Actions",
-   "what": "A static portfolio site reads every public, non-fork repository the engineer authored, runs an LLM to produce recruiter-facing narratives, and writes them to a JSON data file. The workflow is triggered by a GitHub Action that queries GitHub, calls free-tier LLM providers, and caches results. The site renders the JSON with a role-first layout and includes a fuzzy-search command palette.",
-   "why": "It removes manual updates, keeping the portfolio current as soon as code is pushed, and centralises project evidence by role rather than a single title.",
-   "impact": "Demonstrates end-to-end automation of data collection, AI-augmented content generation, and static site deployment using CI/CD.",
+   "headline": "Self-maintaining portfolio site generator",
+   "what": "Generates a static portfolio site from a JSON file that is automatically updated by a GitHub Action. The action scans public repositories, invokes a free LLM to write recruiter-facing narratives, and writes the results to data/portfolio.json. The site reads that file and renders role-first sections with a command palette and brief mode.",
+   "why": "Keeps a developer’s public portfolio current without manual edits, reducing stale information and manual copy-pasting.",
+   "impact": "Demonstrates end-to-end automation of data collection, AI-generated content, and CI/CD deployment.",
    "highlights": [
-    "GitHub Action auto-syncs repos",
-    "LLM-generated recruiter narratives",
-    "Role-first project organization",
-    "Command palette fuzzy search"
+    "GitHub Action scans repos and writes JSON",
+    "LLM-driven narrative generation",
+    "Static site renders role-first view",
+    "Command palette for fuzzy search"
    ],
    "tech": [
     "TypeScript",
     "JavaScript",
     "CSS",
     "GitHub Actions",
+    "Node.js",
     "GitHub CLI",
     "OpenAI-compatible LLM APIs",
-    "JSON",
-    "Static site export"
+    "Static site generation"
    ],
    "signal": "solid",
    "enrichedBy": "ai",
-   "contentHash": "3c8e7c0fd51273f8",
+   "contentHash": "fdce4e666d958abc",
    "primaryRole": "devops-engineer"
   },
   {
