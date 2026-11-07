@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-11-07T11:48:32.133Z",
+ "syncedAt": "2026-11-07T20:58:59.017Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 96,
   "flagships": 16,
-  "commitsByMe": 4307,
+  "commitsByMe": 4308,
   "stars": 68,
   "roles": 9,
   "orgs": 2,
@@ -2499,23 +2499,23 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 243,
+   "commits": 244,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-11-06T22:11:21Z",
+   "pushedAt": "2026-11-07T11:48:32Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
     "devops-engineer",
-    "fullstack-developer"
+    "automation-engineer"
    ],
-   "headline": "Self-maintaining portfolio site generated via GitHub Actions",
-   "what": "A static website that lists public repositories and shows AI-generated recruiter narratives. A GitHub Action scans the account, filters public non-fork repos, queries free LLM providers for summaries, and writes the results to data/portfolio.json, which the site renders. The UI groups projects by role, includes a command palette and a brief recruiter mode.",
-   "why": "Keeps the portfolio current automatically, removing manual updates and ensuring new work appears promptly for recruiters.",
-   "impact": "Shows end-to-end automation of repo discovery, LLM integration, and static site generation using GitHub Actions and TypeScript.",
+   "headline": "Self-maintaining portfolio site generated via GitHub Actions and LLM narratives",
+   "what": "A static site reads every public, non-fork repository on the account, queries free OpenAI-compatible models to write recruiter-facing project narratives, and stores them in data/portfolio.json. The pipeline runs in a GitHub Action using the gh CLI, TypeScript/JavaScript code, and renders the JSON as a role-first portfolio page.",
+   "why": "Keeps the engineer’s portfolio up-to-date automatically, removing manual edits after each repository change.",
+   "impact": "Shows end-to-end automation of content generation and CI/CD with GitHub Actions and LLM integration.",
    "highlights": [
-    "GitHub Action scans repos and writes JSON",
-    "Free-tier LLM providers generate narratives",
+    "GitHub Action syncs repos nightly",
+    "LLM generates project narratives",
     "Role-first project organization",
     "Command palette for fuzzy search"
    ],
@@ -2524,14 +2524,14 @@
     "JavaScript",
     "CSS",
     "GitHub Actions",
-    "GitHub CLI",
-    "OpenAI-compatible API",
+    "GitHub CLI (gh)",
+    "Node.js",
     "npm",
-    "JSON"
+    "OpenAI-compatible LLM APIs"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "2488a8ac5e963f46",
+   "contentHash": "caadb34a83213efc",
    "primaryRole": "devops-engineer"
   },
   {
