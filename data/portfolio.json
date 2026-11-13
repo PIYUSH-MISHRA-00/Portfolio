@@ -1,19 +1,19 @@
 {
- "syncedAt": "2026-11-12T22:47:24.921Z",
+ "syncedAt": "2026-11-13T13:14:05.282Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
   "avatarUrl": "https://avatars.githubusercontent.com/u/65788721?u=efadb8c3391d216e3cc1ef8df6e5ca0beaebe2d3&v=4",
   "location": "India",
   "company": "ni-sh-a.char",
-  "followers": 19,
+  "followers": 18,
   "publicRepos": 121,
   "joinedAt": "2020-05-22T20:31:19Z"
  },
  "stats": {
   "projects": 96,
-  "flagships": 16,
-  "commitsByMe": 4318,
+  "flagships": 15,
+  "commitsByMe": 4319,
   "stars": 68,
   "roles": 9,
   "orgs": 2,
@@ -1679,6 +1679,10 @@
    {
     "date": "2026-11-12",
     "contributionCount": 0
+   },
+   {
+    "date": "2026-11-13",
+    "contributionCount": 0
    }
   ]
  ],
@@ -1723,7 +1727,7 @@
    "id": "devops-engineer",
    "name": "DevOps & Platform Engineer",
    "tagline": "Containers, images and reproducible environments.",
-   "count": 2
+   "count": 1
   },
   {
    "id": "systems-engineer",
@@ -1735,7 +1739,7 @@
    "id": "automation-engineer",
    "name": "Automation Engineer",
    "tagline": "Scripts and pipelines that delete repetitive work.",
-   "count": 6
+   "count": 7
   }
  ],
  "orgs": [
@@ -2460,71 +2464,6 @@
    "enrichedBy": "ai",
    "contentHash": "bce3512859639f99",
    "primaryRole": "mobile-developer"
-  },
-  {
-   "id": "piyush-mishra-00-portfolio",
-   "name": "Portfolio",
-   "owner": "PIYUSH-MISHRA-00",
-   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
-   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
-   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
-   "description": "https://piyush-mishra-00.github.io/Portfolio/",
-   "topics": [],
-   "languages": [
-    {
-     "name": "TypeScript",
-     "bytes": 70677,
-     "pct": 56.6
-    },
-    {
-     "name": "JavaScript",
-     "bytes": 47384,
-     "pct": 38
-    },
-    {
-     "name": "CSS",
-     "bytes": 6753,
-     "pct": 5.4
-    }
-   ],
-   "primaryLanguage": "TypeScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 254,
-   "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-11-12T13:52:02Z",
-   "isArchived": false,
-   "isOrg": false,
-   "org": null,
-   "roles": [
-    "devops-engineer",
-    "automation-engineer"
-   ],
-   "headline": "Self-maintaining developer portfolio generated via GitHub Actions and LLM",
-   "what": "A static site that lists all public, non-fork repositories and displays recruiter-facing narratives. A GitHub Action runs nightly (or on push) to query GitHub, invoke a free-tier OpenAI-compatible model, and write the results to data/portfolio.json. The site reads that JSON and renders the portfolio with role-first sections and a command-palette search.",
-   "why": "Manual updates to a portfolio are time-consuming and error-prone; this automation keeps the content current without developer intervention.",
-   "impact": "Shows end-to-end CI/CD pipeline creation, LLM API integration, and automated content publishing.",
-   "highlights": [
-    "GitHub Action scans repos nightly",
-    "LLM-driven narrative generation",
-    "Role-first project organization",
-    "Fuzzy search command palette"
-   ],
-   "tech": [
-    "TypeScript",
-    "JavaScript",
-    "CSS",
-    "GitHub Actions",
-    "GitHub CLI (gh)",
-    "OpenAI-compatible LLM APIs",
-    "npm scripts",
-    "Static site export"
-   ],
-   "signal": "flagship",
-   "enrichedBy": "ai",
-   "contentHash": "53dfe3f595af3d28",
-   "primaryRole": "devops-engineer"
   },
   {
    "id": "ni-sh-a-char-resentment-kernel",
@@ -3653,6 +3592,71 @@
    "enrichedBy": "groq",
    "contentHash": "aa58391fd802a464",
    "primaryRole": "fullstack-developer"
+  },
+  {
+   "id": "piyush-mishra-00-portfolio",
+   "name": "Portfolio",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
+   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
+   "description": "https://piyush-mishra-00.github.io/Portfolio/",
+   "topics": [],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 70677,
+     "pct": 56.6
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 47384,
+     "pct": 38
+    },
+    {
+     "name": "CSS",
+     "bytes": 6753,
+     "pct": 5.4
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 255,
+   "createdAt": "2023-03-30T11:31:18Z",
+   "pushedAt": "2026-11-12T22:47:26Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "automation-engineer",
+    "devops-engineer"
+   ],
+   "headline": "Self-maintaining developer portfolio site",
+   "what": "A static site displays a JSON file of projects organized by role. A GitHub Action scans public, non-fork repositories, calls a free LLM to write recruiter-facing narratives, and writes the results to data/portfolio.json. Local sync uses the GitHub CLI to handle API retries.",
+   "why": "Keeps a personal portfolio up-to-date automatically, removing manual edits after each commit.",
+   "impact": "Demonstrates end-to-end automation of data collection, LLM integration, and CI/CD pipelines.",
+   "highlights": [
+    "GitHub Action syncs repos to JSON",
+    "LLM generates recruiter narratives",
+    "Role-first project organization",
+    "Command palette for fuzzy search"
+   ],
+   "tech": [
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "GitHub Actions",
+    "GitHub CLI",
+    "OpenAI-compatible API",
+    "npm",
+    "static site"
+   ],
+   "signal": "solid",
+   "enrichedBy": "ai",
+   "contentHash": "a8524dc32673ab7b",
+   "primaryRole": "automation-engineer"
   },
   {
    "id": "ni-sh-a-char-touropedia",
@@ -6724,7 +6728,7 @@
    "forks": 0,
    "commits": 4,
    "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-11-12T12:42:25Z",
+   "pushedAt": "2026-11-13T12:12:10Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -6733,14 +6737,14 @@
     "ai-engineer"
    ],
    "headline": "Static site that lists organization repos with AI-generated summaries",
-   "what": "A public website hosted on GitHub Pages shows every repository in the organisation. It loads a pre-generated data/repos.json and then makes one unauthenticated GitHub API request to add any new repos. A daily GitHub Actions workflow calls an LLM to write summaries for changed repositories, storing the results back to the JSON file.",
-   "why": "It gives visitors an up-to-date catalog of the org’s projects with automatically written descriptions, removing the need for manual documentation.",
-   "impact": "Shows ability to combine CI-driven LLM calls with a zero-build static front-end.",
+   "what": "A public website lists every repository in the organisation and shows an AI-written description for each. It is built with plain HTML, CSS and JavaScript served directly from GitHub Pages, fetching a pre-generated data/repos.json and then making a single unauthenticated GitHub API call for newer repos. A daily GitHub Actions workflow regenerates the JSON and invokes an LLM to write summaries, storing the API key in secrets.",
+   "why": "It provides an up-to-date, human-readable catalog of the organisation’s projects without manual documentation effort.",
+   "impact": "Shows ability to combine static web delivery with automated AI content generation and CI-CD pipelines.",
    "highlights": [
-    "Daily GitHub Actions workflow generates repo data",
-    "Client-side fetch with fallback snapshot",
-    "AI-generated project summaries via LLM",
-    "Zero-build static site on GitHub Pages"
+    "Static HTML/CSS/JS site on GitHub Pages",
+    "GitHub Actions workflow refreshes repo data daily",
+    "LLM generates project summaries via API",
+    "Fallback to cached snapshot on rate-limit or offline"
    ],
    "tech": [
     "JavaScript",
@@ -6754,7 +6758,7 @@
    ],
    "signal": "minor",
    "enrichedBy": "ai",
-   "contentHash": "1dcf4adea95c5399",
+   "contentHash": "93268bf06ca2248e",
    "primaryRole": "fullstack-developer"
   },
   {
