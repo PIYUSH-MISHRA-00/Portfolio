@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-11-13T13:14:05.282Z",
+ "syncedAt": "2026-11-13T22:43:29.069Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -12,8 +12,8 @@
  },
  "stats": {
   "projects": 96,
-  "flagships": 15,
-  "commitsByMe": 4319,
+  "flagships": 16,
+  "commitsByMe": 4320,
   "stars": 68,
   "roles": 9,
   "orgs": 2,
@@ -1715,7 +1715,7 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 31
+   "count": 32
   },
   {
    "id": "mobile-developer",
@@ -1739,7 +1739,7 @@
    "id": "automation-engineer",
    "name": "Automation Engineer",
    "tagline": "Scripts and pipelines that delete repetitive work.",
-   "count": 7
+   "count": 6
   }
  ],
  "orgs": [
@@ -2464,6 +2464,71 @@
    "enrichedBy": "ai",
    "contentHash": "bce3512859639f99",
    "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "piyush-mishra-00-portfolio",
+   "name": "Portfolio",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
+   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
+   "description": "https://piyush-mishra-00.github.io/Portfolio/",
+   "topics": [],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 70677,
+     "pct": 56.6
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 47384,
+     "pct": 38
+    },
+    {
+     "name": "CSS",
+     "bytes": 6753,
+     "pct": 5.4
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 256,
+   "createdAt": "2023-03-30T11:31:18Z",
+   "pushedAt": "2026-11-13T13:14:06Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "fullstack-developer",
+    "automation-engineer"
+   ],
+   "headline": "Self-maintaining developer portfolio generated via GitHub Actions",
+   "what": "A static site renders a JSON file of recruiter-facing project narratives. A GitHub Action scans all public, non-fork repositories authored by the user, calls free OpenAI-compatible LLM providers to write summaries, and commits the results to data/portfolio.json. The site reads this file and displays role-first sections with a command palette and brief mode.",
+   "why": "Keeps the developer’s portfolio current without manual edits whenever a repository is updated.",
+   "impact": "Shows end-to-end automation of repo discovery, LLM integration, and static site generation using TypeScript and GitHub Actions.",
+   "highlights": [
+    "GitHub Action scans public repos",
+    "LLM-generated project narratives",
+    "Role-first project organization",
+    "Command palette for fuzzy search"
+   ],
+   "tech": [
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "GitHub Actions",
+    "GitHub CLI",
+    "OpenAI-compatible API",
+    "npm",
+    "JSON"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "cd84364c9d2d041f",
+   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-resentment-kernel",
@@ -3592,71 +3657,6 @@
    "enrichedBy": "groq",
    "contentHash": "aa58391fd802a464",
    "primaryRole": "fullstack-developer"
-  },
-  {
-   "id": "piyush-mishra-00-portfolio",
-   "name": "Portfolio",
-   "owner": "PIYUSH-MISHRA-00",
-   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
-   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
-   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
-   "description": "https://piyush-mishra-00.github.io/Portfolio/",
-   "topics": [],
-   "languages": [
-    {
-     "name": "TypeScript",
-     "bytes": 70677,
-     "pct": 56.6
-    },
-    {
-     "name": "JavaScript",
-     "bytes": 47384,
-     "pct": 38
-    },
-    {
-     "name": "CSS",
-     "bytes": 6753,
-     "pct": 5.4
-    }
-   ],
-   "primaryLanguage": "TypeScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 255,
-   "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-11-12T22:47:26Z",
-   "isArchived": false,
-   "isOrg": false,
-   "org": null,
-   "roles": [
-    "automation-engineer",
-    "devops-engineer"
-   ],
-   "headline": "Self-maintaining developer portfolio site",
-   "what": "A static site displays a JSON file of projects organized by role. A GitHub Action scans public, non-fork repositories, calls a free LLM to write recruiter-facing narratives, and writes the results to data/portfolio.json. Local sync uses the GitHub CLI to handle API retries.",
-   "why": "Keeps a personal portfolio up-to-date automatically, removing manual edits after each commit.",
-   "impact": "Demonstrates end-to-end automation of data collection, LLM integration, and CI/CD pipelines.",
-   "highlights": [
-    "GitHub Action syncs repos to JSON",
-    "LLM generates recruiter narratives",
-    "Role-first project organization",
-    "Command palette for fuzzy search"
-   ],
-   "tech": [
-    "TypeScript",
-    "JavaScript",
-    "CSS",
-    "GitHub Actions",
-    "GitHub CLI",
-    "OpenAI-compatible API",
-    "npm",
-    "static site"
-   ],
-   "signal": "solid",
-   "enrichedBy": "ai",
-   "contentHash": "a8524dc32673ab7b",
-   "primaryRole": "automation-engineer"
   },
   {
    "id": "ni-sh-a-char-touropedia",
