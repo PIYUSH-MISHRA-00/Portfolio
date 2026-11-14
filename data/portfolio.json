@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-11-14T12:18:30.565Z",
+ "syncedAt": "2026-11-14T21:35:03.724Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 96,
   "flagships": 16,
-  "commitsByMe": 4321,
+  "commitsByMe": 4322,
   "stars": 68,
   "roles": 9,
   "orgs": 2,
@@ -2499,39 +2499,39 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 257,
+   "commits": 258,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-11-13T22:43:29Z",
+   "pushedAt": "2026-11-14T12:18:31Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
     "automation-engineer",
-    "fullstack-developer"
+    "devops-engineer"
    ],
    "headline": "Self-maintaining portfolio site that auto-generates project narratives",
-   "what": "A static site reads every public, non-fork repository on the account, runs a GitHub Action that queries the GitHub API, and uses free OpenAI-compatible LLM providers to write recruiter-facing narratives. The action stores the results in data/portfolio.json, which the site exports as HTML. Built with TypeScript, JavaScript and CSS, it includes a command-palette fuzzy search for quick navigation.",
-   "why": "Manual updates to a developer portfolio are time-consuming and error-prone; this tool keeps the portfolio current automatically after each push.",
-   "impact": "Shows end-to-end automation from CI/CD through API integration to static site generation.",
+   "what": "A static site reads every public, non-fork repository via the GitHub API, filters by description length, and stores a recruiter-facing narrative in data/portfolio.json. The narratives are produced by a GitHub Action that calls free-tier OpenAI-compatible LLM providers, with failover handling, and the site renders the JSON with a role-first layout and a fuzzy-search command palette.",
+   "why": "Manual updates to a portfolio are time-consuming and error-prone; the project automates syncing and narrative creation to keep the showcase current without developer intervention.",
+   "impact": "Shows end-to-end automation of CI pipelines, LLM integration, and full-stack static site delivery.",
    "highlights": [
-    "GitHub Action fetches repos and updates JSON",
-    "Integrates multiple free LLM APIs for narrative generation",
-    "Static site built with TypeScript and CSS",
-    "Command palette with fuzzy search"
+    "GitHub Action fetches repos and writes narratives",
+    "Failover chain across free LLM providers",
+    "Role-first project organization with live counts",
+    "Command palette enables fuzzy search"
    ],
    "tech": [
     "TypeScript",
     "JavaScript",
     "CSS",
     "GitHub Actions",
-    "GitHub CLI",
-    "OpenAI-compatible LLM APIs",
+    "GitHub CLI (gh)",
     "Node.js",
+    "OpenAI-compatible LLM APIs",
     "npm"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "7cde5fbea3f2bbc8",
+   "contentHash": "83e49a2f261a91dc",
    "primaryRole": "automation-engineer"
   },
   {
