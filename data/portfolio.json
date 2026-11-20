@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-11-19T23:38:55.574Z",
+ "syncedAt": "2026-11-20T14:09:21.830Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -7,19 +7,19 @@
   "location": "India",
   "company": "ni-sh-a.char",
   "followers": 18,
-  "publicRepos": 121,
+  "publicRepos": 122,
   "joinedAt": "2020-05-22T20:31:19Z"
  },
  "stats": {
-  "projects": 96,
-  "flagships": 15,
-  "commitsByMe": 4332,
-  "stars": 68,
+  "projects": 97,
+  "flagships": 16,
+  "commitsByMe": 4335,
+  "stars": 69,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 2865,
-  "totalCommitContributions": 1497,
+  "contributionsLastYear": 2868,
+  "totalCommitContributions": 1499,
   "totalIssueContributions": 183,
   "totalPullRequestContributions": 0,
   "privateContributions": 1176,
@@ -28,67 +28,67 @@
     "name": "Python",
     "projects": 40,
     "bytes": 1981228,
-    "pct": 41.7
+    "pct": 41.2
    },
    {
     "name": "HTML",
     "projects": 30,
     "bytes": 618541,
-    "pct": 31.3
+    "pct": 30.9
    },
    {
     "name": "Shell",
     "projects": 28,
     "bytes": 124163,
-    "pct": 29.2
+    "pct": 28.9
    },
    {
     "name": "CSS",
-    "projects": 26,
-    "bytes": 185305,
-    "pct": 27.1
+    "projects": 27,
+    "bytes": 188629,
+    "pct": 27.8
    },
    {
     "name": "JavaScript",
     "projects": 23,
     "bytes": 606830,
-    "pct": 24
+    "pct": 23.7
    },
    {
     "name": "Java",
     "projects": 17,
     "bytes": 846665,
-    "pct": 17.7
+    "pct": 17.5
    },
    {
     "name": "Dockerfile",
     "projects": 15,
     "bytes": 10049,
-    "pct": 15.6
+    "pct": 15.5
    },
    {
     "name": "Jupyter Notebook",
     "projects": 8,
     "bytes": 14820399,
-    "pct": 8.3
+    "pct": 8.2
    },
    {
     "name": "TypeScript",
-    "projects": 7,
-    "bytes": 920864,
-    "pct": 7.3
+    "projects": 8,
+    "bytes": 1044556,
+    "pct": 8.2
    },
    {
     "name": "Dart",
     "projects": 6,
     "bytes": 920342,
-    "pct": 6.3
+    "pct": 6.2
    },
    {
     "name": "Kotlin",
     "projects": 6,
     "bytes": 509361,
-    "pct": 6.3
+    "pct": 6.2
    },
    {
     "name": "C++",
@@ -1679,6 +1679,10 @@
    {
     "date": "2026-11-19",
     "contributionCount": 0
+   },
+   {
+    "date": "2026-11-20",
+    "contributionCount": 3
    }
   ]
  ],
@@ -1711,7 +1715,7 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 31
+   "count": 33
   },
   {
    "id": "mobile-developer",
@@ -1735,7 +1739,7 @@
    "id": "automation-engineer",
    "name": "Automation Engineer",
    "tagline": "Scripts and pipelines that delete repetitive work.",
-   "count": 7
+   "count": 6
   }
  ],
  "orgs": [
@@ -2460,6 +2464,71 @@
    "enrichedBy": "ai",
    "contentHash": "bce3512859639f99",
    "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "piyush-mishra-00-portfolio",
+   "name": "Portfolio",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
+   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
+   "description": "https://piyush-mishra-00.github.io/Portfolio/",
+   "topics": [],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 70677,
+     "pct": 56.6
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 47384,
+     "pct": 38
+    },
+    {
+     "name": "CSS",
+     "bytes": 6753,
+     "pct": 5.4
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 269,
+   "createdAt": "2023-03-30T11:31:18Z",
+   "pushedAt": "2026-11-19T23:38:56Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "fullstack-developer",
+    "devops-engineer"
+   ],
+   "headline": "Self-maintaining developer portfolio site",
+   "what": "A static site displays a JSON file of project narratives generated automatically. A GitHub Action scans all public, non-fork repositories, calls a free-tier OpenAI-compatible LLM to write recruiter-facing descriptions, and writes the results to data/portfolio.json. The site reads that file and renders a role-first project list with a command-palette search.",
+   "why": "Manual updates to a portfolio are error-prone and quickly become outdated; this pipeline keeps the showcase current with each push. It also centralises role evidence for recruiters.",
+   "impact": "Shows end-to-end automation from source discovery through LLM-driven content creation to static site deployment using TypeScript and GitHub Actions.",
+   "highlights": [
+    "GitHub Action fetches repos and generates narratives",
+    "LLM-driven project descriptions",
+    "Role-first organization of projects",
+    "Fuzzy-search command palette"
+   ],
+   "tech": [
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "GitHub Actions",
+    "GitHub CLI",
+    "OpenAI-compatible API",
+    "npm",
+    "JSON"
+   ],
+   "signal": "flagship",
+   "enrichedBy": "ai",
+   "contentHash": "044c0e48a9d3c53b",
+   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-resentment-kernel",
@@ -3415,6 +3484,73 @@
    "primaryRole": "backend-engineer"
   },
   {
+   "id": "piyush-mishra-00-tag-picker-test",
+   "name": "tag-picker-test",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/tag-picker-test",
+   "url": "https://github.com/PIYUSH-MISHRA-00/tag-picker-test",
+   "homepage": "https://tag-picker-exercise.vercel.app",
+   "description": "Accessible, mobile-first profile skills tag picker with WAI-ARIA combobox, 100-char budget intelligence, and optional Groq BYOK AI",
+   "topics": [
+    "accessibility",
+    "groq",
+    "react",
+    "tag-picker",
+    "tailwindcss",
+    "typescript"
+   ],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 123692,
+     "pct": 96.7
+    },
+    {
+     "name": "CSS",
+     "bytes": 3324,
+     "pct": 2.6
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 1,
+   "forks": 0,
+   "commits": 2,
+   "createdAt": "2026-11-20T11:17:59Z",
+   "pushedAt": "2026-11-20T11:33:33Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "fullstack-developer",
+    "ai-engineer"
+   ],
+   "headline": "Accessible mobile-first profile skills tag picker",
+   "what": "A WAI-ARIA 1.2 combobox lets users select skill tags while a live 100-character budget indicator guides input. The picker works offline using TypeScript heuristics and can be switched to Groq BYOK AI for cloud-based search and categorization. Built with React 19, TypeScript, Vite, Tailwind CSS and Lucide icons.",
+   "why": "Needed an accessible, proactive tag editor that remains functional without network access and can optionally use AI for richer suggestions.",
+   "impact": "Shows competence in implementing standards-compliant UI interactions and client-side AI fallbacks in a modern React TypeScript stack.",
+   "highlights": [
+    "WAI-ARIA combobox with keyboard support",
+    "Real-time 100-char budget feedback",
+    "Offline TypeScript heuristics for search",
+    "Toggleable Groq BYOK AI integration"
+   ],
+   "tech": [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "Lucide React",
+    "WAI-ARIA",
+    "Groq",
+    "CSS"
+   ],
+   "signal": "solid",
+   "enrichedBy": "ai",
+   "contentHash": "babf6dd1098cbf42",
+   "primaryRole": "fullstack-developer"
+  },
+  {
    "id": "piyush-mishra-00-job-scraper",
    "name": "Job-Scraper",
    "owner": "PIYUSH-MISHRA-00",
@@ -3588,71 +3724,6 @@
    "enrichedBy": "groq",
    "contentHash": "aa58391fd802a464",
    "primaryRole": "fullstack-developer"
-  },
-  {
-   "id": "piyush-mishra-00-portfolio",
-   "name": "Portfolio",
-   "owner": "PIYUSH-MISHRA-00",
-   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
-   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
-   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
-   "description": "https://piyush-mishra-00.github.io/Portfolio/",
-   "topics": [],
-   "languages": [
-    {
-     "name": "TypeScript",
-     "bytes": 70677,
-     "pct": 56.6
-    },
-    {
-     "name": "JavaScript",
-     "bytes": 47384,
-     "pct": 38
-    },
-    {
-     "name": "CSS",
-     "bytes": 6753,
-     "pct": 5.4
-    }
-   ],
-   "primaryLanguage": "TypeScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 268,
-   "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-11-19T14:31:42Z",
-   "isArchived": false,
-   "isOrg": false,
-   "org": null,
-   "roles": [
-    "automation-engineer",
-    "devops-engineer"
-   ],
-   "headline": "Self-maintaining portfolio generator using GitHub Actions and LLMs",
-   "what": "A static site reads data/portfolio.json to display a role-first list of public repositories. A GitHub Action scans the user’s GitHub account, filters public non-fork repos, invokes a free LLM to write recruiter-facing narratives, and writes the results back to the JSON file. The workflow runs on push or on a twice-daily schedule and caches hashes to avoid redundant API calls.",
-   "why": "Keeps a developer’s portfolio up-to-date automatically, removing manual editing whenever a repository changes.",
-   "impact": "Demonstrates end-to-end automation of data collection, AI-generated content, and CI/CD integration.",
-   "highlights": [
-    "GitHub Action scans and filters repos",
-    "LLM generates project narratives",
-    "Cache prevents duplicate token usage",
-    "Command palette for fuzzy search"
-   ],
-   "tech": [
-    "TypeScript",
-    "JavaScript",
-    "CSS",
-    "GitHub Actions",
-    "GitHub CLI",
-    "OpenAI-compatible LLM APIs",
-    "JSON",
-    "Static site"
-   ],
-   "signal": "solid",
-   "enrichedBy": "ai",
-   "contentHash": "8a201e328ad7b8c7",
-   "primaryRole": "automation-engineer"
   },
   {
    "id": "ni-sh-a-char-touropedia",
@@ -6724,7 +6795,7 @@
    "forks": 0,
    "commits": 4,
    "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-11-19T13:05:24Z",
+   "pushedAt": "2026-11-20T12:53:10Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -6733,14 +6804,14 @@
     "ai-engineer"
    ],
    "headline": "Static site listing organization repos with AI-generated summaries",
-   "what": "A public website that lists every public repository in the organisation and shows an AI-written description for each. It loads a pre-generated data/repos.json, then makes a single unauthenticated GitHub API request for newer repos, falling back to the cached snapshot if offline or rate-limited. Summaries are produced daily by a GitHub Actions workflow that calls a free LLM and writes the results back to the JSON file.",
-   "why": "Keeps the organisation’s project catalog up-to-date and readable without manual maintenance.",
-   "impact": "Shows integration of CI/CD, external APIs, and LLM services in a static-site deployment.",
+   "what": "A public website that lists every public repository in the organisation and shows an AI-written description for each. Built with static HTML, CSS and JavaScript served via GitHub Pages; a GitHub Actions workflow regenerates a data/repos.json file daily and calls an LLM to write summaries for changed repositories.",
+   "why": "Provides an up-to-date, human-readable overview of the organisation’s projects without manual maintenance.",
+   "impact": "Shows integration of CI-driven LLM content generation with a static front-end deployment.",
    "highlights": [
-    "Fetches repo list via GitHub API",
-    "Generates AI summaries in CI",
-    "Runs on GitHub Pages without build step",
-    "Handles rate limits with cached snapshot"
+    "Static HTML/CSS/JS site on GitHub Pages",
+    "GitHub Actions workflow refreshes data daily",
+    "LLM generates repo summaries in CI",
+    "Falls back to cached snapshot on rate-limit or offline"
    ],
    "tech": [
     "JavaScript",
@@ -6748,13 +6819,13 @@
     "CSS",
     "GitHub Pages",
     "GitHub Actions",
-    "REST API",
+    "GitHub API",
     "LLM (Groq/OpenAI compatible)",
     "JSON"
    ],
    "signal": "minor",
    "enrichedBy": "ai",
-   "contentHash": "87965873e5229ee4",
+   "contentHash": "078bf12ad8b6244f",
    "primaryRole": "fullstack-developer"
   },
   {
