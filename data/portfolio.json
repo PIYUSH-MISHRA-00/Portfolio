@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-11-20T23:10:59.971Z",
+ "syncedAt": "2026-11-21T13:34:33.947Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -12,8 +12,8 @@
  },
  "stats": {
   "projects": 97,
-  "flagships": 16,
-  "commitsByMe": 4336,
+  "flagships": 15,
+  "commitsByMe": 4337,
   "stars": 69,
   "roles": 9,
   "orgs": 2,
@@ -1683,6 +1683,10 @@
    {
     "date": "2026-11-20",
     "contributionCount": 3
+   },
+   {
+    "date": "2026-11-21",
+    "contributionCount": 0
    }
   ]
  ],
@@ -2464,71 +2468,6 @@
    "enrichedBy": "ai",
    "contentHash": "bce3512859639f99",
    "primaryRole": "mobile-developer"
-  },
-  {
-   "id": "piyush-mishra-00-portfolio",
-   "name": "Portfolio",
-   "owner": "PIYUSH-MISHRA-00",
-   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
-   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
-   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
-   "description": "https://piyush-mishra-00.github.io/Portfolio/",
-   "topics": [],
-   "languages": [
-    {
-     "name": "TypeScript",
-     "bytes": 70677,
-     "pct": 56.6
-    },
-    {
-     "name": "JavaScript",
-     "bytes": 47384,
-     "pct": 38
-    },
-    {
-     "name": "CSS",
-     "bytes": 6753,
-     "pct": 5.4
-    }
-   ],
-   "primaryLanguage": "TypeScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 270,
-   "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-11-20T14:09:22Z",
-   "isArchived": false,
-   "isOrg": false,
-   "org": null,
-   "roles": [
-    "devops-engineer",
-    "fullstack-developer"
-   ],
-   "headline": "Self-maintaining portfolio site generated via GitHub Actions and LLM",
-   "what": "A static site that lists all public, non-fork repositories and displays AI-written recruiter narratives. A GitHub Action runs on each push (or on a schedule) to query GitHub, invoke a free-tier LLM, and write the results to data/portfolio.json. The front-end, built with TypeScript, JavaScript and CSS, renders the JSON as a role-first, searchable portfolio.",
-   "why": "Manual updates to a developer portfolio are error-prone and time-consuming; this automation keeps the showcase current without manual effort.",
-   "impact": "Shows end-to-end design of CI/CD pipelines, LLM integration, and maintainable front-end code.",
-   "highlights": [
-    "GitHub Action syncs repos on push",
-    "LLM generates recruiter narratives",
-    "Role-first project organization",
-    "Command palette with fuzzy search"
-   ],
-   "tech": [
-    "TypeScript",
-    "JavaScript",
-    "CSS",
-    "GitHub Actions",
-    "GitHub CLI",
-    "Node.js",
-    "npm",
-    "OpenAI-compatible LLM API"
-   ],
-   "signal": "flagship",
-   "enrichedBy": "ai",
-   "contentHash": "e166779e432d179c",
-   "primaryRole": "devops-engineer"
   },
   {
    "id": "ni-sh-a-char-resentment-kernel",
@@ -3724,6 +3663,71 @@
    "enrichedBy": "groq",
    "contentHash": "aa58391fd802a464",
    "primaryRole": "fullstack-developer"
+  },
+  {
+   "id": "piyush-mishra-00-portfolio",
+   "name": "Portfolio",
+   "owner": "PIYUSH-MISHRA-00",
+   "nameWithOwner": "PIYUSH-MISHRA-00/Portfolio",
+   "url": "https://github.com/PIYUSH-MISHRA-00/Portfolio",
+   "homepage": "https://piyush-mishra-00.github.io/Portfolio/",
+   "description": "https://piyush-mishra-00.github.io/Portfolio/",
+   "topics": [],
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 70677,
+     "pct": 56.6
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 47384,
+     "pct": 38
+    },
+    {
+     "name": "CSS",
+     "bytes": 6753,
+     "pct": 5.4
+    }
+   ],
+   "primaryLanguage": "TypeScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 271,
+   "createdAt": "2023-03-30T11:31:18Z",
+   "pushedAt": "2026-11-20T23:11:01Z",
+   "isArchived": false,
+   "isOrg": false,
+   "org": null,
+   "roles": [
+    "devops-engineer",
+    "fullstack-developer"
+   ],
+   "headline": "Self-maintaining developer portfolio site",
+   "what": "A static site that displays a developer’s projects, populated from data/portfolio.json. A GitHub Action scans every public, non-fork repository, calls a free LLM to generate recruiter-facing narratives, and commits the results. The site is built with TypeScript, JavaScript and CSS and served as a static export.",
+   "why": "Keeps the portfolio current automatically, removing manual edits after each repository change.",
+   "impact": "Shows end-to-end automation of CI/CD pipelines, API integration, and full-stack static site generation.",
+   "highlights": [
+    "GitHub Action scans repos and writes narratives",
+    "LLM-generated copy cached in JSON",
+    "Command palette for fuzzy project search",
+    "Role-first organization of projects"
+   ],
+   "tech": [
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "GitHub Actions",
+    "GitHub CLI (gh)",
+    "Node.js",
+    "OpenAI-compatible LLM APIs",
+    "Static site export"
+   ],
+   "signal": "solid",
+   "enrichedBy": "ai",
+   "contentHash": "641560dec2cff0a3",
+   "primaryRole": "devops-engineer"
   },
   {
    "id": "ni-sh-a-char-touropedia",
@@ -6795,7 +6799,7 @@
    "forks": 0,
    "commits": 4,
    "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-11-20T12:53:10Z",
+   "pushedAt": "2026-11-21T12:38:28Z",
    "isArchived": false,
    "isOrg": true,
    "org": "ni-sh-a-char",
@@ -6804,14 +6808,14 @@
     "ai-engineer"
    ],
    "headline": "Static site listing organization repos with AI-generated summaries",
-   "what": "A public website that lists every public repository in the organisation and shows an AI-written description for each. Built with static HTML, CSS and JavaScript served via GitHub Pages; a GitHub Actions workflow regenerates a data/repos.json file daily and calls an LLM to write summaries for changed repositories.",
-   "why": "Provides an up-to-date, human-readable overview of the organisation’s projects without manual maintenance.",
-   "impact": "Shows integration of CI-driven LLM content generation with a static front-end deployment.",
+   "what": "A public website lists every public repository in the organization and shows an AI-written description for each. It is built with plain HTML, CSS and JavaScript served directly from GitHub Pages, loading a pre-generated data/repos.json and then making a single unauthenticated GitHub API request for newer repos. Summaries are created in a daily GitHub Actions workflow that calls a free LLM and stores the result in the repository.",
+   "why": "Provides an always-up-to-date overview of the organization’s projects without manual editing, and demonstrates automated content generation using an LLM.",
+   "impact": "Shows ability to embed LLM calls in CI pipelines and deliver a zero-build static site with dynamic data handling.",
    "highlights": [
-    "Static HTML/CSS/JS site on GitHub Pages",
-    "GitHub Actions workflow refreshes data daily",
-    "LLM generates repo summaries in CI",
-    "Falls back to cached snapshot on rate-limit or offline"
+    "Static HTML/CSS/JS site, no bundler",
+    "GitHub Actions workflow generates AI summaries",
+    "Unauthenticated GitHub API fetch with offline fallback",
+    "Filters repos client-side and server-side"
    ],
    "tech": [
     "JavaScript",
@@ -6819,13 +6823,13 @@
     "CSS",
     "GitHub Pages",
     "GitHub Actions",
-    "GitHub API",
-    "LLM (Groq/OpenAI compatible)",
-    "JSON"
+    "LLM API",
+    "JSON",
+    "REST API"
    ],
    "signal": "minor",
    "enrichedBy": "ai",
-   "contentHash": "078bf12ad8b6244f",
+   "contentHash": "c2306fd8c1f24d5a",
    "primaryRole": "fullstack-developer"
   },
   {
