@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-11-22T13:27:31.856Z",
+ "syncedAt": "2026-11-22T22:32:46.273Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 97,
   "flagships": 16,
-  "commitsByMe": 4339,
+  "commitsByMe": 4340,
   "stars": 69,
   "roles": 9,
   "orgs": 2,
@@ -1695,7 +1695,7 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 32
+   "count": 33
   },
   {
    "id": "mobile-developer",
@@ -1707,7 +1707,7 @@
    "id": "devops-engineer",
    "name": "DevOps & Platform Engineer",
    "tagline": "Containers, images and reproducible environments.",
-   "count": 2
+   "count": 1
   },
   {
    "id": "systems-engineer",
@@ -2475,25 +2475,25 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 273,
+   "commits": 274,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-11-21T22:14:51Z",
+   "pushedAt": "2026-11-22T13:27:32Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "devops-engineer",
-    "fullstack-developer"
+    "fullstack-developer",
+    "devops-engineer"
    ],
-   "headline": "Self-maintaining portfolio site generated via GitHub Actions",
-   "what": "A static site reads a JSON file of project narratives and renders a role-first portfolio. A GitHub Action scans public repositories, invokes free LLM providers to generate recruiter-facing text, and writes the results to data/portfolio.json. The site is built with TypeScript, JavaScript and CSS and includes a command-palette fuzzy search.",
-   "why": "Keeps a developer’s public portfolio current without manual edits, reducing stale information and manual copy-pasting.",
-   "impact": "Demonstrates end-to-end automation of CI/CD, API integration, and static-site generation.",
+   "headline": "Self-maintaining portfolio site that auto-generates project narratives",
+   "what": "A static site built with TypeScript, JavaScript and CSS that displays a JSON file of project narratives. A GitHub Action runs nightly (or on push) to query all public, non-fork repositories, invoke a free-tier LLM to write recruiter-facing descriptions, and write the results to data/portfolio.json. The site reads that file and renders role-first sections with a command-palette fuzzy search.",
+   "why": "Keeps a developer’s portfolio current without manual edits, reducing stale information and manual copy-pasting.",
+   "impact": "Shows end-to-end automation from CI/CD to LLM integration and a production-ready static web front-end.",
    "highlights": [
-    "GitHub Action syncs repos to JSON",
-    "AI writes recruiter narratives",
-    "Command palette with fuzzy search",
-    "Role-first project organization"
+    "GitHub Action fetches repo metadata",
+    "LLM generates recruiter narratives",
+    "Static site renders data/portfolio.json",
+    "Command palette with fuzzy search"
    ],
    "tech": [
     "TypeScript",
@@ -2501,14 +2501,14 @@
     "CSS",
     "GitHub Actions",
     "GitHub CLI",
-    "npm",
-    "OpenAI-compatible APIs",
-    "GitHub API"
+    "OpenAI-compatible LLM APIs",
+    "Node.js",
+    "npm"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "12612c00e3662747",
-   "primaryRole": "devops-engineer"
+   "contentHash": "da575cff0a1389e3",
+   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-resentment-kernel",
