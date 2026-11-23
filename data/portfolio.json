@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-11-22T22:32:46.273Z",
+ "syncedAt": "2026-11-23T16:09:22.052Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,16 +13,16 @@
  "stats": {
   "projects": 97,
   "flagships": 16,
-  "commitsByMe": 4340,
+  "commitsByMe": 4341,
   "stars": 69,
   "roles": 9,
   "orgs": 2,
   "yearsActive": 6,
-  "contributionsLastYear": 2868,
-  "totalCommitContributions": 1499,
-  "totalIssueContributions": 183,
+  "contributionsLastYear": 2435,
+  "totalCommitContributions": 1343,
+  "totalIssueContributions": 139,
   "totalPullRequestContributions": 0,
-  "privateContributions": 1176,
+  "privateContributions": 943,
   "languages": [
    {
     "name": "Python",
@@ -1663,6 +1663,10 @@
    {
     "date": "2026-11-22",
     "contributionCount": 0
+   },
+   {
+    "date": "2026-11-23",
+    "contributionCount": 0
    }
   ]
  ],
@@ -2284,7 +2288,7 @@
    "forks": 0,
    "commits": 30,
    "createdAt": "2026-09-02T08:33:45Z",
-   "pushedAt": "2026-09-07T05:27:07Z",
+   "pushedAt": "2026-11-23T05:53:04Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
@@ -2293,13 +2297,13 @@
     "devops-engineer"
    ],
    "headline": "Cross-language SDK for safe, streamed command execution",
-   "what": "Provides a single conceptual API for running OS commands and streaming process output in Python, TypeScript, Dart, Java and Kotlin. Each SDK implements the same execution model, enforces timeouts, output caps and strict error handling with virtually no runtime dependencies.",
-   "why": "Language-specific subprocess utilities often expose unsafe defaults and inconsistent behavior, making reliable streaming and resource limits hard to achieve. The library centralizes these concerns so developers can handle untrusted input and long-running processes uniformly across ecosystems.",
-   "impact": "Shows ability to design and deliver a multi-language library with consistent semantics and a shared conformance test suite.",
+   "what": "Provides a single conceptual API for running OS commands and streaming processes in Python, TypeScript, Dart, Java and Kotlin. Each SDK implements the same execution model, enforces timeouts, output caps and strict error handling, and is published to its language’s package registry. A shared JSON test corpus validates identical behavior on Linux, macOS and Windows.",
+   "why": "Ecosystem-specific subprocess utilities diverge on safety, limits and error reporting, leading to bugs and security issues. The library offers a consistent, well-specified alternative for multi-language projects.",
+   "impact": "Shows ability to design and deliver a multi-language library with uniform behavior, thorough testing, and zero-dependency implementations.",
    "highlights": [
-    "Unified API across five languages",
-    "Enforces timeouts and output caps",
-    "Zero-runtime dependencies (Kotlin uses coroutines)",
+    "Unified API across 5 languages",
+    "Enforced timeouts and memory caps",
+    "Zero runtime dependencies (except Kotlin coroutine)",
     "Shared conformance test suite"
    ],
    "tech": [
@@ -2308,13 +2312,13 @@
     "Dart",
     "Java",
     "Kotlin",
-    "PyPI",
+    "Maven Central",
     "npm",
-    "Maven Central"
+    "PyPI"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "2daac3ba9779edeb",
+   "contentHash": "4037a67389c39ae2",
    "primaryRole": "backend-engineer"
   },
   {
@@ -2475,9 +2479,9 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 274,
+   "commits": 275,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-11-22T13:27:32Z",
+   "pushedAt": "2026-11-22T22:32:46Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
@@ -2486,28 +2490,28 @@
     "devops-engineer"
    ],
    "headline": "Self-maintaining portfolio site that auto-generates project narratives",
-   "what": "A static site built with TypeScript, JavaScript and CSS that displays a JSON file of project narratives. A GitHub Action runs nightly (or on push) to query all public, non-fork repositories, invoke a free-tier LLM to write recruiter-facing descriptions, and write the results to data/portfolio.json. The site reads that file and renders role-first sections with a command-palette fuzzy search.",
-   "why": "Keeps a developer’s portfolio current without manual edits, reducing stale information and manual copy-pasting.",
-   "impact": "Shows end-to-end automation from CI/CD to LLM integration and a production-ready static web front-end.",
+   "what": "A static website displays recruiter-facing narratives for every public repository. A GitHub Action runs nightly (and on push) to list eligible repos, call free OpenAI-compatible LLM providers, and write the generated text to data/portfolio.json. The site, built with TypeScript, JavaScript and CSS, is served via GitHub Pages.",
+   "why": "Keeps a developer’s portfolio current without manual edits, reducing stale information and effort.",
+   "impact": "Demonstrates end-to-end automation of CI/CD, LLM integration, and full-stack web development.",
    "highlights": [
-    "GitHub Action fetches repo metadata",
-    "LLM generates recruiter narratives",
-    "Static site renders data/portfolio.json",
-    "Command palette with fuzzy search"
+    "GitHub Action scans public repos",
+    "LLM-driven narrative generation",
+    "Command palette with fuzzy search",
+    "Role-first project organization"
    ],
    "tech": [
     "TypeScript",
     "JavaScript",
     "CSS",
     "GitHub Actions",
-    "GitHub CLI",
+    "GitHub CLI (gh)",
     "OpenAI-compatible LLM APIs",
-    "Node.js",
-    "npm"
+    "JSON",
+    "GitHub Pages"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "da575cff0a1389e3",
+   "contentHash": "4162e7943c741b46",
    "primaryRole": "fullstack-developer"
   },
   {
@@ -5174,71 +5178,6 @@
    "primaryRole": "data-scientist"
   },
   {
-   "id": "ni-sh-a-char-ni-sh-a-char",
-   "name": "ni_sh_a.char",
-   "owner": "ni-sh-a-char",
-   "nameWithOwner": "ni-sh-a-char/ni_sh_a.char",
-   "url": "https://github.com/ni-sh-a-char/ni_sh_a.char",
-   "homepage": "https://ni-sh-a-char.github.io/ni_sh_a.char/",
-   "description": "Website for the organization",
-   "topics": [],
-   "languages": [
-    {
-     "name": "JavaScript",
-     "bytes": 20577,
-     "pct": 37.3
-    },
-    {
-     "name": "CSS",
-     "bytes": 20105,
-     "pct": 36.4
-    },
-    {
-     "name": "HTML",
-     "bytes": 14553,
-     "pct": 26.3
-    }
-   ],
-   "primaryLanguage": "JavaScript",
-   "license": null,
-   "stars": 0,
-   "forks": 0,
-   "commits": 4,
-   "createdAt": "2026-08-18T05:24:38Z",
-   "pushedAt": "2026-11-22T12:34:39Z",
-   "isArchived": false,
-   "isOrg": true,
-   "org": "ni-sh-a-char",
-   "roles": [
-    "fullstack-developer",
-    "ai-engineer"
-   ],
-   "headline": "Static organization site with AI-generated repo summaries",
-   "what": "A public website lists every repository in the ni-sh-a-char organisation and shows an AI-written description for each. It is built with plain HTML, CSS and JavaScript served directly from GitHub Pages, loading a pre-generated data/repos.json and optionally fetching fresh data from the GitHub API. A daily GitHub Actions workflow regenerates the JSON and calls an LLM to write summaries for changed repositories.",
-   "why": "Provides an always-current, human-readable overview of the organisation’s code without manual documentation effort.",
-   "impact": "Shows ability to embed LLM calls in CI pipelines and deliver a zero-build static site.",
-   "highlights": [
-    "Static HTML/CSS/JS site, no bundler",
-    "GitHub Actions workflow refreshes data daily",
-    "LLM generates repo summaries automatically",
-    "Fallback to cached snapshot on rate-limit"
-   ],
-   "tech": [
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "GitHub Pages",
-    "GitHub Actions",
-    "GitHub REST API",
-    "LLM (Groq/OpenAI compatible)",
-    "JSON"
-   ],
-   "signal": "solid",
-   "enrichedBy": "ai",
-   "contentHash": "734136cbdf2a4a10",
-   "primaryRole": "fullstack-developer"
-  },
-  {
    "id": "piyush-mishra-00-movie-recommendations-system",
    "name": "Movie-Recommendations-System",
    "owner": "PIYUSH-MISHRA-00",
@@ -6807,6 +6746,71 @@
    "enrichedBy": "ai",
    "contentHash": "ca6cc6ab702351e9",
    "primaryRole": "mobile-developer"
+  },
+  {
+   "id": "ni-sh-a-char-ni-sh-a-char",
+   "name": "ni_sh_a.char",
+   "owner": "ni-sh-a-char",
+   "nameWithOwner": "ni-sh-a-char/ni_sh_a.char",
+   "url": "https://github.com/ni-sh-a-char/ni_sh_a.char",
+   "homepage": "https://ni-sh-a-char.github.io/ni_sh_a.char/",
+   "description": "Website for the organization",
+   "topics": [],
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 20577,
+     "pct": 37.3
+    },
+    {
+     "name": "CSS",
+     "bytes": 20105,
+     "pct": 36.4
+    },
+    {
+     "name": "HTML",
+     "bytes": 14553,
+     "pct": 26.3
+    }
+   ],
+   "primaryLanguage": "JavaScript",
+   "license": null,
+   "stars": 0,
+   "forks": 0,
+   "commits": 4,
+   "createdAt": "2026-08-18T05:24:38Z",
+   "pushedAt": "2026-11-23T14:37:40Z",
+   "isArchived": false,
+   "isOrg": true,
+   "org": "ni-sh-a-char",
+   "roles": [
+    "fullstack-developer",
+    "ai-engineer"
+   ],
+   "headline": "Static site that lists organization repos with AI-generated summaries",
+   "what": "A public page renders a snapshot of the organization’s repositories from a generated data/repos.json file and then makes a single unauthenticated GitHub API request for any newer repos. The site is pure HTML, CSS and JavaScript, deployed on GitHub Pages, and a daily GitHub Actions workflow regenerates the JSON and calls an LLM to write summaries for changed repositories.",
+   "why": "It provides an always-up-to-date overview of the organization’s projects with human-readable explanations without requiring a build step or server.",
+   "impact": "Shows integration of CI-driven LLM calls and static-site delivery using GitHub tooling.",
+   "highlights": [
+    "AI-generated repo descriptions via LLM",
+    "GitHub Actions workflow refreshes data daily",
+    "Static site served on GitHub Pages",
+    "Offline and rate-limit fallback handling"
+   ],
+   "tech": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "GitHub Pages",
+    "GitHub Actions",
+    "GitHub API",
+    "LLM (Groq/OpenAI compatible)",
+    "JSON"
+   ],
+   "signal": "minor",
+   "enrichedBy": "ai",
+   "contentHash": "e9e2799f58de1241",
+   "primaryRole": "fullstack-developer"
   },
   {
    "id": "ni-sh-a-char-birthdaygreet",
