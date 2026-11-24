@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-11-23T16:09:22.052Z",
+ "syncedAt": "2026-11-24T03:23:08.679Z",
  "profile": {
   "login": "PIYUSH-MISHRA-00",
   "name": "PIYUSH MISHRA",
@@ -13,7 +13,7 @@
  "stats": {
   "projects": 97,
   "flagships": 16,
-  "commitsByMe": 4341,
+  "commitsByMe": 4342,
   "stars": 69,
   "roles": 9,
   "orgs": 2,
@@ -1667,6 +1667,10 @@
    {
     "date": "2026-11-23",
     "contributionCount": 0
+   },
+   {
+    "date": "2026-11-24",
+    "contributionCount": 0
    }
   ]
  ],
@@ -1699,7 +1703,7 @@
    "id": "fullstack-developer",
    "name": "Full-Stack Developer",
    "tagline": "End-to-end products, from schema to interface.",
-   "count": 33
+   "count": 32
   },
   {
    "id": "mobile-developer",
@@ -1711,7 +1715,7 @@
    "id": "devops-engineer",
    "name": "DevOps & Platform Engineer",
    "tagline": "Containers, images and reproducible environments.",
-   "count": 1
+   "count": 2
   },
   {
    "id": "systems-engineer",
@@ -2479,40 +2483,40 @@
    "license": null,
    "stars": 0,
    "forks": 0,
-   "commits": 275,
+   "commits": 276,
    "createdAt": "2023-03-30T11:31:18Z",
-   "pushedAt": "2026-11-22T22:32:46Z",
+   "pushedAt": "2026-11-23T16:09:23Z",
    "isArchived": false,
    "isOrg": false,
    "org": null,
    "roles": [
-    "fullstack-developer",
-    "devops-engineer"
+    "devops-engineer",
+    "automation-engineer"
    ],
    "headline": "Self-maintaining portfolio site that auto-generates project narratives",
-   "what": "A static website displays recruiter-facing narratives for every public repository. A GitHub Action runs nightly (and on push) to list eligible repos, call free OpenAI-compatible LLM providers, and write the generated text to data/portfolio.json. The site, built with TypeScript, JavaScript and CSS, is served via GitHub Pages.",
-   "why": "Keeps a developer’s portfolio current without manual edits, reducing stale information and effort.",
-   "impact": "Demonstrates end-to-end automation of CI/CD, LLM integration, and full-stack web development.",
+   "what": "A static site that displays a JSON-driven portfolio, where a GitHub Action scans all public, non-fork repositories, queries free LLM providers for recruiter-facing narratives, and writes the results to data/portfolio.json. The site is built with TypeScript, JavaScript and CSS and offers a role-first layout, command-palette fuzzy search, and a brief mode for dense recruiter view.",
+   "why": "Keeps a personal portfolio current without manual edits, reducing maintenance overhead as new work is pushed to GitHub.",
+   "impact": "Shows end-to-end automation of CI/CD, LLM integration, and full-stack static site delivery.",
    "highlights": [
-    "GitHub Action scans public repos",
-    "LLM-driven narrative generation",
-    "Command palette with fuzzy search",
-    "Role-first project organization"
+    "GitHub Action fetches repos and triggers sync",
+    "LLM-generated recruiter narratives",
+    "Role-first project organization",
+    "Command-palette fuzzy search"
    ],
    "tech": [
     "TypeScript",
     "JavaScript",
     "CSS",
     "GitHub Actions",
-    "GitHub CLI (gh)",
+    "GitHub CLI",
+    "Node.js",
     "OpenAI-compatible LLM APIs",
-    "JSON",
-    "GitHub Pages"
+    "npm"
    ],
    "signal": "flagship",
    "enrichedBy": "ai",
-   "contentHash": "4162e7943c741b46",
-   "primaryRole": "fullstack-developer"
+   "contentHash": "6a57072c03f6a1f2",
+   "primaryRole": "devops-engineer"
   },
   {
    "id": "ni-sh-a-char-resentment-kernel",
